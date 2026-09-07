@@ -175,9 +175,26 @@ main inventory units remain unverified. Sources are never pooled for diameter
 statistics. Mean, median, all tied modes, population standard deviation, and
 population variance are computed without intermediate rounding. Mode is reported
 as absent if no value repeats. Empty selections do not produce numerical results.
-Height/spread statistics and density remain deferred pending compatible values,
-verified units, suitable boundaries, and inventory coverage validation.
+Height/spread statistics remain deferred pending compatible values and verified units.
 
 Validation: `node --test test-map-data.cjs test-statistics.cjs` and
 `node --check map.js`. Statistics calculations live in `statistics.js` and run only
 when the panel is open; map movement updates the current-view summary.
+
+
+Circumference summaries preserve the heritage layer's explicit inch-labeled
+`cir_` values separately from estimated circumference (`π × diameter`, assuming
+a circular trunk). The source does not establish whether recorded circumference
+was measured directly or calculated. Both summaries show mean, median, modes,
+population standard deviation/variance, usable sample sizes, and exclusions.
+
+Record density always uses **the current map view**, even when the other
+statistics summarize all filtered records. Its denominator is the spherical
+surface area of the latitude/longitude rectangle (mean Earth radius 6,371,008.8 m;
+4,046.8564224 square meters per acre), including water and unsurveyed areas.
+The numerator is filtered point records inside that rectangle; total and
+per-source rates are displayed. Filters change the numerator without changing
+the area; panning/zooming changes the rectangle. This is inventory-record density,
+not ecological tree density. It includes duplicates and observations, and a zero
+rate means no matching records. Habitat polygon acreage is not used as a proxy
+for surveyed tree area.

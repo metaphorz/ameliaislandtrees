@@ -35,3 +35,28 @@ test('source groups do not mix incompatible inventories and exclusions reconcile
   assert.deepEqual(Stats.summarize([]),{count:0,species:[],conditions:[],sources:[]});
   console.log(d.sources.map(s=>`${s.source}: ${s.diameter?.n||0}/${s.count} usable diameters`).join('; '));
 });
+
+test('recorded circumference stays separate from diameter-derived estimates',()=>{
+  const r={source:'heritage',p:{dia_:'10"',cir_:'32 inches'}};
+  const s=Stats.summarize([r]).sources[0];
+  assert.equal(s.circumference.mean,32);
+  assert.equal(s.estimatedCircumference.mean,Math.PI*10);
+  assert.equal(Stats.circumference({source:'heritage',p:{cir_:'113""'}}).value,undefined);
+  assert.equal(Stats.circumference({source:'city',p:{cir_:'32"'}}).reason,'Not collected');
+  const d=Stats.describe([2,4,6]),c=Stats.describe([2,4,6].map(v=>v*Math.PI));
+  assert(Math.abs(c.variance-d.variance*Math.PI**2)<1e-10);
+});
+
+test('view density uses a fixed spherical area, supports empty data and longitude wrap',()=>{
+  const bounds={south:0,north:1,west:0,east:1};
+  const acres=Stats.viewAcres(bounds);
+  assert(Math.abs(acres*4046.8564224-12363718145.18)<1);
+  assert.equal(Stats.density([],bounds).perAcre,0);
+  assert.equal(Stats.density([{},{}],bounds).perAcre,2/acres);
+  assert.equal(Stats.density([{}],bounds).acres,acres,'Filtering changes numerator, not area');
+  assert.equal(Stats.viewAcres({...bounds,east:0}),null);
+  assert.equal(Stats.viewAcres({...bounds,north:0}),null);
+  assert.equal(Stats.viewAcres({...bounds,north:NaN}),null);
+  assert.equal(Stats.viewAcres({...bounds,west:179,east:-180}),acres);
+  assert(Stats.viewAcres({...bounds,south:60,north:61})<acres);
+});

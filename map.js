@@ -47,25 +47,40 @@
   function renderStatistics(){
     if(!$('statistics').open)return;
     const inView=$('statistics-scope').value==='view',bounds=map.getBounds();
-    const result=TreeStats.summarize(inView?shown.filter(r=>bounds.contains([r.lat,r.lng])):shown),root=$('statistics-results');root.replaceChildren();
+    const viewRecords=shown.filter(r=>bounds.contains([r.lat,r.lng]));
+    const result=TreeStats.summarize(inView?viewRecords:shown),root=$('statistics-results');root.replaceChildren();
     root.append(el('h3',`${number(result.count)} records`),el('small',inView?'Within the current map bounds':'Across all filtered records'));
     if(failures.length)root.append(el('p',`Some data are unavailable: ${failures.join(', ')}. Results may be incomplete.`));
-    if(!result.count){root.append(el('p','No matching records. Change the filters or map view.'));return;}
     function table(rows,headers){const t=el('table'),head=el('thead'),hr=el('tr'),body=el('tbody');headers.forEach(v=>{const th=el('th',v);th.scope='col';hr.append(th);});head.append(hr);rows.forEach(row=>{const tr=el('tr');row.forEach(v=>tr.append(el('td',v)));body.append(tr);});t.append(head,body);return t;}
     const label=id=>sources.find(s=>s.id===id)?.label||id;
+    const area=TreeStats.density(viewRecords,{south:bounds.getSouth(),north:bounds.getNorth(),west:bounds.getWest(),east:bounds.getEast()});
+    const rate=n=>n==null?'Unavailable':n===0?'0':n<.0001?'<0.0001':n.toLocaleString('en-US',{maximumFractionDigits:4});
+    root.append(el('h3','Record density · current map view'));
+    if(area.acres){
+      root.append(el('p',`${number(viewRecords.length)} filtered records / ${area.acres.toLocaleString('en-US',{maximumFractionDigits:2})} acres = ${rate(area.perAcre)} records per acre.`));
+      const densities=TreeStats.summarize(viewRecords).sources;
+      if(densities.length)root.append(table(densities.map(s=>[label(s.source),rate(s.count/area.acres)]),['Source','Records / acre']));
+    }else root.append(el('p','Zoom to a map area to calculate density.'));
+    root.append(el('small','Density always uses the current rectangular map view, including water and areas without inventory coverage. It follows tree filters, excludes habitat polygons, and is not an estimate of actual tree density. Zero means no matching records, not no trees. Pan or zoom to change the area.'));
+    if(!result.count){root.append(el('p','No matching records for the statistics scope. Change the filters or map view.'));return;}
     root.append(el('h3','By source'),table(result.sources.map(s=>[label(s.source),number(s.count)]),['Source','Records']));
     root.append(el('h3','Species / plant labels'),el('small','Labels as recorded; spelling variants are kept separate.'));
     const chart=el('div',null,'species-chart');
     for(const item of result.species.slice(0,8)){const row=el('div',null,'species-bar'),caption=el('div',`${item.label} · ${number(item.count)} (${item.percentage.toFixed(1)}%)`),track=el('div',null,'bar-track'),bar=el('span');bar.style.width=`${item.percentage}%`;track.setAttribute('aria-hidden','true');track.append(bar);row.append(caption,track);chart.append(row);}root.append(chart);
     const species=el('details');species.append(el('summary',`All ${result.species.length} species / plant labels`),table(result.species.map(s=>[s.label,number(s.count),`${s.percentage.toFixed(1)}%`]),['Label','Records','Share']));root.append(species);
     root.append(el('h3','Recorded condition'),table(result.conditions.map(c=>[c.label,number(c.count),`${c.percentage.toFixed(1)}%`]),['Condition','Records','Share']));
-    root.append(el('h3','Recorded trunk diameter'));
+
     const decimal=n=>n.toLocaleString('en-US',{maximumFractionDigits:2});
-    for(const group of result.sources){const section=el('details',null,'diameter-stats'),d=group.diameter;section.append(el('summary',`${label(group.source)} · ${d?.n||0} usable / ${number(group.count)}`));
+    for(const [key,title,exclusions] of [['diameter','Recorded trunk diameter','excluded'],['circumference','Recorded trunk circumference','circumferenceExcluded'],['estimatedCircumference','Estimated circumference from diameter','excluded']]){
+    root.append(el('h3',title));
+    if(key==='estimatedCircumference')root.append(el('small','Calculated as π × diameter, assuming a circular trunk. These are estimates, kept separate from recorded circumference.'));
+    if(key==='circumference')root.append(el('small','Source circumference values; the source does not establish whether they were measured directly or calculated.'));
+    for(const group of result.sources){const section=el('details',null,'diameter-stats'),d=group[key];section.append(el('summary',`${label(group.source)} · ${d?.n||0} usable / ${number(group.count)}`));
       if(d){const modes=d.modes.length?d.modes.map(decimal).join(', '):'None (no repeated value)';section.append(table([['Mean',decimal(d.mean)+' in'],['Median',decimal(d.median)+' in'],['Mode',modes+(d.modes.length?' in':'')],['Standard deviation',decimal(d.standardDeviation)+' in'],['Variance',decimal(d.variance)+' in²']],['Statistic','Value']));}
-      else section.append(el('p','No comparable inch-labeled diameters in this selection.'));
-      const excluded=Object.entries(group.excluded);section.append(el('small',excluded.length?'Excluded — '+excluded.map(([reason,n])=>`${reason}: ${number(n)}`).join('; '):'No records excluded.'));root.append(section);
+      else section.append(el('p','No usable values for this statistic in this selection.'));
+      const excluded=Object.entries(group[exclusions]);section.append(el('small',excluded.length?'Excluded — '+excluded.map(([reason,n])=>`${reason}: ${number(n)}`).join('; '):'No records excluded.'));root.append(section);
     }
+  }
   }
   $('statistics').addEventListener('toggle',renderStatistics);$('statistics-scope').addEventListener('change',renderStatistics);
   function visibleCount(){const b=map.getBounds();$('visible').textContent=`${number(shown.filter(r=>b.contains(r.marker.getLatLng())).length)} records in this view`;renderStatistics();}

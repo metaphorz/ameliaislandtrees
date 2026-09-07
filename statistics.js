@@ -5,7 +5,12 @@
   function diameter(record){
     const field=diameterFields[record.source];
     if(!field)return {reason:'Not collected'};
-    const raw=record.p[field];
+    return inches(record.p[field]);
+  }
+  function circumference(record){
+    return record.source==='heritage'?inches(record.p.cir_):{reason:'Not collected'};
+  }
+  function inches(raw){
     if(raw==null||String(raw).trim()==='')return {reason:'Missing'};
     const value=String(raw).trim();
     // Require an explicit inch unit and a single positive measurement. Do not
@@ -33,13 +38,25 @@
   function summarize(records){
     const bySource=new Map();
     for(const r of records){
-      if(!bySource.has(r.source))bySource.set(r.source,{source:r.source,count:0,values:[],excluded:{}});
+      if(!bySource.has(r.source))bySource.set(r.source,{source:r.source,count:0,values:[],circumferences:[],excluded:{},circumferenceExcluded:{}});
       const group=bySource.get(r.source);group.count++;
+      const c=circumference(r);if(c.value!=null)group.circumferences.push(c.value);else group.circumferenceExcluded[c.reason]=(group.circumferenceExcluded[c.reason]||0)+1;
       const d=diameter(r);if(d.value!=null)group.values.push(d.value);else group.excluded[d.reason]=(group.excluded[d.reason]||0)+1;
     }
     return {count:records.length,species:frequencies(records,'species'),conditions:frequencies(records,'condition'),
-      sources:[...bySource.values()].map(({values,...group})=>({...group,diameter:describe(values)}))};
+      sources:[...bySource.values()].map(({values,circumferences,...group})=>({...group,diameter:describe(values),circumference:describe(circumferences),estimatedCircumference:describe(values.map(v=>Math.PI*v))}))};
   }
-  const api={diameter,describe,summarize};
+  // Spherical surface area of a latitude/longitude rectangle, including water.
+  function viewAcres({south,north,west,east}){
+    if(![south,north,west,east].every(Number.isFinite)||north<=south)return null;
+    const radians=Math.PI/180,span=east-west;
+    const width=Math.min(360,span<0?((span%360)+360)%360:span);
+    const area=6371008.8**2*width*radians*(Math.sin(Math.min(90,north)*radians)-Math.sin(Math.max(-90,south)*radians))/4046.8564224;
+    return area>0?area:null;
+  }
+  function density(records,bounds){
+    const acres=viewAcres(bounds);return {acres,count:records.length,perAcre:acres?records.length/acres:null};
+  }
+  const api={diameter,circumference,describe,summarize,viewAcres,density};
   if(typeof module!=='undefined'&&module.exports)module.exports=api;else root.TreeStats=api;
 })(typeof window==='undefined'?globalThis:window);
