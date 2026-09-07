@@ -137,3 +137,24 @@ then retrieves batches of 1,000, checks completeness, and preserves source attri
 A first visualization can use the city GeoJSON for individual markers and filters,
 with optional canopy overlays. Further work is needed to establish a complete,
 current inventory for the unincorporated portion of Amelia Island.
+
+### Fort Clinch maritime forest
+
+The default-on habitat overlay uses Florida DEP / Division of Recreation and Parks
+Natural Communities GIS polygons filtered to `SITE_NAME = 'Fort Clinch State Park'`
+and current community code `MAH` (maritime hammock). The September 7, 2026 snapshot
+contains 54 features totaling 803.89 source-recorded acres. This differs from the
+older timber assessment (58 polygons / 787 acres); the app uses the GIS snapshot.
+These are habitat boundaries, not individual trees or remotely measured canopy
+cover. They are excluded from tree counts, search, species, and condition filters.
+The layer includes park-managed areas west of Amelia Island, not just the canopy drive.
+Use **Explore Fort Clinch** to turn on and zoom to the overlay.
+
+Source: https://ca.dep.state.fl.us/arcgis/rest/services/OpenData/PARKS_BOUNDARIES/MapServer/5
+
+Run `python3 download_fort_clinch.py` to refresh the GeoJSON, source metadata, and
+provenance manifest in `data/fort-clinch/`. The downloader verifies every returned
+object ID against the service's matching ID list and preserves full polygon
+geometry in WGS84. Retrieval date is not a survey date. The source describes
+mapping by park and regional biologists with field verification; no individual
+polygon survey dates are supplied.

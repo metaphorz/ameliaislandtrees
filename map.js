@@ -9,7 +9,7 @@
   const satellite=L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}',{attribution:'Tiles &copy; Esri — Source: Esri, Maxar, Earthstar Geographics, and the GIS User Community',maxNativeZoom:19,maxZoom:20});
   L.control.layers({'Street map':street,'Satellite':satellite},{},{position:'topright'}).addTo(map);
   const sources=TreeData.sources,groups={},failures=[],records=[];
-  let shown=[],boundary,timer,overlap;
+  let shown=[],boundary,forest,timer,overlap;
   const text=v=>v==null||v===''?'Not recorded':String(v);
   const el=(tag,value,className)=>{const n=document.createElement(tag);if(value!=null)n.textContent=value;if(className)n.className=className;return n;};
   const safeURL=url=>{try{const p=new URL(url,location.href);return p.protocol==='https:'||p.origin===location.origin?p.href:null;}catch{return null;}};
@@ -53,10 +53,12 @@
     status.textContent=failures.length?`Unavailable: ${failures.join(', ')}. Other layers remain usable.`:shown.length?'':'No records match these filters. Select a layer or reset filters.';visibleCount();
   }
   function fit(){if(shown.length)map.fitBounds(L.latLngBounds(shown.map(r=>r.marker.getLatLng())),{padding:[45,65],maxZoom:18});}
+  function toggleForest(){if(!forest)return;if($('forest').checked)forest.addTo(map);else map.removeLayer(forest);}
   function toggleBoundary(){if(!boundary)return;if($('boundary').checked)boundary.addTo(map);else map.removeLayer(boundary);}
   $('filters').addEventListener('submit',e=>e.preventDefault());$('search').addEventListener('input',()=>{clearTimeout(timer);timer=setTimeout(filter,180);});
-  ['species','condition','historical','photos'].forEach(id=>$(id).addEventListener('change',filter));$('boundary').addEventListener('change',toggleBoundary);
-  $('filters').addEventListener('reset',()=>{clearTimeout(timer);setTimeout(()=>{filter();toggleBoundary();},0);});$('extent').onclick=fit;$('south').onclick=()=>map.fitBounds([[30.53,-81.485],[30.585,-81.425]]);
+  ['species','condition','historical','photos'].forEach(id=>$(id).addEventListener('change',filter));$('boundary').addEventListener('change',toggleBoundary);$('forest').addEventListener('change',toggleForest);
+  $('fort-clinch').onclick=()=>{if(!forest)return;$('forest').checked=true;toggleForest();map.fitBounds(forest.getBounds(),{padding:[35,55]});};
+  $('filters').addEventListener('reset',()=>{clearTimeout(timer);setTimeout(()=>{filter();toggleBoundary();toggleForest();},0);});$('extent').onclick=fit;$('south').onclick=()=>map.fitBounds([[30.53,-81.485],[30.585,-81.425]]);
   map.on('moveend',visibleCount);new ResizeObserver(()=>map.invalidateSize()).observe($('map'));
   async function load(){
     const attachments={city:{},planting:{},'city-plantings':{}};
@@ -80,6 +82,20 @@
     $('reset').disabled=false;filter();fit();
   }
   load().catch(e=>{status.textContent='Unable to prepare the map. Reload to try again.';console.error(e);});
+  json('data/fort-clinch/maritime-hammock.geojson').then(data=>{
+    if(!data.features?.length)throw new Error('No forest polygons');
+    map.createPane('forestPane');map.getPane('forestPane').style.zIndex=350;
+    forest=L.geoJSON(data,{pane:'forestPane',style:{color:'#397652',weight:1.2,fillColor:'#65a66b',fillOpacity:.24},
+      attribution:'Habitat: <a href="https://ca.dep.state.fl.us/arcgis/rest/services/OpenData/PARKS_BOUNDARIES/MapServer/5">Florida DEP / DRP</a>',
+      onEachFeature:(feature,layer)=>{
+        const p=feature.properties,root=el('div');root.append(el('div','FORT CLINCH STATE PARK','source-label'),el('h2','Maritime forest'),el('p','Maritime hammock · coastal evergreen hardwood forest'));
+        const dl=el('dl');[['Habitat area ID',p.OBJECTID],['Recorded acres',p.ACREAGE],['Community code',p.EC_CODE]].forEach(([k,v])=>dl.append(el('dt',k),el('dd',text(v))));root.append(dl,el('p','Mapped habitat extent, not individual tree locations or measured canopy cover.'),el('small','Florida DEP / Division of Recreation and Parks. Downloaded September 2026; survey date not specified.'));
+        const a=el('a','View DEP habitat source ↗');a.href='https://ca.dep.state.fl.us/arcgis/rest/services/OpenData/PARKS_BOUNDARIES/MapServer/5';a.target='_blank';a.rel='noopener';root.append(el('br'),a);layer.bindPopup(root,{maxWidth:310});
+      }});
+    const acres=data.features.reduce((sum,f)=>sum+(Number(f.properties.ACREAGE)||0),0);
+    $('forest-note').textContent=`Fort Clinch maritime forest · ${number(Math.round(acres))} acres`;
+    $('forest').disabled=false;$('fort-clinch').disabled=false;toggleForest();
+  }).catch(()=>{$('forest-note').textContent='Fort Clinch forest unavailable';});
   json('data/south-island/aipca-boundary/features.geojson').then(data=>{boundary=L.geoJSON(data,{style:{color:'#927342',weight:2,dashArray:'6 5',fillOpacity:.025},onEachFeature:(_,layer)=>layer.bindPopup('Amelia Island Plantation Community Association boundary — public AIPCA GIS layer.')});$('boundary').disabled=false;toggleBoundary();}).catch(()=>{$('boundary-note').textContent='Boundary unavailable';});
   json('data/south-island/rcoast/graphics.json').then(graphics=>{graphics.forEach((g,i)=>{const url=safeURL(g.url);if(!url)return;const a=el('a',`Report graphic ${i+1} ↗`);a.href=url;a.target='_blank';a.rel='noopener';$('report-graphics').append(a);});}).catch(()=>{$('report-graphics').textContent='Report graphics unavailable. Use the report link above.';});
 })();
