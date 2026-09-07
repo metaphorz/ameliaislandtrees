@@ -1,0 +1,1074 @@
+{
+  "method": "Public point locations within 5 meters, approximate local equirectangular distance. Candidates only; no identity match or deduplication is asserted.",
+  "threshold_m": 5,
+  "sources": {
+    "heritage": {
+      "records": 84,
+      "records_with_nearby_city_points": 31,
+      "candidates": {
+        "69": [
+          {
+            "city_object_id": 5971,
+            "tree_number": 6162,
+            "distance_m": 4.46
+          }
+        ],
+        "84": [
+          {
+            "city_object_id": 4260,
+            "tree_number": 4451,
+            "distance_m": 1.63
+          },
+          {
+            "city_object_id": 4261,
+            "tree_number": 4452,
+            "distance_m": 2.02
+          },
+          {
+            "city_object_id": 4259,
+            "tree_number": 4450,
+            "distance_m": 2.78
+          }
+        ],
+        "85": [
+          {
+            "city_object_id": 1540,
+            "tree_number": 1540,
+            "distance_m": 2.74
+          },
+          {
+            "city_object_id": 1541,
+            "tree_number": 1541,
+            "distance_m": 4.82
+          }
+        ],
+        "51": [
+          {
+            "city_object_id": 2014,
+            "tree_number": 2014,
+            "distance_m": 1.53
+          }
+        ],
+        "78": [
+          {
+            "city_object_id": 4947,
+            "tree_number": 5138,
+            "distance_m": 0.74
+          }
+        ],
+        "79": [
+          {
+            "city_object_id": 4419,
+            "tree_number": 4610,
+            "distance_m": 4.01
+          }
+        ],
+        "73": [
+          {
+            "city_object_id": 1211,
+            "tree_number": 1211,
+            "distance_m": 1.37
+          },
+          {
+            "city_object_id": 1212,
+            "tree_number": 1212,
+            "distance_m": 2.66
+          }
+        ],
+        "80": [
+          {
+            "city_object_id": 3269,
+            "tree_number": 3460,
+            "distance_m": 2.72
+          },
+          {
+            "city_object_id": 3270,
+            "tree_number": 3461,
+            "distance_m": 3.5
+          },
+          {
+            "city_object_id": 3271,
+            "tree_number": 3462,
+            "distance_m": 4.92
+          }
+        ],
+        "81": [
+          {
+            "city_object_id": 3271,
+            "tree_number": 3462,
+            "distance_m": 3.0
+          },
+          {
+            "city_object_id": 3270,
+            "tree_number": 3461,
+            "distance_m": 4.23
+          }
+        ],
+        "17": [
+          {
+            "city_object_id": 627,
+            "tree_number": 627,
+            "distance_m": 4.67
+          }
+        ],
+        "18": [
+          {
+            "city_object_id": 1348,
+            "tree_number": 1348,
+            "distance_m": 2.89
+          }
+        ],
+        "22": [
+          {
+            "city_object_id": 223,
+            "tree_number": 223,
+            "distance_m": 3.95
+          }
+        ],
+        "35": [
+          {
+            "city_object_id": 3540,
+            "tree_number": 3731,
+            "distance_m": 4.86
+          }
+        ],
+        "36": [
+          {
+            "city_object_id": 9449,
+            "tree_number": 9643,
+            "distance_m": 2.08
+          }
+        ],
+        "54": [
+          {
+            "city_object_id": 1823,
+            "tree_number": 1823,
+            "distance_m": 1.62
+          }
+        ],
+        "24": [
+          {
+            "city_object_id": 1602,
+            "tree_number": 1602,
+            "distance_m": 3.54
+          }
+        ],
+        "27": [
+          {
+            "city_object_id": 1463,
+            "tree_number": 1463,
+            "distance_m": 2.29
+          }
+        ],
+        "44": [
+          {
+            "city_object_id": 5894,
+            "tree_number": 6085,
+            "distance_m": 3.56
+          }
+        ],
+        "68": [
+          {
+            "city_object_id": 1322,
+            "tree_number": 1322,
+            "distance_m": 4.11
+          }
+        ],
+        "8": [
+          {
+            "city_object_id": 323,
+            "tree_number": 323,
+            "distance_m": 4.54
+          }
+        ],
+        "20": [
+          {
+            "city_object_id": 1593,
+            "tree_number": 1593,
+            "distance_m": 3.56
+          }
+        ],
+        "28": [
+          {
+            "city_object_id": 1587,
+            "tree_number": 1587,
+            "distance_m": 3.22
+          }
+        ],
+        "33": [
+          {
+            "city_object_id": 3591,
+            "tree_number": 3782,
+            "distance_m": 4.33
+          }
+        ],
+        "50": [
+          {
+            "city_object_id": 4293,
+            "tree_number": 4484,
+            "distance_m": 0.68
+          }
+        ],
+        "55": [
+          {
+            "city_object_id": 1495,
+            "tree_number": 1495,
+            "distance_m": 3.54
+          }
+        ],
+        "19": [
+          {
+            "city_object_id": 1576,
+            "tree_number": 1576,
+            "distance_m": 4.19
+          }
+        ],
+        "59": [
+          {
+            "city_object_id": 4180,
+            "tree_number": 4371,
+            "distance_m": 3.73
+          }
+        ],
+        "60": [
+          {
+            "city_object_id": 4619,
+            "tree_number": 4810,
+            "distance_m": 2.09
+          }
+        ],
+        "61": [
+          {
+            "city_object_id": 4620,
+            "tree_number": 4811,
+            "distance_m": 0.49
+          }
+        ],
+        "71": [
+          {
+            "city_object_id": 2023,
+            "tree_number": 2023,
+            "distance_m": 1.45
+          }
+        ],
+        "82": [
+          {
+            "city_object_id": 3263,
+            "tree_number": 3454,
+            "distance_m": 4.79
+          }
+        ]
+      }
+    },
+    "city-plantings": {
+      "records": 743,
+      "records_with_nearby_city_points": 82,
+      "candidates": {
+        "214": [
+          {
+            "city_object_id": 6562,
+            "tree_number": 6753,
+            "distance_m": 3.66
+          },
+          {
+            "city_object_id": 6561,
+            "tree_number": 6752,
+            "distance_m": 4.47
+          }
+        ],
+        "302": [
+          {
+            "city_object_id": 6565,
+            "tree_number": 6756,
+            "distance_m": 0.72
+          },
+          {
+            "city_object_id": 6566,
+            "tree_number": 6757,
+            "distance_m": 4.48
+          }
+        ],
+        "259": [
+          {
+            "city_object_id": 5588,
+            "tree_number": 5779,
+            "distance_m": 4.3
+          }
+        ],
+        "353": [
+          {
+            "city_object_id": 13487,
+            "tree_number": 13684,
+            "distance_m": 1.4
+          },
+          {
+            "city_object_id": 13486,
+            "tree_number": 13683,
+            "distance_m": 2.25
+          }
+        ],
+        "314": [
+          {
+            "city_object_id": 1825,
+            "tree_number": 1825,
+            "distance_m": 4.99
+          }
+        ],
+        "303": [
+          {
+            "city_object_id": 6561,
+            "tree_number": 6752,
+            "distance_m": 1.7
+          }
+        ],
+        "315": [
+          {
+            "city_object_id": 1824,
+            "tree_number": 1824,
+            "distance_m": 2.21
+          }
+        ],
+        "183": [
+          {
+            "city_object_id": 299,
+            "tree_number": 299,
+            "distance_m": 1.3
+          }
+        ],
+        "215": [
+          {
+            "city_object_id": 6562,
+            "tree_number": 6753,
+            "distance_m": 2.14
+          }
+        ],
+        "238": [
+          {
+            "city_object_id": 6979,
+            "tree_number": 7170,
+            "distance_m": 3.51
+          },
+          {
+            "city_object_id": 6981,
+            "tree_number": 7172,
+            "distance_m": 4.97
+          }
+        ],
+        "291": [
+          {
+            "city_object_id": 2774,
+            "tree_number": 2774,
+            "distance_m": 3.29
+          }
+        ],
+        "304": [
+          {
+            "city_object_id": 96,
+            "tree_number": 96,
+            "distance_m": 2.4
+          },
+          {
+            "city_object_id": 97,
+            "tree_number": 97,
+            "distance_m": 4.62
+          }
+        ],
+        "133": [
+          {
+            "city_object_id": 1000,
+            "tree_number": 1000,
+            "distance_m": 0.63
+          }
+        ],
+        "217": [
+          {
+            "city_object_id": 6572,
+            "tree_number": 6763,
+            "distance_m": 1.43
+          },
+          {
+            "city_object_id": 6573,
+            "tree_number": 6764,
+            "distance_m": 4.05
+          }
+        ],
+        "227": [
+          {
+            "city_object_id": 6968,
+            "tree_number": 7159,
+            "distance_m": 4.87
+          }
+        ],
+        "239": [
+          {
+            "city_object_id": 6979,
+            "tree_number": 7170,
+            "distance_m": 4.87
+          }
+        ],
+        "305": [
+          {
+            "city_object_id": 154,
+            "tree_number": 154,
+            "distance_m": 4.57
+          }
+        ],
+        "306": [
+          {
+            "city_object_id": 1504,
+            "tree_number": 1504,
+            "distance_m": 1.22
+          },
+          {
+            "city_object_id": 1505,
+            "tree_number": 1505,
+            "distance_m": 4.24
+          }
+        ],
+        "202": [
+          {
+            "city_object_id": 3282,
+            "tree_number": 3473,
+            "distance_m": 4.92
+          }
+        ],
+        "191": [
+          {
+            "city_object_id": 6926,
+            "tree_number": 7118,
+            "distance_m": 3.71
+          }
+        ],
+        "230": [
+          {
+            "city_object_id": 7075,
+            "tree_number": 7267,
+            "distance_m": 4.84
+          }
+        ],
+        "103": [
+          {
+            "city_object_id": 3726,
+            "tree_number": 3917,
+            "distance_m": 1.77
+          }
+        ],
+        "151": [
+          {
+            "city_object_id": 2777,
+            "tree_number": 2777,
+            "distance_m": 2.97
+          },
+          {
+            "city_object_id": 2778,
+            "tree_number": 2778,
+            "distance_m": 4.74
+          }
+        ],
+        "439": [
+          {
+            "city_object_id": 1358,
+            "tree_number": 1358,
+            "distance_m": 2.85
+          }
+        ],
+        "134": [
+          {
+            "city_object_id": 2906,
+            "tree_number": 2906,
+            "distance_m": 3.09
+          }
+        ],
+        "144": [
+          {
+            "city_object_id": 2792,
+            "tree_number": 2792,
+            "distance_m": 4.78
+          }
+        ],
+        "152": [
+          {
+            "city_object_id": 2764,
+            "tree_number": 2764,
+            "distance_m": 4.65
+          }
+        ],
+        "25": [
+          {
+            "city_object_id": 12909,
+            "tree_number": 13106,
+            "distance_m": 1.88
+          },
+          {
+            "city_object_id": 12908,
+            "tree_number": 13105,
+            "distance_m": 3.33
+          },
+          {
+            "city_object_id": 12910,
+            "tree_number": 13107,
+            "distance_m": 4.13
+          }
+        ],
+        "473": [
+          {
+            "city_object_id": 2819,
+            "tree_number": 2819,
+            "distance_m": 4.93
+          }
+        ],
+        "10": [
+          {
+            "city_object_id": 12901,
+            "tree_number": 13098,
+            "distance_m": 4.83
+          }
+        ],
+        "216": [
+          {
+            "city_object_id": 6576,
+            "tree_number": 6767,
+            "distance_m": 1.27
+          },
+          {
+            "city_object_id": 6577,
+            "tree_number": 6768,
+            "distance_m": 4.0
+          }
+        ],
+        "218": [
+          {
+            "city_object_id": 6565,
+            "tree_number": 6756,
+            "distance_m": 0.68
+          },
+          {
+            "city_object_id": 6566,
+            "tree_number": 6757,
+            "distance_m": 3.79
+          }
+        ],
+        "368": [
+          {
+            "city_object_id": 6333,
+            "tree_number": 6524,
+            "distance_m": 1.31
+          },
+          {
+            "city_object_id": 6332,
+            "tree_number": 6523,
+            "distance_m": 1.67
+          },
+          {
+            "city_object_id": 6331,
+            "tree_number": 6522,
+            "distance_m": 2.8
+          }
+        ],
+        "371": [
+          {
+            "city_object_id": 6335,
+            "tree_number": 6526,
+            "distance_m": 2.35
+          },
+          {
+            "city_object_id": 6333,
+            "tree_number": 6524,
+            "distance_m": 4.92
+          }
+        ],
+        "372": [
+          {
+            "city_object_id": 6335,
+            "tree_number": 6526,
+            "distance_m": 3.29
+          },
+          {
+            "city_object_id": 6334,
+            "tree_number": 6525,
+            "distance_m": 4.35
+          },
+          {
+            "city_object_id": 6336,
+            "tree_number": 6527,
+            "distance_m": 4.98
+          }
+        ],
+        "408": [
+          {
+            "city_object_id": 8102,
+            "tree_number": 8295,
+            "distance_m": 3.89
+          }
+        ],
+        "388": [
+          {
+            "city_object_id": 2795,
+            "tree_number": 2795,
+            "distance_m": 3.55
+          },
+          {
+            "city_object_id": 2796,
+            "tree_number": 2796,
+            "distance_m": 4.49
+          }
+        ],
+        "403": [
+          {
+            "city_object_id": 14034,
+            "tree_number": null,
+            "distance_m": 1.55
+          },
+          {
+            "city_object_id": 5493,
+            "tree_number": 5684,
+            "distance_m": 4.88
+          }
+        ],
+        "412": [
+          {
+            "city_object_id": 8161,
+            "tree_number": 8354,
+            "distance_m": 4.22
+          }
+        ],
+        "373": [
+          {
+            "city_object_id": 3342,
+            "tree_number": 3533,
+            "distance_m": 3.21
+          }
+        ],
+        "414": [
+          {
+            "city_object_id": 8162,
+            "tree_number": 8355,
+            "distance_m": 4.86
+          }
+        ],
+        "418": [
+          {
+            "city_object_id": 8135,
+            "tree_number": 8328,
+            "distance_m": 4.61
+          }
+        ],
+        "447": [
+          {
+            "city_object_id": 13258,
+            "tree_number": 13455,
+            "distance_m": 3.36
+          },
+          {
+            "city_object_id": 13259,
+            "tree_number": 13456,
+            "distance_m": 4.86
+          }
+        ],
+        "474": [
+          {
+            "city_object_id": 2751,
+            "tree_number": 2751,
+            "distance_m": 3.41
+          }
+        ],
+        "471": [
+          {
+            "city_object_id": 974,
+            "tree_number": 974,
+            "distance_m": 0.73
+          }
+        ],
+        "442": [
+          {
+            "city_object_id": 12940,
+            "tree_number": 13137,
+            "distance_m": 1.66
+          }
+        ],
+        "472": [
+          {
+            "city_object_id": 1087,
+            "tree_number": 1087,
+            "distance_m": 0.87
+          },
+          {
+            "city_object_id": 1086,
+            "tree_number": 1086,
+            "distance_m": 2.92
+          }
+        ],
+        "436": [
+          {
+            "city_object_id": 2903,
+            "tree_number": 2903,
+            "distance_m": 2.73
+          }
+        ],
+        "477": [
+          {
+            "city_object_id": 2800,
+            "tree_number": 2800,
+            "distance_m": 4.35
+          }
+        ],
+        "489": [
+          {
+            "city_object_id": 285,
+            "tree_number": 285,
+            "distance_m": 3.14
+          }
+        ],
+        "445": [
+          {
+            "city_object_id": 13066,
+            "tree_number": 13263,
+            "distance_m": 2.21
+          }
+        ],
+        "488": [
+          {
+            "city_object_id": 493,
+            "tree_number": 493,
+            "distance_m": 1.63
+          }
+        ],
+        "446": [
+          {
+            "city_object_id": 13038,
+            "tree_number": 13235,
+            "distance_m": 4.49
+          }
+        ],
+        "482": [
+          {
+            "city_object_id": 460,
+            "tree_number": 460,
+            "distance_m": 0.19
+          }
+        ],
+        "629": [
+          {
+            "city_object_id": 14034,
+            "tree_number": null,
+            "distance_m": 3.97
+          }
+        ],
+        "642": [
+          {
+            "city_object_id": 2728,
+            "tree_number": 2728,
+            "distance_m": 4.12
+          }
+        ],
+        "647": [
+          {
+            "city_object_id": 6813,
+            "tree_number": 7004,
+            "distance_m": 4.51
+          }
+        ],
+        "644": [
+          {
+            "city_object_id": 2799,
+            "tree_number": 2799,
+            "distance_m": 3.25
+          }
+        ],
+        "645": [
+          {
+            "city_object_id": 2794,
+            "tree_number": 2794,
+            "distance_m": 0.7
+          }
+        ],
+        "754": [
+          {
+            "city_object_id": 5859,
+            "tree_number": 6050,
+            "distance_m": 4.3
+          }
+        ],
+        "633": [
+          {
+            "city_object_id": 13257,
+            "tree_number": 13454,
+            "distance_m": 1.42
+          }
+        ],
+        "646": [
+          {
+            "city_object_id": 2752,
+            "tree_number": 2752,
+            "distance_m": 4.67
+          }
+        ],
+        "634": [
+          {
+            "city_object_id": 870,
+            "tree_number": 870,
+            "distance_m": 1.41
+          },
+          {
+            "city_object_id": 869,
+            "tree_number": 869,
+            "distance_m": 3.79
+          }
+        ],
+        "756": [
+          {
+            "city_object_id": 13353,
+            "tree_number": 13550,
+            "distance_m": 2.17
+          }
+        ],
+        "635": [
+          {
+            "city_object_id": 869,
+            "tree_number": 869,
+            "distance_m": 1.52
+          }
+        ],
+        "657": [
+          {
+            "city_object_id": 548,
+            "tree_number": 548,
+            "distance_m": 3.48
+          }
+        ],
+        "640": [
+          {
+            "city_object_id": 9217,
+            "tree_number": 9411,
+            "distance_m": 4.85
+          }
+        ],
+        "658": [
+          {
+            "city_object_id": 549,
+            "tree_number": 549,
+            "distance_m": 2.79
+          }
+        ],
+        "573": [
+          {
+            "city_object_id": 6836,
+            "tree_number": 7027,
+            "distance_m": 3.37
+          }
+        ],
+        "575": [
+          {
+            "city_object_id": 6837,
+            "tree_number": 7028,
+            "distance_m": 1.98
+          }
+        ],
+        "576": [
+          {
+            "city_object_id": 853,
+            "tree_number": 853,
+            "distance_m": 4.12
+          }
+        ],
+        "627": [
+          {
+            "city_object_id": 5123,
+            "tree_number": 5314,
+            "distance_m": 2.06
+          },
+          {
+            "city_object_id": 5124,
+            "tree_number": 5315,
+            "distance_m": 2.08
+          },
+          {
+            "city_object_id": 5125,
+            "tree_number": 5316,
+            "distance_m": 3.91
+          }
+        ],
+        "628": [
+          {
+            "city_object_id": 1391,
+            "tree_number": 1391,
+            "distance_m": 0.68
+          }
+        ],
+        "579": [
+          {
+            "city_object_id": 408,
+            "tree_number": 408,
+            "distance_m": 2.68
+          }
+        ],
+        "553": [
+          {
+            "city_object_id": 8154,
+            "tree_number": 8347,
+            "distance_m": 4.41
+          }
+        ],
+        "547": [
+          {
+            "city_object_id": 8153,
+            "tree_number": 8346,
+            "distance_m": 3.69
+          }
+        ],
+        "568": [
+          {
+            "city_object_id": 2830,
+            "tree_number": 2830,
+            "distance_m": 3.54
+          }
+        ],
+        "569": [
+          {
+            "city_object_id": 6923,
+            "tree_number": 7115,
+            "distance_m": 3.44
+          },
+          {
+            "city_object_id": 2693,
+            "tree_number": 2693,
+            "distance_m": 4.31
+          }
+        ],
+        "557": [
+          {
+            "city_object_id": 1396,
+            "tree_number": 1396,
+            "distance_m": 2.16
+          }
+        ],
+        "556": [
+          {
+            "city_object_id": 1396,
+            "tree_number": 1396,
+            "distance_m": 2.53
+          }
+        ],
+        "566": [
+          {
+            "city_object_id": 2715,
+            "tree_number": 2715,
+            "distance_m": 2.68
+          },
+          {
+            "city_object_id": 2714,
+            "tree_number": 2714,
+            "distance_m": 3.32
+          }
+        ],
+        "572": [
+          {
+            "city_object_id": 2752,
+            "tree_number": 2752,
+            "distance_m": 1.22
+          }
+        ]
+      }
+    },
+    "nominations": {
+      "records": 24,
+      "records_with_nearby_city_points": 12,
+      "candidates": {
+        "4": [
+          {
+            "city_object_id": 3373,
+            "tree_number": 3564,
+            "distance_m": 3.85
+          }
+        ],
+        "6": [
+          {
+            "city_object_id": 3376,
+            "tree_number": 3567,
+            "distance_m": 4.69
+          }
+        ],
+        "10": [
+          {
+            "city_object_id": 3794,
+            "tree_number": 3985,
+            "distance_m": 0.85
+          },
+          {
+            "city_object_id": 3795,
+            "tree_number": 3986,
+            "distance_m": 1.93
+          }
+        ],
+        "15": [
+          {
+            "city_object_id": 791,
+            "tree_number": 791,
+            "distance_m": 0.64
+          }
+        ],
+        "16": [
+          {
+            "city_object_id": 760,
+            "tree_number": 760,
+            "distance_m": 3.79
+          }
+        ],
+        "17": [
+          {
+            "city_object_id": 1023,
+            "tree_number": 1023,
+            "distance_m": 1.97
+          }
+        ],
+        "18": [
+          {
+            "city_object_id": 1024,
+            "tree_number": 1024,
+            "distance_m": 2.21
+          }
+        ],
+        "19": [
+          {
+            "city_object_id": 974,
+            "tree_number": 974,
+            "distance_m": 1.57
+          }
+        ],
+        "20": [
+          {
+            "city_object_id": 925,
+            "tree_number": 925,
+            "distance_m": 1.15
+          },
+          {
+            "city_object_id": 926,
+            "tree_number": 926,
+            "distance_m": 3.56
+          }
+        ],
+        "21": [
+          {
+            "city_object_id": 954,
+            "tree_number": 954,
+            "distance_m": 1.62
+          }
+        ],
+        "23": [
+          {
+            "city_object_id": 856,
+            "tree_number": 856,
+            "distance_m": 1.59
+          }
+        ],
+        "24": [
+          {
+            "city_object_id": 695,
+            "tree_number": 695,
+            "distance_m": 1.3
+          }
+        ]
+      }
+    }
+  }
+}

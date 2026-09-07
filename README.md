@@ -9,11 +9,25 @@ species/condition/search filters, an images-only filter, attached-image gallerie
 street and satellite basemaps, a Plantation boundary, and a south-end shortcut.
 Dead and not-found inventory records can be hidden. Counts are records, not unique trees.
 
-The default view shows 14,186 records: 14,034 city inventory entries, 97 Omni
-observations, and 55 AIPCA planting locations. An optional county layer adds 21
-records, some on the mainland. The public AIPCA invasive-plant layer is empty and
+The default view shows 15,013 records: 14,034 city inventory entries, 97 Omni
+observations, 55 AIPCA planting locations, 84 designated heritage records, and 743
+city planting records. Optional layers add 21 county records (some on the mainland)
+and 24 historical heritage-nomination assessments. The public AIPCA invasive-plant layer is empty and
 is shown with a zero count. Five RCOAST report graphics are linked in the sidebar;
 they are reference images, not georeferenced overlays.
+
+Recorded names such as Kate's Tree and Julie's Tree appear as popup titles and
+are searchable, along with addresses, tree numbers, and recorded notes. Every
+tree popup includes public latitude/longitude in decimal degrees, with an
+approximation note for obscured observations. Popups expose additional recorded
+details, designation documents, and source record links; PDF photo sheets open as
+documents rather than being treated as images.
+
+[City supplement notes](data/city-supplements/README.md) cover the new layers and
+overlap audit. Nearby points are candidates for review, not confirmed duplicate
+trees. Source records and their potentially conflicting values remain separate.
+Refresh these snapshots with `python3 download_city_supplements.py`.
+Run data-adapter regression tests with `node --test test-map-data.cjs`.
 
 [South-island download notes](data/south-island/README.md) document the additional
 sources, count checks, media, and limitations. Original media (about 596 MB) are

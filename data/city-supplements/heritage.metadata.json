@@ -1,0 +1,1940 @@
+{
+  "isCoGoEnabled": false,
+  "extent": {
+    "ymin": 30.60566871900005,
+    "xmin": -81.46328055899994,
+    "ymax": 30.67462506700008,
+    "xmax": -81.43613742399998,
+    "spatialReference": {
+      "falseM": -100000,
+      "xyTolerance": 8.983152841195215e-09,
+      "mUnits": 10000,
+      "zUnits": 10000,
+      "latestWkid": 4326,
+      "zTolerance": 0.001,
+      "wkid": 4326,
+      "xyUnits": 999999999.9999999,
+      "mTolerance": 0.001,
+      "falseX": -400,
+      "falseY": -400,
+      "falseZ": -100000
+    }
+  },
+  "isDataBranchVersioned": false,
+  "supportsApplyEditsWithGlobalIds": true,
+  "maxRecordCount": 2000,
+  "attachmentProperties": [
+    {
+      "fieldName": "attachmentid",
+      "isEnabled": true,
+      "name": "id"
+    },
+    {
+      "fieldName": "globalid",
+      "isEnabled": true,
+      "name": "globalId"
+    },
+    {
+      "fieldName": "att_name",
+      "isEnabled": true,
+      "name": "name"
+    },
+    {
+      "fieldName": "data_size",
+      "isEnabled": true,
+      "name": "size"
+    },
+    {
+      "fieldName": "content_type",
+      "isEnabled": true,
+      "name": "contentType"
+    },
+    {
+      "fieldName": "keywords",
+      "isEnabled": true,
+      "name": "keywords"
+    },
+    {
+      "fieldName": "exifinfo",
+      "isEnabled": true,
+      "name": "exifInfo"
+    }
+  ],
+  "attachmentFields": [
+    {
+      "nullable": false,
+      "editable": false,
+      "defaultValue": null,
+      "domain": null,
+      "name": "attachmentid",
+      "alias": "attachmentid",
+      "type": "esriFieldTypeOID"
+    },
+    {
+      "nullable": false,
+      "editable": false,
+      "defaultValue": null,
+      "domain": null,
+      "length": 38,
+      "name": "globalid",
+      "alias": "globalid",
+      "type": "esriFieldTypeGlobalID"
+    },
+    {
+      "nullable": false,
+      "editable": false,
+      "defaultValue": null,
+      "domain": null,
+      "length": 250,
+      "name": "att_name",
+      "alias": "att_name",
+      "type": "esriFieldTypeString"
+    },
+    {
+      "nullable": false,
+      "editable": false,
+      "defaultValue": null,
+      "domain": null,
+      "name": "data_size",
+      "alias": "data_size",
+      "type": "esriFieldTypeInteger"
+    },
+    {
+      "nullable": false,
+      "editable": false,
+      "defaultValue": null,
+      "domain": null,
+      "length": 150,
+      "name": "content_type",
+      "alias": "content_type",
+      "type": "esriFieldTypeString"
+    },
+    {
+      "nullable": true,
+      "editable": false,
+      "defaultValue": null,
+      "domain": null,
+      "length": 2048,
+      "name": "keywords",
+      "alias": "keywords",
+      "type": "esriFieldTypeString"
+    },
+    {
+      "nullable": true,
+      "editable": false,
+      "defaultValue": null,
+      "domain": null,
+      "length": 1073741822,
+      "name": "exifinfo",
+      "alias": "exifinfo",
+      "type": "esriFieldTypeString"
+    }
+  ],
+  "infoInEstimates": [
+    "extent",
+    "count"
+  ],
+  "datesInUnknownTimezone": false,
+  "type": "Feature Layer",
+  "onlyAllowTrueCurveUpdatesByTrueCurveClients": true,
+  "supportsAttachmentsByUploadId": true,
+  "editingInfo": {
+    "lastEditDate": 1777399768934
+  },
+  "relationships": [],
+  "supportsAttachmentsResizing": true,
+  "cimVersion": "2.9.0",
+  "isDataArchived": false,
+  "id": 0,
+  "spatialReference": {
+    "falseM": -100000,
+    "xyTolerance": 8.983152841195215e-09,
+    "mUnits": 10000,
+    "zUnits": 10000,
+    "latestWkid": 4326,
+    "zTolerance": 0.001,
+    "wkid": 4326,
+    "xyUnits": 999999999.9999999,
+    "mTolerance": 0.001,
+    "falseX": -400,
+    "falseY": -400,
+    "falseZ": -100000
+  },
+  "supportsSubtypeEditing": true,
+  "supportsStatistics": true,
+  "supportedExportFormats": "sqlite,filegdb,shapefile,csv,geojson",
+  "serverGens": {
+    "minServerGen": 16032481,
+    "serverGen": 16032481
+  },
+  "standardMaxRecordCount": 16000,
+  "isDataVersioned": false,
+  "templates": [],
+  "supportsAdvancedQueries": true,
+  "parentLayer": null,
+  "currentVersion": 11.5,
+  "canScaleSymbols": false,
+  "hasZ": false,
+  "advancedEditingCapabilities": {
+    "supportsAsyncApplyEdits": true,
+    "supportsApplyEditsbyUploadID": true,
+    "supportsReturnEditResults": true,
+    "supportedSqlFormatsInCalculate": [
+      "standard"
+    ],
+    "supportedApplyEditsUploadIDFormats": "JSON,PBF"
+  },
+  "objectIdField": "objectid",
+  "supportsQuantizationEditMode": true,
+  "hasContingentValuesDefinition": false,
+  "name": "COFBHeritageTrees",
+  "allowTrueCurvesUpdates": false,
+  "displayField": "document_name",
+  "supportsCalculate": true,
+  "fields": [
+    {
+      "nullable": false,
+      "defaultValue": null,
+      "editable": false,
+      "length": 4,
+      "type": "esriFieldTypeOID",
+      "modelName": "objectid",
+      "domain": null,
+      "name": "objectid",
+      "alias": "OBJECTID"
+    },
+    {
+      "modelName": "oid_",
+      "nullable": true,
+      "editable": true,
+      "defaultValue": null,
+      "domain": null,
+      "name": "oid_",
+      "alias": "OID_",
+      "type": "esriFieldTypeInteger"
+    },
+    {
+      "modelName": "origional_id",
+      "nullable": true,
+      "editable": true,
+      "defaultValue": null,
+      "domain": null,
+      "name": "origional_id",
+      "length": 255,
+      "alias": "Origional_ID",
+      "type": "esriFieldTypeString"
+    },
+    {
+      "modelName": "id_resolution_number",
+      "nullable": true,
+      "editable": true,
+      "defaultValue": null,
+      "domain": null,
+      "name": "id_resolution_number",
+      "length": 255,
+      "alias": "ID_RESOLUTION_NUMBER",
+      "type": "esriFieldTypeString"
+    },
+    {
+      "modelName": "f_",
+      "nullable": true,
+      "editable": true,
+      "defaultValue": null,
+      "domain": null,
+      "name": "f_",
+      "alias": "F_",
+      "type": "esriFieldTypeDouble"
+    },
+    {
+      "modelName": "location_of_tree",
+      "nullable": true,
+      "editable": true,
+      "defaultValue": null,
+      "domain": null,
+      "name": "location_of_tree",
+      "length": 255,
+      "alias": "LOCATION_OF_TREE",
+      "type": "esriFieldTypeString"
+    },
+    {
+      "modelName": "private__pv__or_public__pb_",
+      "nullable": true,
+      "editable": true,
+      "defaultValue": null,
+      "domain": {
+        "splitPolicy": "esriSPTDefaultValue",
+        "name": "PBPVTBD",
+        "description": "Public, Private, or To Be Determined",
+        "type": "codedValue",
+        "codedValues": [
+          {
+            "code": "PB",
+            "name": "Public"
+          },
+          {
+            "code": "PV",
+            "name": "Private"
+          },
+          {
+            "code": "TBD",
+            "name": "To Be Determined"
+          }
+        ],
+        "mergePolicy": "esriMPTDefaultValue"
+      },
+      "name": "private__pv__or_public__pb_",
+      "length": 255,
+      "alias": "Private__PV__or_Public__PB_",
+      "type": "esriFieldTypeString"
+    },
+    {
+      "modelName": "cir_",
+      "nullable": true,
+      "editable": true,
+      "defaultValue": null,
+      "domain": null,
+      "name": "cir_",
+      "length": 255,
+      "alias": "CIR_",
+      "type": "esriFieldTypeString"
+    },
+    {
+      "modelName": "dia_",
+      "nullable": true,
+      "editable": true,
+      "defaultValue": null,
+      "domain": null,
+      "name": "dia_",
+      "length": 255,
+      "alias": "DIA_",
+      "type": "esriFieldTypeString"
+    },
+    {
+      "modelName": "town",
+      "nullable": true,
+      "editable": true,
+      "defaultValue": "Fernandina Beach",
+      "domain": {
+        "splitPolicy": "esriSPTDefaultValue",
+        "name": "Fernandina Beach",
+        "description": "Fernandina Beach",
+        "type": "codedValue",
+        "codedValues": [
+          {
+            "code": "Fernandina Beach",
+            "name": "Fernandina Beach"
+          }
+        ],
+        "mergePolicy": "esriMPTDefaultValue"
+      },
+      "name": "town",
+      "length": 255,
+      "alias": "TOWN",
+      "type": "esriFieldTypeString"
+    },
+    {
+      "modelName": "document_name",
+      "nullable": true,
+      "editable": true,
+      "defaultValue": null,
+      "domain": null,
+      "name": "document_name",
+      "length": 255,
+      "alias": "Document_Name",
+      "type": "esriFieldTypeString"
+    },
+    {
+      "modelName": "document_link",
+      "nullable": true,
+      "editable": true,
+      "defaultValue": null,
+      "domain": null,
+      "name": "document_link",
+      "length": 255,
+      "alias": "Document_Link",
+      "type": "esriFieldTypeString"
+    },
+    {
+      "modelName": "latitude",
+      "nullable": true,
+      "editable": false,
+      "defaultValue": null,
+      "domain": null,
+      "name": "latitude",
+      "alias": "Latitude",
+      "type": "esriFieldTypeDouble"
+    },
+    {
+      "modelName": "longitude",
+      "nullable": true,
+      "editable": false,
+      "defaultValue": null,
+      "domain": null,
+      "name": "longitude",
+      "alias": "Longitude",
+      "type": "esriFieldTypeDouble"
+    },
+    {
+      "modelName": "photolink",
+      "nullable": true,
+      "editable": true,
+      "defaultValue": null,
+      "domain": null,
+      "name": "photolink",
+      "length": 256,
+      "alias": "PhotoLink",
+      "type": "esriFieldTypeString"
+    },
+    {
+      "modelName": "photodocname",
+      "nullable": true,
+      "editable": true,
+      "defaultValue": null,
+      "domain": null,
+      "name": "photodocname",
+      "length": 256,
+      "alias": "PhotoDocName",
+      "type": "esriFieldTypeString"
+    },
+    {
+      "nullable": false,
+      "editable": false,
+      "defaultValue": null,
+      "length": 38,
+      "type": "esriFieldTypeGlobalID",
+      "modelName": "globalid",
+      "domain": null,
+      "name": "globalid",
+      "alias": "globalid"
+    },
+    {
+      "modelName": "scientificname",
+      "nullable": true,
+      "editable": true,
+      "defaultValue": null,
+      "domain": {
+        "splitPolicy": "esriSPTDefaultValue",
+        "name": "SCIENTIFIC_NAME",
+        "description": "SCIENTIFIC_NAME",
+        "type": "codedValue",
+        "codedValues": [
+          {
+            "code": "Acer floridanum",
+            "name": "Acer floridanum"
+          },
+          {
+            "code": "Acer negundo",
+            "name": "Acer negundo"
+          },
+          {
+            "code": "Acer rubrum",
+            "name": "Acer rubrum"
+          },
+          {
+            "code": "Acer saccharinum",
+            "name": "Acer saccharinum"
+          },
+          {
+            "code": "Aesculus pavia",
+            "name": "Aesculus pavia"
+          },
+          {
+            "code": "Betula nigra",
+            "name": "Betula nigra"
+          },
+          {
+            "code": "Carpinus caroliniana",
+            "name": "Carpinus caroliniana"
+          },
+          {
+            "code": "Carya aquatica",
+            "name": "Carya aquatica"
+          },
+          {
+            "code": "Carya glabra",
+            "name": "Carya glabra"
+          },
+          {
+            "code": "Carya illinoinensis",
+            "name": "Carya illinoinensis"
+          },
+          {
+            "code": "Celtis laevigata",
+            "name": "Celtis laevigata"
+          },
+          {
+            "code": "Cercis canadensis",
+            "name": "Cercis canadensis"
+          },
+          {
+            "code": "Chionanthus virginicus",
+            "name": "Chionanthus virginicus"
+          },
+          {
+            "code": "Cornus florida",
+            "name": "Cornus florida"
+          },
+          {
+            "code": "Cornus foemina",
+            "name": "Cornus foemina"
+          },
+          {
+            "code": "Diospyros virginiana",
+            "name": "Diospyros virginiana"
+          },
+          {
+            "code": "Fagus grandifolia",
+            "name": "Fagus grandifolia"
+          },
+          {
+            "code": "Forestiera segregata",
+            "name": "Forestiera segregata"
+          },
+          {
+            "code": "Fraxinus pennsylvanica",
+            "name": "Fraxinus pennsylvanica"
+          },
+          {
+            "code": "Fraxinus profunda",
+            "name": "Fraxinus profunda"
+          },
+          {
+            "code": "Gordonia lasianthus",
+            "name": "Gordonia lasianthus"
+          },
+          {
+            "code": "Ilex attenuata",
+            "name": "Ilex attenuata"
+          },
+          {
+            "code": "Ilex cassine",
+            "name": "Ilex cassine"
+          },
+          {
+            "code": "Ilex cornuta",
+            "name": "Ilex cornuta"
+          },
+          {
+            "code": "Ilex opaca",
+            "name": "Ilex opaca"
+          },
+          {
+            "code": "Ilex vomitoria",
+            "name": "Ilex vomitoria"
+          },
+          {
+            "code": "Juniperus chinensis",
+            "name": "Juniperus chinensis"
+          },
+          {
+            "code": "Juniperus silicicola",
+            "name": "Juniperus silicicola"
+          },
+          {
+            "code": "Juniperus virginiana",
+            "name": "Juniperus virginiana"
+          },
+          {
+            "code": "Lagerstroemia indica",
+            "name": "Lagerstroemia indica"
+          },
+          {
+            "code": "Liquidambar styraciflua",
+            "name": "Liquidambar styraciflua"
+          },
+          {
+            "code": "Liriodendron tulipifera",
+            "name": "Liriodendron tulipifera"
+          },
+          {
+            "code": "Magnolia grandiflora",
+            "name": "Magnolia grandiflora"
+          },
+          {
+            "code": "Magnolia virginiana",
+            "name": "Magnolia virginiana"
+          },
+          {
+            "code": "Magnolia x soulangiana",
+            "name": "Magnolia x soulangiana"
+          },
+          {
+            "code": "Morus rubra",
+            "name": "Morus rubra"
+          },
+          {
+            "code": "Myrica cerifera",
+            "name": "Myrica cerifera"
+          },
+          {
+            "code": "Nyssa ogeche",
+            "name": "Nyssa ogeche"
+          },
+          {
+            "code": "Nyssa sylvatica",
+            "name": "Nyssa sylvatica"
+          },
+          {
+            "code": "Ostrya virginiana",
+            "name": "Ostrya virginiana"
+          },
+          {
+            "code": "Persea borbonia",
+            "name": "Persea borbonia"
+          },
+          {
+            "code": "Phoenix canariensis",
+            "name": "Phoenix canariensis"
+          },
+          {
+            "code": "Pinus clausa",
+            "name": "Pinus clausa"
+          },
+          {
+            "code": "Pinus elliottii",
+            "name": "Pinus elliottii"
+          },
+          {
+            "code": "Pinus palustris",
+            "name": "Pinus palustris"
+          },
+          {
+            "code": "Pinus serotina",
+            "name": "Pinus serotina"
+          },
+          {
+            "code": "Pinus taeda",
+            "name": "Pinus taeda"
+          },
+          {
+            "code": "Platanus occidentalis",
+            "name": "Platanus occidentalis"
+          },
+          {
+            "code": "Prunus angustifolia",
+            "name": "Prunus angustifolia"
+          },
+          {
+            "code": "Prunus caroliniana",
+            "name": "Prunus caroliniana"
+          },
+          {
+            "code": "Prunus serotina",
+            "name": "Prunus serotina"
+          },
+          {
+            "code": "Quercus alba",
+            "name": "Quercus alba"
+          },
+          {
+            "code": "Quercus austrina",
+            "name": "Quercus austrina"
+          },
+          {
+            "code": "Quercus chapmanii",
+            "name": "Quercus chapmanii"
+          },
+          {
+            "code": "Quercus falcata",
+            "name": "Quercus falcata"
+          },
+          {
+            "code": "Quercus geminata",
+            "name": "Quercus geminata"
+          },
+          {
+            "code": "Quercus laurifolia",
+            "name": "Quercus laurifolia"
+          },
+          {
+            "code": "Quercus michauxii",
+            "name": "Quercus michauxii"
+          },
+          {
+            "code": "Quercus myrtifolia",
+            "name": "Quercus myrtifolia"
+          },
+          {
+            "code": "Quercus nigra",
+            "name": "Quercus nigra"
+          },
+          {
+            "code": "Quercus nuttalii",
+            "name": "Quercus nuttalii"
+          },
+          {
+            "code": "Quercus shumardii",
+            "name": "Quercus shumardii"
+          },
+          {
+            "code": "Quercus virginiana",
+            "name": "Quercus virginiana"
+          },
+          {
+            "code": "Sabal palmetto",
+            "name": "Sabal palmetto"
+          },
+          {
+            "code": "Salix babylonica",
+            "name": "Salix babylonica"
+          },
+          {
+            "code": "Sideroxylon lycioides",
+            "name": "Sideroxylon lycioides"
+          },
+          {
+            "code": "Taxodium ascendens",
+            "name": "Taxodium ascendens"
+          },
+          {
+            "code": "Taxodium distichum",
+            "name": "Taxodium distichum"
+          },
+          {
+            "code": "Tilia floridana",
+            "name": "Tilia floridana"
+          },
+          {
+            "code": "Ulmus alata",
+            "name": "Ulmus alata"
+          },
+          {
+            "code": "Ulmus americana",
+            "name": "Ulmus americana"
+          },
+          {
+            "code": "Ulmus parvifolia",
+            "name": "Ulmus parvifolia"
+          },
+          {
+            "code": "Zanthoxylum clava-herculis",
+            "name": "Zanthoxylum clava-herculis"
+          }
+        ],
+        "mergePolicy": "esriMPTDefaultValue"
+      },
+      "name": "scientificname",
+      "length": 255,
+      "alias": "ScientificName",
+      "type": "esriFieldTypeString"
+    },
+    {
+      "modelName": "commonname",
+      "nullable": true,
+      "editable": true,
+      "defaultValue": null,
+      "domain": {
+        "splitPolicy": "esriSPTDefaultValue",
+        "name": "COMMON_NAME",
+        "description": "COMMON_NAME",
+        "type": "codedValue",
+        "codedValues": [
+          {
+            "code": "Maple, Florida",
+            "name": "Maple, Florida"
+          },
+          {
+            "code": "Boxelder",
+            "name": "Boxelder"
+          },
+          {
+            "code": "Maple, Red",
+            "name": "Maple, Red"
+          },
+          {
+            "code": "Maple, Silver",
+            "name": "Maple, Silver"
+          },
+          {
+            "code": "Buckeye, Red",
+            "name": "Buckeye, Red"
+          },
+          {
+            "code": "Birch, River",
+            "name": "Birch, River"
+          },
+          {
+            "code": "Hornbeam, American",
+            "name": "Hornbeam, American"
+          },
+          {
+            "code": "Hickory, Water",
+            "name": "Hickory, Water"
+          },
+          {
+            "code": "Hickory, Pignut",
+            "name": "Hickory, Pignut"
+          },
+          {
+            "code": "Pecan",
+            "name": "Pecan"
+          },
+          {
+            "code": "Sugarberry",
+            "name": "Sugarberry"
+          },
+          {
+            "code": "Redbud, Eastern",
+            "name": "Redbud, Eastern"
+          },
+          {
+            "code": "Fringe Tree",
+            "name": "Fringe Tree"
+          },
+          {
+            "code": "Dogwood, Flowering",
+            "name": "Dogwood, Flowering"
+          },
+          {
+            "code": "Dogwood, Swamp",
+            "name": "Dogwood, Swamp"
+          },
+          {
+            "code": "Persimmon, Common",
+            "name": "Persimmon, Common"
+          },
+          {
+            "code": "Beech, American",
+            "name": "Beech, American"
+          },
+          {
+            "code": "Privet, Florida",
+            "name": "Privet, Florida"
+          },
+          {
+            "code": "Ash, Green",
+            "name": "Ash, Green"
+          },
+          {
+            "code": "Ash, Pumkin",
+            "name": "Ash, Pumkin"
+          },
+          {
+            "code": "Bay, Loblolly",
+            "name": "Bay, Loblolly"
+          },
+          {
+            "code": "Holly, East Palatka",
+            "name": "Holly, East Palatka"
+          },
+          {
+            "code": "Dahoon",
+            "name": "Dahoon"
+          },
+          {
+            "code": "Holly, Chinese",
+            "name": "Holly, Chinese"
+          },
+          {
+            "code": "Holly, American",
+            "name": "Holly, American"
+          },
+          {
+            "code": "Yaupon",
+            "name": "Yaupon"
+          },
+          {
+            "code": "Juniper, Chinese",
+            "name": "Juniper, Chinese"
+          },
+          {
+            "code": "Cedar, Southern Red",
+            "name": "Cedar, Southern Red"
+          },
+          {
+            "code": "Cedar, Eastern red",
+            "name": "Cedar, Eastern red"
+          },
+          {
+            "code": "Crapemyrtle",
+            "name": "Crapemyrtle"
+          },
+          {
+            "code": "Sweetgum",
+            "name": "Sweetgum"
+          },
+          {
+            "code": "Tulip Tree",
+            "name": "Tulip Tree"
+          },
+          {
+            "code": "Magnolia, Southern",
+            "name": "Magnolia, Southern"
+          },
+          {
+            "code": "Sweetbay",
+            "name": "Sweetbay"
+          },
+          {
+            "code": "Magnolia, Saucer",
+            "name": "Magnolia, Saucer"
+          },
+          {
+            "code": "Mulberry, Red",
+            "name": "Mulberry, Red"
+          },
+          {
+            "code": "Bayberry, Southern",
+            "name": "Bayberry, Southern"
+          },
+          {
+            "code": "Tupelo, Ogeechee",
+            "name": "Tupelo, Ogeechee"
+          },
+          {
+            "code": "Tupelo, Black",
+            "name": "Tupelo, Black"
+          },
+          {
+            "code": "Hophornbeam, Eastern",
+            "name": "Hophornbeam, Eastern"
+          },
+          {
+            "code": "Redbay",
+            "name": "Redbay"
+          },
+          {
+            "code": "Palm, Canary Island Date",
+            "name": "Palm, Canary Island Date"
+          },
+          {
+            "code": "Pine, Sand",
+            "name": "Pine, Sand"
+          },
+          {
+            "code": "Pine, Slash",
+            "name": "Pine, Slash"
+          },
+          {
+            "code": "Pine, Longleaf",
+            "name": "Pine, Longleaf"
+          },
+          {
+            "code": "Pine, Pond",
+            "name": "Pine, Pond"
+          },
+          {
+            "code": "Pine, Loblolly",
+            "name": "Pine, Loblolly"
+          },
+          {
+            "code": "Sycamore, American",
+            "name": "Sycamore, American"
+          },
+          {
+            "code": "Plum, Chickasaw",
+            "name": "Plum, Chickasaw"
+          },
+          {
+            "code": "Laurelcherry, Carolina",
+            "name": "Laurelcherry, Carolina"
+          },
+          {
+            "code": "Cherry, Black",
+            "name": "Cherry, Black"
+          },
+          {
+            "code": "Oak, White",
+            "name": "Oak, White"
+          },
+          {
+            "code": "Oak, Bluff",
+            "name": "Oak, Bluff"
+          },
+          {
+            "code": "Oak, Champman",
+            "name": "Oak, Champman"
+          },
+          {
+            "code": "Oak, Southern red",
+            "name": "Oak, Southern red"
+          },
+          {
+            "code": "Oak, Sand Live",
+            "name": "Oak, Sand Live"
+          },
+          {
+            "code": "Oak, Laurel",
+            "name": "Oak, Laurel"
+          },
+          {
+            "code": "Oak, Swamp chestnut",
+            "name": "Oak, Swamp chestnut"
+          },
+          {
+            "code": "Oak, Myrtle",
+            "name": "Oak, Myrtle"
+          },
+          {
+            "code": "Oak, Water",
+            "name": "Oak, Water"
+          },
+          {
+            "code": "Oak, Nuttall",
+            "name": "Oak, Nuttall"
+          },
+          {
+            "code": "Oak, Shumard",
+            "name": "Oak, Shumard"
+          },
+          {
+            "code": "Oak, Live",
+            "name": "Oak, Live"
+          },
+          {
+            "code": "Palmetto, Cabbage",
+            "name": "Palmetto, Cabbage"
+          },
+          {
+            "code": "Willow, Weeping",
+            "name": "Willow, Weeping"
+          },
+          {
+            "code": "Buckthorn Bumelia",
+            "name": "Buckthorn Bumelia"
+          },
+          {
+            "code": "Cypress, Pond",
+            "name": "Cypress, Pond"
+          },
+          {
+            "code": "Baldcypress",
+            "name": "Baldcypress"
+          },
+          {
+            "code": "Basswood, Florida",
+            "name": "Basswood, Florida"
+          },
+          {
+            "code": "Elm, Winged",
+            "name": "Elm, Winged"
+          },
+          {
+            "code": "Elm, American",
+            "name": "Elm, American"
+          },
+          {
+            "code": "Elm, Chinese",
+            "name": "Elm, Chinese"
+          },
+          {
+            "code": "Hercules Club",
+            "name": "Hercules Club"
+          }
+        ],
+        "mergePolicy": "esriMPTDefaultValue"
+      },
+      "name": "commonname",
+      "length": 255,
+      "alias": "CommonName",
+      "type": "esriFieldTypeString"
+    },
+    {
+      "modelName": "familyname",
+      "nullable": true,
+      "editable": true,
+      "defaultValue": null,
+      "domain": {
+        "splitPolicy": "esriSPTDefaultValue",
+        "name": "ScientificNameCommonNameFamily",
+        "description": "SCIENTIFIC NAME-COMMON NAME-FAMILY",
+        "type": "codedValue",
+        "codedValues": [
+          {
+            "code": "Acer floridanum-Maple, Florida- Sapindaceae",
+            "name": "Acer floridanum-Maple, Florida- Sapindaceae"
+          },
+          {
+            "code": "Acer negundo-Boxelder- Sapindaceae",
+            "name": "Acer negundo-Boxelder- Sapindaceae"
+          },
+          {
+            "code": "Acer rubrum-Maple, Red- Sapindaceae",
+            "name": "Acer rubrum-Maple, Red- Sapindaceae"
+          },
+          {
+            "code": "Acer saccharinum-Maple, Silver- Sapindaceae",
+            "name": "Acer saccharinum-Maple, Silver- Sapindaceae"
+          },
+          {
+            "code": "Aesculus pavia-Buckeye, Red- Hippocastanaceae",
+            "name": "Aesculus pavia-Buckeye, Red- Hippocastanaceae"
+          },
+          {
+            "code": "Betula nigra-Birch, River- Betulaceae",
+            "name": "Betula nigra-Birch, River- Betulaceae"
+          },
+          {
+            "code": "Carpinus caroliniana-Hornbeam, American- Betulaceae",
+            "name": "Carpinus caroliniana-Hornbeam, American- Betulaceae"
+          },
+          {
+            "code": "Carya aquatica-Hickory, Water- Juglandaceae",
+            "name": "Carya aquatica-Hickory, Water- Juglandaceae"
+          },
+          {
+            "code": "Carya glabra-Hickory, Pignut- Juglandaceae",
+            "name": "Carya glabra-Hickory, Pignut- Juglandaceae"
+          },
+          {
+            "code": "Carya illinoinensis-Pecan- Juglandaceae",
+            "name": "Carya illinoinensis-Pecan- Juglandaceae"
+          },
+          {
+            "code": "Celtis laevigata-Sugarberry- Ulmaceae",
+            "name": "Celtis laevigata-Sugarberry- Ulmaceae"
+          },
+          {
+            "code": "Cercis canadensis-Redbud, Eastern- Fabaceae",
+            "name": "Cercis canadensis-Redbud, Eastern- Fabaceae"
+          },
+          {
+            "code": "Chionanthus virginicus-Fringe Tree- Oleaceae",
+            "name": "Chionanthus virginicus-Fringe Tree- Oleaceae"
+          },
+          {
+            "code": "Cornus florida-Dogwood, Flowering- Cornaceae",
+            "name": "Cornus florida-Dogwood, Flowering- Cornaceae"
+          },
+          {
+            "code": "Cornus foemina-Dogwood, Swamp- Cornaceae",
+            "name": "Cornus foemina-Dogwood, Swamp- Cornaceae"
+          },
+          {
+            "code": "Diospyros virginiana-Persimmon, Common- Ebenaceae",
+            "name": "Diospyros virginiana-Persimmon, Common- Ebenaceae"
+          },
+          {
+            "code": "Fagus grandifolia-Beech, American- Fagaceae",
+            "name": "Fagus grandifolia-Beech, American- Fagaceae"
+          },
+          {
+            "code": "Forestiera segregata-Privet, Florida- Oleaceae",
+            "name": "Forestiera segregata-Privet, Florida- Oleaceae"
+          },
+          {
+            "code": "Fraxinus pennsylvanica-Ash, Green- Oleaceae",
+            "name": "Fraxinus pennsylvanica-Ash, Green- Oleaceae"
+          },
+          {
+            "code": "Fraxinus profunda-Ash, Pumkin- Oleaceae",
+            "name": "Fraxinus profunda-Ash, Pumkin- Oleaceae"
+          },
+          {
+            "code": "Gordonia lasianthus-Bay, Loblolly- Theaceae",
+            "name": "Gordonia lasianthus-Bay, Loblolly- Theaceae"
+          },
+          {
+            "code": "Ilex attenuata-Holly, East Palatka- Aquifoliaceae",
+            "name": "Ilex attenuata-Holly, East Palatka- Aquifoliaceae"
+          },
+          {
+            "code": "Ilex cassine-Dahoon- Aquifoliaceae",
+            "name": "Ilex cassine-Dahoon- Aquifoliaceae"
+          },
+          {
+            "code": "Ilex cornuta-Holly, Chinese- Aquifoliaceae",
+            "name": "Ilex cornuta-Holly, Chinese- Aquifoliaceae"
+          },
+          {
+            "code": "Ilex opaca-Holly, American- Aquifoliaceae",
+            "name": "Ilex opaca-Holly, American- Aquifoliaceae"
+          },
+          {
+            "code": "Ilex vomitoria-Yaupon- Aquifoliaceae",
+            "name": "Ilex vomitoria-Yaupon- Aquifoliaceae"
+          },
+          {
+            "code": "Juniperus chinensis-Juniper, Chinese- Cupressaceae",
+            "name": "Juniperus chinensis-Juniper, Chinese- Cupressaceae"
+          },
+          {
+            "code": "Juniperus silicicola-Cedar, Southern Red- Cupressaceae",
+            "name": "Juniperus silicicola-Cedar, Southern Red- Cupressaceae"
+          },
+          {
+            "code": "Juniperus virginiana-Cedar, Eastern red- Cupressaceae",
+            "name": "Juniperus virginiana-Cedar, Eastern red- Cupressaceae"
+          },
+          {
+            "code": "Lagerstroemia indica-Crapemyrtle- Lythraceae",
+            "name": "Lagerstroemia indica-Crapemyrtle- Lythraceae"
+          },
+          {
+            "code": "Liquidambar styraciflua-Sweetgum- Altingiaceae",
+            "name": "Liquidambar styraciflua-Sweetgum- Altingiaceae"
+          },
+          {
+            "code": "Liriodendron tulipifera-Tulip Tree- Magnoliaceae",
+            "name": "Liriodendron tulipifera-Tulip Tree- Magnoliaceae"
+          },
+          {
+            "code": "Magnolia grandiflora-Magnolia, Southern- Magnoliaceae",
+            "name": "Magnolia grandiflora-Magnolia, Southern- Magnoliaceae"
+          },
+          {
+            "code": "Magnolia virginiana-Sweetbay- Magnoliaceae",
+            "name": "Magnolia virginiana-Sweetbay- Magnoliaceae"
+          },
+          {
+            "code": "Magnolia x soulangiana-Magnolia, Saucer- Magnoliaceae",
+            "name": "Magnolia x soulangiana-Magnolia, Saucer- Magnoliaceae"
+          },
+          {
+            "code": "Morus rubra-Mulberry, Red- Moraceae",
+            "name": "Morus rubra-Mulberry, Red- Moraceae"
+          },
+          {
+            "code": "Myrica cerifera-Bayberry, Southern- Myricaceae",
+            "name": "Myrica cerifera-Bayberry, Southern- Myricaceae"
+          },
+          {
+            "code": "Nyssa ogeche-Tupelo, Ogeechee- Nyssaceae",
+            "name": "Nyssa ogeche-Tupelo, Ogeechee- Nyssaceae"
+          },
+          {
+            "code": "Nyssa sylvatica-Tupelo, Black- Nyssaceae",
+            "name": "Nyssa sylvatica-Tupelo, Black- Nyssaceae"
+          },
+          {
+            "code": "Ostrya virginiana-Hophornbeam, Eastern- Betulaceae",
+            "name": "Ostrya virginiana-Hophornbeam, Eastern- Betulaceae"
+          },
+          {
+            "code": "Persea borbonia-Redbay- Lauraceae",
+            "name": "Persea borbonia-Redbay- Lauraceae"
+          },
+          {
+            "code": "Phoenix canariensis-Palm, Canary Island Date- Arecaceae",
+            "name": "Phoenix canariensis-Palm, Canary Island Date- Arecaceae"
+          },
+          {
+            "code": "Pinus clausa-Pine, Sand- Pinaceae",
+            "name": "Pinus clausa-Pine, Sand- Pinaceae"
+          },
+          {
+            "code": "Pinus elliottii-Pine, Slash- Pinaceae",
+            "name": "Pinus elliottii-Pine, Slash- Pinaceae"
+          },
+          {
+            "code": "Pinus palustris-Pine, Longleaf- Pinaceae",
+            "name": "Pinus palustris-Pine, Longleaf- Pinaceae"
+          },
+          {
+            "code": "Pinus serotina-Pine, Pond- Pinaceae",
+            "name": "Pinus serotina-Pine, Pond- Pinaceae"
+          },
+          {
+            "code": "Pinus taeda-Pine, Loblolly- Pinaceae",
+            "name": "Pinus taeda-Pine, Loblolly- Pinaceae"
+          },
+          {
+            "code": "Platanus occidentalis-Sycamore, American- Platanaceae",
+            "name": "Platanus occidentalis-Sycamore, American- Platanaceae"
+          },
+          {
+            "code": "Prunus angustifolia-Plum, Chickasaw- Rosaceae",
+            "name": "Prunus angustifolia-Plum, Chickasaw- Rosaceae"
+          },
+          {
+            "code": "Prunus caroliniana-Laurelcherry, Carolina- Rosaceae",
+            "name": "Prunus caroliniana-Laurelcherry, Carolina- Rosaceae"
+          },
+          {
+            "code": "Prunus serotina-Cherry, Black- Rosaceae",
+            "name": "Prunus serotina-Cherry, Black- Rosaceae"
+          },
+          {
+            "code": "Quercus alba-Oak, White- Fagaceae",
+            "name": "Quercus alba-Oak, White- Fagaceae"
+          },
+          {
+            "code": "Quercus austrina-Oak, Bluff- Fagaceae",
+            "name": "Quercus austrina-Oak, Bluff- Fagaceae"
+          },
+          {
+            "code": "Quercus chapmanii-Oak, Champman- Fagaceae",
+            "name": "Quercus chapmanii-Oak, Champman- Fagaceae"
+          },
+          {
+            "code": "Quercus falcata-Oak, Southern red- Fagaceae",
+            "name": "Quercus falcata-Oak, Southern red- Fagaceae"
+          },
+          {
+            "code": "Quercus geminata-Oak, Sand Live- Fagaceae",
+            "name": "Quercus geminata-Oak, Sand Live- Fagaceae"
+          },
+          {
+            "code": "Quercus laurifolia-Oak, Laurel- Fagaceae",
+            "name": "Quercus laurifolia-Oak, Laurel- Fagaceae"
+          },
+          {
+            "code": "Quercus michauxii-Oak, Swamp chestnut- Fagaceae",
+            "name": "Quercus michauxii-Oak, Swamp chestnut- Fagaceae"
+          },
+          {
+            "code": "Quercus myrtifolia-Oak, Myrtle- Fagaceae",
+            "name": "Quercus myrtifolia-Oak, Myrtle- Fagaceae"
+          },
+          {
+            "code": "Quercus nigra-Oak, Water- Fagaceae",
+            "name": "Quercus nigra-Oak, Water- Fagaceae"
+          },
+          {
+            "code": "Quercus nuttalii-Oak, Nuttall- Fagaceae",
+            "name": "Quercus nuttalii-Oak, Nuttall- Fagaceae"
+          },
+          {
+            "code": "Quercus shumardii-Oak, Shumard- Fagaceae",
+            "name": "Quercus shumardii-Oak, Shumard- Fagaceae"
+          },
+          {
+            "code": "Quercus virginiana-Oak, Live- Fagaceae",
+            "name": "Quercus virginiana-Oak, Live- Fagaceae"
+          },
+          {
+            "code": "Sabal palmetto-Palmetto, Cabbage- Arecaceae",
+            "name": "Sabal palmetto-Palmetto, Cabbage- Arecaceae"
+          },
+          {
+            "code": "Salix babylonica-Willow, Weeping- Salicaceae",
+            "name": "Salix babylonica-Willow, Weeping- Salicaceae"
+          },
+          {
+            "code": "Sideroxylon lycioides-Buckthorn Bumelia- Sapotaceae",
+            "name": "Sideroxylon lycioides-Buckthorn Bumelia- Sapotaceae"
+          },
+          {
+            "code": "Taxodium ascendens-Cypress, Pond- Cupressaceae",
+            "name": "Taxodium ascendens-Cypress, Pond- Cupressaceae"
+          },
+          {
+            "code": "Taxodium distichum-Baldcypress- Cupressaceae",
+            "name": "Taxodium distichum-Baldcypress- Cupressaceae"
+          },
+          {
+            "code": "Tilia floridana-Basswood, Florida- Malvaceae",
+            "name": "Tilia floridana-Basswood, Florida- Malvaceae"
+          },
+          {
+            "code": "Ulmus alata-Elm, Winged- Ulmaceae",
+            "name": "Ulmus alata-Elm, Winged- Ulmaceae"
+          },
+          {
+            "code": "Ulmus americana-Elm, American- Ulmaceae",
+            "name": "Ulmus americana-Elm, American- Ulmaceae"
+          },
+          {
+            "code": "Ulmus parvifolia-Elm, Chinese- Ulmaceae",
+            "name": "Ulmus parvifolia-Elm, Chinese- Ulmaceae"
+          },
+          {
+            "code": "Zanthoxylum clava-herculis-Hercules Club- Rutaceae",
+            "name": "Zanthoxylum clava-herculis-Hercules Club- Rutaceae"
+          }
+        ],
+        "mergePolicy": "esriMPTDefaultValue"
+      },
+      "name": "familyname",
+      "length": 255,
+      "alias": "FamilyName",
+      "type": "esriFieldTypeString"
+    },
+    {
+      "nullable": true,
+      "editable": false,
+      "defaultValue": null,
+      "domain": null,
+      "name": "created_user",
+      "length": 255,
+      "alias": "created_user",
+      "type": "esriFieldTypeString"
+    },
+    {
+      "nullable": true,
+      "editable": false,
+      "defaultValue": null,
+      "domain": null,
+      "precision": 1,
+      "name": "created_date",
+      "length": 29,
+      "alias": "created_date",
+      "type": "esriFieldTypeDate"
+    },
+    {
+      "nullable": true,
+      "editable": false,
+      "defaultValue": null,
+      "domain": null,
+      "name": "last_edited_user",
+      "length": 255,
+      "alias": "last_edited_user",
+      "type": "esriFieldTypeString"
+    },
+    {
+      "nullable": true,
+      "editable": false,
+      "defaultValue": null,
+      "domain": null,
+      "precision": 1,
+      "name": "last_edited_date",
+      "length": 29,
+      "alias": "last_edited_date",
+      "type": "esriFieldTypeDate"
+    }
+  ],
+  "maxRecordCountFactor": 1,
+  "dateFieldsTimeReference": {
+    "timeZoneIANA": "Etc/UTC",
+    "respectsDaylightSaving": false,
+    "timeZone": "UTC"
+  },
+  "supportsFieldDescriptionProperty": true,
+  "hasM": false,
+  "allowGeometryUpdates": true,
+  "useStandardizedQueries": true,
+  "globalIdField": "globalid",
+  "sourceSpatialReference": {
+    "wkt": "GEOGCS[\"GCS_WGS_1984\",DATUM[\"D_WGS_1984\",SPHEROID[\"WGS_1984\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]]",
+    "falseM": -100000,
+    "mUnits": 10000,
+    "zUnits": 10000,
+    "zTolerance": 0.001,
+    "wkid": 4326,
+    "xyUnits": 999999999.9999999,
+    "mTolerance": 0.001,
+    "falseX": -400,
+    "falseY": -400,
+    "falseZ": -100000
+  },
+  "description": "",
+  "syncCanReturnChanges": true,
+  "supportsAsyncDelete": true,
+  "supportedSpatialRelationships": [
+    "esriSpatialRelIntersects",
+    "esriSpatialRelContains",
+    "esriSpatialRelCrosses",
+    "esriSpatialRelEnvelopeIntersects",
+    "esriSpatialRelOverlaps",
+    "esriSpatialRelTouches",
+    "esriSpatialRelWithin"
+  ],
+  "supportsRollbackOnFailureParameter": true,
+  "isDataReplicaTracked": false,
+  "standardMaxRecordCountNoGeometry": 16000,
+  "supportsTruncate": true,
+  "indexes": [
+    {
+      "name": "r1290_sde_rowid_uk",
+      "isUnique": true,
+      "description": "",
+      "fields": "objectid",
+      "isAscending": true
+    },
+    {
+      "name": "uuid_1290",
+      "isUnique": true,
+      "description": "",
+      "fields": "globalid",
+      "isAscending": true
+    },
+    {
+      "name": "a959_ix1",
+      "isUnique": false,
+      "description": "",
+      "fields": "shape",
+      "isAscending": true
+    }
+  ],
+  "supportedAppendSourceFilterFormats": "featureService",
+  "editFieldsInfo": {
+    "editDateField": "last_edited_date",
+    "editorField": "last_edited_user",
+    "creationDateField": "created_date",
+    "creatorField": "created_user"
+  },
+  "htmlPopupType": "esriServerHTMLPopupTypeAsHTMLText",
+  "GUIDFormat": "O",
+  "minScale": 0,
+  "hasAttachments": true,
+  "queryBinsCapabilities": {
+    "supportsFirstDayOfWeek": false,
+    "supportedNormalizationTypes": [
+      "boxCox",
+      "field",
+      "inverse",
+      "log",
+      "naturalLog",
+      "percentOfTotal",
+      "squareRoot"
+    ],
+    "supportedStatisticTypes": [
+      "count",
+      "sum",
+      "min",
+      "max",
+      "avg",
+      "stddev",
+      "var",
+      "percentile_cont",
+      "percentile_disc"
+    ],
+    "supportsNormalization": true,
+    "supportsSnapToData": true,
+    "supportsFixedIntervalBin": true,
+    "supportsStackBy": true,
+    "supportsAutoIntervalBin": true,
+    "supportsFixedBoundariesBin": true,
+    "supportsDateBin": true,
+    "supportsSplitBy": true,
+    "supportsReturnFullIntervalBin": true
+  },
+  "advancedQueryCapabilities": {
+    "supportsSqlExpression": true,
+    "supportsQueryWithResultType": true,
+    "supportsQueryRelatedPagination": true,
+    "supportsQueryWithCacheHint": false,
+    "supportsQueryWithDatumTransformation": true,
+    "supportsCurrentUserQueries": true,
+    "supportsQueryAttachmentsWithReturnUrl": true,
+    "fullTextSearchCapabilities": {
+      "supportsOperator": true,
+      "supportsSearchOperator": true
+    },
+    "supportsDefaultSR": true,
+    "supportsQueryDateBins": false,
+    "supportsQueryWithLodSR": true,
+    "supportsPaginationOnAggregatedQueries": true,
+    "supportsPagination": true,
+    "supportsMaxRecordCountFactor": true,
+    "fullTextSearchableFields": [],
+    "supportsStatistics": true,
+    "supportsOrderBy": true,
+    "supportsFullTextSearch": true,
+    "supportsQueryWithDistance": true,
+    "supportsLod": true,
+    "supportsSpatialAggregationStatistics": false,
+    "supportsCountDistinct": true,
+    "supportsAdvancedQueryRelated": true,
+    "supportsQueryAttachments": true,
+    "supportsReturningQueryExtent": true,
+    "supportsQueryAttachmentsCountOnly": true,
+    "supportsOrderByOnlyOnLayerFields": false,
+    "supportsOutFieldSqlExpression": true,
+    "supportsTopFeaturesQuery": true,
+    "supportsReturningGeometryEnvelope": false,
+    "supportsDistinct": true,
+    "supportsReturningGeometryCentroid": false,
+    "supportsQueryAnalytic": true,
+    "supportsPercentileStatistics": true,
+    "supportsHavingClause": true
+  },
+  "supportsValidateSQL": true,
+  "enableZDefaults": true,
+  "serviceItemId": "072abc4e19b24eeb9e75f4f36d6c1685",
+  "allowUpdateWithoutMValues": true,
+  "supportsCoordinatesQuantization": true,
+  "types": [
+    {
+      "templates": [
+        {
+          "name": "TBD",
+          "description": "",
+          "drawingTool": "esriFeatureEditToolPoint",
+          "prototype": {
+            "attributes": {
+              "private__pv__or_public__pb_": "<Null>"
+            }
+          }
+        }
+      ],
+      "name": "TBD",
+      "domains": {
+        "commonname": {
+          "type": "inherited"
+        },
+        "town": {
+          "type": "inherited"
+        },
+        "familyname": {
+          "type": "inherited"
+        },
+        "scientificname": {
+          "type": "inherited"
+        },
+        "private__pv__or_public__pb_": {
+          "type": "inherited"
+        }
+      },
+      "id": null
+    },
+    {
+      "templates": [
+        {
+          "name": "PB",
+          "description": "",
+          "drawingTool": "esriFeatureEditToolPoint",
+          "prototype": {
+            "attributes": {
+              "private__pv__or_public__pb_": "PB"
+            }
+          }
+        }
+      ],
+      "name": "PB",
+      "domains": {
+        "commonname": {
+          "type": "inherited"
+        },
+        "town": {
+          "type": "inherited"
+        },
+        "familyname": {
+          "type": "inherited"
+        },
+        "scientificname": {
+          "type": "inherited"
+        },
+        "private__pv__or_public__pb_": {
+          "type": "inherited"
+        }
+      },
+      "id": "PB"
+    },
+    {
+      "templates": [
+        {
+          "name": "PV",
+          "description": "",
+          "drawingTool": "esriFeatureEditToolPoint",
+          "prototype": {
+            "attributes": {
+              "private__pv__or_public__pb_": "PV"
+            }
+          }
+        }
+      ],
+      "name": "PV",
+      "domains": {
+        "commonname": {
+          "type": "inherited"
+        },
+        "town": {
+          "type": "inherited"
+        },
+        "familyname": {
+          "type": "inherited"
+        },
+        "scientificname": {
+          "type": "inherited"
+        },
+        "private__pv__or_public__pb_": {
+          "type": "inherited"
+        }
+      },
+      "id": "PV"
+    }
+  ],
+  "capabilities": "Query,Create,Update,Delete,Editing,Extract,Uploads,ChangeTracking",
+  "maxScale": 0,
+  "supportsAppend": true,
+  "supportsExceedsLimitStatistics": true,
+  "defaultVisibility": true,
+  "advancedQueryAnalyticCapabilities": {
+    "supportsAsync": true,
+    "supportsLinearRegression": true,
+    "supportsPercentileAnalytic": false
+  },
+  "hasMetadata": true,
+  "supportedAppendFormats": "csv,excel,featureCollection,featureService,geojson,imageCollection,jsonl,pbf,shapefile",
+  "tileMaxRecordCount": 4000,
+  "typeIdField": "private__pv__or_public__pb_",
+  "supportsASyncCalculate": true,
+  "supportedQueryFormats": "JSON, geoJSON, PBF",
+  "sqlParserVersion": "PG_11.4.0",
+  "drawingInfo": {
+    "renderer": {
+      "field1": "private__pv__or_public__pb_",
+      "authoringInfo": {
+        "colorRamp": {
+          "colorRamps": [
+            {
+              "toColor": [
+                189,
+                252,
+                248,
+                255
+              ],
+              "fromColor": [
+                189,
+                252,
+                248,
+                255
+              ],
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm"
+            },
+            {
+              "toColor": [
+                252,
+                179,
+                241,
+                255
+              ],
+              "fromColor": [
+                252,
+                179,
+                241,
+                255
+              ],
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm"
+            },
+            {
+              "toColor": [
+                252,
+                209,
+                184,
+                255
+              ],
+              "fromColor": [
+                252,
+                209,
+                184,
+                255
+              ],
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm"
+            },
+            {
+              "toColor": [
+                229,
+                252,
+                179,
+                255
+              ],
+              "fromColor": [
+                229,
+                252,
+                179,
+                255
+              ],
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm"
+            },
+            {
+              "toColor": [
+                194,
+                205,
+                252,
+                255
+              ],
+              "fromColor": [
+                194,
+                205,
+                252,
+                255
+              ],
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm"
+            },
+            {
+              "toColor": [
+                252,
+                210,
+                230,
+                255
+              ],
+              "fromColor": [
+                252,
+                210,
+                230,
+                255
+              ],
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm"
+            },
+            {
+              "toColor": [
+                182,
+                252,
+                195,
+                255
+              ],
+              "fromColor": [
+                182,
+                252,
+                195,
+                255
+              ],
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm"
+            },
+            {
+              "toColor": [
+                179,
+                227,
+                252,
+                255
+              ],
+              "fromColor": [
+                179,
+                227,
+                252,
+                255
+              ],
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm"
+            },
+            {
+              "toColor": [
+                252,
+                248,
+                204,
+                255
+              ],
+              "fromColor": [
+                252,
+                248,
+                204,
+                255
+              ],
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm"
+            },
+            {
+              "toColor": [
+                207,
+                184,
+                252,
+                255
+              ],
+              "fromColor": [
+                207,
+                184,
+                252,
+                255
+              ],
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm"
+            },
+            {
+              "toColor": [
+                252,
+                182,
+                183,
+                255
+              ],
+              "fromColor": [
+                252,
+                182,
+                183,
+                255
+              ],
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm"
+            },
+            {
+              "toColor": [
+                199,
+                252,
+                222,
+                255
+              ],
+              "fromColor": [
+                199,
+                252,
+                222,
+                255
+              ],
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm"
+            },
+            {
+              "toColor": [
+                234,
+                207,
+                252,
+                255
+              ],
+              "fromColor": [
+                234,
+                207,
+                252,
+                255
+              ],
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm"
+            }
+          ],
+          "type": "multipart"
+        }
+      },
+      "uniqueValueInfos": [
+        {
+          "symbol": {
+            "imageData": "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",
+            "yoffset": 0,
+            "width": 31,
+            "xoffset": 0,
+            "angle": 0,
+            "type": "esriPMS",
+            "contentType": "image/png",
+            "url": "bdc48b34f73c37415dc8dea0374fe540",
+            "height": 37
+          },
+          "label": "TBD",
+          "value": "<Null>"
+        },
+        {
+          "symbol": {
+            "imageData": "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",
+            "yoffset": 0,
+            "width": 27,
+            "xoffset": 0,
+            "angle": 0,
+            "type": "esriPMS",
+            "contentType": "image/png",
+            "url": "fda7bd8fb803aa19d2354d4a9152e66c",
+            "height": 27
+          },
+          "label": "PB",
+          "value": "PB"
+        },
+        {
+          "symbol": {
+            "imageData": "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",
+            "yoffset": 0,
+            "width": 27,
+            "xoffset": 0,
+            "angle": 0,
+            "type": "esriPMS",
+            "contentType": "image/png",
+            "url": "55d73ccb4e3dc716c33bd5a3ff411402",
+            "height": 27
+          },
+          "label": "PV",
+          "value": "PV"
+        }
+      ],
+      "type": "uniqueValue",
+      "fieldDelimiter": ","
+    },
+    "scaleSymbols": true,
+    "transparency": 0,
+    "labelingInfo": null
+  },
+  "geometryField": {
+    "sqlType": "sqlTypeDistinct",
+    "nullable": true,
+    "editable": true,
+    "name": "shape",
+    "typeName": "st_point",
+    "length": 2147483647,
+    "type": "esriFieldTypeGeometry"
+  },
+  "copyrightText": "",
+  "zDefault": 0,
+  "geometryType": "esriGeometryPoint",
+  "supportsLayerOverrides": true
+}

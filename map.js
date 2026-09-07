@@ -9,7 +9,7 @@
   const satellite=L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}',{attribution:'Tiles &copy; Esri — Source: Esri, Maxar, Earthstar Geographics, and the GIS User Community',maxNativeZoom:19,maxZoom:20});
   L.control.layers({'Street map':street,'Satellite':satellite},{},{position:'topright'}).addTo(map);
   const sources=TreeData.sources,groups={},failures=[],records=[];
-  let shown=[],boundary,timer;
+  let shown=[],boundary,timer,overlap;
   const text=v=>v==null||v===''?'Not recorded':String(v);
   const el=(tag,value,className)=>{const n=document.createElement(tag);if(value!=null)n.textContent=value;if(className)n.className=className;return n;};
   const safeURL=url=>{try{const p=new URL(url,location.href);return p.protocol==='https:'||p.origin===location.origin?p.href:null;}catch{return null;}};
@@ -25,9 +25,15 @@
     prev.onclick=()=>{index--;update();};next.onclick=()=>{index++;update();};update();return gallery;
   }
   function popup(r){
-    const root=el('div'),source=sources.find(s=>s.id===r.source);root.append(el('div',source.label,'source-label'),el('h2',r.species));
+    const root=el('div'),source=sources.find(s=>s.id===r.source);root.append(el('div',source.label,'source-label'),el('h2',r.name||r.species));
+    if(r.name)root.append(el('div',r.species,'species-subtitle'));
     if(r.scientific)root.append(el('div',r.scientific,'scientific'));if(r.location)root.append(el('div',r.location));
     const dl=el('dl');r.rows.forEach(([k,v])=>dl.append(el('dt',k),el('dd',text(v))));root.append(dl,el('small',r.note));
+    if(r.details?.length){const extra=el('details',null,'record-details');extra.append(el('summary','More recorded details'));const list=el('dl');r.details.forEach(([k,v])=>list.append(el('dt',k),el('dd',text(v))));extra.append(list);root.append(extra);}
+    if(r.links?.length){const links=el('div',null,'record-links');for(const link of r.links){const url=safeURL(link.url);if(!url)continue;const a=el('a',link.label);a.href=url;a.target='_blank';a.rel='noopener';links.append(a);}root.append(links);}
+    const nearby=overlap?.sources?.[r.source]?.candidates?.[r.id];
+    if(nearby?.length){const section=el('details',null,'record-details');section.append(el('summary','Nearby city inventory records'),el('p','Within 5 m; possible overlap, not a verified match. Records remain separate.'));
+      for(const candidate of nearby){const button=el('button',`Tree ${candidate.tree_number} · ${candidate.distance_m} m`);button.type='button';button.onclick=()=>{const other=records.find(x=>x.source==='city'&&x.id===candidate.city_object_id);if(!other)return;map.setView([other.lat,other.lng],19);L.popup({maxWidth:310,maxHeight:440}).setLatLng([other.lat,other.lng]).setContent(popup(other)).openOn(map);};section.append(button);}root.append(section);}
     if(r.url&&safeURL(r.url)){const a=el('a','View original observation ↗');a.href=safeURL(r.url);a.target='_blank';a.rel='noopener';root.append(el('br'),a);}
     if(r.photos.length)root.append(photoGallery(r.photos));return root;
   }
@@ -53,18 +59,20 @@
   $('filters').addEventListener('reset',()=>{clearTimeout(timer);setTimeout(()=>{filter();toggleBoundary();},0);});$('extent').onclick=fit;$('south').onclick=()=>map.fitBounds([[30.53,-81.485],[30.585,-81.425]]);
   map.on('moveend',visibleCount);new ResizeObserver(()=>map.invalidateSize()).observe($('map'));
   async function load(){
-    const attachments={city:{},planting:{}};
-    const photoResults=await Promise.allSettled([json('data/fernandina-attachments.json'),json('data/south-island/aipca-planting-locations/attachments.json')]);
+    const attachments={city:{},planting:{},'city-plantings':{}};
+    const photoResults=await Promise.allSettled([json('data/fernandina-attachments.json'),json('data/south-island/aipca-planting-locations/attachments.json'),json('data/city-supplements/city-plantings.attachments.json'),json('data/city-supplements/overlap-audit.json')]);
     if(photoResults[0].status==='fulfilled')for(const g of photoResults[0].value.attachmentGroups||[])attachments.city[g.parentObjectId]=(g.attachmentInfos||[]).filter(a=>(a.contentType||'').startsWith('image/'));
     if(photoResults[1].status==='fulfilled')for(const a of photoResults[1].value)if((a.contentType||'').startsWith('image/'))(attachments.planting[a.parent_object_id]??=[]).push(a);
-    photoResults.forEach((r,i)=>{if(r.status==='rejected')failures.push(i?'AIPCA photo index':'city photo index');});
+    if(photoResults[2].status==='fulfilled')for(const a of photoResults[2].value)if((a.contentType||'').startsWith('image/'))(attachments['city-plantings'][a.parent_object_id]??=[]).push(a);
+    if(photoResults[3].status==='fulfilled')overlap=photoResults[3].value;
+    photoResults.forEach((r,i)=>{if(r.status==='rejected')failures.push(['city photo index','AIPCA photo index','city planting photo index','overlap index'][i]);});
     const results=await Promise.allSettled(sources.map(s=>json(s.path)));
     results.forEach((result,i)=>{
       const source=sources[i],count=$(`count-${source.id}`);if(result.status==='rejected'||!Array.isArray(result.value?.features)){failures.push(source.label);count.textContent='Unavailable';return;}
       let mapped=0,skipped=0;
-      for(const feature of result.value.features){const r=TreeData.adapt(feature,source.id);if(!r){skipped++;continue;}r.photos=attachments[source.id]?.[r.id]||r.photos;
+      for(const feature of result.value.features){const r=TreeData.adapt(feature,source.id);if(!r){skipped++;continue;}r.photos=[...r.photos,...(attachments[source.id]?.[r.id]||[])];
         const iconNode=el('span',null,'point-core');iconNode.style.background=r.historical?'#aa754b':source.color;
-        r.marker=L.marker([r.lat,r.lng],{icon:L.divIcon({html:iconNode,className:'source-point',iconSize:[15,15],iconAnchor:[7.5,7.5]}),title:`${r.species} · ${source.label}`,alt:r.species});r.marker.bindPopup(()=>popup(r),{maxWidth:310,maxHeight:440});records.push(r);mapped++;
+        r.marker=L.marker([r.lat,r.lng],{icon:L.divIcon({html:iconNode,className:'source-point',iconSize:[15,15],iconAnchor:[7.5,7.5]}),title:`${r.name||r.species} · ${source.label}`,alt:r.name||r.species});r.marker.bindPopup(()=>popup(r),{maxWidth:310,maxHeight:440});records.push(r);mapped++;
       }
       count.textContent=number(mapped);if(skipped)count.title=`${skipped} records have no valid public point location`;$(`source-${source.id}`).disabled=mapped===0;
     });

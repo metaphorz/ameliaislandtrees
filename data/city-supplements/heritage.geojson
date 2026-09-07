@@ -1,0 +1,3197 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.43605762799996,
+          30.660246819000065
+        ],
+        "crs": null
+      },
+      "id": 69,
+      "type": "Feature",
+      "properties": {
+        "document_link": "https://ncflpataxcards.s3.dualstack.us-east-1.amazonaws.com/CityOfFernandinaBeach/HeritageTrees/2025-75DesignatesSixTreesAsHeritageTrees.pdf",
+        "oid_": 69,
+        "town": "Fernandina Beach",
+        "created_user": "kmulcahy",
+        "latitude": null,
+        "globalid": "{E89DBAA3-A99D-440E-B96A-C8436F5771D1}",
+        "familyname": "Fagus grandifolia-Beech, American- Fagaceae",
+        "scientificname": "Quercus virginiana",
+        "private__pv__or_public__pb_": "PB",
+        "dia_": "64\"",
+        "photodocname": null,
+        "document_name": "2025-75_500_Crosswind_Dr",
+        "last_edited_user": "kmulcahy",
+        "photolink": null,
+        "commonname": "Oak, Live",
+        "id_resolution_number": "2025-75",
+        "f_": null,
+        "location_of_tree": "ROW at 500 Crosswind",
+        "last_edited_date": 1764166598196,
+        "origional_id": "2025-75 500 Crosswind",
+        "created_date": 1764107248000,
+        "cir_": "200.96\"",
+        "objectid": 69,
+        "longitude": null
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.46142756399996,
+          30.67675597400006
+        ],
+        "crs": null
+      },
+      "id": 75,
+      "type": "Feature",
+      "properties": {
+        "document_link": null,
+        "oid_": null,
+        "town": "Fernandina Beach",
+        "created_user": "",
+        "latitude": null,
+        "globalid": "{B0F6BF58-203F-4AC6-A403-D9FC98AB3336}",
+        "familyname": "Quercus virginiana-Oak, Live- Fagaceae",
+        "scientificname": "Quercus virginiana",
+        "private__pv__or_public__pb_": "PV",
+        "dia_": "84\"",
+        "photodocname": null,
+        "document_name": "2026-59 409 N 4th St",
+        "last_edited_user": "",
+        "photolink": null,
+        "commonname": "Oak, Live",
+        "id_resolution_number": "2026-59",
+        "f_": null,
+        "location_of_tree": "409 N 4th St",
+        "last_edited_date": 1777398196131,
+        "origional_id": "2026-59",
+        "created_date": 1777398196131,
+        "cir_": "263.76\"",
+        "objectid": 75,
+        "longitude": null
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.43605431299994,
+          30.668010820000063
+        ],
+        "crs": null
+      },
+      "id": 83,
+      "type": "Feature",
+      "properties": {
+        "document_link": null,
+        "oid_": null,
+        "town": "Fernandina Beach",
+        "created_user": "",
+        "latitude": null,
+        "globalid": "{5AF9B144-65F7-4BDB-9358-1953EE71D92A}",
+        "familyname": "Quercus virginiana-Oak, Live- Fagaceae",
+        "scientificname": "Quercus virginiana",
+        "private__pv__or_public__pb_": "PB",
+        "dia_": "54\"",
+        "photodocname": null,
+        "document_name": "2026-59 2500 Atlantic Ave",
+        "last_edited_user": "",
+        "photolink": null,
+        "commonname": "Oak, Live",
+        "id_resolution_number": "2026-59",
+        "f_": null,
+        "location_of_tree": "2500 Atlantic Ave",
+        "last_edited_date": 1777399338621,
+        "origional_id": "2026-59",
+        "created_date": 1777399338621,
+        "cir_": "169.56\"",
+        "objectid": 83,
+        "longitude": null
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.46166282899998,
+          30.62179768200008
+        ],
+        "crs": null
+      },
+      "id": 32,
+      "type": "Feature",
+      "properties": {
+        "document_link": "https://ncflpataxcards.s3.us-east-1.amazonaws.com/CityOfFernandinaBeach/HeritageTrees/2017-22%20Heritage%20Tree%20Designation%20Aspire%20at%20Amelia%20Assisted%20Living%20Facility.pdf",
+        "oid_": 32,
+        "town": "Fernandina Beach",
+        "created_user": "kmulcahy",
+        "latitude": 30.62179768,
+        "globalid": "{7340C5A8-B98A-4953-BBD7-9772E2A82952}",
+        "familyname": "Fagus grandifolia-Beech, American-Fagaceae",
+        "scientificname": "Quercus virginiana",
+        "private__pv__or_public__pb_": "PV",
+        "dia_": "36\"\"",
+        "photodocname": null,
+        "document_name": "2017-22 Heritage Tree Designation Lakeside Amelia Assisted Living Facility.pdf",
+        "last_edited_user": "kmulcahy",
+        "photolink": null,
+        "commonname": "Oak, Live",
+        "id_resolution_number": " # 2017-22",
+        "f_": null,
+        "location_of_tree": "Lakeside Amelia Assisted Living",
+        "last_edited_date": 1764107248000,
+        "origional_id": " # 2017-22",
+        "created_date": 1764107248000,
+        "cir_": "113\"\"",
+        "objectid": 32,
+        "longitude": -81.46166283
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.46097669099998,
+          30.66264287100006
+        ],
+        "crs": null
+      },
+      "id": 72,
+      "type": "Feature",
+      "properties": {
+        "document_link": "https://ncflpataxcards.s3.dualstack.us-east-1.amazonaws.com/CityOfFernandinaBeach/HeritageTrees/2025-75DesignatesSixTreesAsHeritageTrees.pdf",
+        "oid_": 72,
+        "town": "Fernandina Beach",
+        "created_user": "kmulcahy",
+        "latitude": null,
+        "globalid": "{8501E7A3-B607-445A-A1EB-C7E9B4E54FC9}",
+        "familyname": "Fagus grandifolia-Beech, American- Fagaceae",
+        "scientificname": "Quercus virginiana",
+        "private__pv__or_public__pb_": "PB",
+        "dia_": "65\"",
+        "photodocname": null,
+        "document_name": "2025-75_629_S_7th_St",
+        "last_edited_user": "kmulcahy",
+        "photolink": null,
+        "commonname": "Oak, Live",
+        "id_resolution_number": "2025-75",
+        "f_": null,
+        "location_of_tree": "ROW across from Mocama 629 S 7th St",
+        "last_edited_date": 1764166630480,
+        "origional_id": "2025-75 629 S 7th St",
+        "created_date": 1764107248000,
+        "cir_": "204.10\"",
+        "objectid": 72,
+        "longitude": null
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.43647873499998,
+          30.66025374000003
+        ],
+        "crs": null
+      },
+      "id": 70,
+      "type": "Feature",
+      "properties": {
+        "document_link": "https://ncflpataxcards.s3.dualstack.us-east-1.amazonaws.com/CityOfFernandinaBeach/HeritageTrees/2025-75DesignatesSixTreesAsHeritageTrees.pdf",
+        "oid_": 70,
+        "town": "Fernandina Beach",
+        "created_user": "kmulcahy",
+        "latitude": null,
+        "globalid": "{E6980111-7E90-4EA6-9F1F-51FCCDE26405}",
+        "familyname": "Fagus grandifolia-Beech, American- Fagaceae",
+        "scientificname": "Quercus virginiana",
+        "private__pv__or_public__pb_": "PV",
+        "dia_": "49\"",
+        "photodocname": null,
+        "document_name": "2025-75_501_Crosswind_Dr",
+        "last_edited_user": "kmulcahy",
+        "photolink": null,
+        "commonname": "Oak, Live",
+        "id_resolution_number": "2025-75",
+        "f_": null,
+        "location_of_tree": "Backyard at 501 Crosswind Dr",
+        "last_edited_date": 1764166630480,
+        "origional_id": "2025-75 501 Crosswind Dr",
+        "created_date": 1764107248000,
+        "cir_": "153.86\"",
+        "objectid": 70,
+        "longitude": null
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.45725457699996,
+          30.67418467300007
+        ],
+        "crs": null
+      },
+      "id": 76,
+      "type": "Feature",
+      "properties": {
+        "document_link": null,
+        "oid_": null,
+        "town": "Fernandina Beach",
+        "created_user": "",
+        "latitude": null,
+        "globalid": "{DA874DFF-B093-4119-9AEF-DBE7D9E777CC}",
+        "familyname": "Quercus virginiana-Oak, Live- Fagaceae",
+        "scientificname": "Quercus virginiana",
+        "private__pv__or_public__pb_": "PV",
+        "dia_": "68\"",
+        "photodocname": null,
+        "document_name": "2026-59 904 Calhoun St",
+        "last_edited_user": "",
+        "photolink": null,
+        "commonname": "Oak, Live",
+        "id_resolution_number": "2026-59",
+        "f_": null,
+        "location_of_tree": "904 Calhoun St",
+        "last_edited_date": 1777398347821,
+        "origional_id": "2026-59",
+        "created_date": 1777398347821,
+        "cir_": "213.52\"",
+        "objectid": 76,
+        "longitude": null
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.45267988699999,
+          30.67225684300007
+        ],
+        "crs": null
+      },
+      "id": 84,
+      "type": "Feature",
+      "properties": {
+        "document_link": null,
+        "oid_": null,
+        "town": "Fernandina Beach",
+        "created_user": "",
+        "latitude": null,
+        "globalid": "{97E6CA26-2C7C-41FC-AB8F-F04B2C08EE74}",
+        "familyname": "Quercus virginiana-Oak, Live- Fagaceae",
+        "scientificname": "Quercus virginiana",
+        "private__pv__or_public__pb_": "PB",
+        "dia_": "41\"",
+        "photodocname": null,
+        "document_name": "2026-59 134 N 13th St",
+        "last_edited_user": "",
+        "photolink": null,
+        "commonname": "Oak, Live",
+        "id_resolution_number": "2026-59",
+        "f_": null,
+        "location_of_tree": "134 N 13th St",
+        "last_edited_date": 1777399452552,
+        "origional_id": "2026-59",
+        "created_date": 1777399452552,
+        "cir_": "128.74\"",
+        "objectid": 84,
+        "longitude": null
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.46328055899994,
+          30.66509781600007
+        ],
+        "crs": null
+      },
+      "id": 12,
+      "type": "Feature",
+      "properties": {
+        "document_link": "https://ncflpataxcards.s3.us-east-1.amazonaws.com/CityOfFernandinaBeach/HeritageTrees/2016-157%20Heritage%20Tree%20Designation%20for%20Trees%20on%20Public%20Right%20of%20Way%20on%20Alachua%20Street%20and%20North%206th%20Street.pdf",
+        "oid_": 12,
+        "town": "Fernandina Beach",
+        "created_user": "kmulcahy",
+        "latitude": 30.66509782,
+        "globalid": "{7B5258CF-0D30-411D-B2C4-F6F70EC3EE52}",
+        "familyname": "Fagus grandifolia-Beech, American-Fagaceae",
+        "scientificname": "Quercus virginiana",
+        "private__pv__or_public__pb_": "PV",
+        "dia_": "53\"\"",
+        "photodocname": null,
+        "document_name": "2017-213 Heritage Tree Designations Two Trees on Elm Street.pdf",
+        "last_edited_user": "kmulcahy",
+        "photolink": "https://ncflpataxcards.s3.us-east-1.amazonaws.com/CityOfFernandinaBeach/HeritageTreePhotos/2016-157-415AlachuaSt.pdf",
+        "commonname": "Oak, Live",
+        "id_resolution_number": "# 2017-213a",
+        "f_": null,
+        "location_of_tree": "311 Elm Street",
+        "last_edited_date": 1764107248000,
+        "origional_id": "# 2017-213",
+        "created_date": 1764107248000,
+        "cir_": "166\"\"",
+        "objectid": 12,
+        "longitude": -81.46328056
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.44557499299998,
+          30.672239895000075
+        ],
+        "crs": null
+      },
+      "id": 77,
+      "type": "Feature",
+      "properties": {
+        "document_link": null,
+        "oid_": null,
+        "town": "Fernandina Beach",
+        "created_user": "",
+        "latitude": null,
+        "globalid": "{A9D96662-8421-48D1-AE65-205ED0F9229A}",
+        "familyname": "Quercus virginiana-Oak, Live- Fagaceae",
+        "scientificname": "Quercus virginiana",
+        "private__pv__or_public__pb_": "PV",
+        "dia_": "50\"",
+        "photodocname": null,
+        "document_name": "2026-59 1717 Broome St",
+        "last_edited_user": "",
+        "photolink": null,
+        "commonname": "Oak, Live",
+        "id_resolution_number": "2026-59",
+        "f_": null,
+        "location_of_tree": "1717 Broome St",
+        "last_edited_date": 1777398572975,
+        "origional_id": "2026-59",
+        "created_date": 1777398572975,
+        "cir_": "157\"",
+        "objectid": 77,
+        "longitude": null
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.46109352599996,
+          30.660891080000056
+        ],
+        "crs": null
+      },
+      "id": 85,
+      "type": "Feature",
+      "properties": {
+        "document_link": null,
+        "oid_": null,
+        "town": "Fernandina Beach",
+        "created_user": "",
+        "latitude": null,
+        "globalid": "{4D2B2571-F065-446D-A16B-12F300809A3E}",
+        "familyname": "Quercus virginiana-Oak, Live- Fagaceae",
+        "scientificname": "Quercus virginiana",
+        "private__pv__or_public__pb_": "PB",
+        "dia_": "50\"",
+        "photodocname": null,
+        "document_name": "2026-59 720 S 7th St",
+        "last_edited_user": "",
+        "photolink": null,
+        "commonname": "Oak, Live",
+        "id_resolution_number": "2026-59",
+        "f_": null,
+        "location_of_tree": "720 S 7th St",
+        "last_edited_date": 1777399628770,
+        "origional_id": "2026-59",
+        "created_date": 1777399628770,
+        "cir_": "157\"",
+        "objectid": 85,
+        "longitude": null
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.45311111299998,
+          30.669465805000073
+        ],
+        "crs": null
+      },
+      "id": 51,
+      "type": "Feature",
+      "properties": {
+        "document_link": "https://ncflpataxcards.s3.us-east-1.amazonaws.com/CityOfFernandinaBeach/HeritageTrees/HeritageTrees2023-72DesignatesFourTreesOnPrivatePropertyasProtectedHeritageTrees.pdf",
+        "oid_": null,
+        "town": null,
+        "created_user": "kmulcahy",
+        "latitude": null,
+        "globalid": "{944A1592-E095-45CE-8904-CDBC93A52079}",
+        "familyname": "Quercus virginiana-Oak, Live- Fagaceae",
+        "scientificname": "Quercus virginiana",
+        "private__pv__or_public__pb_": "PB",
+        "dia_": "56\"",
+        "photodocname": null,
+        "document_name": "2023-72_20_S_10th_St_ROW",
+        "last_edited_user": "kmulcahy",
+        "photolink": null,
+        "commonname": "Oak, Live",
+        "id_resolution_number": "2023-72",
+        "f_": null,
+        "location_of_tree": "10 S 13th St ROW",
+        "last_edited_date": 1764107248000,
+        "origional_id": "2023-72 10 S 13th St",
+        "created_date": 1764107248000,
+        "cir_": "175\"",
+        "objectid": 51,
+        "longitude": null
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.44607406799997,
+          30.67659452600003
+        ],
+        "crs": null
+      },
+      "id": 78,
+      "type": "Feature",
+      "properties": {
+        "document_link": null,
+        "oid_": null,
+        "town": "Fernandina Beach",
+        "created_user": "",
+        "latitude": null,
+        "globalid": "{833E1665-6EA8-45E7-AE4A-2CDCA588B244}",
+        "familyname": "Quercus virginiana-Oak, Live- Fagaceae",
+        "scientificname": "Quercus virginiana",
+        "private__pv__or_public__pb_": "PB",
+        "dia_": "49\"",
+        "photodocname": null,
+        "document_name": "2026-59 6 Ilan Cir",
+        "last_edited_user": "",
+        "photolink": null,
+        "commonname": "Oak, Live",
+        "id_resolution_number": "2026-59",
+        "f_": null,
+        "location_of_tree": "6 Ilan Cir",
+        "last_edited_date": 1777398724780,
+        "origional_id": "2026-59",
+        "created_date": 1777398724780,
+        "cir_": "153.86\"",
+        "objectid": 78,
+        "longitude": null
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.46127128899997,
+          30.627397915000074
+        ],
+        "crs": null
+      },
+      "id": 86,
+      "type": "Feature",
+      "properties": {
+        "document_link": null,
+        "oid_": null,
+        "town": "Fernandina Beach",
+        "created_user": "",
+        "latitude": null,
+        "globalid": "{4B3636AE-CAC3-4F04-8EF9-B7CDFD8C3B8A}",
+        "familyname": "Quercus virginiana-Oak, Live- Fagaceae",
+        "scientificname": "Quercus virginiana",
+        "private__pv__or_public__pb_": "PV",
+        "dia_": "49\"",
+        "photodocname": null,
+        "document_name": "2026-59 645 Ferdinand Ct",
+        "last_edited_user": "",
+        "photolink": null,
+        "commonname": "Oak, Live",
+        "id_resolution_number": "2026-59",
+        "f_": null,
+        "location_of_tree": "645 Ferdinand Ct",
+        "last_edited_date": 1777399769048,
+        "origional_id": "2026-59",
+        "created_date": 1777399769048,
+        "cir_": "153.86\"",
+        "objectid": 86,
+        "longitude": null
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.44287982699996,
+          30.64143359600007
+        ],
+        "crs": null
+      },
+      "id": 39,
+      "type": "Feature",
+      "properties": {
+        "document_link": "https://ncflpataxcards.s3.us-east-1.amazonaws.com/CityOfFernandinaBeach/HeritageTrees/2023-13_AmeliaOaks_nearPond.pdf",
+        "oid_": 39,
+        "town": null,
+        "created_user": "kmulcahy",
+        "latitude": 30.6414336,
+        "globalid": "{F9FD163D-FE1D-4E0B-A45C-9FF67ABBDE2D}",
+        "familyname": "Fagus grandifolia-Beech, American-Fagaceae",
+        "scientificname": "Quercus virginiana",
+        "private__pv__or_public__pb_": "PV",
+        "dia_": "36\"",
+        "photodocname": null,
+        "document_name": "2023-13_AmeliaOaks_nearPond.pdf",
+        "last_edited_user": "kmulcahy",
+        "photolink": null,
+        "commonname": "Oak, Live",
+        "id_resolution_number": "2023-13",
+        "f_": null,
+        "location_of_tree": "Amelia Oaks Near Pond",
+        "last_edited_date": 1764107248000,
+        "origional_id": "2023-13 Amelia Oaks Near Pond",
+        "created_date": 1764107248000,
+        "cir_": "113\"",
+        "objectid": 39,
+        "longitude": -81.44287983
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.44128244899997,
+          30.66973975800005
+        ],
+        "crs": null
+      },
+      "id": 79,
+      "type": "Feature",
+      "properties": {
+        "document_link": null,
+        "oid_": null,
+        "town": "Fernandina Beach",
+        "created_user": "",
+        "latitude": null,
+        "globalid": "{77327641-6414-4D56-94B0-3944EB4F61A3}",
+        "familyname": "Quercus virginiana-Oak, Live- Fagaceae",
+        "scientificname": "Quercus virginiana",
+        "private__pv__or_public__pb_": "PB",
+        "dia_": "45\"",
+        "photodocname": null,
+        "document_name": "2026-59 19 N Wolff St",
+        "last_edited_user": "",
+        "photolink": null,
+        "commonname": "Oak, Live",
+        "id_resolution_number": "2026-59",
+        "f_": null,
+        "location_of_tree": "19 N Wolff St",
+        "last_edited_date": 1777398894313,
+        "origional_id": "2026-59",
+        "created_date": 1777398894313,
+        "cir_": "141.3\"",
+        "objectid": 79,
+        "longitude": null
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.45744097299996,
+          30.669194249000043
+        ],
+        "crs": null
+      },
+      "id": 1,
+      "type": "Feature",
+      "properties": {
+        "document_link": "https://ncflpataxcards.s3.us-east-1.amazonaws.com/CityOfFernandinaBeach/HeritageTrees/2006-216%20Designates%20Two%20Trees%20as%20Heritage%20Trees.pdf",
+        "oid_": 1,
+        "town": "Fernandina Beach",
+        "created_user": "kmulcahy",
+        "latitude": 30.66919425,
+        "globalid": "{CFDBBD6B-FFB1-4FB6-9B7B-51CD1BA793B7}",
+        "familyname": "Fagus grandifolia-Beech, American-Fagaceae",
+        "scientificname": "Quercus virginiana",
+        "private__pv__or_public__pb_": "PB",
+        "dia_": "97\"\"",
+        "photodocname": "2006-98WestofAshand8thStKatesTree.pdf",
+        "document_name": "2006-216SWcornerofAshand10thStreet-tree1.pdf",
+        "last_edited_user": "kmulcahy",
+        "photolink": "https://ncflpataxcards.s3.us-east-1.amazonaws.com/CityOfFernandinaBeach/HeritageTreePhotos/2006-216SWcornerofAshand10thSt.pdf",
+        "commonname": "Oak, Live",
+        "id_resolution_number": "# 2006-216",
+        "f_": null,
+        "location_of_tree": "SW Corner of 10th & Ash (Vernon Drake House)",
+        "last_edited_date": 1764107248000,
+        "origional_id": "# 2006-216",
+        "created_date": 1764107248000,
+        "cir_": "306\"\"",
+        "objectid": 1,
+        "longitude": -81.45744097
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.45991928799998,
+          30.673810460000027
+        ],
+        "crs": null
+      },
+      "id": 16,
+      "type": "Feature",
+      "properties": {
+        "document_link": "https://ncflpataxcards.s3.us-east-1.amazonaws.com/CityOfFernandinaBeach/HeritageTrees/2016-157%20Heritage%20Tree%20Designation%20for%20Trees%20on%20Public%20Right%20of%20Way%20on%20Alachua%20Street%20and%20North%206th%20Street.pdf",
+        "oid_": 16,
+        "town": "Fernandina Beach",
+        "created_user": "kmulcahy",
+        "latitude": 30.67381046,
+        "globalid": "{E798AA1D-D2EB-4C22-B063-A74A71131CB5}",
+        "familyname": "Fagus grandifolia-Beech, American-Fagaceae",
+        "scientificname": "Quercus virginiana",
+        "private__pv__or_public__pb_": "PB",
+        "dia_": "50\"\"",
+        "photodocname": null,
+        "document_name": "2016-157 Heritage Tree Designation for Trees on Public Right of Way on Alachua Street and North 6th Street.pdf",
+        "last_edited_user": "kmulcahy",
+        "photolink": "https://ncflpataxcards.s3.us-east-1.amazonaws.com/CityOfFernandinaBeach/HeritageTreePhotos/2016-157-217N6thSt.pdf",
+        "commonname": "Oak, Live",
+        "id_resolution_number": "#2016-0157d",
+        "f_": 599,
+        "location_of_tree": "E. Side of N. 6th Between Broome & Calhoun",
+        "last_edited_date": 1764107248000,
+        "origional_id": "#2016-0157",
+        "created_date": 1764107248000,
+        "cir_": "157\"\"",
+        "objectid": 16,
+        "longitude": -81.45991929
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.44097679999999,
+          30.668480697000064
+        ],
+        "crs": null
+      },
+      "id": 52,
+      "type": "Feature",
+      "properties": {
+        "document_link": "https://ncflpataxcards.s3.us-east-1.amazonaws.com/CityOfFernandinaBeach/HeritageTrees/HeritageTrees2023-72DesignatesFourTreesOnPrivatePropertyasProtectedHeritageTrees.pdf",
+        "oid_": null,
+        "town": null,
+        "created_user": "kmulcahy",
+        "latitude": null,
+        "globalid": "{D8AD0DAF-103A-42D6-8EF6-D642554E2D23}",
+        "familyname": "Quercus virginiana-Oak, Live- Fagaceae",
+        "scientificname": "Quercus virginiana",
+        "private__pv__or_public__pb_": "PV",
+        "dia_": "59\"",
+        "photodocname": null,
+        "document_name": "2023-72_2200_Atlantic_Ave",
+        "last_edited_user": "kmulcahy",
+        "photolink": null,
+        "commonname": "Oak, Live",
+        "id_resolution_number": "2023-72",
+        "f_": null,
+        "location_of_tree": "2200 Atlantic Ave",
+        "last_edited_date": 1764107248000,
+        "origional_id": "2023-72 2200 Atlantic Ave",
+        "created_date": 1764107248000,
+        "cir_": "185\"",
+        "objectid": 52,
+        "longitude": null
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.44519859699994,
+          30.67224804600005
+        ],
+        "crs": null
+      },
+      "id": 47,
+      "type": "Feature",
+      "properties": {
+        "document_link": "https://ncflpataxcards.s3.us-east-1.amazonaws.com/CityOfFernandinaBeach/HeritageTrees/HeritageTrees2023-72DesignatesFourTreesOnPrivatePropertyasProtectedHeritageTrees.pdf",
+        "oid_": null,
+        "town": "Fernandina Beach",
+        "created_user": "kmulcahy",
+        "latitude": null,
+        "globalid": "{F7606BF2-C489-4B92-890F-19595FF06A38}",
+        "familyname": "Quercus virginiana-Oak, Live- Fagaceae",
+        "scientificname": "Quercus virginiana",
+        "private__pv__or_public__pb_": "PV",
+        "dia_": "105'",
+        "photodocname": null,
+        "document_name": "2023-72_202_S_18th_St",
+        "last_edited_user": "kmulcahy",
+        "photolink": null,
+        "commonname": "Oak, Live",
+        "id_resolution_number": "2023-72",
+        "f_": null,
+        "location_of_tree": "202 N 18th St front corner",
+        "last_edited_date": 1764107248000,
+        "origional_id": "2023-72",
+        "created_date": 1764107248000,
+        "cir_": "329\"",
+        "objectid": 47,
+        "longitude": null
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.45808795199997,
+          30.672041930000034
+        ],
+        "crs": null
+      },
+      "id": 73,
+      "type": "Feature",
+      "properties": {
+        "document_link": "https://ncflpataxcards.s3.dualstack.us-east-1.amazonaws.com/CityOfFernandinaBeach/HeritageTrees/2025-75DesignatesSixTreesAsHeritageTrees.pdf",
+        "oid_": 73,
+        "town": "Fernandina Beach",
+        "created_user": "kmulcahy",
+        "latitude": null,
+        "globalid": "{F7762212-EDCA-429B-84B9-1132A5A4B9D3}",
+        "familyname": "Fagus grandifolia-Beech, American- Fagaceae",
+        "scientificname": "Quercus virginiana",
+        "private__pv__or_public__pb_": "PB",
+        "dia_": "64\"",
+        "photodocname": null,
+        "document_name": "2025-75_801_Alachua_St",
+        "last_edited_user": "kmulcahy",
+        "photolink": null,
+        "commonname": "Oak, Live",
+        "id_resolution_number": "2025-75",
+        "f_": null,
+        "location_of_tree": "Cemetery Gates 801 Alachua St",
+        "last_edited_date": 1764166630480,
+        "origional_id": "2025-75 801 Alachua St",
+        "created_date": 1764107248000,
+        "cir_": "200.96\"",
+        "objectid": 73,
+        "longitude": null
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.44109353799996,
+          30.669393358000036
+        ],
+        "crs": null
+      },
+      "id": 80,
+      "type": "Feature",
+      "properties": {
+        "document_link": null,
+        "oid_": null,
+        "town": "Fernandina Beach",
+        "created_user": "",
+        "latitude": null,
+        "globalid": "{E5C41C94-29AF-4D60-AF7D-F2089D1E6524}",
+        "familyname": "Quercus virginiana-Oak, Live- Fagaceae",
+        "scientificname": "Quercus virginiana",
+        "private__pv__or_public__pb_": "PB",
+        "dia_": "47\"",
+        "photodocname": null,
+        "document_name": "2025-59 Egans Creek Park Parking Lot",
+        "last_edited_user": "",
+        "photolink": null,
+        "commonname": "Oak, Live",
+        "id_resolution_number": "2026-59",
+        "f_": null,
+        "location_of_tree": "Egans CreekPark Parking Lot",
+        "last_edited_date": 1777399016785,
+        "origional_id": "2026-59",
+        "created_date": 1777399016785,
+        "cir_": "147.58\"",
+        "objectid": 80,
+        "longitude": null
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.44114751299998,
+          30.669368360000078
+        ],
+        "crs": null
+      },
+      "id": 81,
+      "type": "Feature",
+      "properties": {
+        "document_link": null,
+        "oid_": null,
+        "town": "Fernandina Beach",
+        "created_user": "",
+        "latitude": null,
+        "globalid": "{9F5BAE9E-3D9D-4C59-8CF2-44651EB9171F}",
+        "familyname": "Quercus virginiana-Oak, Live- Fagaceae",
+        "scientificname": "Quercus virginiana",
+        "private__pv__or_public__pb_": "PB",
+        "dia_": "45\"",
+        "photodocname": null,
+        "document_name": "2026-59 Egans Creek Park Parking Lot",
+        "last_edited_user": "",
+        "photolink": null,
+        "commonname": "Oak, Live",
+        "id_resolution_number": "2026-59",
+        "f_": null,
+        "location_of_tree": "Egans Creek Park Parking Lot",
+        "last_edited_date": 1777399108479,
+        "origional_id": "2026-59",
+        "created_date": 1777399108479,
+        "cir_": "141.3\"",
+        "objectid": 81,
+        "longitude": null
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.45879667999998,
+          30.670133883000062
+        ],
+        "crs": null
+      },
+      "id": 3,
+      "type": "Feature",
+      "properties": {
+        "document_link": "https://ncflpataxcards.s3.us-east-1.amazonaws.com/CityOfFernandinaBeach/HeritageTrees/2017-213%20Heritage%20Tree%20Designations%20Two%20Trees%20on%20Elm%20Street.pdf",
+        "oid_": 3,
+        "town": "Fernandina Beach",
+        "created_user": "kmulcahy",
+        "latitude": 30.67013388,
+        "globalid": "{39EFB5B2-A8E0-416D-B406-86F4062AA572}",
+        "familyname": "Fagus grandifolia-Beech, American-Fagaceae",
+        "scientificname": "Quercus virginiana",
+        "private__pv__or_public__pb_": "PB",
+        "dia_": "75\"\"",
+        "photodocname": "2006-216SWcornerofAshand10thSt.pdf",
+        "document_name": "2017-212 Heritage Tree Designation for Nine Trees.pdf",
+        "last_edited_user": "kmulcahy",
+        "photolink": null,
+        "commonname": "Oak, Live",
+        "id_resolution_number": "#2017-212a",
+        "f_": 305,
+        "location_of_tree": "Freds Grocery Store (NW corner by the Hoyt House)",
+        "last_edited_date": 1764107248000,
+        "origional_id": "#2017-212",
+        "created_date": 1764107248000,
+        "cir_": "234\"\"",
+        "objectid": 3,
+        "longitude": -81.45879668
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.45850151799993,
+          30.669677093000075
+        ],
+        "crs": null
+      },
+      "id": 4,
+      "type": "Feature",
+      "properties": {
+        "document_link": "https://ncflpataxcards.s3.us-east-1.amazonaws.com/CityOfFernandinaBeach/HeritageTrees/2016-158%20Heritage%20Tree%20Designation%20for%20Downtown%20Area%20Private%20Properties.pdf",
+        "oid_": 4,
+        "town": "Fernandina Beach",
+        "created_user": "kmulcahy",
+        "latitude": 30.66967709,
+        "globalid": "{ACCA4098-F0CE-48B1-874A-4F59B9095594}",
+        "familyname": "Fagus grandifolia-Beech, American-Fagaceae",
+        "scientificname": "Quercus virginiana",
+        "private__pv__or_public__pb_": "PV",
+        "dia_": "74\"\"",
+        "photodocname": null,
+        "document_name": "2016-158 Heritage Tree Designation for Downtown Area Private Properties.pdf",
+        "last_edited_user": "kmulcahy",
+        "photolink": "https://ncflpataxcards.s3.us-east-1.amazonaws.com/CityOfFernandinaBeach/HeritageTreePhotos/2016-158-S8thStandAsh-FredsDeptStore.pdf",
+        "commonname": "Oak, Live",
+        "id_resolution_number": "# 2016-158a",
+        "f_": null,
+        "location_of_tree": "Freds Parking Lot ",
+        "last_edited_date": 1764107248000,
+        "origional_id": "# 2016-158",
+        "created_date": 1764107248000,
+        "cir_": "234\"\"",
+        "objectid": 4,
+        "longitude": -81.45850152
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.45861074799996,
+          30.669114339000032
+        ],
+        "crs": null
+      },
+      "id": 65,
+      "type": "Feature",
+      "properties": {
+        "document_link": "https://ncflpataxcards.s3.dualstack.us-east-1.amazonaws.com/CityOfFernandinaBeach/HeritageTrees/2023-72DesignatesTenTreesasProtectedHeritageTrees.pdf",
+        "oid_": null,
+        "town": null,
+        "created_user": "kmulcahy",
+        "latitude": null,
+        "globalid": "{8625B437-9660-4D07-AE40-48E45B9E657B}",
+        "familyname": "Quercus virginiana-Oak, Live- Fagaceae",
+        "scientificname": "Quercus virginiana",
+        "private__pv__or_public__pb_": "PV",
+        "dia_": "67\"",
+        "photodocname": null,
+        "document_name": "2024-68_03_S_9_St_(Williams_House)",
+        "last_edited_user": "kmulcahy",
+        "photolink": null,
+        "commonname": "Oak, Live",
+        "id_resolution_number": "2024-68",
+        "f_": null,
+        "location_of_tree": "103 S 9th St (Williams House)",
+        "last_edited_date": 1764107248000,
+        "origional_id": "2024-68 103 S 9th St",
+        "created_date": 1764107248000,
+        "cir_": "210.38\"",
+        "objectid": 65,
+        "longitude": null
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.45983010499998,
+          30.671303541000043
+        ],
+        "crs": null
+      },
+      "id": 5,
+      "type": "Feature",
+      "properties": {
+        "document_link": "https://ncflpataxcards.s3.us-east-1.amazonaws.com/CityOfFernandinaBeach/HeritageTrees/2016-158%20Heritage%20Tree%20Designation%20for%20Downtown%20Area%20Private%20Properties.pdf",
+        "oid_": 5,
+        "town": "Fernandina Beach",
+        "created_user": "kmulcahy",
+        "latitude": 30.67130354,
+        "globalid": "{8D25930E-B777-4132-93CF-7E981EBF9795}",
+        "familyname": "Fagus grandifolia-Beech, American-Fagaceae",
+        "scientificname": "Quercus virginiana",
+        "private__pv__or_public__pb_": "PV",
+        "dia_": "72\"\"",
+        "photodocname": null,
+        "document_name": "2016-158 Heritage Tree Designation for Downtown Area Private Properties.pdf",
+        "last_edited_user": "kmulcahy",
+        "photolink": "https://ncflpataxcards.s3.us-east-1.amazonaws.com/CityOfFernandinaBeach/HeritageTreePhotos/2016-158-Acrossfrom614BroomeSt.pdf",
+        "commonname": "Oak, Live",
+        "id_resolution_number": "# 2016-158b",
+        "f_": null,
+        "location_of_tree": "Centre at Memorial United Methodist Church",
+        "last_edited_date": 1764107248000,
+        "origional_id": "# 2016-158",
+        "created_date": 1764107248000,
+        "cir_": "226\"\"",
+        "objectid": 5,
+        "longitude": -81.4598301
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.46206259699994,
+          30.666248731000053
+        ],
+        "crs": null
+      },
+      "id": 6,
+      "type": "Feature",
+      "properties": {
+        "document_link": "https://ncflpataxcards.s3.us-east-1.amazonaws.com/CityOfFernandinaBeach/HeritageTrees/2017-213%20Heritage%20Tree%20Designations%20Two%20Trees%20on%20Elm%20Street.pdf",
+        "oid_": 6,
+        "town": "Fernandina Beach",
+        "created_user": "kmulcahy",
+        "latitude": 30.66624873,
+        "globalid": "{442B5B8E-9763-4E9A-B030-7B33DCF796E3}",
+        "familyname": "Fagus grandifolia-Beech, American-Fagaceae",
+        "scientificname": "Quercus virginiana",
+        "private__pv__or_public__pb_": "PB",
+        "dia_": "64\"\"",
+        "photodocname": null,
+        "document_name": "2017-212 Heritage Tree Designation for Nine Trees.pdf",
+        "last_edited_user": "kmulcahy",
+        "photolink": null,
+        "commonname": "Oak, Live",
+        "id_resolution_number": "#2017-212b",
+        "f_": 1043,
+        "location_of_tree": "W. Side of Date & Cedar (Julies)",
+        "last_edited_date": 1764107248000,
+        "origional_id": "#2017-212",
+        "created_date": 1764107248000,
+        "cir_": "201\"\"",
+        "objectid": 6,
+        "longitude": -81.4620626
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.45939546799997,
+          30.67106659500007
+        ],
+        "crs": null
+      },
+      "id": 7,
+      "type": "Feature",
+      "properties": {
+        "document_link": "https://ncflpataxcards.s3.us-east-1.amazonaws.com/CityOfFernandinaBeach/HeritageTrees/2016-158%20Heritage%20Tree%20Designation%20for%20Downtown%20Area%20Private%20Properties.pdf",
+        "oid_": 7,
+        "town": "Fernandina Beach",
+        "created_user": "kmulcahy",
+        "latitude": 30.6710666,
+        "globalid": "{E6BBA37C-2930-4D0E-B3C4-FCFCDE6842D9}",
+        "familyname": "Fagus grandifolia-Beech, American-Fagaceae",
+        "scientificname": "Quercus virginiana",
+        "private__pv__or_public__pb_": "PV",
+        "dia_": "64\"\"",
+        "photodocname": null,
+        "document_name": "2016-158 Heritage Tree Designation for Downtown Area Private Properties.pdf",
+        "last_edited_user": "kmulcahy",
+        "photolink": "https://ncflpataxcards.s3.us-east-1.amazonaws.com/CityOfFernandinaBeach/HeritageTreePhotos/2016-158-601CentreSt-MemorialUnitedMethodistChurch.pdf",
+        "commonname": "Oak, Live",
+        "id_resolution_number": "# 2016-158c",
+        "f_": null,
+        "location_of_tree": "Centre at Citizens State Bank",
+        "last_edited_date": 1764107248000,
+        "origional_id": "# 2016-158",
+        "created_date": 1764107248000,
+        "cir_": "201\"\"",
+        "objectid": 7,
+        "longitude": -81.45939547
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.46284860399999,
+          30.67030528400005
+        ],
+        "crs": null
+      },
+      "id": 9,
+      "type": "Feature",
+      "properties": {
+        "document_link": "https://ncflpataxcards.s3.us-east-1.amazonaws.com/CityOfFernandinaBeach/HeritageTrees/2016-158%20Heritage%20Tree%20Designation%20for%20Downtown%20Area%20Private%20Properties.pdf",
+        "oid_": 9,
+        "town": "Fernandina Beach",
+        "created_user": "kmulcahy",
+        "latitude": 30.67030528,
+        "globalid": "{A71B23B2-21F9-4203-A6A8-D4A108356BE8}",
+        "familyname": "Fagus grandifolia-Beech, American-Fagaceae",
+        "scientificname": "Quercus virginiana",
+        "private__pv__or_public__pb_": "PV",
+        "dia_": "57\"\"",
+        "photodocname": null,
+        "document_name": "2016-158 Heritage Tree Designation for Downtown Area Private Properties.pdf",
+        "last_edited_user": "kmulcahy",
+        "photolink": "https://ncflpataxcards.s3.us-east-1.amazonaws.com/CityOfFernandinaBeach/HeritageTreePhotos/2016-158-601CentreSt-MemorialUnitedMethodistChurch.pdf",
+        "commonname": "Oak, Live",
+        "id_resolution_number": "# 2016-158d",
+        "f_": null,
+        "location_of_tree": "S. 3rd Between Centre & Ash @ Florida House Inn",
+        "last_edited_date": 1764107248000,
+        "origional_id": "# 2016-158",
+        "created_date": 1764107248000,
+        "cir_": "179\"\"",
+        "objectid": 9,
+        "longitude": -81.4628486
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.46305245199994,
+          30.66588194800005
+        ],
+        "crs": null
+      },
+      "id": 10,
+      "type": "Feature",
+      "properties": {
+        "document_link": "https://ncflpataxcards.s3.us-east-1.amazonaws.com/CityOfFernandinaBeach/HeritageTrees/2016-158%20Heritage%20Tree%20Designation%20for%20Downtown%20Area%20Private%20Properties.pdf",
+        "oid_": 10,
+        "town": "Fernandina Beach",
+        "created_user": "kmulcahy",
+        "latitude": 30.66588195,
+        "globalid": "{6696663B-458F-4FD9-8F6E-6040772256EF}",
+        "familyname": "Fagus grandifolia-Beech, American-Fagaceae",
+        "scientificname": "Quercus virginiana",
+        "private__pv__or_public__pb_": "PV",
+        "dia_": "56\"\"",
+        "photodocname": null,
+        "document_name": "2016-158 Heritage Tree Designation for Downtown Area Private Properties.pdf",
+        "last_edited_user": "kmulcahy",
+        "photolink": "https://ncflpataxcards.s3.us-east-1.amazonaws.com/CityOfFernandinaBeach/HeritageTreePhotos/2016-158-426S4thSt-ActualaddressIs409S4thSt.pdf",
+        "commonname": "Oak, Live",
+        "id_resolution_number": "# 2016-158e",
+        "f_": null,
+        "location_of_tree": "409 S. 4th Street",
+        "last_edited_date": 1764107248000,
+        "origional_id": "# 2016-158",
+        "created_date": 1764107248000,
+        "cir_": "175\"\"",
+        "objectid": 10,
+        "longitude": -81.46305245
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.45990681599994,
+          30.67462506700008
+        ],
+        "crs": null
+      },
+      "id": 11,
+      "type": "Feature",
+      "properties": {
+        "document_link": "https://ncflpataxcards.s3.us-east-1.amazonaws.com/CityOfFernandinaBeach/HeritageTrees/2016-157%20Heritage%20Tree%20Designation%20for%20Trees%20on%20Public%20Right%20of%20Way%20on%20Alachua%20Street%20and%20North%206th%20Street.pdf",
+        "oid_": 11,
+        "town": "Fernandina Beach",
+        "created_user": "kmulcahy",
+        "latitude": 30.67462507,
+        "globalid": "{837A24CA-4ABD-44AC-AA21-4E55F7B15C5C}",
+        "familyname": "Fagus grandifolia-Beech, American-Fagaceae",
+        "scientificname": "Quercus virginiana",
+        "private__pv__or_public__pb_": "PB",
+        "dia_": "56\"\"",
+        "photodocname": null,
+        "document_name": "2016-157 Heritage Tree Designation for Trees on Public Right of Way on Alachua Street and North 6th Street.pdf",
+        "last_edited_user": "kmulcahy",
+        "photolink": "https://ncflpataxcards.s3.us-east-1.amazonaws.com/CityOfFernandinaBeach/HeritageTreePhotos/2016-157-212N6thSt.pdf",
+        "commonname": "Oak, Live",
+        "id_resolution_number": "#2016-0157b",
+        "f_": 607,
+        "location_of_tree": "E. Side of N. 6th Between Broome & Calhoun",
+        "last_edited_date": 1764107248000,
+        "origional_id": "#2016-0157",
+        "created_date": 1764107248000,
+        "cir_": "175\"\"",
+        "objectid": 11,
+        "longitude": -81.45990682
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.45999908399995,
+          30.673889160000044
+        ],
+        "crs": null
+      },
+      "id": 14,
+      "type": "Feature",
+      "properties": {
+        "document_link": "https://ncflpataxcards.s3.us-east-1.amazonaws.com/CityOfFernandinaBeach/HeritageTrees/2016-157%20Heritage%20Tree%20Designation%20for%20Trees%20on%20Public%20Right%20of%20Way%20on%20Alachua%20Street%20and%20North%206th%20Street.pdf",
+        "oid_": 14,
+        "town": "Fernandina Beach",
+        "created_user": "kmulcahy",
+        "latitude": 30.67388916,
+        "globalid": "{6E31C2B3-1168-4113-A06A-02CC47173591}",
+        "familyname": "Fagus grandifolia-Beech, American-Fagaceae",
+        "scientificname": "Quercus virginiana",
+        "private__pv__or_public__pb_": "PB",
+        "dia_": "52\"\"",
+        "photodocname": null,
+        "document_name": "2016-157 Heritage Tree Designation for Trees on Public Right of Way on Alachua Street and North 6th Street.pdf",
+        "last_edited_user": "kmulcahy",
+        "photolink": "https://ncflpataxcards.s3.us-east-1.amazonaws.com/CityOfFernandinaBeach/HeritageTreePhotos/2016-157-213N6thSt.pdf",
+        "commonname": "Oak, Live",
+        "id_resolution_number": "#2016-0157c",
+        "f_": 628,
+        "location_of_tree": "W. Side of N 6th Between Broome & Calhoun",
+        "last_edited_date": 1764107248000,
+        "origional_id": "#2016-0157",
+        "created_date": 1764107248000,
+        "cir_": "163\"\"",
+        "objectid": 14,
+        "longitude": -81.45999908
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.45811259799996,
+          30.670562036000035
+        ],
+        "crs": null
+      },
+      "id": 15,
+      "type": "Feature",
+      "properties": {
+        "document_link": "https://ncflpataxcards.s3.us-east-1.amazonaws.com/CityOfFernandinaBeach/HeritageTrees/2017-212%20Heritage%20Tree%20Designation%20for%20Nine%20Trees.pdf",
+        "oid_": 15,
+        "town": "Fernandina Beach",
+        "created_user": "kmulcahy",
+        "latitude": 30.67056204,
+        "globalid": "{76EE69C9-3D44-42F9-B26C-0454CD9C94CA}",
+        "familyname": "Fagus grandifolia-Beech, American-Fagaceae",
+        "scientificname": "Quercus virginiana",
+        "private__pv__or_public__pb_": "PB",
+        "dia_": "50\"\"",
+        "photodocname": null,
+        "document_name": "2017-212 Heritage Tree Designation for Nine Trees.pdf",
+        "last_edited_user": "kmulcahy",
+        "photolink": "https://ncflpataxcards.s3.us-east-1.amazonaws.com/CityOfFernandinaBeach/HeritageTreePhotos/2017-212-816AtlanticAve.pdf",
+        "commonname": "Oak, Live",
+        "id_resolution_number": "#2017-212c",
+        "f_": 1207,
+        "location_of_tree": "816 Atlantic Ave",
+        "last_edited_date": 1764107248000,
+        "origional_id": "#2017-212",
+        "created_date": 1764107248000,
+        "cir_": "157\"\"",
+        "objectid": 15,
+        "longitude": -81.4581126
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.45207107099998,
+          30.60874319100003
+        ],
+        "crs": null
+      },
+      "id": 13,
+      "type": "Feature",
+      "properties": {
+        "document_link": "https://ncflpataxcards.s3.us-east-1.amazonaws.com/CityOfFernandinaBeach/HeritageTrees/2014-172%20Heritage%20Tree%20Designation%20of%20Live%20Oak%20at%20Via%20Del%20Rey.pdf",
+        "oid_": 13,
+        "town": "Fernandina Beach",
+        "created_user": "kmulcahy",
+        "latitude": 30.60874319,
+        "globalid": "{CE5623DA-75D7-48F6-8420-546EC336BD7A}",
+        "familyname": "Fagus grandifolia-Beech, American-Fagaceae",
+        "scientificname": "Quercus virginiana",
+        "private__pv__or_public__pb_": "PB",
+        "dia_": "52\"\"",
+        "photodocname": null,
+        "document_name": "2014-172 Heritage Tree Designation of Live Oak at Via Del Rey.pdf",
+        "last_edited_user": "kmulcahy",
+        "photolink": "https://ncflpataxcards.s3.us-east-1.amazonaws.com/CityOfFernandinaBeach/HeritageTreePhotos/2014-172ViaDelReyandAmeliaPkwy.pdf",
+        "commonname": "Oak, Live",
+        "id_resolution_number": "# 2014-172",
+        "f_": null,
+        "location_of_tree": "AIP & Via Del Ray Rd. ROW",
+        "last_edited_date": 1764107248000,
+        "origional_id": "# 2014-172",
+        "created_date": 1764107248000,
+        "cir_": "163\"\"",
+        "objectid": 13,
+        "longitude": -81.45207107
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.45996248799997,
+          30.674121230000026
+        ],
+        "crs": null
+      },
+      "id": 17,
+      "type": "Feature",
+      "properties": {
+        "document_link": "https://ncflpataxcards.s3.us-east-1.amazonaws.com/CityOfFernandinaBeach/HeritageTrees/2016-157%20Heritage%20Tree%20Designation%20for%20Trees%20on%20Public%20Right%20of%20Way%20on%20Alachua%20Street%20and%20North%206th%20Street.pdf",
+        "oid_": 17,
+        "town": "Fernandina Beach",
+        "created_user": "kmulcahy",
+        "latitude": 30.67412123,
+        "globalid": "{49612043-2C16-4215-B7AC-DC23B9FE9216}",
+        "familyname": "Fagus grandifolia-Beech, American-Fagaceae",
+        "scientificname": "Quercus virginiana",
+        "private__pv__or_public__pb_": "PB",
+        "dia_": "49\"\"",
+        "photodocname": null,
+        "document_name": "2016-157 Heritage Tree Designation for Trees on Public Right of Way on Alachua Street and North 6th Street.pdf",
+        "last_edited_user": "kmulcahy",
+        "photolink": "https://ncflpataxcards.s3.us-east-1.amazonaws.com/CityOfFernandinaBeach/HeritageTreePhotos/2016-157-232N6thSt.pdf",
+        "commonname": "Oak, Live",
+        "id_resolution_number": "#2016-0157e",
+        "f_": 627,
+        "location_of_tree": "W. Side of N 6th Between Broome & Calhoun",
+        "last_edited_date": 1764107248000,
+        "origional_id": "#2016-0157",
+        "created_date": 1764107248000,
+        "cir_": "153\"\"",
+        "objectid": 17,
+        "longitude": -81.45996249
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.45815980499998,
+          30.668886065000038
+        ],
+        "crs": null
+      },
+      "id": 18,
+      "type": "Feature",
+      "properties": {
+        "document_link": "https://ncflpataxcards.s3.us-east-1.amazonaws.com/CityOfFernandinaBeach/HeritageTrees/2017-212%20Heritage%20Tree%20Designation%20for%20Nine%20Trees.pdf",
+        "oid_": 18,
+        "town": "Fernandina Beach",
+        "created_user": "kmulcahy",
+        "latitude": 30.66888607,
+        "globalid": "{A9600CDA-C80C-4FF1-80EA-7A586978D1E3}",
+        "familyname": "Fagus grandifolia-Beech, American-Fagaceae",
+        "scientificname": "Quercus virginiana",
+        "private__pv__or_public__pb_": "PB",
+        "dia_": "48\"\"",
+        "photodocname": null,
+        "document_name": "2017-212 Heritage Tree Designation for Nine Trees.pdf",
+        "last_edited_user": "kmulcahy",
+        "photolink": "https://ncflpataxcards.s3.us-east-1.amazonaws.com/CityOfFernandinaBeach/HeritageTreePhotos/2017-212-112S9thSt.pdf",
+        "commonname": "Oak, Live",
+        "id_resolution_number": "#2017-212d",
+        "f_": 1348,
+        "location_of_tree": "112 S. 9th Street",
+        "last_edited_date": 1764107248000,
+        "origional_id": "#2017-212",
+        "created_date": 1764107248000,
+        "cir_": "151\"\"",
+        "objectid": 18,
+        "longitude": -81.4581598
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.45943236399995,
+          30.673526265000078
+        ],
+        "crs": null
+      },
+      "id": 21,
+      "type": "Feature",
+      "properties": {
+        "document_link": "https://ncflpataxcards.s3.us-east-1.amazonaws.com/CityOfFernandinaBeach/HeritageTrees/2016-158%20Heritage%20Tree%20Designation%20for%20Downtown%20Area%20Private%20Properties.pdf",
+        "oid_": 21,
+        "town": "Fernandina Beach",
+        "created_user": "kmulcahy",
+        "latitude": 30.67352627,
+        "globalid": "{F9A5CD24-D20E-4556-9748-F887470D0978}",
+        "familyname": "Fagus grandifolia-Beech, American-Fagaceae",
+        "scientificname": "Quercus virginiana",
+        "private__pv__or_public__pb_": "PV",
+        "dia_": "45\"\"",
+        "photodocname": null,
+        "document_name": "2016-158 Across from 614 Broome",
+        "last_edited_user": "kmulcahy",
+        "photolink": "https://ncflpataxcards.s3.us-east-1.amazonaws.com/CityOfFernandinaBeach/HeritageTreePhotos/2016-158-22S3rdSt-FloridaHouseInncourtyard.pdf",
+        "commonname": "Oak, Live",
+        "id_resolution_number": "# 2016-158f",
+        "f_": null,
+        "location_of_tree": "Broome St. Between N. 6th & 7th",
+        "last_edited_date": 1764107248000,
+        "origional_id": "# 2016-158",
+        "created_date": 1764107248000,
+        "cir_": "141\"\"",
+        "objectid": 21,
+        "longitude": -81.45943236
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.46102982799994,
+          30.67204219300004
+        ],
+        "crs": null
+      },
+      "id": 22,
+      "type": "Feature",
+      "properties": {
+        "document_link": "https://ncflpataxcards.s3.us-east-1.amazonaws.com/CityOfFernandinaBeach/HeritageTrees/2017-212%20Heritage%20Tree%20Designation%20for%20Nine%20Trees.pdf",
+        "oid_": 22,
+        "town": "Fernandina Beach",
+        "created_user": "kmulcahy",
+        "latitude": 30.67204219,
+        "globalid": "{31C98EAB-0F38-4560-8860-DFCF3DD81C56}",
+        "familyname": "Fagus grandifolia-Beech, American-Fagaceae",
+        "scientificname": "Quercus virginiana",
+        "private__pv__or_public__pb_": "PB",
+        "dia_": "45\"\"",
+        "photodocname": null,
+        "document_name": "2017-212 Heritage Tree Designation for Downtown Area Private Properties.pdf",
+        "last_edited_user": "kmulcahy",
+        "photolink": "https://ncflpataxcards.s3.us-east-1.amazonaws.com/CityOfFernandinaBeach/HeritageTreePhotos/2017-212-810AtlanticAve.pdf",
+        "commonname": "Oak, Live",
+        "id_resolution_number": "#2017-212e",
+        "f_": 223,
+        "location_of_tree": "28 N. 5th Street - Across from Celebration Church",
+        "last_edited_date": 1764107248000,
+        "origional_id": "#2017-212",
+        "created_date": 1764107248000,
+        "cir_": "141\"\"",
+        "objectid": 22,
+        "longitude": -81.46102983
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.45034039099994,
+          30.663869138000052
+        ],
+        "crs": null
+      },
+      "id": 58,
+      "type": "Feature",
+      "properties": {
+        "document_link": "https://ncflpataxcards.s3.dualstack.us-east-1.amazonaws.com/CityOfFernandinaBeach/HeritageTrees/2023-72DesignatesTenTreesasProtectedHeritageTrees.pdf",
+        "oid_": null,
+        "town": null,
+        "created_user": "kmulcahy",
+        "latitude": null,
+        "globalid": "{FFC4D7A4-F9BC-44C3-9237-6481D9F14300}",
+        "familyname": "Quercus virginiana-Oak, Live- Fagaceae",
+        "scientificname": "Quercus virginiana",
+        "private__pv__or_public__pb_": "PV",
+        "dia_": "51\"",
+        "photodocname": null,
+        "document_name": "2024-68_404_S_15_ST",
+        "last_edited_user": "kmulcahy",
+        "photolink": null,
+        "commonname": "Oak, Live",
+        "id_resolution_number": "2024-68",
+        "f_": null,
+        "location_of_tree": "404 S 15th St in rear yard",
+        "last_edited_date": 1764107248000,
+        "origional_id": "2024-68 404 S 15th St",
+        "created_date": 1764107248000,
+        "cir_": "160.14\"",
+        "objectid": 58,
+        "longitude": null
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.45207577999997,
+          30.672667913000055
+        ],
+        "crs": null
+      },
+      "id": 48,
+      "type": "Feature",
+      "properties": {
+        "document_link": "https://ncflpataxcards.s3.us-east-1.amazonaws.com/CityOfFernandinaBeach/HeritageTrees/HeritageTrees2023-72DesignatesFourTreesOnPrivatePropertyasProtectedHeritageTrees.pdf",
+        "oid_": null,
+        "town": null,
+        "created_user": "kmulcahy",
+        "latitude": null,
+        "globalid": "{999DACED-99C9-4EE8-B994-E1F45C8407B1}",
+        "familyname": "Quercus virginiana-Oak, Live- Fagaceae",
+        "scientificname": "Quercus virginiana",
+        "private__pv__or_public__pb_": "PV",
+        "dia_": "39\"",
+        "photodocname": null,
+        "document_name": "2023-72_1315_Broome_St_west_",
+        "last_edited_user": "kmulcahy",
+        "photolink": null,
+        "commonname": "Oak, Live",
+        "id_resolution_number": "2023-72",
+        "f_": null,
+        "location_of_tree": "1315 Broome St (west side)",
+        "last_edited_date": 1764107248000,
+        "origional_id": "2023-72 1315 Broome St west side",
+        "created_date": 1764107248000,
+        "cir_": "122\"",
+        "objectid": 48,
+        "longitude": null
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.45557582399994,
+          30.669738709000057
+        ],
+        "crs": null
+      },
+      "id": 31,
+      "type": "Feature",
+      "properties": {
+        "document_link": "https://ncflpataxcards.s3.us-east-1.amazonaws.com/CityOfFernandinaBeach/HeritageTrees/2017-22%20Heritage%20Tree%20Designation%20Aspire%20at%20Amelia%20Assisted%20Living%20Facility.pdf",
+        "oid_": 31,
+        "town": "Fernandina Beach",
+        "created_user": "kmulcahy",
+        "latitude": 30.66973871,
+        "globalid": "{611E907E-5EF9-4A2E-887C-CEE65EAE2C3A}",
+        "familyname": "Fagus grandifolia-Beech, American-Fagaceae",
+        "scientificname": "Quercus virginiana",
+        "private__pv__or_public__pb_": "PB",
+        "dia_": "36\"\" ",
+        "photodocname": null,
+        "document_name": "2021-112 Central Park No of Ballfield",
+        "last_edited_user": "kmulcahy",
+        "photolink": null,
+        "commonname": "Oak, Live",
+        "id_resolution_number": " # 1594",
+        "f_": 1594,
+        "location_of_tree": "Central park - North of Ballfield",
+        "last_edited_date": 1764107248000,
+        "origional_id": " # 1594",
+        "created_date": 1764107248000,
+        "cir_": "113\"\"",
+        "objectid": 31,
+        "longitude": -81.45557582
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.44283154699997,
+          30.64231975000007
+        ],
+        "crs": null
+      },
+      "id": 40,
+      "type": "Feature",
+      "properties": {
+        "document_link": "https://ncflpataxcards.s3.us-east-1.amazonaws.com/CityOfFernandinaBeach/HeritageTrees/2023-13_AmeliaOaks_island_closest_to_1914_Amelia_oaks_Drive.pdf",
+        "oid_": 40,
+        "town": null,
+        "created_user": "kmulcahy",
+        "latitude": 30.64231975,
+        "globalid": "{0CD7EAEB-B0FD-4875-BA87-57D6B1180A3E}",
+        "familyname": "Fagus grandifolia-Beech, American-Fagaceae",
+        "scientificname": "Quercus virginiana",
+        "private__pv__or_public__pb_": "PV",
+        "dia_": "45\"",
+        "photodocname": null,
+        "document_name": "2023-13_AmeliaOaks_island_closest_to_1914_Amelia_oaks_Drive.pdf",
+        "last_edited_user": "kmulcahy",
+        "photolink": null,
+        "commonname": "Oak, Live",
+        "id_resolution_number": "2023-13",
+        "f_": null,
+        "location_of_tree": "Rd Island in front of 1914 Amelia Oaks Dr",
+        "last_edited_date": 1764107248000,
+        "origional_id": "2023-13 1914 Amelia Oaks Dr",
+        "created_date": 1764107248000,
+        "cir_": "141\"",
+        "objectid": 40,
+        "longitude": -81.44283155
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.45770037299997,
+          30.66921203100003
+        ],
+        "crs": null
+      },
+      "id": 46,
+      "type": "Feature",
+      "properties": {
+        "document_link": "https://ncflpataxcards.s3.us-east-1.amazonaws.com/CityOfFernandinaBeach/HeritageTrees/2006-216%20Designates%20Two%20Trees%20as%20Heritage%20Trees.pdf",
+        "oid_": 46,
+        "town": null,
+        "created_user": "kmulcahy",
+        "latitude": null,
+        "globalid": "{6F4A88A4-869C-4A11-82D7-A70BB7DFDE95}",
+        "familyname": "Fagus grandifolia-Beech, American-Fagaceae",
+        "scientificname": "Quercus virginiana",
+        "private__pv__or_public__pb_": "PB",
+        "dia_": "78\"",
+        "photodocname": null,
+        "document_name": "2006-216 tree 2",
+        "last_edited_user": "kmulcahy",
+        "photolink": null,
+        "commonname": "Oak, Live",
+        "id_resolution_number": "# 2006-216",
+        "f_": null,
+        "location_of_tree": "Ash St, 85 feet west of S 10th St",
+        "last_edited_date": 1764107248000,
+        "origional_id": "# 2006-216",
+        "created_date": 1764107248000,
+        "cir_": "245\"",
+        "objectid": 46,
+        "longitude": null
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.44888510099997,
+          30.606155082000043
+        ],
+        "crs": null
+      },
+      "id": 34,
+      "type": "Feature",
+      "properties": {
+        "document_link": "https://ncflpataxcards.s3.us-east-1.amazonaws.com/CityOfFernandinaBeach/HeritageTrees/2022-106_2428LosRoblesDr_ROW_2189_001.pdf",
+        "oid_": 34,
+        "town": null,
+        "created_user": "kmulcahy",
+        "latitude": 30.60615508,
+        "globalid": "{A50064C2-1223-4A0F-AB38-73EF8C0411EE}",
+        "familyname": "Fagus grandifolia-Beech, American-Fagaceae",
+        "scientificname": "Quercus virginiana",
+        "private__pv__or_public__pb_": "PB",
+        "dia_": "38\"",
+        "photodocname": null,
+        "document_name": "2022-106 - 2428 Los Robles Dr",
+        "last_edited_user": "kmulcahy",
+        "photolink": null,
+        "commonname": "Oak, Live",
+        "id_resolution_number": "2022-106",
+        "f_": null,
+        "location_of_tree": "In front of 2428 Los Robles Dr.",
+        "last_edited_date": 1764107248000,
+        "origional_id": "2022-106",
+        "created_date": 1764107248000,
+        "cir_": "119\"",
+        "objectid": 34,
+        "longitude": -81.4488851
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.43673489399998,
+          30.644245064000074
+        ],
+        "crs": null
+      },
+      "id": 37,
+      "type": "Feature",
+      "properties": {
+        "document_link": "https://ncflpataxcards.s3.us-east-1.amazonaws.com/CityOfFernandinaBeach/HeritageTrees/2022-106_1stAvenue-endoffootpath_2186_001.pdf",
+        "oid_": 37,
+        "town": null,
+        "created_user": "kmulcahy",
+        "latitude": 30.64424506,
+        "globalid": "{585A1378-1579-4585-B23E-8EF939015A90}",
+        "familyname": "Fagus grandifolia-Beech, American-Fagaceae",
+        "scientificname": "Quercus virginiana",
+        "private__pv__or_public__pb_": "PB",
+        "dia_": "39\"",
+        "photodocname": null,
+        "document_name": "2022-106 - end of 1st ave near sadler",
+        "last_edited_user": "kmulcahy",
+        "photolink": null,
+        "commonname": "Oak, Live",
+        "id_resolution_number": "2022-106",
+        "f_": null,
+        "location_of_tree": "end of 1st Ave near Sadler",
+        "last_edited_date": 1764107248000,
+        "origional_id": "2022-106",
+        "created_date": 1764107248000,
+        "cir_": "122.46\"",
+        "objectid": 37,
+        "longitude": -81.43673489
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.44359464399997,
+          30.66684455400008
+        ],
+        "crs": null
+      },
+      "id": 35,
+      "type": "Feature",
+      "properties": {
+        "document_link": "https://ncflpataxcards.s3.us-east-1.amazonaws.com/CityOfFernandinaBeach/HeritageTrees/2022-106_CityGolfCourse-TeeBoxoN8thholeS_behind2024%20Los%20Robles_2191_001.pdf",
+        "oid_": 35,
+        "town": null,
+        "created_user": "kmulcahy",
+        "latitude": 30.66684455,
+        "globalid": "{D4CC3440-0E92-44DE-A778-CB6759EF19F1}",
+        "familyname": "Fagus grandifolia-Beech, American-Fagaceae",
+        "scientificname": "Quercus virginiana",
+        "private__pv__or_public__pb_": "PB",
+        "dia_": "47.7\"",
+        "photodocname": null,
+        "document_name": "2022-106 - across from 115 Citrona",
+        "last_edited_user": "kmulcahy",
+        "photolink": null,
+        "commonname": "Oak, Live",
+        "id_resolution_number": "2022-106",
+        "f_": null,
+        "location_of_tree": "across from 115 Citrona",
+        "last_edited_date": 1764107248000,
+        "origional_id": "2022-106",
+        "created_date": 1764107248000,
+        "cir_": "149.78\"",
+        "objectid": 35,
+        "longitude": -81.44359464
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.44338409099998,
+          30.65785915200007
+        ],
+        "crs": null
+      },
+      "id": 38,
+      "type": "Feature",
+      "properties": {
+        "document_link": "https://ncflpataxcards.s3.us-east-1.amazonaws.com/CityOfFernandinaBeach/HeritageTrees/2022-106_2135ShellCoveSECorner_2192_001.pdf",
+        "oid_": 38,
+        "town": null,
+        "created_user": "kmulcahy",
+        "latitude": 30.65785915,
+        "globalid": "{08199C2E-34AD-4466-BFB5-7F85AC0F56D5}",
+        "familyname": "Fagus grandifolia-Beech, American-Fagaceae",
+        "scientificname": "Quercus virginiana",
+        "private__pv__or_public__pb_": "PB",
+        "dia_": "53\"",
+        "photodocname": null,
+        "document_name": "2022-106 - 2135 Shell Cove Cir",
+        "last_edited_user": "kmulcahy",
+        "photolink": null,
+        "commonname": "Oak, Live",
+        "id_resolution_number": "2022-106",
+        "f_": null,
+        "location_of_tree": "2135 Shell Cove Cir",
+        "last_edited_date": 1764107248000,
+        "origional_id": "2022-106",
+        "created_date": 1764107248000,
+        "cir_": "166.42\"",
+        "objectid": 38,
+        "longitude": -81.44338409
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.45836269799997,
+          30.670594334000043
+        ],
+        "crs": null
+      },
+      "id": 26,
+      "type": "Feature",
+      "properties": {
+        "document_link": "https://ncflpataxcards.s3.us-east-1.amazonaws.com/CityOfFernandinaBeach/HeritageTrees/2017-212%20Heritage%20Tree%20Designation%20for%20Nine%20Trees.pdf",
+        "oid_": 26,
+        "town": "Fernandina Beach",
+        "created_user": "kmulcahy",
+        "latitude": 30.67059433,
+        "globalid": "{0B4DF7F4-1B56-4595-B0C9-2DD13155C847}",
+        "familyname": "Fagus grandifolia-Beech, American-Fagaceae",
+        "scientificname": "Quercus virginiana",
+        "private__pv__or_public__pb_": "PB",
+        "dia_": "39\"\"",
+        "photodocname": null,
+        "document_name": "2017-212 Heritage Tree Designation for Nine Trees.pdf",
+        "last_edited_user": "kmulcahy",
+        "photolink": "https://ncflpataxcards.s3.us-east-1.amazonaws.com/CityOfFernandinaBeach/HeritageTreePhotos/2017-212-810AtlanticAve.pdf",
+        "commonname": "Oak, Live",
+        "id_resolution_number": "#2017-212g",
+        "f_": 1208,
+        "location_of_tree": "810 Atlantic Ave",
+        "last_edited_date": 1764107248000,
+        "origional_id": "#2017-212",
+        "created_date": 1764107248000,
+        "cir_": "123\"\"",
+        "objectid": 26,
+        "longitude": -81.4583627
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.44349405299994,
+          30.641968982000037
+        ],
+        "crs": null
+      },
+      "id": 42,
+      "type": "Feature",
+      "properties": {
+        "document_link": "https://ncflpataxcards.s3.us-east-1.amazonaws.com/CityOfFernandinaBeach/HeritageTrees/2023-13_AmeliaOaks_island_closest_to_1961_Amelia_oaks_Drive.pdf",
+        "oid_": 42,
+        "town": null,
+        "created_user": "kmulcahy",
+        "latitude": 30.64196898,
+        "globalid": "{7118D85B-5E20-4B6D-9C65-94DDD492A539}",
+        "familyname": "Fagus grandifolia-Beech, American-Fagaceae",
+        "scientificname": "Quercus virginiana",
+        "private__pv__or_public__pb_": "PV",
+        "dia_": "50\"",
+        "photodocname": null,
+        "document_name": "2023-13_AmeliaOaks_island_closest_to_1961_Amelia_oaks_Drive.pdf",
+        "last_edited_user": "kmulcahy",
+        "photolink": null,
+        "commonname": "Oak, Live",
+        "id_resolution_number": "2023-13",
+        "f_": null,
+        "location_of_tree": "Rd Island in front of 1961 Amelia Oaks",
+        "last_edited_date": 1764107248000,
+        "origional_id": "2023-13 1961 Amelia Oaks",
+        "created_date": 1764107248000,
+        "cir_": "157\"",
+        "objectid": 42,
+        "longitude": -81.44349405
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.46167942999995,
+          30.627587547000076
+        ],
+        "crs": null
+      },
+      "id": 43,
+      "type": "Feature",
+      "properties": {
+        "document_link": "https://ncflpataxcards.s3.us-east-1.amazonaws.com/CityOfFernandinaBeach/HeritageTrees/2023-13_627_FerdinandCourt.pdf",
+        "oid_": 43,
+        "town": null,
+        "created_user": "kmulcahy",
+        "latitude": 30.62758755,
+        "globalid": "{43534307-E380-463A-A183-E54796232AA9}",
+        "familyname": "Fagus grandifolia-Beech, American-Fagaceae",
+        "scientificname": "Quercus virginiana",
+        "private__pv__or_public__pb_": "PV",
+        "dia_": "52\"",
+        "photodocname": null,
+        "document_name": "2023-13_627_FerdinandCourt.pdf",
+        "last_edited_user": "kmulcahy",
+        "photolink": null,
+        "commonname": "Oak, Live",
+        "id_resolution_number": "2023-13",
+        "f_": null,
+        "location_of_tree": "Backyard of 627 Ferdinand",
+        "last_edited_date": 1764107248000,
+        "origional_id": "2023-13 627 Ferdinand",
+        "created_date": 1764107248000,
+        "cir_": "163\"",
+        "objectid": 43,
+        "longitude": -81.46167943
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.46209210099994,
+          30.66492708800007
+        ],
+        "crs": null
+      },
+      "id": 25,
+      "type": "Feature",
+      "properties": {
+        "document_link": "https://ncflpataxcards.s3.us-east-1.amazonaws.com/CityOfFernandinaBeach/HeritageTrees/2017-212%20Heritage%20Tree%20Designation%20for%20Nine%20Trees.pdf",
+        "oid_": 25,
+        "town": "Fernandina Beach",
+        "created_user": "kmulcahy",
+        "latitude": 30.66492709,
+        "globalid": "{F80CC8DC-CE4B-4A07-ADC7-734D7EED1ED5}",
+        "familyname": "Fagus grandifolia-Beech, American-Fagaceae",
+        "scientificname": "Quercus virginiana",
+        "private__pv__or_public__pb_": "PB",
+        "dia_": "40\"\"",
+        "photodocname": null,
+        "document_name": "2017-212 Heritage Tree Designation for Nine Trees.pdf",
+        "last_edited_user": "kmulcahy",
+        "photolink": "https://ncflpataxcards.s3.us-east-1.amazonaws.com/CityOfFernandinaBeach/HeritageTreePhotos/2017-212-810AtlanticAve.pdf",
+        "commonname": "Oak, Live",
+        "id_resolution_number": "#2017-212f",
+        "f_": 1078,
+        "location_of_tree": "432 S. 4th Street",
+        "last_edited_date": 1764107248000,
+        "origional_id": "#2017-212",
+        "created_date": 1764107248000,
+        "cir_": "126\"\"",
+        "objectid": 25,
+        "longitude": -81.4620921
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.44957596999996,
+          30.60566871900005
+        ],
+        "crs": null
+      },
+      "id": 36,
+      "type": "Feature",
+      "properties": {
+        "document_link": "https://ncflpataxcards.s3.us-east-1.amazonaws.com/CityOfFernandinaBeach/HeritageTrees/2022-106_CityGolfCourse-TeeBoxoN8thholeS_behind2024%20Los%20Robles_2191_001.pdf",
+        "oid_": 36,
+        "town": null,
+        "created_user": "kmulcahy",
+        "latitude": 30.60566872,
+        "globalid": "{39C335AA-C965-4FCD-B645-F9A6A1CBA27E}",
+        "familyname": "Fagus grandifolia-Beech, American-Fagaceae",
+        "scientificname": "Quercus virginiana",
+        "private__pv__or_public__pb_": "PB",
+        "dia_": "37.5",
+        "photodocname": null,
+        "document_name": "2022-106 - golf course at 8th hole Tee box",
+        "last_edited_user": "kmulcahy",
+        "photolink": null,
+        "commonname": "Oak, Live",
+        "id_resolution_number": "2022-106",
+        "f_": null,
+        "location_of_tree": "golf course at 8th Hole Tee Box",
+        "last_edited_date": 1764107248000,
+        "origional_id": "2022-106",
+        "created_date": 1764107248000,
+        "cir_": "117.75",
+        "objectid": 36,
+        "longitude": -81.44957597
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.45601594599998,
+          30.666515064000066
+        ],
+        "crs": null
+      },
+      "id": 54,
+      "type": "Feature",
+      "properties": {
+        "document_link": "https://ncflpataxcards.s3.us-east-1.amazonaws.com/CityOfFernandinaBeach/HeritageTrees/HeritageTrees2023-72DesignatesFourTreesOnPrivatePropertyasProtectedHeritageTrees.pdf",
+        "oid_": null,
+        "town": null,
+        "created_user": "kmulcahy",
+        "latitude": null,
+        "globalid": "{343FAD23-B639-4433-A9EE-988EB2E17B65}",
+        "familyname": "Quercus virginiana-Oak, Live- Fagaceae",
+        "scientificname": "Quercus virginiana",
+        "private__pv__or_public__pb_": "PB",
+        "dia_": "52\"",
+        "photodocname": null,
+        "document_name": "2023-72_304_Division_St_(Daphne's_Tree)",
+        "last_edited_user": "kmulcahy",
+        "photolink": null,
+        "commonname": "Oak, Live",
+        "id_resolution_number": "2023-72",
+        "f_": null,
+        "location_of_tree": "ROW 304 Division St (Daphne's Tree)",
+        "last_edited_date": 1764107248000,
+        "origional_id": "2023-72 304 Division St",
+        "created_date": 1764107248000,
+        "cir_": "163\"",
+        "objectid": 54,
+        "longitude": null
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.45930266399995,
+          30.669477336000057
+        ],
+        "crs": null
+      },
+      "id": 2,
+      "type": "Feature",
+      "properties": {
+        "document_link": "https://ncflpataxcards.s3.us-east-1.amazonaws.com/CityOfFernandinaBeach/HeritageTrees/2006-98%20Heritage%20Tree%20Designation%20for%20Tree%20Located%20at%20the%20Western%20Intesection%20of%20Ash%20Street%20and%208th%20Street.pdf",
+        "oid_": 2,
+        "town": "Fernandina Beach",
+        "created_user": "kmulcahy",
+        "latitude": 30.66947734,
+        "globalid": "{3D1D1BBB-A93E-41F1-B343-E05D686D8DEF}",
+        "familyname": "Fagus grandifolia-Beech, American-Fagaceae",
+        "scientificname": "Quercus virginiana",
+        "private__pv__or_public__pb_": "PB",
+        "dia_": "81\"\"",
+        "photodocname": "2006-216SsideofAsh85ftwestof10thSt.pdf",
+        "document_name": "2006-98 Heritage Tree Designation for Tree Located at the Western Intersection of Ash Street and 8th Street",
+        "last_edited_user": "kmulcahy",
+        "photolink": "https://ncflpataxcards.s3.us-east-1.amazonaws.com/CityOfFernandinaBeach/HeritageTreePhotos/2006-98WestofAshand8thStKatesTree.pdf",
+        "commonname": "Oak, Live",
+        "id_resolution_number": "# 2006-98",
+        "f_": null,
+        "location_of_tree": "Center of 8th & Ash (Kates Tree)",
+        "last_edited_date": 1764107248000,
+        "origional_id": "# 2006-98",
+        "created_date": 1764107248000,
+        "cir_": "254\"\"",
+        "objectid": 2,
+        "longitude": -81.45930266
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.45568311199997,
+          30.66958644500005
+        ],
+        "crs": null
+      },
+      "id": 24,
+      "type": "Feature",
+      "properties": {
+        "document_link": "https://ncflpataxcards.s3.us-east-1.amazonaws.com/CityOfFernandinaBeach/HeritageTrees/2021-112HeritageTreeDesignationCentralParktrees1573_1575_1577_1589_1594_1601_1608_1609.pdf",
+        "oid_": 24,
+        "town": "Fernandina Beach",
+        "created_user": "kmulcahy",
+        "latitude": 30.66958645,
+        "globalid": "{39224BA2-1E16-4800-A5BA-885E0C636DF3}",
+        "familyname": "Fagus grandifolia-Beech, American-Fagaceae",
+        "scientificname": "Quercus virginiana",
+        "private__pv__or_public__pb_": "PB",
+        "dia_": "40\"\"",
+        "photodocname": null,
+        "document_name": "2021-112 Central Park n of Ballfield",
+        "last_edited_user": "kmulcahy",
+        "photolink": null,
+        "commonname": "Oak, Live",
+        "id_resolution_number": " # 1577",
+        "f_": 1577,
+        "location_of_tree": "Central park - North of Ballfield",
+        "last_edited_date": 1764107248000,
+        "origional_id": " # 1577",
+        "created_date": 1764107248000,
+        "cir_": "126\"\"",
+        "objectid": 24,
+        "longitude": -81.45568311
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.46234059299996,
+          30.664461044000063
+        ],
+        "crs": null
+      },
+      "id": 27,
+      "type": "Feature",
+      "properties": {
+        "document_link": "https://ncflpataxcards.s3.us-east-1.amazonaws.com/CityOfFernandinaBeach/HeritageTrees/2017-213%20Heritage%20Tree%20Designations%20Two%20Trees%20on%20Elm%20Street.pdf",
+        "oid_": 27,
+        "town": "Fernandina Beach",
+        "created_user": "kmulcahy",
+        "latitude": 30.66446104,
+        "globalid": "{7ED99CE7-A6A8-4E56-A97D-1A8FC113853E}",
+        "familyname": "Fagus grandifolia-Beech, American-Fagaceae",
+        "scientificname": "Quercus virginiana",
+        "private__pv__or_public__pb_": "PV",
+        "dia_": "39\"\"",
+        "photodocname": null,
+        "document_name": "2017-213 Heritage Tree Designations Two Trees on Elm Street.pdf",
+        "last_edited_user": "kmulcahy",
+        "photolink": "https://ncflpataxcards.s3.us-east-1.amazonaws.com/CityOfFernandinaBeach/HeritageTreePhotos/2016-158-S8thStandAsh-FredsDeptStore.pdf",
+        "commonname": "Oak, Live",
+        "id_resolution_number": "# 2017-213b",
+        "f_": null,
+        "location_of_tree": "424 Elm Street",
+        "last_edited_date": 1764107248000,
+        "origional_id": "# 2017-213",
+        "created_date": 1764107248000,
+        "cir_": "123\"\"",
+        "objectid": 27,
+        "longitude": -81.46234059
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.43613742399998,
+          30.66671520500006
+        ],
+        "crs": null
+      },
+      "id": 44,
+      "type": "Feature",
+      "properties": {
+        "document_link": "https://ncflpataxcards.s3.us-east-1.amazonaws.com/CityOfFernandinaBeach/HeritageTrees/2023-13_2500_Atlantic_Avenue_Playground.pdf",
+        "oid_": 44,
+        "town": null,
+        "created_user": "kmulcahy",
+        "latitude": 30.66671521,
+        "globalid": "{C2F6943C-0B6E-4C50-8BA9-BA787F7E2642}",
+        "familyname": "Fagus grandifolia-Beech, American-Fagaceae",
+        "scientificname": "Quercus virginiana",
+        "private__pv__or_public__pb_": "PB",
+        "dia_": "50\"",
+        "photodocname": null,
+        "document_name": "2023-13_2500_Atlantic_Avenue_Playground.pdf",
+        "last_edited_user": "kmulcahy",
+        "photolink": null,
+        "commonname": "Oak, Live",
+        "id_resolution_number": "2023-13",
+        "f_": null,
+        "location_of_tree": "Playground Area of Rec Center 2500 Atlantic Ave",
+        "last_edited_date": 1764107248000,
+        "origional_id": "2023-13 2500 Atlantic Ave",
+        "created_date": 1764107248000,
+        "cir_": "157\"",
+        "objectid": 44,
+        "longitude": -81.43613742
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.45735704999998,
+          30.66873713700005
+        ],
+        "crs": null
+      },
+      "id": 68,
+      "type": "Feature",
+      "properties": {
+        "document_link": null,
+        "oid_": null,
+        "town": null,
+        "created_user": "kmulcahy",
+        "latitude": null,
+        "globalid": "{120FA256-979F-44ED-ABE0-43B4BE9902E3}",
+        "familyname": null,
+        "scientificname": null,
+        "private__pv__or_public__pb_": "PB",
+        "dia_": "49.5\"",
+        "photodocname": null,
+        "document_name": "2020-",
+        "last_edited_user": "kmulcahy",
+        "photolink": null,
+        "commonname": null,
+        "id_resolution_number": "2020-",
+        "f_": null,
+        "location_of_tree": "112 S 10th St",
+        "last_edited_date": 1764107248000,
+        "origional_id": null,
+        "created_date": 1764107248000,
+        "cir_": "155.43\"",
+        "objectid": 68,
+        "longitude": null
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.46144729899999,
+          30.672396797000033
+        ],
+        "crs": null
+      },
+      "id": 8,
+      "type": "Feature",
+      "properties": {
+        "document_link": "https://ncflpataxcards.s3.us-east-1.amazonaws.com/CityOfFernandinaBeach/HeritageTrees/2016-157%20Heritage%20Tree%20Designation%20for%20Trees%20on%20Public%20Right%20of%20Way%20on%20Alachua%20Street%20and%20North%206th%20Street.pdf",
+        "oid_": 8,
+        "town": "Fernandina Beach",
+        "created_user": "kmulcahy",
+        "latitude": 30.6723968,
+        "globalid": "{9F3BE0AF-49C1-4D2B-B7BB-EE226ABF9370}",
+        "familyname": "Fagus grandifolia-Beech, American-Fagaceae",
+        "scientificname": "Quercus virginiana",
+        "private__pv__or_public__pb_": "PB",
+        "dia_": "63\"\"",
+        "photodocname": null,
+        "document_name": "2016-157 Heritage Tree Designation for Trees on Public Right of Way on Alachua Street and North 6th Street.pdf",
+        "last_edited_user": "kmulcahy",
+        "photolink": "https://ncflpataxcards.s3.us-east-1.amazonaws.com/CityOfFernandinaBeach/HeritageTreePhotos/2016-157-415AlachuaSt.pdf",
+        "commonname": "Oak, Live",
+        "id_resolution_number": "#2016-0157a",
+        "f_": 123,
+        "location_of_tree": "N Side of Alachua Between 4th & 5th",
+        "last_edited_date": 1764107248000,
+        "origional_id": "#2016-0157",
+        "created_date": 1764107248000,
+        "cir_": "198\"\"",
+        "objectid": 8,
+        "longitude": -81.4614473
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.45563483199999,
+          30.669438795000076
+        ],
+        "crs": null
+      },
+      "id": 20,
+      "type": "Feature",
+      "properties": {
+        "document_link": "https://ncflpataxcards.s3.us-east-1.amazonaws.com/CityOfFernandinaBeach/HeritageTrees/2021-112HeritageTreeDesignationCentralParktrees1573_1575_1577_1589_1594_1601_1608_1609.pdf",
+        "oid_": 20,
+        "town": "Fernandina Beach",
+        "created_user": "kmulcahy",
+        "latitude": 30.6694388,
+        "globalid": "{2411FFCB-568C-423F-8086-9E201E497967}",
+        "familyname": "Fagus grandifolia-Beech, American-Fagaceae",
+        "scientificname": "Quercus virginiana",
+        "private__pv__or_public__pb_": "PB",
+        "dia_": "46\"\"",
+        "photodocname": null,
+        "document_name": "2021-112 Central Park, n of Ballfield closest to no parking sign",
+        "last_edited_user": "kmulcahy",
+        "photolink": null,
+        "commonname": "Oak, Live",
+        "id_resolution_number": "# 1589",
+        "f_": 1589,
+        "location_of_tree": "Central Park - N of ballfield closest to no parking sign",
+        "last_edited_date": 1764107248000,
+        "origional_id": "# 1589",
+        "created_date": 1764107248000,
+        "cir_": "146\"\"",
+        "objectid": 20,
+        "longitude": -81.45563483
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.45582795099995,
+          30.66960259500007
+        ],
+        "crs": null
+      },
+      "id": 28,
+      "type": "Feature",
+      "properties": {
+        "document_link": "https://ncflpataxcards.s3.us-east-1.amazonaws.com/CityOfFernandinaBeach/HeritageTrees/2021-112HeritageTreeDesignationCentralParktrees1573_1575_1577_1589_1594_1601_1608_1609.pdf",
+        "oid_": 28,
+        "town": "Fernandina Beach",
+        "created_user": "kmulcahy",
+        "latitude": 30.6696026,
+        "globalid": "{F648C319-6E02-4BBB-BE3B-D93D41875C13}",
+        "familyname": "Fagus grandifolia-Beech, American-Fagaceae",
+        "scientificname": "Quercus virginiana",
+        "private__pv__or_public__pb_": "PB",
+        "dia_": "38\"\"",
+        "photodocname": null,
+        "document_name": "2021-112HeritageTreeDesignationCentralParktrees1573_1575_1577_1589_1594_1601_1608_1609.pdf",
+        "last_edited_user": "kmulcahy",
+        "photolink": null,
+        "commonname": "Oak, Live",
+        "id_resolution_number": " # 1601",
+        "f_": 1601,
+        "location_of_tree": "Central park - near power meter & garbage can",
+        "last_edited_date": 1764107248000,
+        "origional_id": " # 1601",
+        "created_date": 1764107248000,
+        "cir_": "119\"\"",
+        "objectid": 28,
+        "longitude": -81.45582795
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.44868800299997,
+          30.668488642000057
+        ],
+        "crs": null
+      },
+      "id": 33,
+      "type": "Feature",
+      "properties": {
+        "document_link": "https://ncflpataxcards.s3.us-east-1.amazonaws.com/CityOfFernandinaBeach/HeritageTrees/2022-106_16thSouthStreet-Corner%20of%20Ash_2187_001.pdf",
+        "oid_": 33,
+        "town": null,
+        "created_user": "kmulcahy",
+        "latitude": 30.66848864,
+        "globalid": "{36CB5165-4391-44C1-BF19-40EFA439F965}",
+        "familyname": "Fagus grandifolia-Beech, American-Fagaceae",
+        "scientificname": "Quercus virginiana",
+        "private__pv__or_public__pb_": "PB",
+        "dia_": "52\"",
+        "photodocname": null,
+        "document_name": "2022-106 - Corner of Ash and S 16th St",
+        "last_edited_user": "kmulcahy",
+        "photolink": null,
+        "commonname": "Oak, Live",
+        "id_resolution_number": "2022-106",
+        "f_": null,
+        "location_of_tree": "Corner of Ash ST and S 16th St",
+        "last_edited_date": 1764107248000,
+        "origional_id": "2022-106",
+        "created_date": 1764107248000,
+        "cir_": "163\"",
+        "objectid": 33,
+        "longitude": -81.448688
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.44302466599999,
+          30.64251590300006
+        ],
+        "crs": null
+      },
+      "id": 41,
+      "type": "Feature",
+      "properties": {
+        "document_link": "https://ncflpataxcards.s3.us-east-1.amazonaws.com/CityOfFernandinaBeach/HeritageTrees/2023-13_AmeliaOaksROWclosest_to_1926_Amelia_oaks_Drive.pdf",
+        "oid_": 41,
+        "town": null,
+        "created_user": "kmulcahy",
+        "latitude": 30.6425159,
+        "globalid": "{70015B1B-6838-4B2C-9830-AFDD24A01623}",
+        "familyname": "Fagus grandifolia-Beech, American-Fagaceae",
+        "scientificname": "Quercus virginiana",
+        "private__pv__or_public__pb_": "PB",
+        "dia_": "52\"",
+        "photodocname": null,
+        "document_name": "2023-13_AmeliaOaksROWclosest_to_1926_Amelia_oaks_Drive.pdf",
+        "last_edited_user": "kmulcahy",
+        "photolink": null,
+        "commonname": "Oak, Live",
+        "id_resolution_number": "2023-13",
+        "f_": null,
+        "location_of_tree": "1926 Amelia Oaks",
+        "last_edited_date": 1764107248000,
+        "origional_id": "2023-13 1926 Amelia Oaks",
+        "created_date": 1764107248000,
+        "cir_": "163\"",
+        "objectid": 41,
+        "longitude": -81.44302467
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.45198190299999,
+          30.672656379000045
+        ],
+        "crs": null
+      },
+      "id": 49,
+      "type": "Feature",
+      "properties": {
+        "document_link": "https://ncflpataxcards.s3.us-east-1.amazonaws.com/CityOfFernandinaBeach/HeritageTrees/HeritageTrees2023-72DesignatesFourTreesOnPrivatePropertyasProtectedHeritageTrees.pdf",
+        "oid_": null,
+        "town": null,
+        "created_user": "kmulcahy",
+        "latitude": null,
+        "globalid": "{EB41C234-F9FC-4F03-9414-54B32D851BB4}",
+        "familyname": "Quercus virginiana-Oak, Live- Fagaceae",
+        "scientificname": "Quercus virginiana",
+        "private__pv__or_public__pb_": "PV",
+        "dia_": "36\"",
+        "photodocname": null,
+        "document_name": "2023-72_1315_Broome_St_west",
+        "last_edited_user": "kmulcahy",
+        "photolink": null,
+        "commonname": "Oak, Live",
+        "id_resolution_number": "2023-72",
+        "f_": null,
+        "location_of_tree": "1315 Broome St (east)",
+        "last_edited_date": 1764107248000,
+        "origional_id": "2023-72",
+        "created_date": 1764107248000,
+        "cir_": "113\"",
+        "objectid": 49,
+        "longitude": null
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.45182901699997,
+          30.672451059000025
+        ],
+        "crs": null
+      },
+      "id": 50,
+      "type": "Feature",
+      "properties": {
+        "document_link": "https://ncflpataxcards.s3.us-east-1.amazonaws.com/CityOfFernandinaBeach/HeritageTrees/HeritageTrees2023-72DesignatesFourTreesOnPrivatePropertyasProtectedHeritageTrees.pdf",
+        "oid_": null,
+        "town": null,
+        "created_user": "kmulcahy",
+        "latitude": null,
+        "globalid": "{60B97AF2-0585-401C-9447-8110FD54D55E}",
+        "familyname": "Quercus virginiana-Oak, Live- Fagaceae",
+        "scientificname": "Quercus virginiana",
+        "private__pv__or_public__pb_": "PB",
+        "dia_": "44\"",
+        "photodocname": null,
+        "document_name": "2023-72_1324_Broome_St_ROW",
+        "last_edited_user": "kmulcahy",
+        "photolink": null,
+        "commonname": "Oak, Live",
+        "id_resolution_number": "2023-72",
+        "f_": null,
+        "location_of_tree": "ROW 1324 Broome Corner with 13th Terrace",
+        "last_edited_date": 1764107248000,
+        "origional_id": "2023-72 ROW 1324 Broome St",
+        "created_date": 1764107248000,
+        "cir_": "138\"",
+        "objectid": 50,
+        "longitude": null
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.44269341299997,
+          30.658326808000027
+        ],
+        "crs": null
+      },
+      "id": 53,
+      "type": "Feature",
+      "properties": {
+        "document_link": "https://ncflpataxcards.s3.us-east-1.amazonaws.com/CityOfFernandinaBeach/HeritageTrees/HeritageTrees2023-72DesignatesFourTreesOnPrivatePropertyasProtectedHeritageTrees.pdf",
+        "oid_": null,
+        "town": null,
+        "created_user": "kmulcahy",
+        "latitude": null,
+        "globalid": "{B871E908-3F42-4BCA-817D-8907468FCACC}",
+        "familyname": "Quercus virginiana-Oak, Live- Fagaceae",
+        "scientificname": "Quercus virginiana",
+        "private__pv__or_public__pb_": "PV",
+        "dia_": "80\"",
+        "photodocname": null,
+        "document_name": "2023-72_Shell_Cove_Near_Retention_Pond",
+        "last_edited_user": "kmulcahy",
+        "photolink": null,
+        "commonname": "Oak, Live",
+        "id_resolution_number": "2023-72",
+        "f_": null,
+        "location_of_tree": "Shell Cove near Retention Pond",
+        "last_edited_date": 1764107248000,
+        "origional_id": "2023-72 Shell Cove Common Area near pond",
+        "created_date": 1764107248000,
+        "cir_": "251\"",
+        "objectid": 53,
+        "longitude": null
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.46189534799998,
+          30.661951506000037
+        ],
+        "crs": null
+      },
+      "id": 55,
+      "type": "Feature",
+      "properties": {
+        "document_link": "https://ncflpataxcards.s3.us-east-1.amazonaws.com/CityOfFernandinaBeach/HeritageTrees/HeritageTrees2023-72DesignatesFourTreesOnPrivatePropertyasProtectedHeritageTrees.pdf",
+        "oid_": null,
+        "town": null,
+        "created_user": "kmulcahy",
+        "latitude": null,
+        "globalid": "{2F9A10E0-C757-4DB4-8F6B-BC024A4FFBB7}",
+        "familyname": "Quercus virginiana-Oak, Live- Fagaceae",
+        "scientificname": "Quercus virginiana",
+        "private__pv__or_public__pb_": "PB",
+        "dia_": "71\"",
+        "photodocname": null,
+        "document_name": "2023-72_701_S_6th_St_ROW",
+        "last_edited_user": "kmulcahy",
+        "photolink": null,
+        "commonname": "Oak, Live",
+        "id_resolution_number": "2023-72",
+        "f_": null,
+        "location_of_tree": "ROW 701 S 6th St",
+        "last_edited_date": 1764107248000,
+        "origional_id": "2023-72 701 S 6th St",
+        "created_date": 1764107248000,
+        "cir_": "223\"",
+        "objectid": 55,
+        "longitude": null
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.45578503599995,
+          30.669766394000078
+        ],
+        "crs": null
+      },
+      "id": 19,
+      "type": "Feature",
+      "properties": {
+        "document_link": "https://ncflpataxcards.s3.us-east-1.amazonaws.com/CityOfFernandinaBeach/HeritageTrees/2021-112HeritageTreeDesignationCentralParktrees1573_1575_1577_1589_1594_1601_1608_1609.pdf",
+        "oid_": 19,
+        "town": "Fernandina Beach",
+        "created_user": "kmulcahy",
+        "latitude": 30.66976639,
+        "globalid": "{B0C39779-66F7-45D9-A022-C3A08F0498F4}",
+        "familyname": "Fagus grandifolia-Beech, American-Fagaceae",
+        "scientificname": "Quercus virginiana",
+        "private__pv__or_public__pb_": "PB",
+        "dia_": "46\"\"",
+        "photodocname": null,
+        "document_name": "2021-112HeritageTreeDesignationCentralParktrees1573_1575_1577_1589_1594_1601_1608_1609.pdf",
+        "last_edited_user": "kmulcahy",
+        "photolink": null,
+        "commonname": "Oak, Live",
+        "id_resolution_number": "# 1573",
+        "f_": 1575,
+        "location_of_tree": "Central Park in front of pentanque box ",
+        "last_edited_date": 1764107248000,
+        "origional_id": "# 1573",
+        "created_date": 1764107248000,
+        "cir_": "145\"\"",
+        "objectid": 19,
+        "longitude": -81.45578504
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.45551145099995,
+          30.669619897000075
+        ],
+        "crs": null
+      },
+      "id": 23,
+      "type": "Feature",
+      "properties": {
+        "document_link": "https://ncflpataxcards.s3.us-east-1.amazonaws.com/CityOfFernandinaBeach/HeritageTrees/2021-112HeritageTreeDesignationCentralParktrees1573_1575_1577_1589_1594_1601_1608_1609.pdf",
+        "oid_": 23,
+        "town": "Fernandina Beach",
+        "created_user": "kmulcahy",
+        "latitude": 30.6696199,
+        "globalid": "{B6C66B6B-EFED-4DF3-A3E6-7471AB3E90D2}",
+        "familyname": "Fagus grandifolia-Beech, American-Fagaceae",
+        "scientificname": "Quercus virginiana",
+        "private__pv__or_public__pb_": "PB",
+        "dia_": "41\"\"",
+        "photodocname": null,
+        "document_name": "2021-112 Heritage Tree Designation for Nine Trees.pdf",
+        "last_edited_user": "kmulcahy",
+        "photolink": null,
+        "commonname": "Oak, Live",
+        "id_resolution_number": " # 1609 ",
+        "f_": 1609,
+        "location_of_tree": "Central park by garbage can north of ballfields",
+        "last_edited_date": 1764107248000,
+        "origional_id": " # 1609 ",
+        "created_date": 1764107248000,
+        "cir_": "129\"\"",
+        "objectid": 23,
+        "longitude": -81.45551145
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.45603582299998,
+          30.66974678300005
+        ],
+        "crs": null
+      },
+      "id": 29,
+      "type": "Feature",
+      "properties": {
+        "document_link": "https://ncflpataxcards.s3.us-east-1.amazonaws.com/CityOfFernandinaBeach/HeritageTrees/2021-112HeritageTreeDesignationCentralParktrees1573_1575_1577_1589_1594_1601_1608_1609.pdf",
+        "oid_": 29,
+        "town": "Fernandina Beach",
+        "created_user": "kmulcahy",
+        "latitude": 30.66974678,
+        "globalid": "{19119EA4-3892-4A9F-A214-DB095BC8D60D}",
+        "familyname": "Fagus grandifolia-Beech, American-Fagaceae",
+        "scientificname": "Quercus virginiana",
+        "private__pv__or_public__pb_": "PB",
+        "dia_": "37\"\"",
+        "photodocname": null,
+        "document_name": "2021-112 Central Park, in front of Petanque Box",
+        "last_edited_user": "kmulcahy",
+        "photolink": null,
+        "commonname": "Oak, Live",
+        "id_resolution_number": "# 1575",
+        "f_": 1575,
+        "location_of_tree": "Central Park - next to pentanque box with door trap",
+        "last_edited_date": 1764107248000,
+        "origional_id": "# 1575",
+        "created_date": 1764107248000,
+        "cir_": "116\"\"",
+        "objectid": 29,
+        "longitude": -81.45603582
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.45502865299994,
+          30.66949416400007
+        ],
+        "crs": null
+      },
+      "id": 30,
+      "type": "Feature",
+      "properties": {
+        "document_link": "https://ncflpataxcards.s3.us-east-1.amazonaws.com/CityOfFernandinaBeach/HeritageTrees/2021-112HeritageTreeDesignationCentralParktrees1573_1575_1577_1589_1594_1601_1608_1609.pdf",
+        "oid_": 30,
+        "town": "Fernandina Beach",
+        "created_user": "kmulcahy",
+        "latitude": 30.66949416,
+        "globalid": "{A8C89011-2884-4F27-9816-48E89AA1B626}",
+        "familyname": "Fagus grandifolia-Beech, American-Fagaceae",
+        "scientificname": "Quercus virginiana",
+        "private__pv__or_public__pb_": "PB",
+        "dia_": "37\"\"",
+        "photodocname": null,
+        "document_name": "2021-112 Central Park, North of Ballfiled 1",
+        "last_edited_user": "kmulcahy",
+        "photolink": null,
+        "commonname": "Oak, Live",
+        "id_resolution_number": "# 1608",
+        "f_": 1608,
+        "location_of_tree": "Central park - North of Ballfield",
+        "last_edited_date": 1764107248000,
+        "origional_id": "# 1608",
+        "created_date": 1764107248000,
+        "cir_": "116\"\"",
+        "objectid": 30,
+        "longitude": -81.45502865
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.44687363599996,
+          30.610241130000077
+        ],
+        "crs": null
+      },
+      "id": 56,
+      "type": "Feature",
+      "properties": {
+        "document_link": "https://ncflpataxcards.s3.dualstack.us-east-1.amazonaws.com/CityOfFernandinaBeach/HeritageTrees/2023-72DesignatesTenTreesasProtectedHeritageTrees.pdf",
+        "oid_": null,
+        "town": null,
+        "created_user": "kmulcahy",
+        "latitude": null,
+        "globalid": "{27501E72-8FDC-4E02-89B6-137DF50F6F56}",
+        "familyname": "Quercus virginiana-Oak, Live- Fagaceae",
+        "scientificname": "Quercus virginiana",
+        "private__pv__or_public__pb_": "PB",
+        "dia_": "81\"",
+        "photodocname": null,
+        "document_name": "2023-72_COFB_Golf_Course_Behind_Club_House",
+        "last_edited_user": "kmulcahy",
+        "photolink": null,
+        "commonname": "Oak, Live",
+        "id_resolution_number": "2023-72",
+        "f_": null,
+        "location_of_tree": "COFB Golf Course Behind Club HOuse",
+        "last_edited_date": 1764107248000,
+        "origional_id": "2023-72 COFB Golf Course Behind Club House",
+        "created_date": 1764107248000,
+        "cir_": "254\"",
+        "objectid": 56,
+        "longitude": null
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.44430273899997,
+          30.67278361900003
+        ],
+        "crs": null
+      },
+      "id": 59,
+      "type": "Feature",
+      "properties": {
+        "document_link": "https://ncflpataxcards.s3.dualstack.us-east-1.amazonaws.com/CityOfFernandinaBeach/HeritageTrees/2023-72DesignatesTenTreesasProtectedHeritageTrees.pdf",
+        "oid_": null,
+        "town": null,
+        "created_user": "kmulcahy",
+        "latitude": null,
+        "globalid": "{EBBED52F-8624-43FC-8755-6EDEEBEC8A71}",
+        "familyname": "Quercus virginiana-Oak, Live- Fagaceae",
+        "scientificname": "Quercus virginiana",
+        "private__pv__or_public__pb_": "PB",
+        "dia_": "77\"",
+        "photodocname": null,
+        "document_name": "2024-68_213_N_19_St",
+        "last_edited_user": "kmulcahy",
+        "photolink": null,
+        "commonname": "Oak, Live",
+        "id_resolution_number": "2024-68",
+        "f_": null,
+        "location_of_tree": "213 N 19th St",
+        "last_edited_date": 1764107248000,
+        "origional_id": "2024-68 213 N 19th St",
+        "created_date": 1764107248000,
+        "cir_": "241.78\"",
+        "objectid": 59,
+        "longitude": null
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.44551777899994,
+          30.67938012700006
+        ],
+        "crs": null
+      },
+      "id": 60,
+      "type": "Feature",
+      "properties": {
+        "document_link": "https://ncflpataxcards.s3.dualstack.us-east-1.amazonaws.com/CityOfFernandinaBeach/HeritageTrees/2023-72DesignatesTenTreesasProtectedHeritageTrees.pdf",
+        "oid_": null,
+        "town": null,
+        "created_user": "kmulcahy",
+        "latitude": null,
+        "globalid": "{7F5C2406-BCF7-4237-B9E3-4C5C965781D9}",
+        "familyname": "Quercus virginiana-Oak, Live- Fagaceae",
+        "scientificname": "Quercus virginiana",
+        "private__pv__or_public__pb_": "PB",
+        "dia_": "68\"",
+        "photodocname": null,
+        "document_name": "2024-68_808_Stanley_Dr",
+        "last_edited_user": "kmulcahy",
+        "photolink": null,
+        "commonname": "Oak, Live",
+        "id_resolution_number": "2024-68",
+        "f_": null,
+        "location_of_tree": "808 Stanley Dr",
+        "last_edited_date": 1764107248000,
+        "origional_id": "2024-68 808 Stanley Dr",
+        "created_date": 1764107248000,
+        "cir_": "213.52\"",
+        "objectid": 60,
+        "longitude": null
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.44549363999994,
+          30.679602733000024
+        ],
+        "crs": null
+      },
+      "id": 61,
+      "type": "Feature",
+      "properties": {
+        "document_link": "https://ncflpataxcards.s3.dualstack.us-east-1.amazonaws.com/CityOfFernandinaBeach/HeritageTrees/2023-72DesignatesTenTreesasProtectedHeritageTrees.pdf",
+        "oid_": null,
+        "town": null,
+        "created_user": "kmulcahy",
+        "latitude": null,
+        "globalid": "{B850C9C0-76E7-4C25-877F-67F6451FE479}",
+        "familyname": "Quercus virginiana-Oak, Live- Fagaceae",
+        "scientificname": "Quercus virginiana",
+        "private__pv__or_public__pb_": "PB",
+        "dia_": "83\"",
+        "photodocname": null,
+        "document_name": "2024-68_810_Stanley_Dr",
+        "last_edited_user": "kmulcahy",
+        "photolink": null,
+        "commonname": "Oak, Live",
+        "id_resolution_number": "2024-68",
+        "f_": null,
+        "location_of_tree": "810 Stanley Dr",
+        "last_edited_date": 1764107248000,
+        "origional_id": "2024-68 810 Stanley Dr",
+        "created_date": 1764107248000,
+        "cir_": "260.62\"",
+        "objectid": 61,
+        "longitude": null
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.45370388099997,
+          30.666379303000042
+        ],
+        "crs": null
+      },
+      "id": 71,
+      "type": "Feature",
+      "properties": {
+        "document_link": "https://ncflpataxcards.s3.dualstack.us-east-1.amazonaws.com/CityOfFernandinaBeach/HeritageTrees/2025-75DesignatesSixTreesAsHeritageTrees.pdf",
+        "oid_": 71,
+        "town": "Fernandina Beach",
+        "created_user": "kmulcahy",
+        "latitude": null,
+        "globalid": "{DEA1D84B-0735-41B7-96AE-67F846419A3E}",
+        "familyname": "Fagus grandifolia-Beech, American- Fagaceae",
+        "scientificname": "Quercus virginiana",
+        "private__pv__or_public__pb_": "PB",
+        "dia_": "57\"",
+        "photodocname": null,
+        "document_name": "2025-75_229_S_13th_St",
+        "last_edited_user": "kmulcahy",
+        "photolink": null,
+        "commonname": "Oak, Live",
+        "id_resolution_number": "2025-75",
+        "f_": null,
+        "location_of_tree": "Corner of S 13th St and Cedar St",
+        "last_edited_date": 1764166630480,
+        "origional_id": "2025-75 229 S 13th St",
+        "created_date": 1764107248000,
+        "cir_": "178.98\"",
+        "objectid": 71,
+        "longitude": null
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.44771316799995,
+          30.677453933000038
+        ],
+        "crs": null
+      },
+      "id": 62,
+      "type": "Feature",
+      "properties": {
+        "document_link": "https://ncflpataxcards.s3.dualstack.us-east-1.amazonaws.com/CityOfFernandinaBeach/HeritageTrees/2023-72DesignatesTenTreesasProtectedHeritageTrees.pdf",
+        "oid_": null,
+        "town": null,
+        "created_user": "kmulcahy",
+        "latitude": null,
+        "globalid": "{90D6E4E8-3A89-4D17-A97F-4A51757CA7E5}",
+        "familyname": "Quercus virginiana-Oak, Live- Fagaceae",
+        "scientificname": "Quercus virginiana",
+        "private__pv__or_public__pb_": "PV",
+        "dia_": "58\"",
+        "photodocname": null,
+        "document_name": "2024-68_1521_Franklin_St",
+        "last_edited_user": "kmulcahy",
+        "photolink": null,
+        "commonname": "Oak, Live",
+        "id_resolution_number": "2024-68",
+        "f_": null,
+        "location_of_tree": "1521 Franklin St",
+        "last_edited_date": 1764107248000,
+        "origional_id": "2024-68 1521 Franklin St",
+        "created_date": 1764107248000,
+        "cir_": "182.12\"",
+        "objectid": 62,
+        "longitude": null
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.44810208799998,
+          30.674117029000058
+        ],
+        "crs": null
+      },
+      "id": 63,
+      "type": "Feature",
+      "properties": {
+        "document_link": "https://ncflpataxcards.s3.dualstack.us-east-1.amazonaws.com/CityOfFernandinaBeach/HeritageTrees/2023-72DesignatesTenTreesasProtectedHeritageTrees.pdf",
+        "oid_": null,
+        "town": null,
+        "created_user": "kmulcahy",
+        "latitude": null,
+        "globalid": "{3D8A10F5-24DE-4F50-975E-08C9E68DBAA3}",
+        "familyname": "Quercus virginiana-Oak, Live- Fagaceae",
+        "scientificname": "Quercus virginiana",
+        "private__pv__or_public__pb_": "PV",
+        "dia_": "46\"",
+        "photodocname": null,
+        "document_name": "2024-68_1532_Dade_St",
+        "last_edited_user": "kmulcahy",
+        "photolink": null,
+        "commonname": "Oak, Live",
+        "id_resolution_number": "2024-68",
+        "f_": null,
+        "location_of_tree": "1532 Dade St",
+        "last_edited_date": 1764107248000,
+        "origional_id": "2024-68 1532 Dade St",
+        "created_date": 1764107248000,
+        "cir_": "144.44\"",
+        "objectid": 63,
+        "longitude": null
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.45588964699994,
+          30.687937962000035
+        ],
+        "crs": null
+      },
+      "id": 64,
+      "type": "Feature",
+      "properties": {
+        "document_link": "https://ncflpataxcards.s3.dualstack.us-east-1.amazonaws.com/CityOfFernandinaBeach/HeritageTrees/2023-72DesignatesTenTreesasProtectedHeritageTrees.pdf",
+        "oid_": null,
+        "town": null,
+        "created_user": "kmulcahy",
+        "latitude": null,
+        "globalid": "{500A9BEA-5D78-4055-8DBA-8DCE65E473CA}",
+        "familyname": "Celtis laevigata-Sugarberry- Ulmaceae",
+        "scientificname": "Celtis laevigata",
+        "private__pv__or_public__pb_": "PV",
+        "dia_": "60\"",
+        "photodocname": null,
+        "document_name": "2024-68_831_Garden_St_(Champion_Sugarberry)",
+        "last_edited_user": "kmulcahy",
+        "photolink": null,
+        "commonname": "Sugarberry",
+        "id_resolution_number": "2024-68",
+        "f_": null,
+        "location_of_tree": "831 Garden St (Champion Sugarberry)",
+        "last_edited_date": 1764107248000,
+        "origional_id": "2024-68 831 Garden St",
+        "created_date": 1764107248000,
+        "cir_": "188.4\"",
+        "objectid": 64,
+        "longitude": null
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.45983383499998,
+          30.66723638900004
+        ],
+        "crs": null
+      },
+      "id": 67,
+      "type": "Feature",
+      "properties": {
+        "document_link": "https://ncflpataxcards.s3.dualstack.us-east-1.amazonaws.com/CityOfFernandinaBeach/HeritageTrees/2023-72DesignatesTenTreesasProtectedHeritageTrees.pdf",
+        "oid_": null,
+        "town": null,
+        "created_user": "kmulcahy",
+        "latitude": null,
+        "globalid": "{E7F8B35B-CEA7-4782-BD5B-9EF35DCDDF05}",
+        "familyname": "Quercus virginiana-Oak, Live- Fagaceae",
+        "scientificname": "Quercus virginiana",
+        "private__pv__or_public__pb_": "PV",
+        "dia_": "57\"",
+        "photodocname": null,
+        "document_name": "2024-68_226_S_7_St",
+        "last_edited_user": "kmulcahy",
+        "photolink": null,
+        "commonname": "Oak, Live",
+        "id_resolution_number": "2024-68",
+        "f_": null,
+        "location_of_tree": "226 S 7th St",
+        "last_edited_date": 1764107248000,
+        "origional_id": "2024-68 226 S 7th St",
+        "created_date": 1764107248000,
+        "cir_": "178.98\"",
+        "objectid": 67,
+        "longitude": null
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.45948404199999,
+          30.664677797000024
+        ],
+        "crs": null
+      },
+      "id": 57,
+      "type": "Feature",
+      "properties": {
+        "document_link": "https://ncflpataxcards.s3.dualstack.us-east-1.amazonaws.com/CityOfFernandinaBeach/HeritageTrees/2023-72DesignatesTenTreesasProtectedHeritageTrees.pdf",
+        "oid_": null,
+        "town": null,
+        "created_user": "kmulcahy",
+        "latitude": null,
+        "globalid": "{CC6AED00-7761-4622-BE4C-5B0C3D86EB2C}",
+        "familyname": "Quercus virginiana-Oak, Live- Fagaceae",
+        "scientificname": "Quercus virginiana",
+        "private__pv__or_public__pb_": "PV",
+        "dia_": "84\"",
+        "photodocname": null,
+        "document_name": "2024-68_432_S_8_St",
+        "last_edited_user": "kmulcahy",
+        "photolink": null,
+        "commonname": "Oak, Live",
+        "id_resolution_number": "2024-68",
+        "f_": null,
+        "location_of_tree": "432 S 8th St",
+        "last_edited_date": 1764107248000,
+        "origional_id": "2024-68 432 S 8th St",
+        "created_date": 1764107248000,
+        "cir_": "263.76\"",
+        "objectid": 57,
+        "longitude": null
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.44801357499995,
+          30.670505475000027
+        ],
+        "crs": null
+      },
+      "id": 74,
+      "type": "Feature",
+      "properties": {
+        "document_link": "https://ncflpataxcards.s3.dualstack.us-east-1.amazonaws.com/CityOfFernandinaBeach/HeritageTrees/2025-75DesignatesSixTreesAsHeritageTrees.pdf",
+        "oid_": 74,
+        "town": "Fernandina Beach",
+        "created_user": "kmulcahy",
+        "latitude": null,
+        "globalid": "{65014C41-A959-4031-8580-E44C677BBED3}",
+        "familyname": "Fagus grandifolia-Beech, American- Fagaceae",
+        "scientificname": "Quercus virginiana",
+        "private__pv__or_public__pb_": "PB",
+        "dia_": "58\"",
+        "photodocname": null,
+        "document_name": "2025-75_1612_Alachua_St",
+        "last_edited_user": "kmulcahy",
+        "photolink": null,
+        "commonname": "Oak, Live",
+        "id_resolution_number": "2025-75",
+        "f_": null,
+        "location_of_tree": "ROW near driveway at 1612 Alachua St",
+        "last_edited_date": 1764166630480,
+        "origional_id": "2025-75 1612 Alachua St",
+        "created_date": 1764107248000,
+        "cir_": "182.12\"",
+        "objectid": 74,
+        "longitude": null
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.44110806999998,
+          30.669316578000064
+        ],
+        "crs": null
+      },
+      "id": 82,
+      "type": "Feature",
+      "properties": {
+        "document_link": null,
+        "oid_": null,
+        "town": "Fernandina Beach",
+        "created_user": "",
+        "latitude": null,
+        "globalid": "{64B9260A-2EF1-4124-9B9B-C947B30EB715}",
+        "familyname": "Quercus virginiana-Oak, Live- Fagaceae",
+        "scientificname": "Quercus virginiana",
+        "private__pv__or_public__pb_": "PB",
+        "dia_": "49\"",
+        "photodocname": null,
+        "document_name": "2026-59 Egans Creek Park Parking Lot",
+        "last_edited_user": "",
+        "photolink": null,
+        "commonname": "Oak, Live",
+        "id_resolution_number": "2026-59",
+        "f_": null,
+        "location_of_tree": "Egans Creek Park Parking Lot",
+        "last_edited_date": 1777399203062,
+        "origional_id": "2026-59",
+        "created_date": 1777399203062,
+        "cir_": "153.86\"",
+        "objectid": 82,
+        "longitude": null
+      }
+    }
+  ]
+}
