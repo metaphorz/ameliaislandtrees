@@ -2,11 +2,26 @@
 
 [Open the interactive map](https://metaphorz.github.io/ameliaislandtrees/)
 
-A zoomable Leaflet map of 14,034 Fernandina Beach tree inventory records, with
-clustering, species and condition filters, street/tree search, individual tree
-details, and street or satellite basemaps. Dead and not-found records can be hidden.
-Photo attachment metadata is included in `data/fernandina-attachments.json`; photos
-are not yet displayed in the map.
+A zoomable Leaflet map combining Fernandina Beach and county tree inventories,
+Omni tree and woody-plant observations, and AIPCA planting-program locations.
+Each source has its own colored clusters and visibility control. The map includes
+species/condition/search filters, an images-only filter, attached-image galleries,
+street and satellite basemaps, a Plantation boundary, and a south-end shortcut.
+Dead and not-found inventory records can be hidden. Counts are records, not unique trees.
+
+The default view shows 14,186 records: 14,034 city inventory entries, 97 Omni
+observations, and 55 AIPCA planting locations. An optional county layer adds 21
+records, some on the mainland. The public AIPCA invasive-plant layer is empty and
+is shown with a zero count. Five RCOAST report graphics are linked in the sidebar;
+they are reference images, not georeferenced overlays.
+
+[South-island download notes](data/south-island/README.md) document the additional
+sources, count checks, media, and limitations. Original media (about 596 MB) are
+downloaded locally and excluded from Git; the map loads images on demand from their
+original sources and displays their supplied attribution. Observation and photo
+licenses are preserved separately. No blanket license is granted for source media.
+
+Crafted by Paul Fishwick & OpenAI Codex 2026
 
 The site uses plain HTML, CSS, and JavaScript with locally bundled Leaflet and
 MarkerCluster libraries. GitHub Pages serves the root of the `main` branch; no

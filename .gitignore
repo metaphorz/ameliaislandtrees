@@ -6,3 +6,9 @@ __pycache__/
 !.env.example
 node_modules/
 dist/
+# Full-resolution source media are kept in the local download archive.
+# The map loads these images on demand from the credited source URLs.
+data/south-island/omni-inaturalist/photos/
+data/south-island/aipca-planting-locations/attachments/
+data/south-island/rcoast/graphics/
+data/south-island/rcoast/source-page.html

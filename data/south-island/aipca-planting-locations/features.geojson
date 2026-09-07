@@ -1,0 +1,1490 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": 5,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.451367987996,
+          30.554932980125
+        ]
+      },
+      "properties": {
+        "objectid": 5,
+        "globalid": "47de85cc-93c0-4994-b373-d0d409235b85",
+        "CreationDate": 1720619841838,
+        "Creator": "AIPCA5",
+        "EditDate": 1720619841838,
+        "Editor": "AIPCA5",
+        "species": "Oak",
+        "_date": 1720627200000,
+        "location": "203 Sea Marsh Rd, Fernandina Beach, FL, 32034, USA",
+        "planted": null,
+        "when_planted": null,
+        "what_kind_of_tree": null,
+        "wt_kind_of_tree_other": null,
+        "year_planted": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.451482644322,
+          30.550404153463
+        ]
+      },
+      "properties": {
+        "objectid": 6,
+        "globalid": "3a37d410-2694-4c8d-9b04-a8195de83158",
+        "CreationDate": 1720620430782,
+        "Creator": "AIPCA5",
+        "EditDate": 1720620430782,
+        "Editor": "AIPCA5",
+        "species": "Oak",
+        "_date": 1720627200000,
+        "location": "203 Marsh Creek Rd, Fernandina Beach, FL, 32034, USA",
+        "planted": null,
+        "when_planted": null,
+        "what_kind_of_tree": null,
+        "wt_kind_of_tree_other": null,
+        "year_planted": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.453945004127,
+          30.560166011825
+        ]
+      },
+      "properties": {
+        "objectid": 7,
+        "globalid": "bedc3d9d-8af2-46c8-87c5-cb0562f2572e",
+        "CreationDate": 1720621015559,
+        "Creator": "AIPCA5",
+        "EditDate": 1720621015559,
+        "Editor": "AIPCA5",
+        "species": "Oak",
+        "_date": 1720627200000,
+        "location": "3213 Sea Marsh Rd, Fernandina Beach, FL, 32034, USA",
+        "planted": null,
+        "when_planted": null,
+        "what_kind_of_tree": null,
+        "wt_kind_of_tree_other": null,
+        "year_planted": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.454367032952,
+          30.562964980753
+        ]
+      },
+      "properties": {
+        "objectid": 8,
+        "globalid": "15381bfc-c1ef-4af7-81b9-83c150cea0d4",
+        "CreationDate": 1720621023987,
+        "Creator": "AIPCA5",
+        "EditDate": 1720621023987,
+        "Editor": "AIPCA5",
+        "species": "Oak",
+        "_date": 1720627200000,
+        "location": "157 Sea Marsh Rd, Fernandina Beach, FL, 32034, USA",
+        "planted": null,
+        "when_planted": null,
+        "what_kind_of_tree": null,
+        "wt_kind_of_tree_other": null,
+        "year_planted": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.454719994895,
+          30.566538982357
+        ]
+      },
+      "properties": {
+        "objectid": 9,
+        "globalid": "71b5f811-3280-4eb0-b841-bc242c777812",
+        "CreationDate": 1720621259060,
+        "Creator": "AIPCA5",
+        "EditDate": 1720621259060,
+        "Editor": "AIPCA5",
+        "species": "Oak",
+        "_date": 1721232000000,
+        "location": "137 Sea Marsh Rd, Fernandina Beach, FL, 32034, USA",
+        "planted": null,
+        "when_planted": null,
+        "what_kind_of_tree": null,
+        "wt_kind_of_tree_other": null,
+        "year_planted": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 10,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4553600370129,
+          30.5679956650392
+        ]
+      },
+      "properties": {
+        "objectid": 10,
+        "globalid": "44ec34cd-e237-43a8-a9e4-735e65af88d3",
+        "CreationDate": 1720621406282,
+        "Creator": "AIPCA5",
+        "EditDate": 1721163123785,
+        "Editor": "AIPCA5",
+        "species": "Oak",
+        "_date": 1720627200000,
+        "location": "128 Sea Marsh Rd, Fernandina Beach, FL, 32034, USA",
+        "planted": null,
+        "when_planted": null,
+        "what_kind_of_tree": null,
+        "wt_kind_of_tree_other": null,
+        "year_planted": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 11,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.455977028914,
+          30.567940981392
+        ]
+      },
+      "properties": {
+        "objectid": 11,
+        "globalid": "7d215190-60de-437b-a1bf-85fe8686a8c4",
+        "CreationDate": 1720621545512,
+        "Creator": "AIPCA5",
+        "EditDate": 1720621545512,
+        "Editor": "AIPCA5",
+        "species": "Oak",
+        "_date": 1721232000000,
+        "location": "124 Sea Marsh Rd, Fernandina Beach, FL, 32034, USA",
+        "planted": null,
+        "when_planted": null,
+        "what_kind_of_tree": null,
+        "wt_kind_of_tree_other": null,
+        "year_planted": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 12,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.456339965321,
+          30.567847984176
+        ]
+      },
+      "properties": {
+        "objectid": 12,
+        "globalid": "c722c891-b9ca-4ab6-9541-f22fa3590944",
+        "CreationDate": 1720621593081,
+        "Creator": "AIPCA5",
+        "EditDate": 1720621593081,
+        "Editor": "AIPCA5",
+        "species": "Oak",
+        "_date": 1720627200000,
+        "location": "122 Sea Marsh Rd, Fernandina Beach, FL, 32034, USA",
+        "planted": null,
+        "when_planted": null,
+        "what_kind_of_tree": null,
+        "wt_kind_of_tree_other": null,
+        "year_planted": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 13,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.457192991607,
+          30.563145987952
+        ]
+      },
+      "properties": {
+        "objectid": 13,
+        "globalid": "7f26dfae-7ab1-4f55-81e7-45ed305fa45b",
+        "CreationDate": 1720622057633,
+        "Creator": "AIPCA5",
+        "EditDate": 1720622057633,
+        "Editor": "AIPCA5",
+        "species": "Oak",
+        "_date": 1720627200000,
+        "location": "89 Sea Marsh Rd, Fernandina Beach, FL, 32034, USA",
+        "planted": null,
+        "when_planted": null,
+        "what_kind_of_tree": null,
+        "wt_kind_of_tree_other": null,
+        "year_planted": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.460249033505,
+          30.559357996359
+        ]
+      },
+      "properties": {
+        "objectid": 14,
+        "globalid": "dae0ce7e-2c93-48ad-8141-92b204de60ae",
+        "CreationDate": 1720622407243,
+        "Creator": "AIPCA5",
+        "EditDate": 1720622407243,
+        "Editor": "AIPCA5",
+        "species": "Oak",
+        "_date": 1720627200000,
+        "location": "43 Sea Marsh Rd, Fernandina Beach, FL, 32034, USA",
+        "planted": null,
+        "when_planted": null,
+        "what_kind_of_tree": null,
+        "wt_kind_of_tree_other": null,
+        "year_planted": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 15,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4562815346637,
+          30.5487160685077
+        ]
+      },
+      "properties": {
+        "objectid": 15,
+        "globalid": "20cb3f03-adde-4f15-b4cf-3a8f1f590a14",
+        "CreationDate": 1720622514840,
+        "Creator": "AIPCA5",
+        "EditDate": 1725883654915,
+        "Editor": "AIPCA5",
+        "species": "Oak",
+        "_date": 1720627200000,
+        "location": "39 Marsh Creek Rd, Fernandina Beach, FL, 32034, USA",
+        "planted": null,
+        "when_planted": null,
+        "what_kind_of_tree": null,
+        "wt_kind_of_tree_other": null,
+        "year_planted": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 16,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.457174970516,
+          30.557061983532
+        ]
+      },
+      "properties": {
+        "objectid": 16,
+        "globalid": "3591116f-fb52-4dba-beab-1bf2632730e2",
+        "CreationDate": 1720622717875,
+        "Creator": "AIPCA5",
+        "EditDate": 1720622717875,
+        "Editor": "AIPCA5",
+        "species": "Oak",
+        "_date": 1720627200000,
+        "location": "14 Sea Marsh Rd, Fernandina Beach, FL, 32034, USA",
+        "planted": null,
+        "when_planted": null,
+        "what_kind_of_tree": null,
+        "wt_kind_of_tree_other": null,
+        "year_planted": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 17,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.449616002594,
+          30.552794002254
+        ]
+      },
+      "properties": {
+        "objectid": 17,
+        "globalid": "d3d09288-36ea-419c-97c8-817f714f7444",
+        "CreationDate": 1720623045288,
+        "Creator": "AIPCA5",
+        "EditDate": 1720623045288,
+        "Editor": "AIPCA5",
+        "species": "Oak",
+        "_date": 1720627200000,
+        "location": "2 Marsh Creek Rd, Fernandina Beach, FL, 32034, USA",
+        "planted": null,
+        "when_planted": null,
+        "what_kind_of_tree": null,
+        "wt_kind_of_tree_other": null,
+        "year_planted": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.449616002594,
+          30.552794002254
+        ]
+      },
+      "properties": {
+        "objectid": 18,
+        "globalid": "c2ea40c4-58aa-4e6f-bcbe-67be591f352e",
+        "CreationDate": 1720623157456,
+        "Creator": "AIPCA5",
+        "EditDate": 1720623157456,
+        "Editor": "AIPCA5",
+        "species": "Oak",
+        "_date": 1720022400000,
+        "location": "2 Marsh Creek Rd, Fernandina Beach, FL, 32034, USA",
+        "planted": null,
+        "when_planted": null,
+        "what_kind_of_tree": null,
+        "wt_kind_of_tree_other": null,
+        "year_planted": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 19,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4502630017,
+          30.55245499618
+        ]
+      },
+      "properties": {
+        "objectid": 19,
+        "globalid": "3145b4e9-c7db-4c42-b68b-4d7ce3cd5b1a",
+        "CreationDate": 1720623192590,
+        "Creator": "AIPCA5",
+        "EditDate": 1720623192590,
+        "Editor": "AIPCA5",
+        "species": "Oak",
+        "_date": 1720627200000,
+        "location": "3 Marsh Creek Rd, Fernandina Beach, FL, 32034, USA",
+        "planted": null,
+        "when_planted": null,
+        "what_kind_of_tree": null,
+        "wt_kind_of_tree_other": null,
+        "year_planted": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 20,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.451842990449,
+          30.55014100417
+        ]
+      },
+      "properties": {
+        "objectid": 20,
+        "globalid": "b21e8d15-2f8a-4f10-97b4-955d7e5980be",
+        "CreationDate": 1720623345461,
+        "Creator": "AIPCA5",
+        "EditDate": 1720623345461,
+        "Editor": "AIPCA5",
+        "species": "Oak",
+        "_date": 1720627200000,
+        "location": "121 Marsh Creek Rd, Fernandina Beach, FL, 32034, USA",
+        "planted": null,
+        "when_planted": null,
+        "what_kind_of_tree": null,
+        "wt_kind_of_tree_other": null,
+        "year_planted": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 21,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.455430025913,
+          30.54898099068
+        ]
+      },
+      "properties": {
+        "objectid": 21,
+        "globalid": "dd5eb26b-e405-4937-8a52-e7549f960dee",
+        "CreationDate": 1720623879112,
+        "Creator": "AIPCA5",
+        "EditDate": 1720623879112,
+        "Editor": "AIPCA5",
+        "species": "Oak",
+        "_date": 1720627200000,
+        "location": "49 Marsh Creek Rd, Fernandina Beach, FL, 32034, USA",
+        "planted": null,
+        "when_planted": null,
+        "what_kind_of_tree": null,
+        "wt_kind_of_tree_other": null,
+        "year_planted": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 22,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4468460562992,
+          30.5621515037272
+        ]
+      },
+      "properties": {
+        "objectid": 22,
+        "globalid": "e590f26a-3739-4f69-81af-2103c86556fd",
+        "CreationDate": 1721658071366,
+        "Creator": "AIPCA5",
+        "EditDate": 1721658071366,
+        "Editor": "AIPCA5",
+        "species": "Oak",
+        "_date": 1721664000000,
+        "location": null,
+        "planted": "No",
+        "when_planted": null,
+        "what_kind_of_tree": null,
+        "wt_kind_of_tree_other": null,
+        "year_planted": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 23,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4485100247636,
+          30.5659756779718
+        ]
+      },
+      "properties": {
+        "objectid": 23,
+        "globalid": "fad32b2c-59a9-4be8-b9f2-c72bf20e0bfa",
+        "CreationDate": 1721658295773,
+        "Creator": "AIPCA5",
+        "EditDate": 1721658295773,
+        "Editor": "AIPCA5",
+        "species": "Oak",
+        "_date": 1721664000000,
+        "location": null,
+        "planted": "No",
+        "when_planted": null,
+        "what_kind_of_tree": null,
+        "wt_kind_of_tree_other": null,
+        "year_planted": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 24,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4506002248825,
+          30.5660421444688
+        ]
+      },
+      "properties": {
+        "objectid": 24,
+        "globalid": "c88d39e1-ebc9-47f2-afc9-ca561d28d6cd",
+        "CreationDate": 1721658811290,
+        "Creator": "AIPCA5",
+        "EditDate": 1721658811290,
+        "Editor": "AIPCA5",
+        "species": "Oak ",
+        "_date": 1721664000000,
+        "location": null,
+        "planted": "Choice 2",
+        "when_planted": null,
+        "what_kind_of_tree": null,
+        "wt_kind_of_tree_other": null,
+        "year_planted": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 25,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4488222693186,
+          30.5611726486939
+        ]
+      },
+      "properties": {
+        "objectid": 25,
+        "globalid": "072ec153-e8b8-4e56-90b0-812d0feb6280",
+        "CreationDate": 1721659194924,
+        "Creator": "AIPCA5",
+        "EditDate": 1721659194924,
+        "Editor": "AIPCA5",
+        "species": "Oak",
+        "_date": 1721664000000,
+        "location": null,
+        "planted": "Choice 2",
+        "when_planted": null,
+        "what_kind_of_tree": null,
+        "wt_kind_of_tree_other": null,
+        "year_planted": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 26,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4445893506584,
+          30.5577323612744
+        ]
+      },
+      "properties": {
+        "objectid": 26,
+        "globalid": "4d41ce67-e040-438f-a253-d1d5aa675697",
+        "CreationDate": 1721659525803,
+        "Creator": "AIPCA5",
+        "EditDate": 1721659525803,
+        "Editor": "AIPCA5",
+        "species": "Oak ",
+        "_date": 1721664000000,
+        "location": null,
+        "planted": "Choice 2",
+        "when_planted": null,
+        "what_kind_of_tree": null,
+        "wt_kind_of_tree_other": null,
+        "year_planted": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 27,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4460420033969,
+          30.5516331083555
+        ]
+      },
+      "properties": {
+        "objectid": 27,
+        "globalid": "78792a2f-96a9-4488-b5d2-531a4a7f6e14",
+        "CreationDate": 1721659734921,
+        "Creator": "AIPCA5",
+        "EditDate": 1721659734921,
+        "Editor": "AIPCA5",
+        "species": "Oak",
+        "_date": 1721664000000,
+        "location": null,
+        "planted": "Choice 2",
+        "when_planted": null,
+        "what_kind_of_tree": null,
+        "wt_kind_of_tree_other": null,
+        "year_planted": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 28,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4425298455938,
+          30.5422204799244
+        ]
+      },
+      "properties": {
+        "objectid": 28,
+        "globalid": "55d9e93f-dd87-42a9-9eb2-4c33255b59e8",
+        "CreationDate": 1721660679097,
+        "Creator": "AIPCA5",
+        "EditDate": 1721660679097,
+        "Editor": "AIPCA5",
+        "species": "Oak 2",
+        "_date": 1721664000000,
+        "location": null,
+        "planted": "Choice 2",
+        "when_planted": null,
+        "what_kind_of_tree": null,
+        "wt_kind_of_tree_other": null,
+        "year_planted": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 29,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4456625412074,
+          30.5535067657808
+        ]
+      },
+      "properties": {
+        "objectid": 29,
+        "globalid": "5e69719a-e56c-4cf5-ac03-c4b924a0497b",
+        "CreationDate": 1721660687849,
+        "Creator": "AIPCA5",
+        "EditDate": 1721660687849,
+        "Editor": "AIPCA5",
+        "species": "Oak",
+        "_date": 1721664000000,
+        "location": null,
+        "planted": "Choice 2",
+        "when_planted": null,
+        "what_kind_of_tree": null,
+        "wt_kind_of_tree_other": null,
+        "year_planted": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 30,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.444396529264,
+          30.5342470025176
+        ]
+      },
+      "properties": {
+        "objectid": 30,
+        "globalid": "8d5e1bca-5d6e-4b4b-b5f0-8670b291108d",
+        "CreationDate": 1721743962303,
+        "Creator": "AIPCA5",
+        "EditDate": 1721743962303,
+        "Editor": "AIPCA5",
+        "species": null,
+        "_date": 1721750400000,
+        "location": null,
+        "planted": "Choice 2",
+        "when_planted": null,
+        "what_kind_of_tree": "Oak",
+        "wt_kind_of_tree_other": "",
+        "year_planted": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 31,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4442129628112,
+          30.5336715106763
+        ]
+      },
+      "properties": {
+        "objectid": 31,
+        "globalid": "1d4250c2-c673-4a51-ba4a-6ec0178adcbb",
+        "CreationDate": 1721744041214,
+        "Creator": "AIPCA5",
+        "EditDate": 1721744041214,
+        "Editor": "AIPCA5",
+        "species": null,
+        "_date": 1721750400000,
+        "location": null,
+        "planted": "Choice 2",
+        "when_planted": null,
+        "what_kind_of_tree": "Oak",
+        "wt_kind_of_tree_other": "",
+        "year_planted": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 32,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.444216482735,
+          30.533665258054
+        ]
+      },
+      "properties": {
+        "objectid": 32,
+        "globalid": "a8b4ae77-b025-41b7-90a5-45cdc2a4f03b",
+        "CreationDate": 1721744080004,
+        "Creator": "AIPCA5",
+        "EditDate": 1721744080004,
+        "Editor": "AIPCA5",
+        "species": null,
+        "_date": 1721750400000,
+        "location": null,
+        "planted": "Choice 2",
+        "when_planted": null,
+        "what_kind_of_tree": "Oak",
+        "wt_kind_of_tree_other": "",
+        "year_planted": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 33,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4442933232143,
+          30.533234855527
+        ]
+      },
+      "properties": {
+        "objectid": 33,
+        "globalid": "21f192ed-93a8-438e-9374-6ccbe88fcb98",
+        "CreationDate": 1721744140543,
+        "Creator": "AIPCA5",
+        "EditDate": 1721744140543,
+        "Editor": "AIPCA5",
+        "species": null,
+        "_date": 1721750400000,
+        "location": null,
+        "planted": "Choice 2",
+        "when_planted": null,
+        "what_kind_of_tree": "Oak",
+        "wt_kind_of_tree_other": "",
+        "year_planted": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 34,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4461858928096,
+          30.5316598968743
+        ]
+      },
+      "properties": {
+        "objectid": 34,
+        "globalid": "4a7c2718-7511-4c1e-897c-ddc277ec97ba",
+        "CreationDate": 1721744380420,
+        "Creator": "AIPCA5",
+        "EditDate": 1721744380420,
+        "Editor": "AIPCA5",
+        "species": null,
+        "_date": 1721750400000,
+        "location": null,
+        "planted": "Choice 2",
+        "when_planted": null,
+        "what_kind_of_tree": "Oak",
+        "wt_kind_of_tree_other": "",
+        "year_planted": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 35,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4468136235981,
+          30.5315227572365
+        ]
+      },
+      "properties": {
+        "objectid": 35,
+        "globalid": "40ea2588-2667-4672-b6f2-79b6d5598e60",
+        "CreationDate": 1721744453143,
+        "Creator": "AIPCA5",
+        "EditDate": 1721744453143,
+        "Editor": "AIPCA5",
+        "species": null,
+        "_date": 1721750400000,
+        "location": null,
+        "planted": "Choice 2",
+        "when_planted": null,
+        "what_kind_of_tree": "Oak",
+        "wt_kind_of_tree_other": "",
+        "year_planted": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 36,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4471336907593,
+          30.5314866461127
+        ]
+      },
+      "properties": {
+        "objectid": 36,
+        "globalid": "54c9337e-2c5d-4085-9a06-491af7e6609a",
+        "CreationDate": 1721744513048,
+        "Creator": "AIPCA5",
+        "EditDate": 1721744513048,
+        "Editor": "AIPCA5",
+        "species": null,
+        "_date": 1721750400000,
+        "location": null,
+        "planted": "Choice 2",
+        "when_planted": null,
+        "what_kind_of_tree": "Oak",
+        "wt_kind_of_tree_other": "",
+        "year_planted": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 37,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4492046363052,
+          30.5315804432569
+        ]
+      },
+      "properties": {
+        "objectid": 37,
+        "globalid": "94972982-89d5-4a06-af84-8ba050f1455d",
+        "CreationDate": 1721744640476,
+        "Creator": "AIPCA5",
+        "EditDate": 1721744640476,
+        "Editor": "AIPCA5",
+        "species": null,
+        "_date": 1721750400000,
+        "location": null,
+        "planted": "Choice 2",
+        "when_planted": null,
+        "what_kind_of_tree": "Oak",
+        "wt_kind_of_tree_other": "",
+        "year_planted": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 38,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.44978996688,
+          30.5311563292936
+        ]
+      },
+      "properties": {
+        "objectid": 38,
+        "globalid": "ac9a41b7-62df-4316-96bd-f7f804577c6b",
+        "CreationDate": 1721744772570,
+        "Creator": "AIPCA5",
+        "EditDate": 1721744772570,
+        "Editor": "AIPCA5",
+        "species": null,
+        "_date": 1721750400000,
+        "location": null,
+        "planted": "Choice 2",
+        "when_planted": null,
+        "what_kind_of_tree": "Oak",
+        "wt_kind_of_tree_other": "",
+        "year_planted": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 39,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4501885669087,
+          30.5307682118309
+        ]
+      },
+      "properties": {
+        "objectid": 39,
+        "globalid": "7282fa6b-529b-4b21-8be6-1668c36c3b20",
+        "CreationDate": 1721744838389,
+        "Creator": "AIPCA5",
+        "EditDate": 1721744838389,
+        "Editor": "AIPCA5",
+        "species": null,
+        "_date": 1721750400000,
+        "location": null,
+        "planted": "Choice 2",
+        "when_planted": null,
+        "what_kind_of_tree": "Oak",
+        "wt_kind_of_tree_other": "",
+        "year_planted": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 40,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4502307403224,
+          30.5300070090734
+        ]
+      },
+      "properties": {
+        "objectid": 40,
+        "globalid": "a7d4ba7e-8805-4df4-bcbc-38053d3c87f0",
+        "CreationDate": 1721744951361,
+        "Creator": "AIPCA5",
+        "EditDate": 1721744951361,
+        "Editor": "AIPCA5",
+        "species": null,
+        "_date": 1721750400000,
+        "location": null,
+        "planted": "Choice 2",
+        "when_planted": null,
+        "what_kind_of_tree": "Oak",
+        "wt_kind_of_tree_other": "",
+        "year_planted": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 41,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4495320449246,
+          30.5287426091794
+        ]
+      },
+      "properties": {
+        "objectid": 41,
+        "globalid": "fef4cf44-6d74-412c-98d2-4cc1952600da",
+        "CreationDate": 1721745122386,
+        "Creator": "AIPCA5",
+        "EditDate": 1721745122386,
+        "Editor": "AIPCA5",
+        "species": null,
+        "_date": 1721750400000,
+        "location": null,
+        "planted": "Choice 2",
+        "when_planted": null,
+        "what_kind_of_tree": "Oak",
+        "wt_kind_of_tree_other": "",
+        "year_planted": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 42,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.448863730874,
+          30.5286659524286
+        ]
+      },
+      "properties": {
+        "objectid": 42,
+        "globalid": "9d43f843-d920-42c3-8277-6f113974533f",
+        "CreationDate": 1721745245325,
+        "Creator": "AIPCA5",
+        "EditDate": 1721745245325,
+        "Editor": "AIPCA5",
+        "species": null,
+        "_date": 1721750400000,
+        "location": null,
+        "planted": "Choice 2",
+        "when_planted": null,
+        "what_kind_of_tree": "Oak",
+        "wt_kind_of_tree_other": "",
+        "year_planted": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 43,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.444380321935,
+          30.5356340364835
+        ]
+      },
+      "properties": {
+        "objectid": 43,
+        "globalid": "a37b451a-8422-4b33-81a5-0aeac0306e7f",
+        "CreationDate": 1721746003422,
+        "Creator": "AIPCA5",
+        "EditDate": 1721746003422,
+        "Editor": "AIPCA5",
+        "species": null,
+        "_date": 1721750400000,
+        "location": null,
+        "planted": "Choice 2",
+        "when_planted": null,
+        "what_kind_of_tree": "Oak",
+        "wt_kind_of_tree_other": "",
+        "year_planted": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 44,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4461416055386,
+          30.5373800326359
+        ]
+      },
+      "properties": {
+        "objectid": 44,
+        "globalid": "e1403d18-5a3f-4875-85b5-81bd7aab948a",
+        "CreationDate": 1725993607019,
+        "Creator": "AIPCA5",
+        "EditDate": 1725994771998,
+        "Editor": "AIPCA5",
+        "species": null,
+        "_date": 1683302400000,
+        "location": null,
+        "planted": "Yes",
+        "when_planted": null,
+        "what_kind_of_tree": "other",
+        "wt_kind_of_tree_other": "Easter Red Cedar",
+        "year_planted": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 45,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4461310185721,
+          30.5373497637019
+        ]
+      },
+      "properties": {
+        "objectid": 45,
+        "globalid": "996cbb19-117c-4d2e-8a0c-cf7dce2924b8",
+        "CreationDate": 1725993818820,
+        "Creator": "AIPCA5",
+        "EditDate": 1725994628016,
+        "Editor": "AIPCA5",
+        "species": null,
+        "_date": 1683302400000,
+        "location": null,
+        "planted": "Yes",
+        "when_planted": 1683312180000,
+        "what_kind_of_tree": "Oak",
+        "wt_kind_of_tree_other": null,
+        "year_planted": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 46,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4461181472538,
+          30.5373026367367
+        ]
+      },
+      "properties": {
+        "objectid": 46,
+        "globalid": "489c5174-40b4-486a-8d47-a4aa5b28748d",
+        "CreationDate": 1725993886484,
+        "Creator": "AIPCA5",
+        "EditDate": 1725994554728,
+        "Editor": "AIPCA5",
+        "species": null,
+        "_date": 1683302400000,
+        "location": null,
+        "planted": "Yes",
+        "when_planted": 1683312240000,
+        "what_kind_of_tree": "other",
+        "wt_kind_of_tree_other": "Eastern Red Oak",
+        "year_planted": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 47,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4461229741358,
+          30.5372714469114
+        ]
+      },
+      "properties": {
+        "objectid": 47,
+        "globalid": "66157ad9-93d0-4e66-b320-d4ea515e66d5",
+        "CreationDate": 1725994821474,
+        "Creator": "AIPCA5",
+        "EditDate": 1725994821474,
+        "Editor": "AIPCA5",
+        "species": "Oak",
+        "_date": 1683313196000,
+        "location": null,
+        "planted": "Yes",
+        "when_planted": 1683313207000,
+        "what_kind_of_tree": "Oak",
+        "wt_kind_of_tree_other": "",
+        "year_planted": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 48,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4439819007905,
+          30.536242254728
+        ]
+      },
+      "properties": {
+        "objectid": 48,
+        "globalid": "a7b2f6f6-15af-49fa-be53-6d1320d3681b",
+        "CreationDate": 1725994888718,
+        "Creator": "AIPCA5",
+        "EditDate": 1725994888718,
+        "Editor": "AIPCA5",
+        "species": "Oak",
+        "_date": 1683313272000,
+        "location": null,
+        "planted": "Yes",
+        "when_planted": 1683313281364,
+        "what_kind_of_tree": "Oak",
+        "wt_kind_of_tree_other": "",
+        "year_planted": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 49,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4439497142823,
+          30.5362699772193
+        ]
+      },
+      "properties": {
+        "objectid": 49,
+        "globalid": "bb726a66-cfa1-4bbe-bc5b-19353da9a647",
+        "CreationDate": 1725994946113,
+        "Creator": "AIPCA5",
+        "EditDate": 1725994946113,
+        "Editor": "AIPCA5",
+        "species": "Oak",
+        "_date": 1683313303999,
+        "location": null,
+        "planted": "Yes",
+        "when_planted": 1683313334000,
+        "what_kind_of_tree": "Oak",
+        "wt_kind_of_tree_other": "",
+        "year_planted": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 50,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4482390235403,
+          30.5493699948068
+        ]
+      },
+      "properties": {
+        "objectid": 50,
+        "globalid": "ec459dd3-688e-49eb-8f51-9977e25d216b",
+        "CreationDate": 1726162748163,
+        "Creator": "AIPCA5",
+        "EditDate": 1726162748163,
+        "Editor": "AIPCA5",
+        "species": null,
+        "_date": 1704906000000,
+        "location": null,
+        "planted": "Yes",
+        "when_planted": null,
+        "what_kind_of_tree": "Oak",
+        "wt_kind_of_tree_other": null,
+        "year_planted": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 51,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4480500116237,
+          30.5487270190142
+        ]
+      },
+      "properties": {
+        "objectid": 51,
+        "globalid": "ea4f5a9c-5630-4422-8260-bd1c92f2cded",
+        "CreationDate": 1726165045834,
+        "Creator": "AIPCA5",
+        "EditDate": 1726165045834,
+        "Editor": "AIPCA5",
+        "species": null,
+        "_date": 1704906000000,
+        "location": null,
+        "planted": "Yes",
+        "when_planted": null,
+        "what_kind_of_tree": "Magnoia",
+        "wt_kind_of_tree_other": null,
+        "year_planted": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 52,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4441145400185,
+          30.5361147806847
+        ]
+      },
+      "properties": {
+        "objectid": 52,
+        "globalid": "663f24ad-b8be-444f-8678-58b195bee556",
+        "CreationDate": 1726165223514,
+        "Creator": "AIPCA5",
+        "EditDate": 1726165488057,
+        "Editor": "AIPCA5",
+        "species": null,
+        "_date": 1704906000000,
+        "location": null,
+        "planted": "Yes",
+        "when_planted": null,
+        "what_kind_of_tree": "other",
+        "wt_kind_of_tree_other": "Sugarberry",
+        "year_planted": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 53,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4428760304315,
+          30.5356250147035
+        ]
+      },
+      "properties": {
+        "objectid": 53,
+        "globalid": "3d1e82a9-6cfa-4da0-89fd-e930f932cab8",
+        "CreationDate": 1726165223536,
+        "Creator": "AIPCA5",
+        "EditDate": 1726165223536,
+        "Editor": "AIPCA5",
+        "species": null,
+        "_date": 1704906000000,
+        "location": null,
+        "planted": "Yes",
+        "when_planted": null,
+        "what_kind_of_tree": "other",
+        "wt_kind_of_tree_other": "Sugarberry",
+        "year_planted": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 54,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4546586950237,
+          30.5490086514398
+        ]
+      },
+      "properties": {
+        "objectid": 54,
+        "globalid": "eb50a443-34c9-45de-8714-865104ae638e",
+        "CreationDate": 1726165637643,
+        "Creator": "AIPCA5",
+        "EditDate": 1726165637643,
+        "Editor": "AIPCA5",
+        "species": null,
+        "_date": 1704906000000,
+        "location": null,
+        "planted": "Yes",
+        "when_planted": null,
+        "what_kind_of_tree": "Magnoia",
+        "wt_kind_of_tree_other": null,
+        "year_planted": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 55,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4488160337549,
+          30.5486429904348
+        ]
+      },
+      "properties": {
+        "objectid": 55,
+        "globalid": "3b793f8b-b3ae-4669-877b-f0bfc30ed74f",
+        "CreationDate": 1726165756213,
+        "Creator": "AIPCA5",
+        "EditDate": 1726165756213,
+        "Editor": "AIPCA5",
+        "species": null,
+        "_date": 1704906000000,
+        "location": null,
+        "planted": "Yes",
+        "when_planted": null,
+        "what_kind_of_tree": "Oak",
+        "wt_kind_of_tree_other": null,
+        "year_planted": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 56,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4515039143069,
+          30.5497789943488
+        ]
+      },
+      "properties": {
+        "objectid": 56,
+        "globalid": "01d77ad5-4e75-4c16-86bc-60b2052ed4bb",
+        "CreationDate": 1726165936935,
+        "Creator": "AIPCA5",
+        "EditDate": 1726165936935,
+        "Editor": "AIPCA5",
+        "species": null,
+        "_date": 1704906000000,
+        "location": null,
+        "planted": "Yes",
+        "when_planted": null,
+        "what_kind_of_tree": "Oak",
+        "wt_kind_of_tree_other": null,
+        "year_planted": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 57,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4505767822052,
+          30.5548311860297
+        ]
+      },
+      "properties": {
+        "objectid": 57,
+        "globalid": "d0bf69fc-7256-45cd-8943-35d7665e96ba",
+        "CreationDate": 1726250078513,
+        "Creator": "",
+        "EditDate": 1726250078513,
+        "Editor": "",
+        "species": null,
+        "_date": null,
+        "location": null,
+        "planted": "Yes",
+        "when_planted": null,
+        "what_kind_of_tree": "Oak",
+        "wt_kind_of_tree_other": null,
+        "year_planted": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 58,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4505769999986,
+          30.5548309999995
+        ]
+      },
+      "properties": {
+        "objectid": 58,
+        "globalid": "12496f61-8ba0-4a0d-812c-06b1fdbd716e",
+        "CreationDate": 1732037214653,
+        "Creator": "",
+        "EditDate": 1732037214653,
+        "Editor": "",
+        "species": null,
+        "_date": null,
+        "location": null,
+        "planted": "Choice 2",
+        "when_planted": null,
+        "what_kind_of_tree": "Oak",
+        "wt_kind_of_tree_other": null,
+        "year_planted": 2024
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 59,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4505769999986,
+          30.5548309999995
+        ]
+      },
+      "properties": {
+        "objectid": 59,
+        "globalid": "79b351bc-7689-4f47-8861-fd727e9b32c3",
+        "CreationDate": 1736945847509,
+        "Creator": "",
+        "EditDate": 1736945847509,
+        "Editor": "",
+        "species": null,
+        "_date": 1736960400000,
+        "location": null,
+        "planted": "No",
+        "when_planted": null,
+        "what_kind_of_tree": "Oak",
+        "wt_kind_of_tree_other": null,
+        "year_planted": 2024
+      }
+    }
+  ]
+}

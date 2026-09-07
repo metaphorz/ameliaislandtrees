@@ -1,0 +1,5588 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": 190317002,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.44695278,
+          30.55581709
+        ]
+      },
+      "properties": {
+        "id": 190317002,
+        "uri": "https://www.inaturalist.org/observations/190317002",
+        "observed_on": "2023-11-07",
+        "time_observed_at": "2023-11-07T11:29:33-05:00",
+        "quality_grade": "casual",
+        "license_code": "cc-by-nc",
+        "geoprivacy": null,
+        "obscured": false,
+        "positional_accuracy": 8,
+        "captive": true,
+        "description": null,
+        "scientific_name": "Camellia sasanqua",
+        "common_name": "sasanqua camellia",
+        "taxon_id": 126549,
+        "taxon_rank": "species",
+        "observer": "eschwa3",
+        "photos": [
+          {
+            "id": 333597843,
+            "license_code": "cc-by-nc",
+            "original_dimensions": {
+              "width": 1365,
+              "height": 2048
+            },
+            "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/333597843/original.jpeg",
+            "attribution": "(c) Erich, some rights reserved (CC BY-NC)",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/333597843.jpeg"
+          },
+          {
+            "id": 333597865,
+            "license_code": "cc-by-nc",
+            "original_dimensions": {
+              "width": 2048,
+              "height": 1365
+            },
+            "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/333597865/original.jpeg",
+            "attribution": "(c) Erich, some rights reserved (CC BY-NC)",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/333597865.jpeg"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 262127326,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4464573284,
+          30.5561096175
+        ]
+      },
+      "properties": {
+        "id": 262127326,
+        "uri": "https://www.inaturalist.org/observations/262127326",
+        "observed_on": "2025-02-18",
+        "time_observed_at": "2025-02-18T10:14:21-05:00",
+        "quality_grade": "research",
+        "license_code": null,
+        "geoprivacy": null,
+        "obscured": false,
+        "positional_accuracy": 5,
+        "captive": false,
+        "description": "",
+        "scientific_name": "Quercus virginiana",
+        "common_name": "southern live oak",
+        "taxon_id": 49013,
+        "taxon_rank": "species",
+        "observer": "paul_moerman_jr",
+        "photos": [
+          {
+            "id": 470993826,
+            "license_code": null,
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://static.inaturalist.org/photos/470993826/original.jpg",
+            "attribution": "(c) Paul Moerman Jr, all rights reserved",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/470993826.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 262127345,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4463760586,
+          30.5559606871
+        ]
+      },
+      "properties": {
+        "id": 262127345,
+        "uri": "https://www.inaturalist.org/observations/262127345",
+        "observed_on": "2025-02-18",
+        "time_observed_at": "2025-02-18T10:14:19-05:00",
+        "quality_grade": "research",
+        "license_code": "cc-by-nc",
+        "geoprivacy": null,
+        "obscured": false,
+        "positional_accuracy": 2,
+        "captive": false,
+        "description": "",
+        "scientific_name": "Quercus virginiana",
+        "common_name": "southern live oak",
+        "taxon_id": 49013,
+        "taxon_rank": "species",
+        "observer": "vbaughma",
+        "photos": [
+          {
+            "id": 470993845,
+            "license_code": "cc-by-nc",
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/470993845/original.jpg",
+            "attribution": "(c) vbaughma, some rights reserved (CC BY-NC)",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/470993845.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 262127445,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4463823941,
+          30.556097338
+        ]
+      },
+      "properties": {
+        "id": 262127445,
+        "uri": "https://www.inaturalist.org/observations/262127445",
+        "observed_on": "2025-02-18",
+        "time_observed_at": "2025-02-18T10:17:15-05:00",
+        "quality_grade": "casual",
+        "license_code": null,
+        "geoprivacy": null,
+        "obscured": false,
+        "positional_accuracy": 4,
+        "captive": true,
+        "description": "",
+        "scientific_name": "Rhododendron indicum",
+        "common_name": "southern Indian azalea",
+        "taxon_id": 208830,
+        "taxon_rank": "species",
+        "observer": "paul_moerman_jr",
+        "photos": [
+          {
+            "id": 470994091,
+            "license_code": null,
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://static.inaturalist.org/photos/470994091/original.jpg",
+            "attribution": "(c) Paul Moerman Jr, all rights reserved",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/470994091.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 262127453,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4463599593,
+          30.5560491453
+        ]
+      },
+      "properties": {
+        "id": 262127453,
+        "uri": "https://www.inaturalist.org/observations/262127453",
+        "observed_on": "2025-02-18",
+        "time_observed_at": "2025-02-18T10:17:15-05:00",
+        "quality_grade": "casual",
+        "license_code": null,
+        "geoprivacy": null,
+        "obscured": false,
+        "positional_accuracy": 4,
+        "captive": true,
+        "description": "",
+        "scientific_name": "Rhododendron indicum",
+        "common_name": "southern Indian azalea",
+        "taxon_id": 208830,
+        "taxon_rank": "species",
+        "observer": "lurane1",
+        "photos": [
+          {
+            "id": 470994099,
+            "license_code": null,
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://static.inaturalist.org/photos/470994099/original.jpg",
+            "attribution": "(c) Lurane Worth, all rights reserved",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/470994099.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 262127468,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4464397196,
+          30.5560743576
+        ]
+      },
+      "properties": {
+        "id": 262127468,
+        "uri": "https://www.inaturalist.org/observations/262127468",
+        "observed_on": "2025-02-18",
+        "time_observed_at": "2025-02-18T10:17:11-05:00",
+        "quality_grade": "casual",
+        "license_code": null,
+        "geoprivacy": null,
+        "obscured": false,
+        "positional_accuracy": 3,
+        "captive": true,
+        "description": "",
+        "scientific_name": "Rhododendron indicum",
+        "common_name": "southern Indian azalea",
+        "taxon_id": 208830,
+        "taxon_rank": "species",
+        "observer": "jenny_decker",
+        "photos": [
+          {
+            "id": 470994153,
+            "license_code": null,
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://static.inaturalist.org/photos/470994153/original.jpg",
+            "attribution": "(c) Jenny Decker, all rights reserved",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/470994153.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 262127474,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4464206924,
+          30.5560848015
+        ]
+      },
+      "properties": {
+        "id": 262127474,
+        "uri": "https://www.inaturalist.org/observations/262127474",
+        "observed_on": "2025-02-18",
+        "time_observed_at": "2025-02-18T10:17:23-05:00",
+        "quality_grade": "casual",
+        "license_code": "cc-by-nc",
+        "geoprivacy": null,
+        "obscured": false,
+        "positional_accuracy": 4,
+        "captive": true,
+        "description": "",
+        "scientific_name": "Rhododendron indicum",
+        "common_name": "southern Indian azalea",
+        "taxon_id": 208830,
+        "taxon_rank": "species",
+        "observer": "vbaughma",
+        "photos": [
+          {
+            "id": 470994137,
+            "license_code": "cc-by-nc",
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/470994137/original.jpg",
+            "attribution": "(c) vbaughma, some rights reserved (CC BY-NC)",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/470994137.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 262127502,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4463886806,
+          30.5560695939
+        ]
+      },
+      "properties": {
+        "id": 262127502,
+        "uri": "https://www.inaturalist.org/observations/262127502",
+        "observed_on": "2025-02-18",
+        "time_observed_at": "2025-02-18T10:17:20-05:00",
+        "quality_grade": "casual",
+        "license_code": "cc-by-nc",
+        "geoprivacy": null,
+        "obscured": false,
+        "positional_accuracy": 4,
+        "captive": true,
+        "description": "",
+        "scientific_name": "Rhododendron indicum",
+        "common_name": "southern Indian azalea",
+        "taxon_id": 208830,
+        "taxon_rank": "species",
+        "observer": "keepnassaubeautiful",
+        "photos": [
+          {
+            "id": 470994165,
+            "license_code": "cc-by-nc",
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/470994165/original.jpg",
+            "attribution": "(c) KeepNassauBeautiful, some rights reserved (CC BY-NC)",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/470994165.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 262127778,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4463903575,
+          30.5562126312
+        ]
+      },
+      "properties": {
+        "id": 262127778,
+        "uri": "https://www.inaturalist.org/observations/262127778",
+        "observed_on": "2025-02-18",
+        "time_observed_at": "2025-02-18T10:22:50-05:00",
+        "quality_grade": "casual",
+        "license_code": null,
+        "geoprivacy": null,
+        "obscured": false,
+        "positional_accuracy": 3,
+        "captive": true,
+        "description": "",
+        "scientific_name": "Cyrtomium falcatum",
+        "common_name": "Japanese holly-fern",
+        "taxon_id": 76595,
+        "taxon_rank": "species",
+        "observer": "jenny_decker",
+        "photos": [
+          {
+            "id": 470994878,
+            "license_code": null,
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://static.inaturalist.org/photos/470994878/original.jpg",
+            "attribution": "(c) Jenny Decker, all rights reserved",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/470994878.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 262127816,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.446355153,
+          30.5562495115
+        ]
+      },
+      "properties": {
+        "id": 262127816,
+        "uri": "https://www.inaturalist.org/observations/262127816",
+        "observed_on": "2025-02-18",
+        "time_observed_at": "2025-02-18T10:23:20-05:00",
+        "quality_grade": "research",
+        "license_code": "cc-by-nc",
+        "geoprivacy": null,
+        "obscured": false,
+        "positional_accuracy": 3,
+        "captive": false,
+        "description": "",
+        "scientific_name": "Magnolia grandiflora",
+        "common_name": "southern magnolia",
+        "taxon_id": 83074,
+        "taxon_rank": "species",
+        "observer": "keepnassaubeautiful",
+        "photos": [
+          {
+            "id": 470994914,
+            "license_code": "cc-by-nc",
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/470994914/original.jpg",
+            "attribution": "(c) KeepNassauBeautiful, some rights reserved (CC BY-NC)",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/470994914.jpg"
+          },
+          {
+            "id": 470994918,
+            "license_code": "cc-by-nc",
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/470994918/original.jpg",
+            "attribution": "(c) KeepNassauBeautiful, some rights reserved (CC BY-NC)",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/470994918.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 262127879,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4462697859,
+          30.556226695
+        ]
+      },
+      "properties": {
+        "id": 262127879,
+        "uri": "https://www.inaturalist.org/observations/262127879",
+        "observed_on": "2025-02-18",
+        "time_observed_at": "2025-02-18T10:23:42-05:00",
+        "quality_grade": "research",
+        "license_code": null,
+        "geoprivacy": null,
+        "obscured": false,
+        "positional_accuracy": 4,
+        "captive": false,
+        "description": "",
+        "scientific_name": "Sabal palmetto",
+        "common_name": "cabbage palmetto",
+        "taxon_id": 123481,
+        "taxon_rank": "species",
+        "observer": "jenny_decker",
+        "photos": [
+          {
+            "id": 470995020,
+            "license_code": null,
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://static.inaturalist.org/photos/470995020/original.jpg",
+            "attribution": "(c) Jenny Decker, all rights reserved",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/470995020.jpg"
+          },
+          {
+            "id": 470995044,
+            "license_code": null,
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://static.inaturalist.org/photos/470995044/original.jpg",
+            "attribution": "(c) Jenny Decker, all rights reserved",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/470995044.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 262127931,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4462726531,
+          30.5562541187
+        ]
+      },
+      "properties": {
+        "id": 262127931,
+        "uri": "https://www.inaturalist.org/observations/262127931",
+        "observed_on": "2025-02-18",
+        "time_observed_at": "2025-02-18T10:24:49-05:00",
+        "quality_grade": "needs_id",
+        "license_code": "cc-by-nc",
+        "geoprivacy": null,
+        "obscured": false,
+        "positional_accuracy": 3,
+        "captive": false,
+        "description": "",
+        "scientific_name": "Acer rubrum",
+        "common_name": "red maple",
+        "taxon_id": 48098,
+        "taxon_rank": "species",
+        "observer": "kristenknb",
+        "photos": [
+          {
+            "id": 470995043,
+            "license_code": "cc-by-nc",
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/470995043/original.jpg",
+            "attribution": "(c) kristenknb, some rights reserved (CC BY-NC)",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/470995043.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 262127954,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4463134933,
+          30.5562206799
+        ]
+      },
+      "properties": {
+        "id": 262127954,
+        "uri": "https://www.inaturalist.org/observations/262127954",
+        "observed_on": "2025-02-18",
+        "time_observed_at": "2025-02-18T10:24:55-05:00",
+        "quality_grade": "research",
+        "license_code": null,
+        "geoprivacy": null,
+        "obscured": false,
+        "positional_accuracy": 3,
+        "captive": false,
+        "description": "",
+        "scientific_name": "Acer rubrum",
+        "common_name": "red maple",
+        "taxon_id": 48098,
+        "taxon_rank": "species",
+        "observer": "jenny_decker",
+        "photos": [
+          {
+            "id": 470995071,
+            "license_code": null,
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://static.inaturalist.org/photos/470995071/original.jpg",
+            "attribution": "(c) Jenny Decker, all rights reserved",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/470995071.jpg"
+          },
+          {
+            "id": 470995088,
+            "license_code": null,
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://static.inaturalist.org/photos/470995088/original.jpg",
+            "attribution": "(c) Jenny Decker, all rights reserved",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/470995088.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 262128015,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4463786301,
+          30.5561489852
+        ]
+      },
+      "properties": {
+        "id": 262128015,
+        "uri": "https://www.inaturalist.org/observations/262128015",
+        "observed_on": "2025-02-18",
+        "time_observed_at": "2025-02-18T10:24:39-05:00",
+        "quality_grade": "research",
+        "license_code": "cc-by-nc",
+        "geoprivacy": null,
+        "obscured": false,
+        "positional_accuracy": 3,
+        "captive": false,
+        "description": "",
+        "scientific_name": "Viburnum suspensum",
+        "common_name": "Sandankwa Viburnum",
+        "taxon_id": 349232,
+        "taxon_rank": "species",
+        "observer": "vbaughma",
+        "photos": [
+          {
+            "id": 470995146,
+            "license_code": "cc-by-nc",
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/470995146/original.jpg",
+            "attribution": "(c) vbaughma, some rights reserved (CC BY-NC)",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/470995146.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 262128038,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4462761548,
+          30.5561625048
+        ]
+      },
+      "properties": {
+        "id": 262128038,
+        "uri": "https://www.inaturalist.org/observations/262128038",
+        "observed_on": "2025-02-18",
+        "time_observed_at": "2025-02-18T10:25:41-05:00",
+        "quality_grade": "needs_id",
+        "license_code": null,
+        "geoprivacy": null,
+        "obscured": false,
+        "positional_accuracy": 3,
+        "captive": false,
+        "description": "",
+        "scientific_name": "Magnoliopsida",
+        "common_name": "Dicots",
+        "taxon_id": 47124,
+        "taxon_rank": "class",
+        "observer": "jenny_decker",
+        "photos": [
+          {
+            "id": 470995172,
+            "license_code": null,
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://static.inaturalist.org/photos/470995172/original.jpg",
+            "attribution": "(c) Jenny Decker, all rights reserved",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/470995172.jpg"
+          },
+          {
+            "id": 470995186,
+            "license_code": null,
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://static.inaturalist.org/photos/470995186/original.jpg",
+            "attribution": "(c) Jenny Decker, all rights reserved",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/470995186.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 262128080,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4462585096,
+          30.5562221026
+        ]
+      },
+      "properties": {
+        "id": 262128080,
+        "uri": "https://www.inaturalist.org/observations/262128080",
+        "observed_on": "2025-02-18",
+        "time_observed_at": "2025-02-18T10:25:42-05:00",
+        "quality_grade": "casual",
+        "license_code": "cc-by-nc",
+        "geoprivacy": null,
+        "obscured": false,
+        "positional_accuracy": 4,
+        "captive": true,
+        "description": "",
+        "scientific_name": "Viburnum odoratissimum",
+        "common_name": "Sweet viburnum",
+        "taxon_id": 357524,
+        "taxon_rank": "species",
+        "observer": "keepnassaubeautiful",
+        "photos": [
+          {
+            "id": 470995257,
+            "license_code": "cc-by-nc",
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/470995257/original.jpg",
+            "attribution": "(c) KeepNassauBeautiful, some rights reserved (CC BY-NC)",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/470995257.jpg"
+          },
+          {
+            "id": 470995271,
+            "license_code": "cc-by-nc",
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/470995271/original.jpg",
+            "attribution": "(c) KeepNassauBeautiful, some rights reserved (CC BY-NC)",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/470995271.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 262128110,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4485657123,
+          30.5569201894
+        ]
+      },
+      "properties": {
+        "id": 262128110,
+        "uri": "https://www.inaturalist.org/observations/262128110",
+        "observed_on": "2025-02-18",
+        "time_observed_at": "2025-02-18T10:25:54-05:00",
+        "quality_grade": "research",
+        "license_code": null,
+        "geoprivacy": null,
+        "obscured": false,
+        "positional_accuracy": 3,
+        "captive": false,
+        "description": "",
+        "scientific_name": "Pinus taeda",
+        "common_name": "loblolly pine",
+        "taxon_id": 59921,
+        "taxon_rank": "species",
+        "observer": "paul_moerman_jr",
+        "photos": [
+          {
+            "id": 470995351,
+            "license_code": null,
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://static.inaturalist.org/photos/470995351/original.jpg",
+            "attribution": "(c) Paul Moerman Jr, all rights reserved",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/470995351.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 262128131,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4462501054,
+          30.5562093941
+        ]
+      },
+      "properties": {
+        "id": 262128131,
+        "uri": "https://www.inaturalist.org/observations/262128131",
+        "observed_on": "2025-02-18",
+        "time_observed_at": "2025-02-18T10:26:33-05:00",
+        "quality_grade": "casual",
+        "license_code": null,
+        "geoprivacy": null,
+        "obscured": false,
+        "positional_accuracy": 4,
+        "captive": true,
+        "description": "",
+        "scientific_name": "Viburnum odoratissimum",
+        "common_name": "Sweet viburnum",
+        "taxon_id": 357524,
+        "taxon_rank": "species",
+        "observer": "jenny_decker",
+        "photos": [
+          {
+            "id": 470995466,
+            "license_code": null,
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://static.inaturalist.org/photos/470995466/original.jpg",
+            "attribution": "(c) Jenny Decker, all rights reserved",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/470995466.jpg"
+          },
+          {
+            "id": 470995493,
+            "license_code": null,
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://static.inaturalist.org/photos/470995493/original.jpg",
+            "attribution": "(c) Jenny Decker, all rights reserved",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/470995493.jpg"
+          },
+          {
+            "id": 470995509,
+            "license_code": null,
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://static.inaturalist.org/photos/470995509/original.jpg",
+            "attribution": "(c) Jenny Decker, all rights reserved",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/470995509.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 262128198,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4485072066,
+          30.5569336424
+        ]
+      },
+      "properties": {
+        "id": 262128198,
+        "uri": "https://www.inaturalist.org/observations/262128198",
+        "observed_on": "2025-02-18",
+        "time_observed_at": "2025-02-18T10:26:06-05:00",
+        "quality_grade": "needs_id",
+        "license_code": null,
+        "geoprivacy": null,
+        "obscured": false,
+        "positional_accuracy": 3,
+        "captive": false,
+        "description": "",
+        "scientific_name": "Pinus serotina",
+        "common_name": "pond pine",
+        "taxon_id": 135664,
+        "taxon_rank": "species",
+        "observer": "genevieve7488",
+        "photos": [
+          {
+            "id": 470995499,
+            "license_code": null,
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://static.inaturalist.org/photos/470995499/original.jpg",
+            "attribution": "(c) Genevieve Summers, all rights reserved",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/470995499.jpg"
+          },
+          {
+            "id": 470995513,
+            "license_code": null,
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://static.inaturalist.org/photos/470995513/original.jpg",
+            "attribution": "(c) Genevieve Summers, all rights reserved",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/470995513.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 262128245,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4486825895,
+          30.5571695162
+        ]
+      },
+      "properties": {
+        "id": 262128245,
+        "uri": "https://www.inaturalist.org/observations/262128245",
+        "observed_on": "2025-02-18",
+        "time_observed_at": "2025-02-18T10:28:34-05:00",
+        "quality_grade": "needs_id",
+        "license_code": null,
+        "geoprivacy": null,
+        "obscured": false,
+        "positional_accuracy": 5,
+        "captive": false,
+        "description": "",
+        "scientific_name": "Quercus virginiana",
+        "common_name": "southern live oak",
+        "taxon_id": 49013,
+        "taxon_rank": "species",
+        "observer": "daphne_forehand",
+        "photos": [
+          {
+            "id": 470995576,
+            "license_code": null,
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://static.inaturalist.org/photos/470995576/original.jpg",
+            "attribution": "(c) Daphne Forehand, all rights reserved",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/470995576.jpg"
+          },
+          {
+            "id": 470995597,
+            "license_code": null,
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://static.inaturalist.org/photos/470995597/original.jpg",
+            "attribution": "(c) Daphne Forehand, all rights reserved",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/470995597.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 262128247,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.448530215,
+          30.5570371222
+        ]
+      },
+      "properties": {
+        "id": 262128247,
+        "uri": "https://www.inaturalist.org/observations/262128247",
+        "observed_on": "2025-02-18",
+        "time_observed_at": "2025-02-18T10:28:10-05:00",
+        "quality_grade": "casual",
+        "license_code": null,
+        "geoprivacy": null,
+        "obscured": false,
+        "positional_accuracy": 3,
+        "captive": true,
+        "description": "",
+        "scientific_name": "Lagerstroemia",
+        "common_name": "crape-myrtles",
+        "taxon_id": 68717,
+        "taxon_rank": "genus",
+        "observer": "paul_moerman_jr",
+        "photos": [
+          {
+            "id": 470995579,
+            "license_code": null,
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://static.inaturalist.org/photos/470995579/original.jpg",
+            "attribution": "(c) Paul Moerman Jr, all rights reserved",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/470995579.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 262128325,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4462108775,
+          30.5562057974
+        ]
+      },
+      "properties": {
+        "id": 262128325,
+        "uri": "https://www.inaturalist.org/observations/262128325",
+        "observed_on": "2025-02-18",
+        "time_observed_at": "2025-02-18T10:29:38-05:00",
+        "quality_grade": "research",
+        "license_code": "cc-by-nc",
+        "geoprivacy": null,
+        "obscured": false,
+        "positional_accuracy": 4,
+        "captive": false,
+        "description": "",
+        "scientific_name": "Magnolia grandiflora",
+        "common_name": "southern magnolia",
+        "taxon_id": 83074,
+        "taxon_rank": "species",
+        "observer": "kristenknb",
+        "photos": [
+          {
+            "id": 470995742,
+            "license_code": "cc-by-nc",
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/470995742/original.jpg",
+            "attribution": "(c) kristenknb, some rights reserved (CC BY-NC)",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/470995742.jpg"
+          },
+          {
+            "id": 470995770,
+            "license_code": "cc-by-nc",
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/470995770/original.jpg",
+            "attribution": "(c) kristenknb, some rights reserved (CC BY-NC)",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/470995770.jpg"
+          },
+          {
+            "id": 470995798,
+            "license_code": "cc-by-nc",
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/470995798/original.jpg",
+            "attribution": "(c) kristenknb, some rights reserved (CC BY-NC)",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/470995798.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 262128336,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4461664223,
+          30.5561801281
+        ]
+      },
+      "properties": {
+        "id": 262128336,
+        "uri": "https://www.inaturalist.org/observations/262128336",
+        "observed_on": "2025-02-18",
+        "time_observed_at": "2025-02-18T10:29:18-05:00",
+        "quality_grade": "needs_id",
+        "license_code": null,
+        "geoprivacy": null,
+        "obscured": false,
+        "positional_accuracy": 3,
+        "captive": false,
+        "description": "",
+        "scientific_name": "Morella cerifera",
+        "common_name": "wax myrtle",
+        "taxon_id": 119956,
+        "taxon_rank": "species",
+        "observer": "jenny_decker",
+        "photos": [
+          {
+            "id": 470995767,
+            "license_code": null,
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://static.inaturalist.org/photos/470995767/original.jpg",
+            "attribution": "(c) Jenny Decker, all rights reserved",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/470995767.jpg"
+          },
+          {
+            "id": 470995795,
+            "license_code": null,
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://static.inaturalist.org/photos/470995795/original.jpg",
+            "attribution": "(c) Jenny Decker, all rights reserved",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/470995795.jpg"
+          },
+          {
+            "id": 470995817,
+            "license_code": null,
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://static.inaturalist.org/photos/470995817/original.jpg",
+            "attribution": "(c) Jenny Decker, all rights reserved",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/470995817.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 262128349,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4463573323,
+          30.5562481707
+        ]
+      },
+      "properties": {
+        "id": 262128349,
+        "uri": "https://www.inaturalist.org/observations/262128349",
+        "observed_on": "2025-02-18",
+        "time_observed_at": "2025-02-18T10:29:50-05:00",
+        "quality_grade": "needs_id",
+        "license_code": "cc-by-nc",
+        "geoprivacy": null,
+        "obscured": false,
+        "positional_accuracy": 3,
+        "captive": false,
+        "description": "",
+        "scientific_name": "Quercus virginiana",
+        "common_name": "southern live oak",
+        "taxon_id": 49013,
+        "taxon_rank": "species",
+        "observer": "vbaughma",
+        "photos": [
+          {
+            "id": 470995793,
+            "license_code": "cc-by-nc",
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/470995793/original.jpg",
+            "attribution": "(c) vbaughma, some rights reserved (CC BY-NC)",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/470995793.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 262128356,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4488656168,
+          30.5573394522
+        ]
+      },
+      "properties": {
+        "id": 262128356,
+        "uri": "https://www.inaturalist.org/observations/262128356",
+        "observed_on": "2025-02-18",
+        "time_observed_at": "2025-02-18T10:30:20-05:00",
+        "quality_grade": "research",
+        "license_code": null,
+        "geoprivacy": null,
+        "obscured": false,
+        "positional_accuracy": 3,
+        "captive": false,
+        "description": "",
+        "scientific_name": "Magnolia grandiflora",
+        "common_name": "southern magnolia",
+        "taxon_id": 83074,
+        "taxon_rank": "species",
+        "observer": "paul_moerman_jr",
+        "photos": [
+          {
+            "id": 470995863,
+            "license_code": null,
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://static.inaturalist.org/photos/470995863/original.jpg",
+            "attribution": "(c) Paul Moerman Jr, all rights reserved",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/470995863.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 262128359,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4461518918,
+          30.5561863957
+        ]
+      },
+      "properties": {
+        "id": 262128359,
+        "uri": "https://www.inaturalist.org/observations/262128359",
+        "observed_on": "2025-02-18",
+        "time_observed_at": "2025-02-18T10:29:43-05:00",
+        "quality_grade": "research",
+        "license_code": "cc-by-nc",
+        "geoprivacy": null,
+        "obscured": false,
+        "positional_accuracy": 3,
+        "captive": false,
+        "description": "",
+        "scientific_name": "Serenoa repens",
+        "common_name": "saw palmetto",
+        "taxon_id": 83102,
+        "taxon_rank": "species",
+        "observer": "keepnassaubeautiful",
+        "photos": [
+          {
+            "id": 470995812,
+            "license_code": "cc-by-nc",
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/470995812/original.jpg",
+            "attribution": "(c) KeepNassauBeautiful, some rights reserved (CC BY-NC)",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/470995812.jpg"
+          },
+          {
+            "id": 470995832,
+            "license_code": "cc-by-nc",
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/470995832/original.jpg",
+            "attribution": "(c) KeepNassauBeautiful, some rights reserved (CC BY-NC)",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/470995832.jpg"
+          },
+          {
+            "id": 470995847,
+            "license_code": "cc-by-nc",
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/470995847/original.jpg",
+            "attribution": "(c) KeepNassauBeautiful, some rights reserved (CC BY-NC)",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/470995847.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 262128377,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4464558,
+          30.5565064
+        ]
+      },
+      "properties": {
+        "id": 262128377,
+        "uri": "https://www.inaturalist.org/observations/262128377",
+        "observed_on": "2025-02-18",
+        "time_observed_at": "2025-02-18T10:27:23-05:00",
+        "quality_grade": "needs_id",
+        "license_code": "cc-by-nc",
+        "geoprivacy": null,
+        "obscured": false,
+        "positional_accuracy": 30,
+        "captive": false,
+        "description": null,
+        "scientific_name": "Quercus virginiana",
+        "common_name": "southern live oak",
+        "taxon_id": 49013,
+        "taxon_rank": "species",
+        "observer": "eschwa3",
+        "photos": [
+          {
+            "id": 470995849,
+            "license_code": "cc-by-nc",
+            "original_dimensions": {
+              "width": 1365,
+              "height": 2048
+            },
+            "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/470995849/original.jpeg",
+            "attribution": "(c) Erich, some rights reserved (CC BY-NC)",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/470995849.jpeg"
+          },
+          {
+            "id": 470995867,
+            "license_code": "cc-by-nc",
+            "original_dimensions": {
+              "width": 1365,
+              "height": 2048
+            },
+            "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/470995867/original.jpeg",
+            "attribution": "(c) Erich, some rights reserved (CC BY-NC)",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/470995867.jpeg"
+          },
+          {
+            "id": 470995882,
+            "license_code": "cc-by-nc",
+            "original_dimensions": {
+              "width": 1365,
+              "height": 2048
+            },
+            "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/470995882/original.jpeg",
+            "attribution": "(c) Erich, some rights reserved (CC BY-NC)",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/470995882.jpeg"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 262128541,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4462141693,
+          30.5562250363
+        ]
+      },
+      "properties": {
+        "id": 262128541,
+        "uri": "https://www.inaturalist.org/observations/262128541",
+        "observed_on": "2025-02-18",
+        "time_observed_at": "2025-02-18T10:31:15-05:00",
+        "quality_grade": "research",
+        "license_code": "cc-by-nc",
+        "geoprivacy": null,
+        "obscured": false,
+        "positional_accuracy": 3,
+        "captive": false,
+        "description": "",
+        "scientific_name": "Sabal palmetto",
+        "common_name": "cabbage palmetto",
+        "taxon_id": 123481,
+        "taxon_rank": "species",
+        "observer": "keepnassaubeautiful",
+        "photos": [
+          {
+            "id": 470996267,
+            "license_code": "cc-by-nc",
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/470996267/original.jpg",
+            "attribution": "(c) KeepNassauBeautiful, some rights reserved (CC BY-NC)",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/470996267.jpg"
+          },
+          {
+            "id": 470996297,
+            "license_code": "cc-by-nc",
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/470996297/original.jpg",
+            "attribution": "(c) KeepNassauBeautiful, some rights reserved (CC BY-NC)",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/470996297.jpg"
+          },
+          {
+            "id": 470996323,
+            "license_code": "cc-by-nc",
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/470996323/original.jpg",
+            "attribution": "(c) KeepNassauBeautiful, some rights reserved (CC BY-NC)",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/470996323.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 262128564,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4463030178,
+          30.5561786918
+        ]
+      },
+      "properties": {
+        "id": 262128564,
+        "uri": "https://www.inaturalist.org/observations/262128564",
+        "observed_on": "2025-02-18",
+        "time_observed_at": "2025-02-18T10:32:57-05:00",
+        "quality_grade": "needs_id",
+        "license_code": "cc-by-nc",
+        "geoprivacy": null,
+        "obscured": false,
+        "positional_accuracy": 3,
+        "captive": false,
+        "description": "",
+        "scientific_name": "Viburnum odoratissimum",
+        "common_name": "Sweet viburnum",
+        "taxon_id": 357524,
+        "taxon_rank": "species",
+        "observer": "vbaughma",
+        "photos": [
+          {
+            "id": 470996345,
+            "license_code": "cc-by-nc",
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/470996345/original.jpg",
+            "attribution": "(c) vbaughma, some rights reserved (CC BY-NC)",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/470996345.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 262128624,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.44618813,
+          30.5561623737
+        ]
+      },
+      "properties": {
+        "id": 262128624,
+        "uri": "https://www.inaturalist.org/observations/262128624",
+        "observed_on": "2025-02-18",
+        "time_observed_at": "2025-02-18T10:34:18-05:00",
+        "quality_grade": "needs_id",
+        "license_code": "cc-by-nc",
+        "geoprivacy": null,
+        "obscured": false,
+        "positional_accuracy": 6,
+        "captive": false,
+        "description": "",
+        "scientific_name": "Magnolia",
+        "common_name": "magnolias",
+        "taxon_id": 82096,
+        "taxon_rank": "genus",
+        "observer": "vbaughma",
+        "photos": [
+          {
+            "id": 470996518,
+            "license_code": "cc-by-nc",
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/470996518/original.jpg",
+            "attribution": "(c) vbaughma, some rights reserved (CC BY-NC)",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/470996518.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 262128666,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4461658864,
+          30.5561620866
+        ]
+      },
+      "properties": {
+        "id": 262128666,
+        "uri": "https://www.inaturalist.org/observations/262128666",
+        "observed_on": "2025-02-18",
+        "time_observed_at": "2025-02-18T10:34:49-05:00",
+        "quality_grade": "research",
+        "license_code": "cc-by-nc",
+        "geoprivacy": null,
+        "obscured": false,
+        "positional_accuracy": 4,
+        "captive": false,
+        "description": "",
+        "scientific_name": "Magnolia grandiflora",
+        "common_name": "southern magnolia",
+        "taxon_id": 83074,
+        "taxon_rank": "species",
+        "observer": "vbaughma",
+        "photos": [
+          {
+            "id": 470996613,
+            "license_code": "cc-by-nc",
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/470996613/original.jpg",
+            "attribution": "(c) vbaughma, some rights reserved (CC BY-NC)",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/470996613.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 262128730,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4465509156,
+          30.5559426322
+        ]
+      },
+      "properties": {
+        "id": 262128730,
+        "uri": "https://www.inaturalist.org/observations/262128730",
+        "observed_on": "2025-02-18",
+        "time_observed_at": "2025-02-18T10:35:18-05:00",
+        "quality_grade": "casual",
+        "license_code": null,
+        "geoprivacy": null,
+        "obscured": false,
+        "positional_accuracy": 9,
+        "captive": true,
+        "description": "",
+        "scientific_name": "Cyrtomium falcatum",
+        "common_name": "Japanese holly-fern",
+        "taxon_id": 76595,
+        "taxon_rank": "species",
+        "observer": "jenny_decker",
+        "photos": [
+          {
+            "id": 470996797,
+            "license_code": null,
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://static.inaturalist.org/photos/470996797/original.jpg",
+            "attribution": "(c) Jenny Decker, all rights reserved",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/470996797.jpg"
+          },
+          {
+            "id": 470996813,
+            "license_code": null,
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://static.inaturalist.org/photos/470996813/original.jpg",
+            "attribution": "(c) Jenny Decker, all rights reserved",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/470996813.jpg"
+          },
+          {
+            "id": 470996825,
+            "license_code": null,
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://static.inaturalist.org/photos/470996825/original.jpg",
+            "attribution": "(c) Jenny Decker, all rights reserved",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/470996825.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 262128764,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4465223719,
+          30.5559771834
+        ]
+      },
+      "properties": {
+        "id": 262128764,
+        "uri": "https://www.inaturalist.org/observations/262128764",
+        "observed_on": "2025-02-18",
+        "time_observed_at": "2025-02-18T10:35:28-05:00",
+        "quality_grade": "casual",
+        "license_code": "cc-by-nc",
+        "geoprivacy": null,
+        "obscured": false,
+        "positional_accuracy": 3,
+        "captive": true,
+        "description": "",
+        "scientific_name": "Nandina domestica",
+        "common_name": "Heavenly bamboo",
+        "taxon_id": 127010,
+        "taxon_rank": "species",
+        "observer": "keepnassaubeautiful",
+        "photos": [
+          {
+            "id": 470996888,
+            "license_code": "cc-by-nc",
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/470996888/original.jpg",
+            "attribution": "(c) KeepNassauBeautiful, some rights reserved (CC BY-NC)",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/470996888.jpg"
+          },
+          {
+            "id": 470996903,
+            "license_code": "cc-by-nc",
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/470996903/original.jpg",
+            "attribution": "(c) KeepNassauBeautiful, some rights reserved (CC BY-NC)",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/470996903.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 262128861,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4464984835,
+          30.5559571088
+        ]
+      },
+      "properties": {
+        "id": 262128861,
+        "uri": "https://www.inaturalist.org/observations/262128861",
+        "observed_on": "2025-02-18",
+        "time_observed_at": "2025-02-18T10:36:09-05:00",
+        "quality_grade": "casual",
+        "license_code": null,
+        "geoprivacy": null,
+        "obscured": false,
+        "positional_accuracy": 3,
+        "captive": true,
+        "description": "",
+        "scientific_name": "Rhododendron indicum",
+        "common_name": "southern Indian azalea",
+        "taxon_id": 208830,
+        "taxon_rank": "species",
+        "observer": "jenny_decker",
+        "photos": [
+          {
+            "id": 470997057,
+            "license_code": null,
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://static.inaturalist.org/photos/470997057/original.jpg",
+            "attribution": "(c) Jenny Decker, all rights reserved",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/470997057.jpg"
+          },
+          {
+            "id": 470997104,
+            "license_code": null,
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://static.inaturalist.org/photos/470997104/original.jpg",
+            "attribution": "(c) Jenny Decker, all rights reserved",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/470997104.jpg"
+          },
+          {
+            "id": 470997122,
+            "license_code": null,
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://static.inaturalist.org/photos/470997122/original.jpg",
+            "attribution": "(c) Jenny Decker, all rights reserved",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/470997122.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 262128943,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.44661868,
+          30.5559511995
+        ]
+      },
+      "properties": {
+        "id": 262128943,
+        "uri": "https://www.inaturalist.org/observations/262128943",
+        "observed_on": "2025-02-18",
+        "time_observed_at": "2025-02-18T10:37:06-05:00",
+        "quality_grade": "casual",
+        "license_code": "cc-by-nc",
+        "geoprivacy": null,
+        "obscured": false,
+        "positional_accuracy": 5,
+        "captive": true,
+        "description": "",
+        "scientific_name": "Fatsia japonica",
+        "common_name": "Japanese aralia",
+        "taxon_id": 126735,
+        "taxon_rank": "species",
+        "observer": "keepnassaubeautiful",
+        "photos": [
+          {
+            "id": 470997147,
+            "license_code": "cc-by-nc",
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/470997147/original.jpg",
+            "attribution": "(c) KeepNassauBeautiful, some rights reserved (CC BY-NC)",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/470997147.jpg"
+          },
+          {
+            "id": 470997168,
+            "license_code": "cc-by-nc",
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/470997168/original.jpg",
+            "attribution": "(c) KeepNassauBeautiful, some rights reserved (CC BY-NC)",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/470997168.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 262129016,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.44654988,
+          30.5559562866
+        ]
+      },
+      "properties": {
+        "id": 262129016,
+        "uri": "https://www.inaturalist.org/observations/262129016",
+        "observed_on": "2025-02-18",
+        "time_observed_at": "2025-02-18T10:37:25-05:00",
+        "quality_grade": "needs_id",
+        "license_code": null,
+        "geoprivacy": null,
+        "obscured": false,
+        "positional_accuracy": 3,
+        "captive": false,
+        "description": "",
+        "scientific_name": "Fatsia japonica",
+        "common_name": "Japanese aralia",
+        "taxon_id": 126735,
+        "taxon_rank": "species",
+        "observer": "jenny_decker",
+        "photos": [
+          {
+            "id": 470997346,
+            "license_code": null,
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://static.inaturalist.org/photos/470997346/original.jpg",
+            "attribution": "(c) Jenny Decker, all rights reserved",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/470997346.jpg"
+          },
+          {
+            "id": 470997402,
+            "license_code": null,
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://static.inaturalist.org/photos/470997402/original.jpg",
+            "attribution": "(c) Jenny Decker, all rights reserved",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/470997402.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 262129083,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4461182035,
+          30.5561511735
+        ]
+      },
+      "properties": {
+        "id": 262129083,
+        "uri": "https://www.inaturalist.org/observations/262129083",
+        "observed_on": "2025-02-18",
+        "time_observed_at": "2025-02-18T10:37:09-05:00",
+        "quality_grade": "casual",
+        "license_code": "cc-by-nc",
+        "geoprivacy": null,
+        "obscured": false,
+        "positional_accuracy": 4,
+        "captive": true,
+        "description": "",
+        "scientific_name": "Podocarpus macrophyllus",
+        "common_name": "kusamaki",
+        "taxon_id": 135329,
+        "taxon_rank": "species",
+        "observer": "vbaughma",
+        "photos": [
+          {
+            "id": 470997490,
+            "license_code": "cc-by-nc",
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/470997490/original.jpg",
+            "attribution": "(c) vbaughma, some rights reserved (CC BY-NC)",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/470997490.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 262129098,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4465462603,
+          30.5559075717
+        ]
+      },
+      "properties": {
+        "id": 262129098,
+        "uri": "https://www.inaturalist.org/observations/262129098",
+        "observed_on": "2025-02-18",
+        "time_observed_at": "2025-02-18T10:39:42-05:00",
+        "quality_grade": "needs_id",
+        "license_code": null,
+        "geoprivacy": null,
+        "obscured": false,
+        "positional_accuracy": 3,
+        "captive": false,
+        "description": "",
+        "scientific_name": "Ilex opaca",
+        "common_name": "American holly",
+        "taxon_id": 60749,
+        "taxon_rank": "species",
+        "observer": "jenny_decker",
+        "photos": [
+          {
+            "id": 470997518,
+            "license_code": null,
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://static.inaturalist.org/photos/470997518/original.jpg",
+            "attribution": "(c) Jenny Decker, all rights reserved",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/470997518.jpg"
+          },
+          {
+            "id": 470997526,
+            "license_code": null,
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://static.inaturalist.org/photos/470997526/original.jpg",
+            "attribution": "(c) Jenny Decker, all rights reserved",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/470997526.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 262129277,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.446201345,
+          30.5562142236
+        ]
+      },
+      "properties": {
+        "id": 262129277,
+        "uri": "https://www.inaturalist.org/observations/262129277",
+        "observed_on": "2025-02-18",
+        "time_observed_at": "2025-02-18T10:41:12-05:00",
+        "quality_grade": "needs_id",
+        "license_code": "cc-by-nc",
+        "geoprivacy": null,
+        "obscured": false,
+        "positional_accuracy": 3,
+        "captive": false,
+        "description": "",
+        "scientific_name": "Serenoa repens",
+        "common_name": "saw palmetto",
+        "taxon_id": 83102,
+        "taxon_rank": "species",
+        "observer": "vbaughma",
+        "photos": [
+          {
+            "id": 470997764,
+            "license_code": "cc-by-nc",
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/470997764/original.jpg",
+            "attribution": "(c) vbaughma, some rights reserved (CC BY-NC)",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/470997764.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 262129285,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4464533889,
+          30.5558732478
+        ]
+      },
+      "properties": {
+        "id": 262129285,
+        "uri": "https://www.inaturalist.org/observations/262129285",
+        "observed_on": "2025-02-18",
+        "time_observed_at": "2025-02-18T10:40:23-05:00",
+        "quality_grade": "needs_id",
+        "license_code": null,
+        "geoprivacy": null,
+        "obscured": false,
+        "positional_accuracy": 4,
+        "captive": false,
+        "description": "",
+        "scientific_name": "Ilex opaca",
+        "common_name": "American holly",
+        "taxon_id": 60749,
+        "taxon_rank": "species",
+        "observer": "jenny_decker",
+        "photos": [
+          {
+            "id": 470997835,
+            "license_code": null,
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://static.inaturalist.org/photos/470997835/original.jpg",
+            "attribution": "(c) Jenny Decker, all rights reserved",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/470997835.jpg"
+          },
+          {
+            "id": 470997815,
+            "license_code": null,
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://static.inaturalist.org/photos/470997815/original.jpg",
+            "attribution": "(c) Jenny Decker, all rights reserved",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/470997815.jpg"
+          },
+          {
+            "id": 470997854,
+            "license_code": null,
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://static.inaturalist.org/photos/470997854/original.jpg",
+            "attribution": "(c) Jenny Decker, all rights reserved",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/470997854.jpg"
+          },
+          {
+            "id": 470997875,
+            "license_code": null,
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://static.inaturalist.org/photos/470997875/original.jpg",
+            "attribution": "(c) Jenny Decker, all rights reserved",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/470997875.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 262129357,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.44603783,
+          30.55611732
+        ]
+      },
+      "properties": {
+        "id": 262129357,
+        "uri": "https://www.inaturalist.org/observations/262129357",
+        "observed_on": "2025-02-18",
+        "time_observed_at": "2025-02-18T10:40:58-05:00",
+        "quality_grade": "research",
+        "license_code": "cc-by-nc",
+        "geoprivacy": null,
+        "obscured": false,
+        "positional_accuracy": 11,
+        "captive": false,
+        "description": null,
+        "scientific_name": "Serenoa repens",
+        "common_name": "saw palmetto",
+        "taxon_id": 83102,
+        "taxon_rank": "species",
+        "observer": "eschwa3",
+        "photos": [
+          {
+            "id": 470997978,
+            "license_code": "cc-by-nc",
+            "original_dimensions": {
+              "width": 1365,
+              "height": 2048
+            },
+            "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/470997978/original.jpeg",
+            "attribution": "(c) Erich, some rights reserved (CC BY-NC)",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/470997978.jpeg"
+          },
+          {
+            "id": 470998009,
+            "license_code": "cc-by-nc",
+            "original_dimensions": {
+              "width": 1365,
+              "height": 2048
+            },
+            "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/470998009/original.jpeg",
+            "attribution": "(c) Erich, some rights reserved (CC BY-NC)",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/470998009.jpeg"
+          },
+          {
+            "id": 470998036,
+            "license_code": "cc-by-nc",
+            "original_dimensions": {
+              "width": 1365,
+              "height": 2048
+            },
+            "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/470998036/original.jpeg",
+            "attribution": "(c) Erich, some rights reserved (CC BY-NC)",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/470998036.jpeg"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 262129445,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.446196934,
+          30.5562243459
+        ]
+      },
+      "properties": {
+        "id": 262129445,
+        "uri": "https://www.inaturalist.org/observations/262129445",
+        "observed_on": "2025-02-18",
+        "time_observed_at": "2025-02-18T10:43:39-05:00",
+        "quality_grade": "needs_id",
+        "license_code": "cc-by-nc",
+        "geoprivacy": null,
+        "obscured": false,
+        "positional_accuracy": 3,
+        "captive": false,
+        "description": "",
+        "scientific_name": "Sabal palmetto",
+        "common_name": "cabbage palmetto",
+        "taxon_id": 123481,
+        "taxon_rank": "species",
+        "observer": "vbaughma",
+        "photos": [
+          {
+            "id": 470998118,
+            "license_code": "cc-by-nc",
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/470998118/original.jpg",
+            "attribution": "(c) vbaughma, some rights reserved (CC BY-NC)",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/470998118.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 262129495,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4491279105,
+          30.5572599208
+        ]
+      },
+      "properties": {
+        "id": 262129495,
+        "uri": "https://www.inaturalist.org/observations/262129495",
+        "observed_on": "2025-02-18",
+        "time_observed_at": "2025-02-18T10:43:46-05:00",
+        "quality_grade": "casual",
+        "license_code": null,
+        "geoprivacy": null,
+        "obscured": false,
+        "positional_accuracy": 6,
+        "captive": true,
+        "description": "",
+        "scientific_name": "Camellia japonica",
+        "common_name": "Japanese camellia",
+        "taxon_id": 83056,
+        "taxon_rank": "species",
+        "observer": "daphne_forehand",
+        "photos": [
+          {
+            "id": 470998699,
+            "license_code": null,
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://static.inaturalist.org/photos/470998699/original.jpg",
+            "attribution": "(c) Daphne Forehand, all rights reserved",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/470998699.jpg"
+          },
+          {
+            "id": 470998722,
+            "license_code": null,
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://static.inaturalist.org/photos/470998722/original.jpg",
+            "attribution": "(c) Daphne Forehand, all rights reserved",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/470998722.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 262129498,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4466223553,
+          30.555768059
+        ]
+      },
+      "properties": {
+        "id": 262129498,
+        "uri": "https://www.inaturalist.org/observations/262129498",
+        "observed_on": "2025-02-18",
+        "time_observed_at": "2025-02-18T10:43:21-05:00",
+        "quality_grade": "casual",
+        "license_code": "cc-by-nc",
+        "geoprivacy": null,
+        "obscured": false,
+        "positional_accuracy": 5,
+        "captive": true,
+        "description": "",
+        "scientific_name": "Camellia sasanqua",
+        "common_name": "sasanqua camellia",
+        "taxon_id": 126549,
+        "taxon_rank": "species",
+        "observer": "keepnassaubeautiful",
+        "photos": [
+          {
+            "id": 470998210,
+            "license_code": "cc-by-nc",
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/470998210/original.jpg",
+            "attribution": "(c) KeepNassauBeautiful, some rights reserved (CC BY-NC)",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/470998210.jpg"
+          },
+          {
+            "id": 470998223,
+            "license_code": "cc-by-nc",
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/470998223/original.jpg",
+            "attribution": "(c) KeepNassauBeautiful, some rights reserved (CC BY-NC)",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/470998223.jpg"
+          },
+          {
+            "id": 470998229,
+            "license_code": "cc-by-nc",
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/470998229/original.jpg",
+            "attribution": "(c) KeepNassauBeautiful, some rights reserved (CC BY-NC)",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/470998229.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 262129513,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4491305322,
+          30.5572692656
+        ]
+      },
+      "properties": {
+        "id": 262129513,
+        "uri": "https://www.inaturalist.org/observations/262129513",
+        "observed_on": "2025-02-18",
+        "time_observed_at": "2025-02-18T10:44:45-05:00",
+        "quality_grade": "needs_id",
+        "license_code": null,
+        "geoprivacy": null,
+        "obscured": false,
+        "positional_accuracy": 3,
+        "captive": false,
+        "description": "",
+        "scientific_name": "Camellia sasanqua",
+        "common_name": "sasanqua camellia",
+        "taxon_id": 126549,
+        "taxon_rank": "species",
+        "observer": "lurane1",
+        "photos": [
+          {
+            "id": 470998228,
+            "license_code": null,
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://static.inaturalist.org/photos/470998228/original.jpg",
+            "attribution": "(c) Lurane Worth, all rights reserved",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/470998228.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 262129584,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4467283765,
+          30.5558470944
+        ]
+      },
+      "properties": {
+        "id": 262129584,
+        "uri": "https://www.inaturalist.org/observations/262129584",
+        "observed_on": "2025-02-18",
+        "time_observed_at": "2025-02-18T10:43:54-05:00",
+        "quality_grade": "research",
+        "license_code": "cc-by-nc",
+        "geoprivacy": null,
+        "obscured": false,
+        "positional_accuracy": 3,
+        "captive": false,
+        "description": "",
+        "scientific_name": "Magnolia grandiflora",
+        "common_name": "southern magnolia",
+        "taxon_id": 83074,
+        "taxon_rank": "species",
+        "observer": "kristenknb",
+        "photos": [
+          {
+            "id": 470998383,
+            "license_code": "cc-by-nc",
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/470998383/original.jpg",
+            "attribution": "(c) kristenknb, some rights reserved (CC BY-NC)",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/470998383.jpg"
+          },
+          {
+            "id": 470998396,
+            "license_code": "cc-by-nc",
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/470998396/original.jpg",
+            "attribution": "(c) kristenknb, some rights reserved (CC BY-NC)",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/470998396.jpg"
+          },
+          {
+            "id": 470998418,
+            "license_code": "cc-by-nc",
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/470998418/original.jpg",
+            "attribution": "(c) kristenknb, some rights reserved (CC BY-NC)",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/470998418.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 262129597,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4491022336,
+          30.557343756
+        ]
+      },
+      "properties": {
+        "id": 262129597,
+        "uri": "https://www.inaturalist.org/observations/262129597",
+        "observed_on": "2025-02-18",
+        "time_observed_at": "2025-02-18T10:45:03-05:00",
+        "quality_grade": "casual",
+        "license_code": null,
+        "geoprivacy": null,
+        "obscured": false,
+        "positional_accuracy": 7,
+        "captive": true,
+        "description": "",
+        "scientific_name": "Rhododendron indicum",
+        "common_name": "southern Indian azalea",
+        "taxon_id": 208830,
+        "taxon_rank": "species",
+        "observer": "paul_moerman_jr",
+        "photos": [
+          {
+            "id": 470998425,
+            "license_code": null,
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://static.inaturalist.org/photos/470998425/original.jpg",
+            "attribution": "(c) Paul Moerman Jr, all rights reserved",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/470998425.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 262129633,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4492044167,
+          30.5570469647
+        ]
+      },
+      "properties": {
+        "id": 262129633,
+        "uri": "https://www.inaturalist.org/observations/262129633",
+        "observed_on": "2025-02-18",
+        "time_observed_at": "2025-02-18T10:46:26-05:00",
+        "quality_grade": "research",
+        "license_code": null,
+        "geoprivacy": null,
+        "obscured": false,
+        "positional_accuracy": 4,
+        "captive": false,
+        "description": "",
+        "scientific_name": "Morella cerifera",
+        "common_name": "wax myrtle",
+        "taxon_id": 119956,
+        "taxon_rank": "species",
+        "observer": "paul_moerman_jr",
+        "photos": [
+          {
+            "id": 470998510,
+            "license_code": null,
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://static.inaturalist.org/photos/470998510/original.jpg",
+            "attribution": "(c) Paul Moerman Jr, all rights reserved",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/470998510.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 262129683,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4467403112,
+          30.5557754743
+        ]
+      },
+      "properties": {
+        "id": 262129683,
+        "uri": "https://www.inaturalist.org/observations/262129683",
+        "observed_on": "2025-02-18",
+        "time_observed_at": "2025-02-18T10:43:51-05:00",
+        "quality_grade": "needs_id",
+        "license_code": null,
+        "geoprivacy": null,
+        "obscured": false,
+        "positional_accuracy": 7,
+        "captive": false,
+        "description": "",
+        "scientific_name": "Trachelospermum asiaticum",
+        "common_name": "Asiatic jasmine",
+        "taxon_id": 349229,
+        "taxon_rank": "species",
+        "observer": "jenny_decker",
+        "photos": [
+          {
+            "id": 470998614,
+            "license_code": null,
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://static.inaturalist.org/photos/470998614/original.jpg",
+            "attribution": "(c) Jenny Decker, all rights reserved",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/470998614.jpg"
+          },
+          {
+            "id": 470998595,
+            "license_code": null,
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://static.inaturalist.org/photos/470998595/original.jpg",
+            "attribution": "(c) Jenny Decker, all rights reserved",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/470998595.jpg"
+          },
+          {
+            "id": 470998568,
+            "license_code": null,
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://static.inaturalist.org/photos/470998568/original.jpg",
+            "attribution": "(c) Jenny Decker, all rights reserved",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/470998568.jpg"
+          },
+          {
+            "id": 470998545,
+            "license_code": null,
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://static.inaturalist.org/photos/470998545/original.jpg",
+            "attribution": "(c) Jenny Decker, all rights reserved",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/470998545.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 262129762,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4461849358,
+          30.5561868964
+        ]
+      },
+      "properties": {
+        "id": 262129762,
+        "uri": "https://www.inaturalist.org/observations/262129762",
+        "observed_on": "2025-02-18",
+        "time_observed_at": "2025-02-18T10:46:56-05:00",
+        "quality_grade": "needs_id",
+        "license_code": "cc-by-nc",
+        "geoprivacy": null,
+        "obscured": false,
+        "positional_accuracy": 7,
+        "captive": false,
+        "description": "",
+        "scientific_name": "Morella cerifera",
+        "common_name": "wax myrtle",
+        "taxon_id": 119956,
+        "taxon_rank": "species",
+        "observer": "vbaughma",
+        "photos": [
+          {
+            "id": 470998697,
+            "license_code": "cc-by-nc",
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/470998697/original.jpg",
+            "attribution": "(c) vbaughma, some rights reserved (CC BY-NC)",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/470998697.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 262129774,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4467605018,
+          30.5557463039
+        ]
+      },
+      "properties": {
+        "id": 262129774,
+        "uri": "https://www.inaturalist.org/observations/262129774",
+        "observed_on": "2025-02-18",
+        "time_observed_at": "2025-02-18T10:47:47-05:00",
+        "quality_grade": "casual",
+        "license_code": null,
+        "geoprivacy": null,
+        "obscured": false,
+        "positional_accuracy": 4,
+        "captive": true,
+        "description": "",
+        "scientific_name": "Cycas revoluta",
+        "common_name": "Sago cycad",
+        "taxon_id": 129783,
+        "taxon_rank": "species",
+        "observer": "jenny_decker",
+        "photos": [
+          {
+            "id": 470998780,
+            "license_code": null,
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://static.inaturalist.org/photos/470998780/original.jpg",
+            "attribution": "(c) Jenny Decker, all rights reserved",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/470998780.jpg"
+          },
+          {
+            "id": 470998793,
+            "license_code": null,
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://static.inaturalist.org/photos/470998793/original.jpg",
+            "attribution": "(c) Jenny Decker, all rights reserved",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/470998793.jpg"
+          },
+          {
+            "id": 470998809,
+            "license_code": null,
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://static.inaturalist.org/photos/470998809/original.jpg",
+            "attribution": "(c) Jenny Decker, all rights reserved",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/470998809.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 262129775,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4489828805,
+          30.5569464401
+        ]
+      },
+      "properties": {
+        "id": 262129775,
+        "uri": "https://www.inaturalist.org/observations/262129775",
+        "observed_on": "2025-02-18",
+        "time_observed_at": "2025-02-18T10:47:50-05:00",
+        "quality_grade": "needs_id",
+        "license_code": null,
+        "geoprivacy": null,
+        "obscured": false,
+        "positional_accuracy": 4,
+        "captive": false,
+        "description": "",
+        "scientific_name": "Juniperus",
+        "common_name": "junipers",
+        "taxon_id": 47574,
+        "taxon_rank": "genus",
+        "observer": "daphne_forehand",
+        "photos": [
+          {
+            "id": 470998740,
+            "license_code": null,
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://static.inaturalist.org/photos/470998740/original.jpg",
+            "attribution": "(c) Daphne Forehand, all rights reserved",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/470998740.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 262129815,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4467407071,
+          30.5557357172
+        ]
+      },
+      "properties": {
+        "id": 262129815,
+        "uri": "https://www.inaturalist.org/observations/262129815",
+        "observed_on": "2025-02-18",
+        "time_observed_at": "2025-02-18T10:47:10-05:00",
+        "quality_grade": "casual",
+        "license_code": "cc-by-nc",
+        "geoprivacy": null,
+        "obscured": false,
+        "positional_accuracy": 3,
+        "captive": true,
+        "description": "",
+        "scientific_name": "Magnolia virginiana",
+        "common_name": "sweetbay magnolia",
+        "taxon_id": 127906,
+        "taxon_rank": "species",
+        "observer": "keepnassaubeautiful",
+        "photos": [
+          {
+            "id": 470998787,
+            "license_code": "cc-by-nc",
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/470998787/original.jpg",
+            "attribution": "(c) KeepNassauBeautiful, some rights reserved (CC BY-NC)",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/470998787.jpg"
+          },
+          {
+            "id": 470998804,
+            "license_code": "cc-by-nc",
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/470998804/original.jpg",
+            "attribution": "(c) KeepNassauBeautiful, some rights reserved (CC BY-NC)",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/470998804.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 262129870,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4490118204,
+          30.5568704553
+        ]
+      },
+      "properties": {
+        "id": 262129870,
+        "uri": "https://www.inaturalist.org/observations/262129870",
+        "observed_on": "2025-02-18",
+        "time_observed_at": "2025-02-18T10:48:17-05:00",
+        "quality_grade": "casual",
+        "license_code": null,
+        "geoprivacy": null,
+        "obscured": false,
+        "positional_accuracy": 3,
+        "captive": true,
+        "description": "",
+        "scientific_name": "Nandina domestica",
+        "common_name": "Heavenly bamboo",
+        "taxon_id": 127010,
+        "taxon_rank": "species",
+        "observer": "paul_moerman_jr",
+        "photos": [
+          {
+            "id": 470998921,
+            "license_code": null,
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://static.inaturalist.org/photos/470998921/original.jpg",
+            "attribution": "(c) Paul Moerman Jr, all rights reserved",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/470998921.jpg"
+          },
+          {
+            "id": 470998909,
+            "license_code": null,
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://static.inaturalist.org/photos/470998909/original.jpg",
+            "attribution": "(c) Paul Moerman Jr, all rights reserved",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/470998909.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 262129894,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.449011865,
+          30.556846544
+        ]
+      },
+      "properties": {
+        "id": 262129894,
+        "uri": "https://www.inaturalist.org/observations/262129894",
+        "observed_on": "2025-02-18",
+        "time_observed_at": "2025-02-18T10:49:17-05:00",
+        "quality_grade": "casual",
+        "license_code": null,
+        "geoprivacy": null,
+        "obscured": false,
+        "positional_accuracy": 4,
+        "captive": true,
+        "description": "",
+        "scientific_name": "Nandina domestica",
+        "common_name": "Heavenly bamboo",
+        "taxon_id": 127010,
+        "taxon_rank": "species",
+        "observer": "lurane1",
+        "photos": [
+          {
+            "id": 470998993,
+            "license_code": null,
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://static.inaturalist.org/photos/470998993/original.jpg",
+            "attribution": "(c) Lurane Worth, all rights reserved",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/470998993.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 262129948,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4462994133,
+          30.5561844679
+        ]
+      },
+      "properties": {
+        "id": 262129948,
+        "uri": "https://www.inaturalist.org/observations/262129948",
+        "observed_on": "2025-02-18",
+        "time_observed_at": "2025-02-18T10:50:24-05:00",
+        "quality_grade": "casual",
+        "license_code": "cc-by-nc",
+        "geoprivacy": null,
+        "obscured": false,
+        "positional_accuracy": 3,
+        "captive": true,
+        "description": "",
+        "scientific_name": "Rhododendron indicum",
+        "common_name": "southern Indian azalea",
+        "taxon_id": 208830,
+        "taxon_rank": "species",
+        "observer": "vbaughma",
+        "photos": [
+          {
+            "id": 470999110,
+            "license_code": "cc-by-nc",
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/470999110/original.jpg",
+            "attribution": "(c) vbaughma, some rights reserved (CC BY-NC)",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/470999110.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 262129951,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4489458316,
+          30.5570309144
+        ]
+      },
+      "properties": {
+        "id": 262129951,
+        "uri": "https://www.inaturalist.org/observations/262129951",
+        "observed_on": "2025-02-18",
+        "time_observed_at": "2025-02-18T10:47:54-05:00",
+        "quality_grade": "needs_id",
+        "license_code": null,
+        "geoprivacy": null,
+        "obscured": false,
+        "positional_accuracy": 4,
+        "captive": false,
+        "description": "",
+        "scientific_name": "Viburnum",
+        "common_name": "viburnums",
+        "taxon_id": 54774,
+        "taxon_rank": "genus",
+        "observer": "genevieve7488",
+        "photos": [
+          {
+            "id": 487669473,
+            "license_code": null,
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://static.inaturalist.org/photos/487669473/original.jpg",
+            "attribution": "(c) Genevieve Summers, all rights reserved",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/487669473.jpg"
+          },
+          {
+            "id": 487669504,
+            "license_code": null,
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://static.inaturalist.org/photos/487669504/original.jpg",
+            "attribution": "(c) Genevieve Summers, all rights reserved",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/487669504.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 262129978,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4489318338,
+          30.5568113504
+        ]
+      },
+      "properties": {
+        "id": 262129978,
+        "uri": "https://www.inaturalist.org/observations/262129978",
+        "observed_on": "2025-02-18",
+        "time_observed_at": "2025-02-18T10:51:08-05:00",
+        "quality_grade": "research",
+        "license_code": null,
+        "geoprivacy": null,
+        "obscured": false,
+        "positional_accuracy": 4,
+        "captive": false,
+        "description": "",
+        "scientific_name": "Rhaphiolepis indica",
+        "common_name": "Indian Hawthorn",
+        "taxon_id": 179305,
+        "taxon_rank": "species",
+        "observer": "paul_moerman_jr",
+        "photos": [
+          {
+            "id": 470999170,
+            "license_code": null,
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://static.inaturalist.org/photos/470999170/original.jpg",
+            "attribution": "(c) Paul Moerman Jr, all rights reserved",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/470999170.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 262130225,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4471657719,
+          30.5558105901
+        ]
+      },
+      "properties": {
+        "id": 262130225,
+        "uri": "https://www.inaturalist.org/observations/262130225",
+        "observed_on": "2025-02-18",
+        "time_observed_at": "2025-02-18T10:52:24-05:00",
+        "quality_grade": "casual",
+        "license_code": "cc-by-nc",
+        "geoprivacy": null,
+        "obscured": false,
+        "positional_accuracy": 3,
+        "captive": true,
+        "description": "",
+        "scientific_name": "Alpinia",
+        "common_name": "Shell Gingers",
+        "taxon_id": 123736,
+        "taxon_rank": "genus",
+        "observer": "keepnassaubeautiful",
+        "photos": [
+          {
+            "id": 470999425,
+            "license_code": "cc-by-nc",
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/470999425/original.jpg",
+            "attribution": "(c) KeepNassauBeautiful, some rights reserved (CC BY-NC)",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/470999425.jpg"
+          },
+          {
+            "id": 470999444,
+            "license_code": "cc-by-nc",
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/470999444/original.jpg",
+            "attribution": "(c) KeepNassauBeautiful, some rights reserved (CC BY-NC)",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/470999444.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 262130245,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4490247599,
+          30.556488359
+        ]
+      },
+      "properties": {
+        "id": 262130245,
+        "uri": "https://www.inaturalist.org/observations/262130245",
+        "observed_on": "2025-02-18",
+        "time_observed_at": "2025-02-18T10:52:27-05:00",
+        "quality_grade": "needs_id",
+        "license_code": null,
+        "geoprivacy": null,
+        "obscured": false,
+        "positional_accuracy": 3,
+        "captive": false,
+        "description": "",
+        "scientific_name": "Quercus virginiana",
+        "common_name": "southern live oak",
+        "taxon_id": 49013,
+        "taxon_rank": "species",
+        "observer": "daphne_forehand",
+        "photos": [
+          {
+            "id": 470999453,
+            "license_code": null,
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://static.inaturalist.org/photos/470999453/original.jpg",
+            "attribution": "(c) Daphne Forehand, all rights reserved",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/470999453.jpg"
+          },
+          {
+            "id": 470999475,
+            "license_code": null,
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://static.inaturalist.org/photos/470999475/original.jpg",
+            "attribution": "(c) Daphne Forehand, all rights reserved",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/470999475.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 262130259,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4470301534,
+          30.5556664276
+        ]
+      },
+      "properties": {
+        "id": 262130259,
+        "uri": "https://www.inaturalist.org/observations/262130259",
+        "observed_on": "2025-02-18",
+        "time_observed_at": "2025-02-18T10:52:54-05:00",
+        "quality_grade": "casual",
+        "license_code": "cc-by-nc",
+        "geoprivacy": null,
+        "obscured": false,
+        "positional_accuracy": 3,
+        "captive": true,
+        "description": "",
+        "scientific_name": "Hydrangea quercifolia",
+        "common_name": "oakleaf hydrangea",
+        "taxon_id": 83156,
+        "taxon_rank": "species",
+        "observer": "kristenknb",
+        "photos": [
+          {
+            "id": 470999495,
+            "license_code": "cc-by-nc",
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/470999495/original.jpg",
+            "attribution": "(c) kristenknb, some rights reserved (CC BY-NC)",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/470999495.jpg"
+          },
+          {
+            "id": 470999503,
+            "license_code": "cc-by-nc",
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/470999503/original.jpg",
+            "attribution": "(c) kristenknb, some rights reserved (CC BY-NC)",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/470999503.jpg"
+          },
+          {
+            "id": 470999514,
+            "license_code": "cc-by-nc",
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/470999514/original.jpg",
+            "attribution": "(c) kristenknb, some rights reserved (CC BY-NC)",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/470999514.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 262130265,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4490506015,
+          30.5564250067
+        ]
+      },
+      "properties": {
+        "id": 262130265,
+        "uri": "https://www.inaturalist.org/observations/262130265",
+        "observed_on": "2025-02-18",
+        "time_observed_at": "2025-02-18T10:53:04-05:00",
+        "quality_grade": "needs_id",
+        "license_code": null,
+        "geoprivacy": null,
+        "obscured": false,
+        "positional_accuracy": 6,
+        "captive": false,
+        "description": "",
+        "scientific_name": "Quercus laurifolia",
+        "common_name": "swamp laurel oak",
+        "taxon_id": 69845,
+        "taxon_rank": "species",
+        "observer": "paul_moerman_jr",
+        "photos": [
+          {
+            "id": 470999518,
+            "license_code": null,
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://static.inaturalist.org/photos/470999518/original.jpg",
+            "attribution": "(c) Paul Moerman Jr, all rights reserved",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/470999518.jpg"
+          },
+          {
+            "id": 470999509,
+            "license_code": null,
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://static.inaturalist.org/photos/470999509/original.jpg",
+            "attribution": "(c) Paul Moerman Jr, all rights reserved",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/470999509.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 262130319,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4488987253,
+          30.5563718034
+        ]
+      },
+      "properties": {
+        "id": 262130319,
+        "uri": "https://www.inaturalist.org/observations/262130319",
+        "observed_on": "2025-02-18",
+        "time_observed_at": "2025-02-18T10:54:21-05:00",
+        "quality_grade": "research",
+        "license_code": null,
+        "geoprivacy": null,
+        "obscured": false,
+        "positional_accuracy": 4,
+        "captive": false,
+        "description": "",
+        "scientific_name": "Juniperus virginiana",
+        "common_name": "eastern redcedar",
+        "taxon_id": 49399,
+        "taxon_rank": "species",
+        "observer": "paul_moerman_jr",
+        "photos": [
+          {
+            "id": 470999632,
+            "license_code": null,
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://static.inaturalist.org/photos/470999632/original.jpg",
+            "attribution": "(c) Paul Moerman Jr, all rights reserved",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/470999632.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 262130334,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4470398706,
+          30.5556631973
+        ]
+      },
+      "properties": {
+        "id": 262130334,
+        "uri": "https://www.inaturalist.org/observations/262130334",
+        "observed_on": "2025-02-18",
+        "time_observed_at": "2025-02-18T10:53:09-05:00",
+        "quality_grade": "casual",
+        "license_code": null,
+        "geoprivacy": null,
+        "obscured": false,
+        "positional_accuracy": 3,
+        "captive": true,
+        "description": "",
+        "scientific_name": "Thaumatophyllum",
+        "common_name": null,
+        "taxon_id": 985690,
+        "taxon_rank": "genus",
+        "observer": "jenny_decker",
+        "photos": [
+          {
+            "id": 470999711,
+            "license_code": null,
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://static.inaturalist.org/photos/470999711/original.jpg",
+            "attribution": "(c) Jenny Decker, all rights reserved",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/470999711.jpg"
+          },
+          {
+            "id": 470999790,
+            "license_code": null,
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://static.inaturalist.org/photos/470999790/original.jpg",
+            "attribution": "(c) Jenny Decker, all rights reserved",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/470999790.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 262130347,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4463830495,
+          30.5562822536
+        ]
+      },
+      "properties": {
+        "id": 262130347,
+        "uri": "https://www.inaturalist.org/observations/262130347",
+        "observed_on": "2025-02-18",
+        "time_observed_at": "2025-02-18T10:54:17-05:00",
+        "quality_grade": "needs_id",
+        "license_code": "cc-by-nc",
+        "geoprivacy": null,
+        "obscured": false,
+        "positional_accuracy": 32,
+        "captive": false,
+        "description": "",
+        "scientific_name": "Juniperus virginiana",
+        "common_name": "eastern redcedar",
+        "taxon_id": 49399,
+        "taxon_rank": "species",
+        "observer": "vbaughma",
+        "photos": [
+          {
+            "id": 470999686,
+            "license_code": "cc-by-nc",
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/470999686/original.jpg",
+            "attribution": "(c) vbaughma, some rights reserved (CC BY-NC)",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/470999686.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 262130357,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4488992282,
+          30.5562577676
+        ]
+      },
+      "properties": {
+        "id": 262130357,
+        "uri": "https://www.inaturalist.org/observations/262130357",
+        "observed_on": "2025-02-18",
+        "time_observed_at": "2025-02-18T10:54:48-05:00",
+        "quality_grade": "needs_id",
+        "license_code": null,
+        "geoprivacy": null,
+        "obscured": false,
+        "positional_accuracy": 4,
+        "captive": false,
+        "description": "",
+        "scientific_name": "Cyrtomium",
+        "common_name": "Holly Ferns",
+        "taxon_id": 72085,
+        "taxon_rank": "genus",
+        "observer": "paul_moerman_jr",
+        "photos": [
+          {
+            "id": 470999695,
+            "license_code": null,
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://static.inaturalist.org/photos/470999695/original.jpg",
+            "attribution": "(c) Paul Moerman Jr, all rights reserved",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/470999695.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 262130367,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.448875506,
+          30.5562964472
+        ]
+      },
+      "properties": {
+        "id": 262130367,
+        "uri": "https://www.inaturalist.org/observations/262130367",
+        "observed_on": "2025-02-18",
+        "time_observed_at": "2025-02-18T10:55:14-05:00",
+        "quality_grade": "casual",
+        "license_code": null,
+        "geoprivacy": null,
+        "obscured": false,
+        "positional_accuracy": 2,
+        "captive": true,
+        "description": "",
+        "scientific_name": "Cycas revoluta",
+        "common_name": "Sago cycad",
+        "taxon_id": 129783,
+        "taxon_rank": "species",
+        "observer": "lurane1",
+        "photos": [
+          {
+            "id": 471268369,
+            "license_code": null,
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://static.inaturalist.org/photos/471268369/original.jpg",
+            "attribution": "(c) Lurane Worth, all rights reserved",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/471268369.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 262130414,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4487466776,
+          30.5562146008
+        ]
+      },
+      "properties": {
+        "id": 262130414,
+        "uri": "https://www.inaturalist.org/observations/262130414",
+        "observed_on": "2025-02-18",
+        "time_observed_at": "2025-02-18T10:55:45-05:00",
+        "quality_grade": "needs_id",
+        "license_code": null,
+        "geoprivacy": null,
+        "obscured": false,
+        "positional_accuracy": 4,
+        "captive": false,
+        "description": "",
+        "scientific_name": "Quercus geminata",
+        "common_name": "sand live oak",
+        "taxon_id": 121402,
+        "taxon_rank": "species",
+        "observer": "paul_moerman_jr",
+        "photos": [
+          {
+            "id": 470999809,
+            "license_code": null,
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://static.inaturalist.org/photos/470999809/original.jpg",
+            "attribution": "(c) Paul Moerman Jr, all rights reserved",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/470999809.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 262130424,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.446567,
+          30.5567437
+        ]
+      },
+      "properties": {
+        "id": 262130424,
+        "uri": "https://www.inaturalist.org/observations/262130424",
+        "observed_on": "2025-02-18",
+        "time_observed_at": "2025-02-18T10:54:31-05:00",
+        "quality_grade": "needs_id",
+        "license_code": "cc-by-nc",
+        "geoprivacy": null,
+        "obscured": false,
+        "positional_accuracy": 22,
+        "captive": false,
+        "description": null,
+        "scientific_name": "Juniperus virginiana",
+        "common_name": "eastern redcedar",
+        "taxon_id": 49399,
+        "taxon_rank": "species",
+        "observer": "eschwa3",
+        "photos": [
+          {
+            "id": 470999824,
+            "license_code": "cc-by-nc",
+            "original_dimensions": {
+              "width": 1365,
+              "height": 2048
+            },
+            "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/470999824/original.jpeg",
+            "attribution": "(c) Erich, some rights reserved (CC BY-NC)",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/470999824.jpeg"
+          },
+          {
+            "id": 470999844,
+            "license_code": "cc-by-nc",
+            "original_dimensions": {
+              "width": 1365,
+              "height": 2048
+            },
+            "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/470999844/original.jpeg",
+            "attribution": "(c) Erich, some rights reserved (CC BY-NC)",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/470999844.jpeg"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 262130530,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4466465841,
+          30.5564915748
+        ]
+      },
+      "properties": {
+        "id": 262130530,
+        "uri": "https://www.inaturalist.org/observations/262130530",
+        "observed_on": "2025-02-18",
+        "time_observed_at": "2025-02-18T10:56:34-05:00",
+        "quality_grade": "casual",
+        "license_code": "cc-by-nc",
+        "geoprivacy": null,
+        "obscured": false,
+        "positional_accuracy": 5,
+        "captive": true,
+        "description": "",
+        "scientific_name": "Hibiscus × rosa-sinensis",
+        "common_name": "Tricolor Hibiscus",
+        "taxon_id": 1628098,
+        "taxon_rank": "hybrid",
+        "observer": "vbaughma",
+        "photos": [
+          {
+            "id": 470999993,
+            "license_code": "cc-by-nc",
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/470999993/original.jpg",
+            "attribution": "(c) vbaughma, some rights reserved (CC BY-NC)",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/470999993.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 262130563,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4465748426,
+          30.5557069509
+        ]
+      },
+      "properties": {
+        "id": 262130563,
+        "uri": "https://www.inaturalist.org/observations/262130563",
+        "observed_on": "2025-02-18",
+        "time_observed_at": "2025-02-18T10:56:24-05:00",
+        "quality_grade": "needs_id",
+        "license_code": null,
+        "geoprivacy": null,
+        "obscured": false,
+        "positional_accuracy": 3,
+        "captive": false,
+        "description": "",
+        "scientific_name": "Juniperus virginiana",
+        "common_name": "eastern redcedar",
+        "taxon_id": 49399,
+        "taxon_rank": "species",
+        "observer": "jenny_decker",
+        "photos": [
+          {
+            "id": 471000092,
+            "license_code": null,
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://static.inaturalist.org/photos/471000092/original.jpg",
+            "attribution": "(c) Jenny Decker, all rights reserved",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/471000092.jpg"
+          },
+          {
+            "id": 471000040,
+            "license_code": null,
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://static.inaturalist.org/photos/471000040/original.jpg",
+            "attribution": "(c) Jenny Decker, all rights reserved",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/471000040.jpg"
+          },
+          {
+            "id": 471000076,
+            "license_code": null,
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://static.inaturalist.org/photos/471000076/original.jpg",
+            "attribution": "(c) Jenny Decker, all rights reserved",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/471000076.jpg"
+          },
+          {
+            "id": 471000063,
+            "license_code": null,
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://static.inaturalist.org/photos/471000063/original.jpg",
+            "attribution": "(c) Jenny Decker, all rights reserved",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/471000063.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 262130566,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.44663872,
+          30.55654513
+        ]
+      },
+      "properties": {
+        "id": 262130566,
+        "uri": "https://www.inaturalist.org/observations/262130566",
+        "observed_on": "2025-02-18",
+        "time_observed_at": "2025-02-18T10:56:24-05:00",
+        "quality_grade": "casual",
+        "license_code": "cc-by-nc",
+        "geoprivacy": null,
+        "obscured": false,
+        "positional_accuracy": 13,
+        "captive": true,
+        "description": null,
+        "scientific_name": "Hibiscus × rosa-sinensis",
+        "common_name": "Tricolor Hibiscus",
+        "taxon_id": 1628098,
+        "taxon_rank": "hybrid",
+        "observer": "eschwa3",
+        "photos": [
+          {
+            "id": 471000035,
+            "license_code": "cc-by-nc",
+            "original_dimensions": {
+              "width": 1365,
+              "height": 2048
+            },
+            "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/471000035/original.jpeg",
+            "attribution": "(c) Erich, some rights reserved (CC BY-NC)",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/471000035.jpeg"
+          },
+          {
+            "id": 471000056,
+            "license_code": "cc-by-nc",
+            "original_dimensions": {
+              "width": 2048,
+              "height": 1365
+            },
+            "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/471000056/original.jpeg",
+            "attribution": "(c) Erich, some rights reserved (CC BY-NC)",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/471000056.jpeg"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 262130567,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4482083917,
+          30.5561552989
+        ]
+      },
+      "properties": {
+        "id": 262130567,
+        "uri": "https://www.inaturalist.org/observations/262130567",
+        "observed_on": "2025-02-18",
+        "time_observed_at": "2025-02-18T10:57:42-05:00",
+        "quality_grade": "needs_id",
+        "license_code": null,
+        "geoprivacy": null,
+        "obscured": false,
+        "positional_accuracy": 3,
+        "captive": false,
+        "description": "",
+        "scientific_name": "Polypodiales",
+        "common_name": null,
+        "taxon_id": 47754,
+        "taxon_rank": "order",
+        "observer": "paul_moerman_jr",
+        "photos": [
+          {
+            "id": 471000037,
+            "license_code": null,
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://static.inaturalist.org/photos/471000037/original.jpg",
+            "attribution": "(c) Paul Moerman Jr, all rights reserved",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/471000037.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 262130657,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4476145192,
+          30.5562940208
+        ]
+      },
+      "properties": {
+        "id": 262130657,
+        "uri": "https://www.inaturalist.org/observations/262130657",
+        "observed_on": "2025-02-18",
+        "time_observed_at": "2025-02-18T10:58:54-05:00",
+        "quality_grade": "casual",
+        "license_code": null,
+        "geoprivacy": null,
+        "obscured": false,
+        "positional_accuracy": 4,
+        "captive": true,
+        "description": "",
+        "scientific_name": "Pittosporum tobira",
+        "common_name": "Japanese cheesewood",
+        "taxon_id": 78592,
+        "taxon_rank": "species",
+        "observer": "paul_moerman_jr",
+        "photos": [
+          {
+            "id": 471000282,
+            "license_code": null,
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://static.inaturalist.org/photos/471000282/original.jpg",
+            "attribution": "(c) Paul Moerman Jr, all rights reserved",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/471000282.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 262130681,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4466437686,
+          30.5563795346
+        ]
+      },
+      "properties": {
+        "id": 262130681,
+        "uri": "https://www.inaturalist.org/observations/262130681",
+        "observed_on": "2025-02-18",
+        "time_observed_at": "2025-02-18T10:59:15-05:00",
+        "quality_grade": "casual",
+        "license_code": "cc-by-nc",
+        "geoprivacy": null,
+        "obscured": false,
+        "positional_accuracy": 5,
+        "captive": true,
+        "description": "",
+        "scientific_name": "Thaumatophyllum bipinnatifidum",
+        "common_name": "Tree Philodendron",
+        "taxon_id": 985710,
+        "taxon_rank": "species",
+        "observer": "vbaughma",
+        "photos": [
+          {
+            "id": 471000330,
+            "license_code": "cc-by-nc",
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/471000330/original.jpg",
+            "attribution": "(c) vbaughma, some rights reserved (CC BY-NC)",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/471000330.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 262130703,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4465689753,
+          30.5558174243
+        ]
+      },
+      "properties": {
+        "id": 262130703,
+        "uri": "https://www.inaturalist.org/observations/262130703",
+        "observed_on": "2025-02-18",
+        "time_observed_at": "2025-02-18T10:59:33-05:00",
+        "quality_grade": "casual",
+        "license_code": "cc-by-nc",
+        "geoprivacy": null,
+        "obscured": false,
+        "positional_accuracy": 3,
+        "captive": true,
+        "description": "",
+        "scientific_name": "Nandina domestica",
+        "common_name": "Heavenly bamboo",
+        "taxon_id": 127010,
+        "taxon_rank": "species",
+        "observer": "keepnassaubeautiful",
+        "photos": [
+          {
+            "id": 471000342,
+            "license_code": "cc-by-nc",
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/471000342/original.jpg",
+            "attribution": "(c) KeepNassauBeautiful, some rights reserved (CC BY-NC)",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/471000342.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 262130719,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4465311661,
+          30.5558265881
+        ]
+      },
+      "properties": {
+        "id": 262130719,
+        "uri": "https://www.inaturalist.org/observations/262130719",
+        "observed_on": "2025-02-18",
+        "time_observed_at": "2025-02-18T10:58:51-05:00",
+        "quality_grade": "casual",
+        "license_code": null,
+        "geoprivacy": null,
+        "obscured": false,
+        "positional_accuracy": 5,
+        "captive": true,
+        "description": "",
+        "scientific_name": "Thaumatophyllum",
+        "common_name": null,
+        "taxon_id": 985690,
+        "taxon_rank": "genus",
+        "observer": "jenny_decker",
+        "photos": [
+          {
+            "id": 471000396,
+            "license_code": null,
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://static.inaturalist.org/photos/471000396/original.jpg",
+            "attribution": "(c) Jenny Decker, all rights reserved",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/471000396.jpg"
+          },
+          {
+            "id": 471000415,
+            "license_code": null,
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://static.inaturalist.org/photos/471000415/original.jpg",
+            "attribution": "(c) Jenny Decker, all rights reserved",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/471000415.jpg"
+          },
+          {
+            "id": 471000424,
+            "license_code": null,
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://static.inaturalist.org/photos/471000424/original.jpg",
+            "attribution": "(c) Jenny Decker, all rights reserved",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/471000424.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 262130735,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.44647725,
+          30.55638632
+        ]
+      },
+      "properties": {
+        "id": 262130735,
+        "uri": "https://www.inaturalist.org/observations/262130735",
+        "observed_on": "2025-02-18",
+        "time_observed_at": "2025-02-18T10:58:16-05:00",
+        "quality_grade": "casual",
+        "license_code": "cc-by-nc",
+        "geoprivacy": null,
+        "obscured": false,
+        "positional_accuracy": 7,
+        "captive": true,
+        "description": null,
+        "scientific_name": "Thaumatophyllum bipinnatifidum",
+        "common_name": "Tree Philodendron",
+        "taxon_id": 985710,
+        "taxon_rank": "species",
+        "observer": "eschwa3",
+        "photos": [
+          {
+            "id": 471000429,
+            "license_code": "cc-by-nc",
+            "original_dimensions": {
+              "width": 1365,
+              "height": 2048
+            },
+            "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/471000429/original.jpeg",
+            "attribution": "(c) Erich, some rights reserved (CC BY-NC)",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/471000429.jpeg"
+          },
+          {
+            "id": 471000444,
+            "license_code": "cc-by-nc",
+            "original_dimensions": {
+              "width": 1365,
+              "height": 2048
+            },
+            "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/471000444/original.jpeg",
+            "attribution": "(c) Erich, some rights reserved (CC BY-NC)",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/471000444.jpeg"
+          },
+          {
+            "id": 471000456,
+            "license_code": "cc-by-nc",
+            "original_dimensions": {
+              "width": 1365,
+              "height": 2048
+            },
+            "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/471000456/original.jpeg",
+            "attribution": "(c) Erich, some rights reserved (CC BY-NC)",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/471000456.jpeg"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 262130739,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4473660105,
+          30.5563908723
+        ]
+      },
+      "properties": {
+        "id": 262130739,
+        "uri": "https://www.inaturalist.org/observations/262130739",
+        "observed_on": "2025-02-18",
+        "time_observed_at": "2025-02-18T10:59:47-05:00",
+        "quality_grade": "needs_id",
+        "license_code": null,
+        "geoprivacy": null,
+        "obscured": false,
+        "positional_accuracy": 4,
+        "captive": false,
+        "description": "",
+        "scientific_name": "Sideroxylon tenax",
+        "common_name": "Tough Bully",
+        "taxon_id": 168953,
+        "taxon_rank": "species",
+        "observer": "paul_moerman_jr",
+        "photos": [
+          {
+            "id": 481811561,
+            "license_code": null,
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://static.inaturalist.org/photos/481811561/original.jpg",
+            "attribution": "(c) Paul Moerman Jr, all rights reserved",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/481811561.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 262130819,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4467393794,
+          30.5558638182
+        ]
+      },
+      "properties": {
+        "id": 262130819,
+        "uri": "https://www.inaturalist.org/observations/262130819",
+        "observed_on": "2025-02-18",
+        "time_observed_at": "2025-02-18T11:00:52-05:00",
+        "quality_grade": "research",
+        "license_code": null,
+        "geoprivacy": null,
+        "obscured": false,
+        "positional_accuracy": 3,
+        "captive": false,
+        "description": "",
+        "scientific_name": "Juniperus virginiana",
+        "common_name": "eastern redcedar",
+        "taxon_id": 49399,
+        "taxon_rank": "species",
+        "observer": "jenny_decker",
+        "photos": [
+          {
+            "id": 471000726,
+            "license_code": null,
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://static.inaturalist.org/photos/471000726/original.jpg",
+            "attribution": "(c) Jenny Decker, all rights reserved",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/471000726.jpg"
+          },
+          {
+            "id": 471000669,
+            "license_code": null,
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://static.inaturalist.org/photos/471000669/original.jpg",
+            "attribution": "(c) Jenny Decker, all rights reserved",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/471000669.jpg"
+          },
+          {
+            "id": 471000704,
+            "license_code": null,
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://static.inaturalist.org/photos/471000704/original.jpg",
+            "attribution": "(c) Jenny Decker, all rights reserved",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/471000704.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 262130946,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4462465707,
+          30.5558997845
+        ]
+      },
+      "properties": {
+        "id": 262130946,
+        "uri": "https://www.inaturalist.org/observations/262130946",
+        "observed_on": "2025-02-18",
+        "time_observed_at": "2025-02-18T11:03:13-05:00",
+        "quality_grade": "casual",
+        "license_code": null,
+        "geoprivacy": null,
+        "obscured": false,
+        "positional_accuracy": 4,
+        "captive": true,
+        "description": "",
+        "scientific_name": "Rhododendron simsii",
+        "common_name": "Red Azalea",
+        "taxon_id": 410380,
+        "taxon_rank": "species",
+        "observer": "jenny_decker",
+        "photos": [
+          {
+            "id": 471000923,
+            "license_code": null,
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://static.inaturalist.org/photos/471000923/original.jpg",
+            "attribution": "(c) Jenny Decker, all rights reserved",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/471000923.jpg"
+          },
+          {
+            "id": 471000935,
+            "license_code": null,
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://static.inaturalist.org/photos/471000935/original.jpg",
+            "attribution": "(c) Jenny Decker, all rights reserved",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/471000935.jpg"
+          },
+          {
+            "id": 471000958,
+            "license_code": null,
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://static.inaturalist.org/photos/471000958/original.jpg",
+            "attribution": "(c) Jenny Decker, all rights reserved",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/471000958.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 262130956,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4462573361,
+          30.5559377466
+        ]
+      },
+      "properties": {
+        "id": 262130956,
+        "uri": "https://www.inaturalist.org/observations/262130956",
+        "observed_on": "2025-02-18",
+        "time_observed_at": "2025-02-18T11:03:02-05:00",
+        "quality_grade": "casual",
+        "license_code": "cc-by-nc",
+        "geoprivacy": null,
+        "obscured": false,
+        "positional_accuracy": 4,
+        "captive": true,
+        "description": "",
+        "scientific_name": "Phoenix roebelenii",
+        "common_name": "Pygmy Date Palm",
+        "taxon_id": 204744,
+        "taxon_rank": "species",
+        "observer": "keepnassaubeautiful",
+        "photos": [
+          {
+            "id": 471000931,
+            "license_code": "cc-by-nc",
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/471000931/original.jpg",
+            "attribution": "(c) KeepNassauBeautiful, some rights reserved (CC BY-NC)",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/471000931.jpg"
+          },
+          {
+            "id": 471000942,
+            "license_code": "cc-by-nc",
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/471000942/original.jpg",
+            "attribution": "(c) KeepNassauBeautiful, some rights reserved (CC BY-NC)",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/471000942.jpg"
+          },
+          {
+            "id": 471000961,
+            "license_code": "cc-by-nc",
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/471000961/original.jpg",
+            "attribution": "(c) KeepNassauBeautiful, some rights reserved (CC BY-NC)",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/471000961.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 262130983,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.44641446,
+          30.55653266
+        ]
+      },
+      "properties": {
+        "id": 262130983,
+        "uri": "https://www.inaturalist.org/observations/262130983",
+        "observed_on": "2025-02-18",
+        "time_observed_at": "2025-02-18T11:01:14-05:00",
+        "quality_grade": "research",
+        "license_code": "cc-by-nc",
+        "geoprivacy": null,
+        "obscured": false,
+        "positional_accuracy": 11,
+        "captive": false,
+        "description": null,
+        "scientific_name": "Acer rubrum",
+        "common_name": "red maple",
+        "taxon_id": 48098,
+        "taxon_rank": "species",
+        "observer": "eschwa3",
+        "photos": [
+          {
+            "id": 471000988,
+            "license_code": "cc-by-nc",
+            "original_dimensions": {
+              "width": 1365,
+              "height": 2048
+            },
+            "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/471000988/original.jpeg",
+            "attribution": "(c) Erich, some rights reserved (CC BY-NC)",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/471000988.jpeg"
+          },
+          {
+            "id": 471000997,
+            "license_code": "cc-by-nc",
+            "original_dimensions": {
+              "width": 1365,
+              "height": 2048
+            },
+            "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/471000997/original.jpeg",
+            "attribution": "(c) Erich, some rights reserved (CC BY-NC)",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/471000997.jpeg"
+          },
+          {
+            "id": 471001024,
+            "license_code": "cc-by-nc",
+            "original_dimensions": {
+              "width": 1365,
+              "height": 2048
+            },
+            "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/471001024/original.jpeg",
+            "attribution": "(c) Erich, some rights reserved (CC BY-NC)",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/471001024.jpeg"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 262131013,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4462476961,
+          30.5559122647
+        ]
+      },
+      "properties": {
+        "id": 262131013,
+        "uri": "https://www.inaturalist.org/observations/262131013",
+        "observed_on": "2025-02-18",
+        "time_observed_at": "2025-02-18T11:03:55-05:00",
+        "quality_grade": "casual",
+        "license_code": null,
+        "geoprivacy": null,
+        "obscured": false,
+        "positional_accuracy": 3,
+        "captive": true,
+        "description": "",
+        "scientific_name": "Podocarpus macrophyllus",
+        "common_name": "kusamaki",
+        "taxon_id": 135329,
+        "taxon_rank": "species",
+        "observer": "jenny_decker",
+        "photos": [
+          {
+            "id": 471001052,
+            "license_code": null,
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://static.inaturalist.org/photos/471001052/original.jpg",
+            "attribution": "(c) Jenny Decker, all rights reserved",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/471001052.jpg"
+          },
+          {
+            "id": 471001067,
+            "license_code": null,
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://static.inaturalist.org/photos/471001067/original.jpg",
+            "attribution": "(c) Jenny Decker, all rights reserved",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/471001067.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 262131253,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4463567,
+          30.5560473
+        ]
+      },
+      "properties": {
+        "id": 262131253,
+        "uri": "https://www.inaturalist.org/observations/262131253",
+        "observed_on": "2025-02-18",
+        "time_observed_at": "2025-02-18T11:06:57-05:00",
+        "quality_grade": "research",
+        "license_code": "cc-by-nc",
+        "geoprivacy": null,
+        "obscured": false,
+        "positional_accuracy": 7,
+        "captive": false,
+        "description": null,
+        "scientific_name": "Ilex vomitoria",
+        "common_name": "Yaupon Holly",
+        "taxon_id": 119955,
+        "taxon_rank": "species",
+        "observer": "eschwa3",
+        "photos": [
+          {
+            "id": 471001493,
+            "license_code": "cc-by-nc",
+            "original_dimensions": {
+              "width": 1365,
+              "height": 2048
+            },
+            "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/471001493/original.jpeg",
+            "attribution": "(c) Erich, some rights reserved (CC BY-NC)",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/471001493.jpeg"
+          },
+          {
+            "id": 471001515,
+            "license_code": "cc-by-nc",
+            "original_dimensions": {
+              "width": 1365,
+              "height": 2048
+            },
+            "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/471001515/original.jpeg",
+            "attribution": "(c) Erich, some rights reserved (CC BY-NC)",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/471001515.jpeg"
+          },
+          {
+            "id": 471001531,
+            "license_code": "cc-by-nc",
+            "original_dimensions": {
+              "width": 2048,
+              "height": 1365
+            },
+            "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/471001531/original.jpeg",
+            "attribution": "(c) Erich, some rights reserved (CC BY-NC)",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/471001531.jpeg"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 298162582,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4485291671,
+          30.5565808062
+        ]
+      },
+      "properties": {
+        "id": 298162582,
+        "uri": "https://www.inaturalist.org/observations/298162582",
+        "observed_on": "2025-07-15",
+        "time_observed_at": "2025-07-15T10:20:45-04:00",
+        "quality_grade": "research",
+        "license_code": "cc-by-nc",
+        "geoprivacy": null,
+        "obscured": false,
+        "positional_accuracy": 8,
+        "captive": false,
+        "description": null,
+        "scientific_name": "Pleopeltis michauxiana",
+        "common_name": "resurrection fern",
+        "taxon_id": 698726,
+        "taxon_rank": "species",
+        "observer": "eschwa3",
+        "photos": [
+          {
+            "id": 537041860,
+            "license_code": "cc-by-nc",
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/537041860/original.jpg",
+            "attribution": "(c) Erich, some rights reserved (CC BY-NC)",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/537041860.jpg"
+          },
+          {
+            "id": 537041894,
+            "license_code": "cc-by-nc",
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/537041894/original.jpg",
+            "attribution": "(c) Erich, some rights reserved (CC BY-NC)",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/537041894.jpg"
+          },
+          {
+            "id": 537041933,
+            "license_code": "cc-by-nc",
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/537041933/original.jpg",
+            "attribution": "(c) Erich, some rights reserved (CC BY-NC)",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/537041933.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 298163025,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.448640395,
+          30.5569071556
+        ]
+      },
+      "properties": {
+        "id": 298163025,
+        "uri": "https://www.inaturalist.org/observations/298163025",
+        "observed_on": "2025-07-15",
+        "time_observed_at": "2025-07-15T10:22:24-04:00",
+        "quality_grade": "casual",
+        "license_code": "cc-by-nc",
+        "geoprivacy": null,
+        "obscured": false,
+        "positional_accuracy": 8,
+        "captive": true,
+        "description": null,
+        "scientific_name": "Juniperus chinensis",
+        "common_name": "Chinese juniper",
+        "taxon_id": 135925,
+        "taxon_rank": "species",
+        "observer": "eschwa3",
+        "photos": [
+          {
+            "id": 537042432,
+            "license_code": "cc-by-nc",
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/537042432/original.jpg",
+            "attribution": "(c) Erich, some rights reserved (CC BY-NC)",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/537042432.jpg"
+          },
+          {
+            "id": 537042485,
+            "license_code": "cc-by-nc",
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/537042485/original.jpg",
+            "attribution": "(c) Erich, some rights reserved (CC BY-NC)",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/537042485.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 298163432,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4484496228,
+          30.5569188483
+        ]
+      },
+      "properties": {
+        "id": 298163432,
+        "uri": "https://www.inaturalist.org/observations/298163432",
+        "observed_on": "2025-07-15",
+        "time_observed_at": "2025-07-15T10:24:03-04:00",
+        "quality_grade": "needs_id",
+        "license_code": "cc-by-nc",
+        "geoprivacy": null,
+        "obscured": false,
+        "positional_accuracy": 8,
+        "captive": false,
+        "description": null,
+        "scientific_name": "Morus rubra",
+        "common_name": "red mulberry",
+        "taxon_id": 54801,
+        "taxon_rank": "species",
+        "observer": "eschwa3",
+        "photos": [
+          {
+            "id": 537043169,
+            "license_code": "cc-by-nc",
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/537043169/original.jpg",
+            "attribution": "(c) Erich, some rights reserved (CC BY-NC)",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/537043169.jpg"
+          },
+          {
+            "id": 537043207,
+            "license_code": "cc-by-nc",
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/537043207/original.jpg",
+            "attribution": "(c) Erich, some rights reserved (CC BY-NC)",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/537043207.jpg"
+          },
+          {
+            "id": 537043241,
+            "license_code": "cc-by-nc",
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/537043241/original.jpg",
+            "attribution": "(c) Erich, some rights reserved (CC BY-NC)",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/537043241.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 298163601,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4483559132,
+          30.556984772
+        ]
+      },
+      "properties": {
+        "id": 298163601,
+        "uri": "https://www.inaturalist.org/observations/298163601",
+        "observed_on": "2025-07-15",
+        "time_observed_at": "2025-07-15T10:25:48-04:00",
+        "quality_grade": "needs_id",
+        "license_code": "cc-by-nc",
+        "geoprivacy": null,
+        "obscured": false,
+        "positional_accuracy": 9,
+        "captive": false,
+        "description": null,
+        "scientific_name": "Baccharis halimifolia",
+        "common_name": "groundsel tree",
+        "taxon_id": 84813,
+        "taxon_rank": "species",
+        "observer": "eschwa3",
+        "photos": [
+          {
+            "id": 537043520,
+            "license_code": "cc-by-nc",
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/537043520/original.jpg",
+            "attribution": "(c) Erich, some rights reserved (CC BY-NC)",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/537043520.jpg"
+          },
+          {
+            "id": 537043563,
+            "license_code": "cc-by-nc",
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/537043563/original.jpg",
+            "attribution": "(c) Erich, some rights reserved (CC BY-NC)",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/537043563.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 298163841,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4484835695,
+          30.5569436168
+        ]
+      },
+      "properties": {
+        "id": 298163841,
+        "uri": "https://www.inaturalist.org/observations/298163841",
+        "observed_on": "2025-07-15",
+        "time_observed_at": "2025-07-15T10:26:44-04:00",
+        "quality_grade": "needs_id",
+        "license_code": "cc-by-nc",
+        "geoprivacy": null,
+        "obscured": false,
+        "positional_accuracy": 12,
+        "captive": false,
+        "description": null,
+        "scientific_name": "Rhus copallinum",
+        "common_name": "shining sumac",
+        "taxon_id": 126698,
+        "taxon_rank": "species",
+        "observer": "eschwa3",
+        "photos": [
+          {
+            "id": 537044012,
+            "license_code": "cc-by-nc",
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/537044012/original.jpg",
+            "attribution": "(c) Erich, some rights reserved (CC BY-NC)",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/537044012.jpg"
+          },
+          {
+            "id": 537044060,
+            "license_code": "cc-by-nc",
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/537044060/original.jpg",
+            "attribution": "(c) Erich, some rights reserved (CC BY-NC)",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/537044060.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 298165697,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4488467574,
+          30.5566433771
+        ]
+      },
+      "properties": {
+        "id": 298165697,
+        "uri": "https://www.inaturalist.org/observations/298165697",
+        "observed_on": "2025-07-15",
+        "time_observed_at": "2025-07-15T10:32:46-04:00",
+        "quality_grade": "casual",
+        "license_code": "cc-by-nc",
+        "geoprivacy": null,
+        "obscured": false,
+        "positional_accuracy": 8,
+        "captive": true,
+        "description": null,
+        "scientific_name": "Hibiscus",
+        "common_name": "hibiscuses",
+        "taxon_id": 48891,
+        "taxon_rank": "genus",
+        "observer": "eschwa3",
+        "photos": [
+          {
+            "id": 537046895,
+            "license_code": "cc-by-nc",
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/537046895/original.jpg",
+            "attribution": "(c) Erich, some rights reserved (CC BY-NC)",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/537046895.jpg"
+          },
+          {
+            "id": 537046944,
+            "license_code": "cc-by-nc",
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/537046944/original.jpg",
+            "attribution": "(c) Erich, some rights reserved (CC BY-NC)",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/537046944.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 298166027,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4487818815,
+          30.5565084284
+        ]
+      },
+      "properties": {
+        "id": 298166027,
+        "uri": "https://www.inaturalist.org/observations/298166027",
+        "observed_on": "2025-07-15",
+        "time_observed_at": "2025-07-15T10:34:37-04:00",
+        "quality_grade": "casual",
+        "license_code": "cc-by-nc",
+        "geoprivacy": null,
+        "obscured": false,
+        "positional_accuracy": 7,
+        "captive": true,
+        "description": null,
+        "scientific_name": "Loropetalum chinense",
+        "common_name": "Chinese fringe flower",
+        "taxon_id": 186063,
+        "taxon_rank": "species",
+        "observer": "eschwa3",
+        "photos": [
+          {
+            "id": 537047549,
+            "license_code": "cc-by-nc",
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/537047549/original.jpg",
+            "attribution": "(c) Erich, some rights reserved (CC BY-NC)",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/537047549.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 298166564,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4485817216,
+          30.5563742761
+        ]
+      },
+      "properties": {
+        "id": 298166564,
+        "uri": "https://www.inaturalist.org/observations/298166564",
+        "observed_on": "2025-07-15",
+        "time_observed_at": "2025-07-15T10:36:02-04:00",
+        "quality_grade": "casual",
+        "license_code": "cc-by-nc",
+        "geoprivacy": null,
+        "obscured": false,
+        "positional_accuracy": 7,
+        "captive": true,
+        "description": null,
+        "scientific_name": "Juniperus chinensis",
+        "common_name": "Chinese juniper",
+        "taxon_id": 135925,
+        "taxon_rank": "species",
+        "observer": "eschwa3",
+        "photos": [
+          {
+            "id": 537048645,
+            "license_code": "cc-by-nc",
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/537048645/original.jpg",
+            "attribution": "(c) Erich, some rights reserved (CC BY-NC)",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/537048645.jpg"
+          },
+          {
+            "id": 537048702,
+            "license_code": "cc-by-nc",
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/537048702/original.jpg",
+            "attribution": "(c) Erich, some rights reserved (CC BY-NC)",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/537048702.jpg"
+          },
+          {
+            "id": 537048736,
+            "license_code": "cc-by-nc",
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/537048736/original.jpg",
+            "attribution": "(c) Erich, some rights reserved (CC BY-NC)",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/537048736.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 298168187,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4463658,
+          30.5562409
+        ]
+      },
+      "properties": {
+        "id": 298168187,
+        "uri": "https://www.inaturalist.org/observations/298168187",
+        "observed_on": "2025-07-15",
+        "time_observed_at": "2025-07-15T10:43:14-04:00",
+        "quality_grade": "needs_id",
+        "license_code": "cc-by-nc",
+        "geoprivacy": null,
+        "obscured": false,
+        "positional_accuracy": 25,
+        "captive": false,
+        "description": null,
+        "scientific_name": "Itea virginica",
+        "common_name": "Virginia sweetspire",
+        "taxon_id": 83152,
+        "taxon_rank": "species",
+        "observer": "eschwa3",
+        "photos": [
+          {
+            "id": 537051980,
+            "license_code": "cc-by-nc",
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/537051980/original.jpg",
+            "attribution": "(c) Erich, some rights reserved (CC BY-NC)",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/537051980.jpg"
+          },
+          {
+            "id": 537052014,
+            "license_code": "cc-by-nc",
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/537052014/original.jpg",
+            "attribution": "(c) Erich, some rights reserved (CC BY-NC)",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/537052014.jpg"
+          },
+          {
+            "id": 537052040,
+            "license_code": "cc-by-nc",
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/537052040/original.jpg",
+            "attribution": "(c) Erich, some rights reserved (CC BY-NC)",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/537052040.jpg"
+          },
+          {
+            "id": 537052073,
+            "license_code": "cc-by-nc",
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/537052073/original.jpg",
+            "attribution": "(c) Erich, some rights reserved (CC BY-NC)",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/537052073.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 298169679,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.446452,
+          30.5561665
+        ]
+      },
+      "properties": {
+        "id": 298169679,
+        "uri": "https://www.inaturalist.org/observations/298169679",
+        "observed_on": "2025-07-15",
+        "time_observed_at": "2025-07-15T10:49:47-04:00",
+        "quality_grade": "research",
+        "license_code": "cc-by-nc",
+        "geoprivacy": null,
+        "obscured": false,
+        "positional_accuracy": 32,
+        "captive": false,
+        "description": null,
+        "scientific_name": "Diospyros virginiana",
+        "common_name": "American persimmon",
+        "taxon_id": 83435,
+        "taxon_rank": "species",
+        "observer": "eschwa3",
+        "photos": [
+          {
+            "id": 537054409,
+            "license_code": "cc-by-nc",
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/537054409/original.jpg",
+            "attribution": "(c) Erich, some rights reserved (CC BY-NC)",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/537054409.jpg"
+          },
+          {
+            "id": 537054445,
+            "license_code": "cc-by-nc",
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/537054445/original.jpg",
+            "attribution": "(c) Erich, some rights reserved (CC BY-NC)",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/537054445.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 298178139,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.446531089,
+          30.5559056439
+        ]
+      },
+      "properties": {
+        "id": 298178139,
+        "uri": "https://www.inaturalist.org/observations/298178139",
+        "observed_on": "2025-07-15",
+        "time_observed_at": "2025-07-15T11:25:14-04:00",
+        "quality_grade": "research",
+        "license_code": "cc-by-nc",
+        "geoprivacy": null,
+        "obscured": false,
+        "positional_accuracy": 9,
+        "captive": false,
+        "description": null,
+        "scientific_name": "Prunus serotina",
+        "common_name": "black cherry",
+        "taxon_id": 54834,
+        "taxon_rank": "species",
+        "observer": "eschwa3",
+        "photos": [
+          {
+            "id": 537069708,
+            "license_code": "cc-by-nc",
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/537069708/original.jpg",
+            "attribution": "(c) Erich, some rights reserved (CC BY-NC)",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/537069708.jpg"
+          },
+          {
+            "id": 537069756,
+            "license_code": "cc-by-nc",
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/537069756/original.jpg",
+            "attribution": "(c) Erich, some rights reserved (CC BY-NC)",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/537069756.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 394505269,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4482743485,
+          30.5560569056
+        ]
+      },
+      "properties": {
+        "id": 394505269,
+        "uri": "https://www.inaturalist.org/observations/394505269",
+        "observed_on": "2026-06-26",
+        "time_observed_at": "2026-06-26T12:31:48-04:00",
+        "quality_grade": "needs_id",
+        "license_code": "cc-by-nc",
+        "geoprivacy": null,
+        "obscured": false,
+        "positional_accuracy": 4,
+        "captive": false,
+        "description": null,
+        "scientific_name": "Zamia furfuracea",
+        "common_name": "cardboard cycad",
+        "taxon_id": 135559,
+        "taxon_rank": "species",
+        "observer": "keepnassaubeautiful",
+        "photos": [
+          {
+            "id": 723241959,
+            "license_code": "cc-by-nc",
+            "original_dimensions": {
+              "width": 1536,
+              "height": 2048
+            },
+            "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/723241959/original.jpg",
+            "attribution": "(c) KeepNassauBeautiful, some rights reserved (CC BY-NC)",
+            "flags": [],
+            "moderator_actions": [],
+            "hidden": false,
+            "local_path": "omni-inaturalist/photos/723241959.jpg"
+          }
+        ]
+      }
+    }
+  ]
+}

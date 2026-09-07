@@ -1,0 +1,31 @@
+{
+  "retrieved_at": "2026-09-07T18:06:55.621074+00:00",
+  "sources": {
+    "aipca-planting-locations": {
+      "url": "https://services5.arcgis.com/F73IhFZbCCYUexxB/arcgis/rest/services/survey123_0c8553b37d0a463292d73320b279b062_results/FeatureServer/0",
+      "records": 55,
+      "attachments": 39
+    },
+    "aipca-invasive-plant-reports": {
+      "url": "https://services5.arcgis.com/F73IhFZbCCYUexxB/arcgis/rest/services/survey123_e8453fc4d87c4399a4397387be173925/FeatureServer/0",
+      "records": 0,
+      "attachments": 0
+    },
+    "aipca-boundary": {
+      "url": "https://services5.arcgis.com/F73IhFZbCCYUexxB/arcgis/rest/services/AIPCABoundary/FeatureServer/199",
+      "records": 1,
+      "attachments": 0
+    },
+    "omni-inaturalist": {
+      "url": "https://www.inaturalist.org/projects/omni-amelia-island",
+      "api": "https://api.inaturalist.org/v1/observations?project_id=232346",
+      "records": 97,
+      "photos": 184
+    },
+    "rcoast": {
+      "url": "https://www.r-coast.com/case-study/2025-aipca-natural-resources-inventory",
+      "report_graphics": 5,
+      "raw_gis_status": "No public download for LiDAR, DEM, orthomosaic, or GIS source files found on the case-study page."
+    }
+  }
+}

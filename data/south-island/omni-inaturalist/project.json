@@ -1,0 +1,263 @@
+{
+  "total_results": 1,
+  "page": 1,
+  "per_page": 1,
+  "results": [
+    {
+      "id": 232346,
+      "title": "Omni Amelia Island",
+      "hide_title": false,
+      "hide_leaderboard": false,
+      "description": "This project collects data on trees and woody species within the property at the Omni Amelia Island. The map will only display data from Project members within the boundaries of the Omni Amelia Island as designated for this project.\r\nTo see ALL species, click below on \"LOCATION: Omni Amelia Island\" and turn off all filters.",
+      "slug": "omni-amelia-island",
+      "project_type": "collection",
+      "delegated_project_id": null,
+      "is_delegated_umbrella": false,
+      "banner_color": "#74ac00",
+      "place_id": 212496,
+      "user_id": 5486567,
+      "admins": [
+        {
+          "id": 2819541,
+          "user_id": 5486567,
+          "project_id": 232346,
+          "role": "manager",
+          "user": {
+            "id": 5486567,
+            "login": "keepnassaubeautiful",
+            "spam": false,
+            "suspended": false,
+            "created_at": "2022-04-06T14:38:15+00:00",
+            "login_autocomplete": "keepnassaubeautiful",
+            "login_exact": "keepnassaubeautiful",
+            "name": "KeepNassauBeautiful",
+            "name_autocomplete": "KeepNassauBeautiful",
+            "orcid": null,
+            "icon": "https://static.inaturalist.org/attachments/users/icons/5486567/thumb.jpg?1688773424",
+            "observations_count": 111,
+            "identifications_count": 82,
+            "journal_posts_count": 0,
+            "activity_count": 193,
+            "species_count": 61,
+            "annotated_observations_count": 1,
+            "universal_search_rank": 111,
+            "roles": [],
+            "site_id": 1,
+            "icon_url": "https://static.inaturalist.org/attachments/users/icons/5486567/medium.jpg?1688773424"
+          }
+        }
+      ],
+      "user_ids": [
+        3542417,
+        5486567,
+        5803484,
+        6582908,
+        6591811,
+        8958088,
+        8958119,
+        8958136,
+        8959766,
+        8959773,
+        8959777,
+        10686440
+      ],
+      "location": null,
+      "icon": "https://static.inaturalist.org/projects/232346-icon-2d54acdb5b8600cbb69bf6a9a7cfdc2a-span2.jpg?1740086613",
+      "icon_file_name": "aiprst-omni-amelia-island-resort-beach-front-2.jpg",
+      "header_image_url": "https://static.inaturalist.org/projects/232346-cover-2d54acdb5b8600cbb69bf6a9a7cfdc2a.jpg?1740086613",
+      "header_image_file_name": "aiprst-omni-amelia-island-resort-beach-front-2.jpg",
+      "header_image_contain": true,
+      "project_observation_fields": [],
+      "terms": null,
+      "search_parameters": [
+        {
+          "field": "quality_grade",
+          "value": [
+            "research",
+            "needs_id",
+            "casual"
+          ],
+          "value_keyword": [
+            "research",
+            "needs_id",
+            "casual"
+          ]
+        },
+        {
+          "field": "members_only",
+          "value": true,
+          "value_bool": true
+        },
+        {
+          "field": "taxon_id",
+          "value": [
+            211194
+          ],
+          "value_number": [
+            211194
+          ]
+        },
+        {
+          "field": "place_id",
+          "value": [
+            212496
+          ],
+          "value_number": [
+            212496
+          ]
+        },
+        {
+          "field": "user_id",
+          "value": [
+            3542417,
+            5486567,
+            6582908,
+            6591811,
+            8959773,
+            8959766,
+            8958119,
+            8959777,
+            8958136,
+            10686440,
+            8958088
+          ],
+          "value_number": [
+            3542417,
+            5486567,
+            6582908,
+            6591811,
+            8959773,
+            8959766,
+            8958119,
+            8959777,
+            8958136,
+            10686440,
+            8958088
+          ]
+        }
+      ],
+      "project_observation_rules": [
+        {
+          "id": 1986116,
+          "operator": "observed_in_place?",
+          "operand_type": "Place",
+          "operand_id": 212496
+        },
+        {
+          "id": 1986117,
+          "operator": "in_taxon?",
+          "operand_type": "Taxon",
+          "operand_id": 211194
+        },
+        {
+          "id": 1986118,
+          "operator": "observed_by_user?",
+          "operand_type": "User",
+          "operand_id": 3542417
+        },
+        {
+          "id": 1986119,
+          "operator": "observed_by_user?",
+          "operand_type": "User",
+          "operand_id": 5486567
+        },
+        {
+          "id": 1986120,
+          "operator": "observed_by_user?",
+          "operand_type": "User",
+          "operand_id": 6582908
+        },
+        {
+          "id": 1986121,
+          "operator": "observed_by_user?",
+          "operand_type": "User",
+          "operand_id": 6591811
+        },
+        {
+          "id": 1986122,
+          "operator": "observed_by_user?",
+          "operand_type": "User",
+          "operand_id": 8959773
+        },
+        {
+          "id": 1986123,
+          "operator": "observed_by_user?",
+          "operand_type": "User",
+          "operand_id": 8959766
+        },
+        {
+          "id": 1986124,
+          "operator": "observed_by_user?",
+          "operand_type": "User",
+          "operand_id": 8958119
+        },
+        {
+          "id": 1986125,
+          "operator": "observed_by_user?",
+          "operand_type": "User",
+          "operand_id": 8959777
+        },
+        {
+          "id": 1986126,
+          "operator": "observed_by_user?",
+          "operand_type": "User",
+          "operand_id": 8958136
+        },
+        {
+          "id": 2761420,
+          "operator": "observed_by_user?",
+          "operand_type": "User",
+          "operand_id": 10686440
+        },
+        {
+          "id": 2761421,
+          "operator": "observed_by_user?",
+          "operand_type": "User",
+          "operand_id": 8958088
+        }
+      ],
+      "rule_preferences": [
+        {
+          "field": "quality_grade",
+          "value": "research,needs_id,casual"
+        },
+        {
+          "field": "members_only",
+          "value": true
+        }
+      ],
+      "created_at": "2025-02-18T09:30:27-05:00",
+      "updated_at": "2026-08-08T13:10:59-04:00",
+      "flags": [],
+      "site_features": [],
+      "prefers_user_trust": false,
+      "membership_model": "open",
+      "observation_requirements_updated_at": "2025-02-11T09:30:27-05:00",
+      "is_umbrella": false,
+      "is_new_style_project": true,
+      "user": {
+        "id": 5486567,
+        "login": "keepnassaubeautiful",
+        "spam": false,
+        "suspended": false,
+        "created_at": "2022-04-06T14:38:15+00:00",
+        "login_autocomplete": "keepnassaubeautiful",
+        "login_exact": "keepnassaubeautiful",
+        "name": "KeepNassauBeautiful",
+        "name_autocomplete": "KeepNassauBeautiful",
+        "orcid": null,
+        "icon": "https://static.inaturalist.org/attachments/users/icons/5486567/thumb.jpg?1688773424",
+        "observations_count": 111,
+        "identifications_count": 82,
+        "journal_posts_count": 0,
+        "activity_count": 193,
+        "species_count": 61,
+        "annotated_observations_count": 1,
+        "universal_search_rank": 111,
+        "roles": [],
+        "site_id": 1,
+        "icon_url": "https://static.inaturalist.org/attachments/users/icons/5486567/medium.jpg?1688773424"
+      }
+    }
+  ]
+}
