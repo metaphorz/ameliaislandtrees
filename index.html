@@ -8,16 +8,26 @@
   <meta name="description" content="Explore Amelia Island tree inventories, Omni plant observations, and Plantation planting locations.">
   <link rel="stylesheet" href="vendor/leaflet.css">
   <link rel="stylesheet" href="vendor/MarkerCluster.css">
-  <link rel="stylesheet" href="style.css?v=4">
+  <link rel="stylesheet" href="style.css?v=6">
   <script defer src="vendor/leaflet.js"></script>
   <script defer src="vendor/leaflet.markercluster.js"></script>
   <script defer src="map-data.js?v=4"></script>
-  <script defer src="map.js?v=5"></script>
+  <script defer src="statistics.js?v=1"></script>
+  <script defer src="map.js?v=6"></script>
 </head>
 <body>
   <aside>
     <header><span class="eyebrow">AMELIA ISLAND, FLORIDA</span><h1>Tree Atlas<span>.</span></h1><p>A closer look at the trees<br>that make this place.</p></header>
     <div class="summary"><strong id="total">—</strong><span>records shown · not unique trees</span><small id="visible">Loading the inventory…</small></div>
+    <details id="statistics" class="statistics">
+      <summary>Statistics</summary>
+      <label for="statistics-scope">Summarize</label>
+      <select id="statistics-scope"><option value="view">Current map view</option><option value="all">All filtered records</option></select>
+      <p>Follows the tree layers and filters below. Counts include overlapping records and repeat observations, not unique trees.</p>
+      <div id="statistics-results">Loading records…</div>
+      <p>Diameter results use positive, explicitly inch-labeled values, separately by source. No units or range midpoints are inferred. Standard deviation and variance describe the displayed population; variance is in square inches.</p>
+      <p>Height and spread statistics are deferred because ranges and units vary. Density awaits suitable inventory boundaries and coverage validation. Fort Clinch habitat acreage does not establish tree density.</p>
+    </details>
     <form id="filters">
       <fieldset id="sources"><legend>Explore the layers</legend></fieldset>
       <label class="check"><input id="boundary" type="checkbox" checked disabled><span id="boundary-note">Plantation boundary</span></label>

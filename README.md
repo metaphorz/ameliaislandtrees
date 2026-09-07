@@ -158,3 +158,26 @@ object ID against the service's matching ID list and preserves full polygon
 geometry in WGS84. Retrieval date is not a survey date. The source describes
 mapping by park and regional biologists with field verification; no individual
 polygon survey dates are supplied.
+
+### Statistics panel
+
+Open **Statistics** above the layer controls. Choose current map view (default) or
+all filtered records. Counts, source totals, species bars/tables, conditions, and
+source-specific diameter summaries follow the existing filters. Habitat polygons
+are excluded. Species labels are preserved as recorded rather than taxonomically
+merged. Counts include overlapping inventory records and repeated observations.
+
+Diameter statistics accept only positive single values explicitly labeled in
+inches (including a single inch mark); bare numbers, malformed quotes, ranges,
+inequalities, multiple stems, and other units are excluded with reason counts.
+The current snapshot yields 50/84 heritage and 677/743 city-planting measurements;
+main inventory units remain unverified. Sources are never pooled for diameter
+statistics. Mean, median, all tied modes, population standard deviation, and
+population variance are computed without intermediate rounding. Mode is reported
+as absent if no value repeats. Empty selections do not produce numerical results.
+Height/spread statistics and density remain deferred pending compatible values,
+verified units, suitable boundaries, and inventory coverage validation.
+
+Validation: `node --test test-map-data.cjs test-statistics.cjs` and
+`node --check map.js`. Statistics calculations live in `statistics.js` and run only
+when the panel is open; map movement updates the current-view summary.

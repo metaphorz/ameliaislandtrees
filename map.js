@@ -1,8 +1,8 @@
-/* global L, TreeData */
+/* global L, TreeData, TreeStats */
 (() => {
   'use strict';
   const $=id=>document.getElementById(id), number=n=>n.toLocaleString('en-US'), status=$('status');
-  if(!window.L||!L.markerClusterGroup||!window.TreeData){status.textContent='The map library could not load. Please reload.';return;}
+  if(!window.L||!L.markerClusterGroup||!window.TreeData||!window.TreeStats){status.textContent='The map library could not load. Please reload.';return;}
   const map=L.map('map',{zoomControl:false,maxZoom:20}).setView([30.61,-81.45],12);
   L.control.zoom({position:'bottomright'}).addTo(map);
   const street=L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',maxNativeZoom:19,maxZoom:20}).addTo(map);
@@ -44,7 +44,31 @@
     groups[source.id]=L.markerClusterGroup({maxClusterRadius:48,showCoverageOnHover:false,removeOutsideVisibleBounds:true,spiderfyOnMaxZoom:true,
       iconCreateFunction(cluster){const n=cluster.getChildCount(),size=n>=1000?58:n>=100?49:39;const span=el('span',number(n));span.style.background=source.color;return L.divIcon({html:span,className:'tree-cluster',iconSize:[size,size]});}}).addTo(map);
   }
-  function visibleCount(){const b=map.getBounds();$('visible').textContent=`${number(shown.filter(r=>b.contains(r.marker.getLatLng())).length)} records in this view`;}
+  function renderStatistics(){
+    if(!$('statistics').open)return;
+    const inView=$('statistics-scope').value==='view',bounds=map.getBounds();
+    const result=TreeStats.summarize(inView?shown.filter(r=>bounds.contains([r.lat,r.lng])):shown),root=$('statistics-results');root.replaceChildren();
+    root.append(el('h3',`${number(result.count)} records`),el('small',inView?'Within the current map bounds':'Across all filtered records'));
+    if(failures.length)root.append(el('p',`Some data are unavailable: ${failures.join(', ')}. Results may be incomplete.`));
+    if(!result.count){root.append(el('p','No matching records. Change the filters or map view.'));return;}
+    function table(rows,headers){const t=el('table'),head=el('thead'),hr=el('tr'),body=el('tbody');headers.forEach(v=>{const th=el('th',v);th.scope='col';hr.append(th);});head.append(hr);rows.forEach(row=>{const tr=el('tr');row.forEach(v=>tr.append(el('td',v)));body.append(tr);});t.append(head,body);return t;}
+    const label=id=>sources.find(s=>s.id===id)?.label||id;
+    root.append(el('h3','By source'),table(result.sources.map(s=>[label(s.source),number(s.count)]),['Source','Records']));
+    root.append(el('h3','Species / plant labels'),el('small','Labels as recorded; spelling variants are kept separate.'));
+    const chart=el('div',null,'species-chart');
+    for(const item of result.species.slice(0,8)){const row=el('div',null,'species-bar'),caption=el('div',`${item.label} · ${number(item.count)} (${item.percentage.toFixed(1)}%)`),track=el('div',null,'bar-track'),bar=el('span');bar.style.width=`${item.percentage}%`;track.setAttribute('aria-hidden','true');track.append(bar);row.append(caption,track);chart.append(row);}root.append(chart);
+    const species=el('details');species.append(el('summary',`All ${result.species.length} species / plant labels`),table(result.species.map(s=>[s.label,number(s.count),`${s.percentage.toFixed(1)}%`]),['Label','Records','Share']));root.append(species);
+    root.append(el('h3','Recorded condition'),table(result.conditions.map(c=>[c.label,number(c.count),`${c.percentage.toFixed(1)}%`]),['Condition','Records','Share']));
+    root.append(el('h3','Recorded trunk diameter'));
+    const decimal=n=>n.toLocaleString('en-US',{maximumFractionDigits:2});
+    for(const group of result.sources){const section=el('details',null,'diameter-stats'),d=group.diameter;section.append(el('summary',`${label(group.source)} · ${d?.n||0} usable / ${number(group.count)}`));
+      if(d){const modes=d.modes.length?d.modes.map(decimal).join(', '):'None (no repeated value)';section.append(table([['Mean',decimal(d.mean)+' in'],['Median',decimal(d.median)+' in'],['Mode',modes+(d.modes.length?' in':'')],['Standard deviation',decimal(d.standardDeviation)+' in'],['Variance',decimal(d.variance)+' in²']],['Statistic','Value']));}
+      else section.append(el('p','No comparable inch-labeled diameters in this selection.'));
+      const excluded=Object.entries(group.excluded);section.append(el('small',excluded.length?'Excluded — '+excluded.map(([reason,n])=>`${reason}: ${number(n)}`).join('; '):'No records excluded.'));root.append(section);
+    }
+  }
+  $('statistics').addEventListener('toggle',renderStatistics);$('statistics-scope').addEventListener('change',renderStatistics);
+  function visibleCount(){const b=map.getBounds();$('visible').textContent=`${number(shown.filter(r=>b.contains(r.marker.getLatLng())).length)} records in this view`;renderStatistics();}
   function filter(){
     const f={sources:new Set(sources.filter(s=>$(`source-${s.id}`).checked).map(s=>s.id)),query:$('search').value.trim().toLowerCase(),species:$('species').value,condition:$('condition').value,historical:$('historical').checked,photos:$('photos').checked};
     shown=records.filter(r=>TreeData.matches(r,f));map.closePopup();
