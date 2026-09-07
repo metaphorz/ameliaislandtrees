@@ -1,0 +1,15 @@
+{
+  "retrieved_at": "2026-09-07T17:41:35.279820+00:00",
+  "sources": {
+    "fernandina-trees": {
+      "url": "https://maps.ncpafl.com/ncflpa_arcgis/rest/services/Hosted/COFBTreeInventy2023Updates/FeatureServer/0",
+      "count": 14034,
+      "object_id_field": "objectid"
+    },
+    "county-trees": {
+      "url": "https://maps.ncpafl.com/ncflpa_arcgis/rest/services/Hosted/CountyTreeInventory/FeatureServer/1",
+      "count": 21,
+      "object_id_field": "objectid"
+    }
+  }
+}

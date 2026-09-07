@@ -1,0 +1,2908 @@
+{
+  "isCoGoEnabled": false,
+  "extent": {
+    "ymin": 3580801.6900999993,
+    "xmin": -9069138.3067,
+    "ymax": 3592660.8696999997,
+    "xmax": -9064630.0703,
+    "spatialReference": {
+      "falseM": -100000,
+      "xyTolerance": 0.001,
+      "mUnits": 10000,
+      "zUnits": 10000,
+      "latestWkid": 3857,
+      "zTolerance": 0.001,
+      "wkid": 102100,
+      "xyUnits": 10000,
+      "mTolerance": 0.001,
+      "falseX": -20037700,
+      "falseY": -30241100,
+      "falseZ": -100000
+    }
+  },
+  "isDataBranchVersioned": false,
+  "supportsApplyEditsWithGlobalIds": true,
+  "maxRecordCount": 2000,
+  "attachmentProperties": [
+    {
+      "fieldName": "attachmentid",
+      "isEnabled": true,
+      "name": "id"
+    },
+    {
+      "fieldName": "globalid",
+      "isEnabled": true,
+      "name": "globalId"
+    },
+    {
+      "fieldName": "att_name",
+      "isEnabled": true,
+      "name": "name"
+    },
+    {
+      "fieldName": "data_size",
+      "isEnabled": true,
+      "name": "size"
+    },
+    {
+      "fieldName": "content_type",
+      "isEnabled": true,
+      "name": "contentType"
+    },
+    {
+      "fieldName": "keywords",
+      "isEnabled": true,
+      "name": "keywords"
+    },
+    {
+      "fieldName": "exifinfo",
+      "isEnabled": true,
+      "name": "exifInfo"
+    }
+  ],
+  "attachmentFields": [
+    {
+      "nullable": false,
+      "editable": false,
+      "defaultValue": null,
+      "domain": null,
+      "name": "attachmentid",
+      "alias": "attachmentid",
+      "type": "esriFieldTypeOID"
+    },
+    {
+      "nullable": false,
+      "editable": false,
+      "defaultValue": null,
+      "domain": null,
+      "length": 38,
+      "name": "globalid",
+      "alias": "globalid",
+      "type": "esriFieldTypeGlobalID"
+    },
+    {
+      "nullable": false,
+      "editable": false,
+      "defaultValue": null,
+      "domain": null,
+      "length": 250,
+      "name": "att_name",
+      "alias": "att_name",
+      "type": "esriFieldTypeString"
+    },
+    {
+      "nullable": false,
+      "editable": false,
+      "defaultValue": null,
+      "domain": null,
+      "name": "data_size",
+      "alias": "data_size",
+      "type": "esriFieldTypeInteger"
+    },
+    {
+      "nullable": false,
+      "editable": false,
+      "defaultValue": null,
+      "domain": null,
+      "length": 150,
+      "name": "content_type",
+      "alias": "content_type",
+      "type": "esriFieldTypeString"
+    },
+    {
+      "nullable": true,
+      "editable": false,
+      "defaultValue": null,
+      "domain": null,
+      "length": 2048,
+      "name": "keywords",
+      "alias": "keywords",
+      "type": "esriFieldTypeString"
+    },
+    {
+      "nullable": true,
+      "editable": false,
+      "defaultValue": null,
+      "domain": null,
+      "length": 1073741822,
+      "name": "exifinfo",
+      "alias": "exifinfo",
+      "type": "esriFieldTypeString"
+    }
+  ],
+  "infoInEstimates": [
+    "extent",
+    "count"
+  ],
+  "datesInUnknownTimezone": false,
+  "type": "Feature Layer",
+  "onlyAllowTrueCurveUpdatesByTrueCurveClients": true,
+  "supportsAttachmentsByUploadId": true,
+  "syncEnabled": true,
+  "editingInfo": {
+    "lastEditDate": 1679340180791
+  },
+  "relationships": [],
+  "supportsAttachmentsResizing": true,
+  "cimVersion": "2.9.0",
+  "isDataArchived": false,
+  "id": 0,
+  "spatialReference": {
+    "falseM": -100000,
+    "xyTolerance": 0.001,
+    "mUnits": 10000,
+    "zUnits": 10000,
+    "latestWkid": 3857,
+    "zTolerance": 0.001,
+    "wkid": 102100,
+    "xyUnits": 10000,
+    "mTolerance": 0.001,
+    "falseX": -20037700,
+    "falseY": -30241100,
+    "falseZ": -100000
+  },
+  "supportsStatistics": true,
+  "supportedExportFormats": "sqlite,filegdb,shapefile,csv,geojson",
+  "standardMaxRecordCount": 16000,
+  "isDataVersioned": false,
+  "templates": [],
+  "hasGeometryProperties": true,
+  "supportsAdvancedQueries": true,
+  "parentLayer": null,
+  "currentVersion": 11.5,
+  "canScaleSymbols": false,
+  "hasZ": false,
+  "advancedEditingCapabilities": {
+    "supportsAsyncApplyEdits": true,
+    "supportsApplyEditsbyUploadID": true,
+    "supportsReturnEditResults": true,
+    "supportedSqlFormatsInCalculate": [
+      "standard"
+    ],
+    "supportedApplyEditsUploadIDFormats": "JSON,PBF"
+  },
+  "objectIdField": "objectid",
+  "supportsQuantizationEditMode": true,
+  "hasContingentValuesDefinition": false,
+  "name": "nassauEditing.NASSAUADMIN.COFBTreeInventy2023Updates_backup",
+  "allowTrueCurvesUpdates": false,
+  "displayField": "sci_name",
+  "supportsCalculate": true,
+  "fields": [
+    {
+      "nullable": false,
+      "defaultValue": null,
+      "editable": false,
+      "length": 4,
+      "type": "esriFieldTypeOID",
+      "modelName": "objectid",
+      "domain": null,
+      "name": "objectid",
+      "alias": "OBJECTID"
+    },
+    {
+      "modelName": "condition2",
+      "nullable": true,
+      "editable": true,
+      "defaultValue": null,
+      "domain": null,
+      "name": "condition2",
+      "length": 255,
+      "alias": "CONDITION2",
+      "type": "esriFieldTypeString"
+    },
+    {
+      "modelName": "commonname",
+      "nullable": true,
+      "editable": true,
+      "defaultValue": null,
+      "domain": {
+        "splitPolicy": "esriSPTDefaultValue",
+        "name": "COMMON_NAME",
+        "description": "COMMON_NAME",
+        "type": "codedValue",
+        "codedValues": [
+          {
+            "code": "Maple, Florida",
+            "name": "Maple, Florida"
+          },
+          {
+            "code": "Boxelder",
+            "name": "Boxelder"
+          },
+          {
+            "code": "Maple, Red",
+            "name": "Maple, Red"
+          },
+          {
+            "code": "Maple, Silver",
+            "name": "Maple, Silver"
+          },
+          {
+            "code": "Buckeye, Red",
+            "name": "Buckeye, Red"
+          },
+          {
+            "code": "Birch, River",
+            "name": "Birch, River"
+          },
+          {
+            "code": "Hornbeam, American",
+            "name": "Hornbeam, American"
+          },
+          {
+            "code": "Hickory, Water",
+            "name": "Hickory, Water"
+          },
+          {
+            "code": "Hickory, Pignut",
+            "name": "Hickory, Pignut"
+          },
+          {
+            "code": "Pecan",
+            "name": "Pecan"
+          },
+          {
+            "code": "Sugarberry",
+            "name": "Sugarberry"
+          },
+          {
+            "code": "Redbud, Eastern",
+            "name": "Redbud, Eastern"
+          },
+          {
+            "code": "Fringe Tree",
+            "name": "Fringe Tree"
+          },
+          {
+            "code": "Dogwood, Flowering",
+            "name": "Dogwood, Flowering"
+          },
+          {
+            "code": "Dogwood, Swamp",
+            "name": "Dogwood, Swamp"
+          },
+          {
+            "code": "Persimmon, Common",
+            "name": "Persimmon, Common"
+          },
+          {
+            "code": "Beech, American",
+            "name": "Beech, American"
+          },
+          {
+            "code": "Privet, Florida",
+            "name": "Privet, Florida"
+          },
+          {
+            "code": "Ash, Green",
+            "name": "Ash, Green"
+          },
+          {
+            "code": "Ash, Pumkin",
+            "name": "Ash, Pumkin"
+          },
+          {
+            "code": "Bay, Loblolly",
+            "name": "Bay, Loblolly"
+          },
+          {
+            "code": "Holly, East Palatka",
+            "name": "Holly, East Palatka"
+          },
+          {
+            "code": "Dahoon",
+            "name": "Dahoon"
+          },
+          {
+            "code": "Holly, Chinese",
+            "name": "Holly, Chinese"
+          },
+          {
+            "code": "Holly, American",
+            "name": "Holly, American"
+          },
+          {
+            "code": "Yaupon",
+            "name": "Yaupon"
+          },
+          {
+            "code": "Juniper, Chinese",
+            "name": "Juniper, Chinese"
+          },
+          {
+            "code": "Cedar, Southern Red",
+            "name": "Cedar, Southern Red"
+          },
+          {
+            "code": "Cedar, Eastern red",
+            "name": "Cedar, Eastern red"
+          },
+          {
+            "code": "Crapemyrtle",
+            "name": "Crapemyrtle"
+          },
+          {
+            "code": "Sweetgum",
+            "name": "Sweetgum"
+          },
+          {
+            "code": "Tulip Tree",
+            "name": "Tulip Tree"
+          },
+          {
+            "code": "Magnolia, Southern",
+            "name": "Magnolia, Southern"
+          },
+          {
+            "code": "Sweetbay",
+            "name": "Sweetbay"
+          },
+          {
+            "code": "Magnolia, Saucer",
+            "name": "Magnolia, Saucer"
+          },
+          {
+            "code": "Mulberry, Red",
+            "name": "Mulberry, Red"
+          },
+          {
+            "code": "Bayberry, Southern",
+            "name": "Bayberry, Southern"
+          },
+          {
+            "code": "Tupelo, Ogeechee",
+            "name": "Tupelo, Ogeechee"
+          },
+          {
+            "code": "Tupelo, Black",
+            "name": "Tupelo, Black"
+          },
+          {
+            "code": "Hophornbeam, Eastern",
+            "name": "Hophornbeam, Eastern"
+          },
+          {
+            "code": "Redbay",
+            "name": "Redbay"
+          },
+          {
+            "code": "Palm, Canary Island Date",
+            "name": "Palm, Canary Island Date"
+          },
+          {
+            "code": "Pine, Sand",
+            "name": "Pine, Sand"
+          },
+          {
+            "code": "Pine, Slash",
+            "name": "Pine, Slash"
+          },
+          {
+            "code": "Pine, Longleaf",
+            "name": "Pine, Longleaf"
+          },
+          {
+            "code": "Pine, Pond",
+            "name": "Pine, Pond"
+          },
+          {
+            "code": "Pine, Loblolly",
+            "name": "Pine, Loblolly"
+          },
+          {
+            "code": "Sycamore, American",
+            "name": "Sycamore, American"
+          },
+          {
+            "code": "Plum, Chickasaw",
+            "name": "Plum, Chickasaw"
+          },
+          {
+            "code": "Laurelcherry, Carolina",
+            "name": "Laurelcherry, Carolina"
+          },
+          {
+            "code": "Cherry, Black",
+            "name": "Cherry, Black"
+          },
+          {
+            "code": "Oak, White",
+            "name": "Oak, White"
+          },
+          {
+            "code": "Oak, Bluff",
+            "name": "Oak, Bluff"
+          },
+          {
+            "code": "Oak, Champman",
+            "name": "Oak, Champman"
+          },
+          {
+            "code": "Oak, Southern red",
+            "name": "Oak, Southern red"
+          },
+          {
+            "code": "Oak, Sand Live",
+            "name": "Oak, Sand Live"
+          },
+          {
+            "code": "Oak, Laurel",
+            "name": "Oak, Laurel"
+          },
+          {
+            "code": "Oak, Swamp chestnut",
+            "name": "Oak, Swamp chestnut"
+          },
+          {
+            "code": "Oak, Myrtle",
+            "name": "Oak, Myrtle"
+          },
+          {
+            "code": "Oak, Water",
+            "name": "Oak, Water"
+          },
+          {
+            "code": "Oak, Nuttall",
+            "name": "Oak, Nuttall"
+          },
+          {
+            "code": "Oak, Shumard",
+            "name": "Oak, Shumard"
+          },
+          {
+            "code": "Oak, Live",
+            "name": "Oak, Live"
+          },
+          {
+            "code": "Palmetto, Cabbage",
+            "name": "Palmetto, Cabbage"
+          },
+          {
+            "code": "Willow, Weeping",
+            "name": "Willow, Weeping"
+          },
+          {
+            "code": "Buckthorn Bumelia",
+            "name": "Buckthorn Bumelia"
+          },
+          {
+            "code": "Cypress, Pond",
+            "name": "Cypress, Pond"
+          },
+          {
+            "code": "Baldcypress",
+            "name": "Baldcypress"
+          },
+          {
+            "code": "Basswood, Florida",
+            "name": "Basswood, Florida"
+          },
+          {
+            "code": "Elm, Winged",
+            "name": "Elm, Winged"
+          },
+          {
+            "code": "Elm, American",
+            "name": "Elm, American"
+          },
+          {
+            "code": "Elm, Chinese",
+            "name": "Elm, Chinese"
+          },
+          {
+            "code": "Hercules Club",
+            "name": "Hercules Club"
+          }
+        ],
+        "mergePolicy": "esriMPTDefaultValue"
+      },
+      "name": "commonname",
+      "length": 255,
+      "alias": "CommonName",
+      "type": "esriFieldTypeString"
+    },
+    {
+      "modelName": "scientificname",
+      "nullable": true,
+      "editable": true,
+      "defaultValue": null,
+      "domain": {
+        "splitPolicy": "esriSPTDefaultValue",
+        "name": "SCIENTIFIC_NAME",
+        "description": "SCIENTIFIC_NAME",
+        "type": "codedValue",
+        "codedValues": [
+          {
+            "code": "Acer floridanum",
+            "name": "Acer floridanum"
+          },
+          {
+            "code": "Acer negundo",
+            "name": "Acer negundo"
+          },
+          {
+            "code": "Acer rubrum",
+            "name": "Acer rubrum"
+          },
+          {
+            "code": "Acer saccharinum",
+            "name": "Acer saccharinum"
+          },
+          {
+            "code": "Aesculus pavia",
+            "name": "Aesculus pavia"
+          },
+          {
+            "code": "Betula nigra",
+            "name": "Betula nigra"
+          },
+          {
+            "code": "Carpinus caroliniana",
+            "name": "Carpinus caroliniana"
+          },
+          {
+            "code": "Carya aquatica",
+            "name": "Carya aquatica"
+          },
+          {
+            "code": "Carya glabra",
+            "name": "Carya glabra"
+          },
+          {
+            "code": "Carya illinoinensis",
+            "name": "Carya illinoinensis"
+          },
+          {
+            "code": "Celtis laevigata",
+            "name": "Celtis laevigata"
+          },
+          {
+            "code": "Cercis canadensis",
+            "name": "Cercis canadensis"
+          },
+          {
+            "code": "Chionanthus virginicus",
+            "name": "Chionanthus virginicus"
+          },
+          {
+            "code": "Cornus florida",
+            "name": "Cornus florida"
+          },
+          {
+            "code": "Cornus foemina",
+            "name": "Cornus foemina"
+          },
+          {
+            "code": "Diospyros virginiana",
+            "name": "Diospyros virginiana"
+          },
+          {
+            "code": "Fagus grandifolia",
+            "name": "Fagus grandifolia"
+          },
+          {
+            "code": "Forestiera segregata",
+            "name": "Forestiera segregata"
+          },
+          {
+            "code": "Fraxinus pennsylvanica",
+            "name": "Fraxinus pennsylvanica"
+          },
+          {
+            "code": "Fraxinus profunda",
+            "name": "Fraxinus profunda"
+          },
+          {
+            "code": "Gordonia lasianthus",
+            "name": "Gordonia lasianthus"
+          },
+          {
+            "code": "Ilex attenuata",
+            "name": "Ilex attenuata"
+          },
+          {
+            "code": "Ilex cassine",
+            "name": "Ilex cassine"
+          },
+          {
+            "code": "Ilex cornuta",
+            "name": "Ilex cornuta"
+          },
+          {
+            "code": "Ilex opaca",
+            "name": "Ilex opaca"
+          },
+          {
+            "code": "Ilex vomitoria",
+            "name": "Ilex vomitoria"
+          },
+          {
+            "code": "Juniperus chinensis",
+            "name": "Juniperus chinensis"
+          },
+          {
+            "code": "Juniperus silicicola",
+            "name": "Juniperus silicicola"
+          },
+          {
+            "code": "Juniperus virginiana",
+            "name": "Juniperus virginiana"
+          },
+          {
+            "code": "Lagerstroemia indica",
+            "name": "Lagerstroemia indica"
+          },
+          {
+            "code": "Liquidambar styraciflua",
+            "name": "Liquidambar styraciflua"
+          },
+          {
+            "code": "Liriodendron tulipifera",
+            "name": "Liriodendron tulipifera"
+          },
+          {
+            "code": "Magnolia grandiflora",
+            "name": "Magnolia grandiflora"
+          },
+          {
+            "code": "Magnolia virginiana",
+            "name": "Magnolia virginiana"
+          },
+          {
+            "code": "Magnolia x soulangiana",
+            "name": "Magnolia x soulangiana"
+          },
+          {
+            "code": "Morus rubra",
+            "name": "Morus rubra"
+          },
+          {
+            "code": "Myrica cerifera",
+            "name": "Myrica cerifera"
+          },
+          {
+            "code": "Nyssa ogeche",
+            "name": "Nyssa ogeche"
+          },
+          {
+            "code": "Nyssa sylvatica",
+            "name": "Nyssa sylvatica"
+          },
+          {
+            "code": "Ostrya virginiana",
+            "name": "Ostrya virginiana"
+          },
+          {
+            "code": "Persea borbonia",
+            "name": "Persea borbonia"
+          },
+          {
+            "code": "Phoenix canariensis",
+            "name": "Phoenix canariensis"
+          },
+          {
+            "code": "Pinus clausa",
+            "name": "Pinus clausa"
+          },
+          {
+            "code": "Pinus elliottii",
+            "name": "Pinus elliottii"
+          },
+          {
+            "code": "Pinus palustris",
+            "name": "Pinus palustris"
+          },
+          {
+            "code": "Pinus serotina",
+            "name": "Pinus serotina"
+          },
+          {
+            "code": "Pinus taeda",
+            "name": "Pinus taeda"
+          },
+          {
+            "code": "Platanus occidentalis",
+            "name": "Platanus occidentalis"
+          },
+          {
+            "code": "Prunus angustifolia",
+            "name": "Prunus angustifolia"
+          },
+          {
+            "code": "Prunus caroliniana",
+            "name": "Prunus caroliniana"
+          },
+          {
+            "code": "Prunus serotina",
+            "name": "Prunus serotina"
+          },
+          {
+            "code": "Quercus alba",
+            "name": "Quercus alba"
+          },
+          {
+            "code": "Quercus austrina",
+            "name": "Quercus austrina"
+          },
+          {
+            "code": "Quercus chapmanii",
+            "name": "Quercus chapmanii"
+          },
+          {
+            "code": "Quercus falcata",
+            "name": "Quercus falcata"
+          },
+          {
+            "code": "Quercus geminata",
+            "name": "Quercus geminata"
+          },
+          {
+            "code": "Quercus laurifolia",
+            "name": "Quercus laurifolia"
+          },
+          {
+            "code": "Quercus michauxii",
+            "name": "Quercus michauxii"
+          },
+          {
+            "code": "Quercus myrtifolia",
+            "name": "Quercus myrtifolia"
+          },
+          {
+            "code": "Quercus nigra",
+            "name": "Quercus nigra"
+          },
+          {
+            "code": "Quercus nuttalii",
+            "name": "Quercus nuttalii"
+          },
+          {
+            "code": "Quercus shumardii",
+            "name": "Quercus shumardii"
+          },
+          {
+            "code": "Quercus virginiana",
+            "name": "Quercus virginiana"
+          },
+          {
+            "code": "Sabal palmetto",
+            "name": "Sabal palmetto"
+          },
+          {
+            "code": "Salix babylonica",
+            "name": "Salix babylonica"
+          },
+          {
+            "code": "Sideroxylon lycioides",
+            "name": "Sideroxylon lycioides"
+          },
+          {
+            "code": "Taxodium ascendens",
+            "name": "Taxodium ascendens"
+          },
+          {
+            "code": "Taxodium distichum",
+            "name": "Taxodium distichum"
+          },
+          {
+            "code": "Tilia floridana",
+            "name": "Tilia floridana"
+          },
+          {
+            "code": "Ulmus alata",
+            "name": "Ulmus alata"
+          },
+          {
+            "code": "Ulmus americana",
+            "name": "Ulmus americana"
+          },
+          {
+            "code": "Ulmus parvifolia",
+            "name": "Ulmus parvifolia"
+          },
+          {
+            "code": "Zanthoxylum clava-herculis",
+            "name": "Zanthoxylum clava-herculis"
+          }
+        ],
+        "mergePolicy": "esriMPTDefaultValue"
+      },
+      "name": "scientificname",
+      "length": 255,
+      "alias": "ScientificName",
+      "type": "esriFieldTypeString"
+    },
+    {
+      "modelName": "familyname",
+      "nullable": true,
+      "editable": true,
+      "defaultValue": null,
+      "domain": {
+        "splitPolicy": "esriSPTDefaultValue",
+        "name": "TREE_FAMILY_NAME",
+        "description": "TREE_FAMILY_NAME",
+        "type": "codedValue",
+        "codedValues": [
+          {
+            "code": " Altingiaceae",
+            "name": " Altingiaceae"
+          },
+          {
+            "code": " Aquifoliaceae",
+            "name": " Aquifoliaceae"
+          },
+          {
+            "code": " Arecaceae",
+            "name": " Arecaceae"
+          },
+          {
+            "code": " Betulaceae",
+            "name": " Betulaceae"
+          },
+          {
+            "code": " Cornaceae",
+            "name": " Cornaceae"
+          },
+          {
+            "code": " Cupressaceae",
+            "name": " Cupressaceae"
+          },
+          {
+            "code": " Ebenaceae",
+            "name": " Ebenaceae"
+          },
+          {
+            "code": " Fagaceae",
+            "name": " Fagaceae"
+          },
+          {
+            "code": " Hippocastanaceae",
+            "name": " Hippocastanaceae"
+          },
+          {
+            "code": " Juglandaceae",
+            "name": " Juglandaceae"
+          },
+          {
+            "code": " Lauraceae",
+            "name": " Lauraceae"
+          },
+          {
+            "code": " Lythraceae",
+            "name": " Lythraceae"
+          },
+          {
+            "code": " Magnoliaceae",
+            "name": " Magnoliaceae"
+          },
+          {
+            "code": " Malvaceae",
+            "name": " Malvaceae"
+          },
+          {
+            "code": " Moraceae",
+            "name": " Moraceae"
+          },
+          {
+            "code": " Myricaceae",
+            "name": " Myricaceae"
+          },
+          {
+            "code": " Nyssaceae",
+            "name": " Nyssaceae"
+          },
+          {
+            "code": " Oleaceae",
+            "name": " Oleaceae"
+          },
+          {
+            "code": " Pinaceae",
+            "name": " Pinaceae"
+          },
+          {
+            "code": " Platanaceae",
+            "name": " Platanaceae"
+          },
+          {
+            "code": " Rosaceae",
+            "name": " Rosaceae"
+          },
+          {
+            "code": " Rutaceae",
+            "name": " Rutaceae"
+          },
+          {
+            "code": " Salicaceae",
+            "name": " Salicaceae"
+          },
+          {
+            "code": " Sapindaceae",
+            "name": " Sapindaceae"
+          },
+          {
+            "code": " Sapotaceae",
+            "name": " Sapotaceae"
+          },
+          {
+            "code": " Theaceae",
+            "name": " Theaceae"
+          },
+          {
+            "code": " Ulmaceae",
+            "name": " Ulmaceae"
+          }
+        ],
+        "mergePolicy": "esriMPTDefaultValue"
+      },
+      "name": "familyname",
+      "length": 255,
+      "alias": "FamilyName",
+      "type": "esriFieldTypeString"
+    },
+    {
+      "modelName": "sn_cn_f",
+      "nullable": true,
+      "editable": true,
+      "defaultValue": null,
+      "domain": {
+        "splitPolicy": "esriSPTDefaultValue",
+        "name": "SCIENTIFIC_NAME_COMMON_NAME_FAM",
+        "description": "SCIENTIFIC_NAME_COMMON_NAME_FAM",
+        "type": "codedValue",
+        "codedValues": [
+          {
+            "code": "Acer floridanum-Maple, Florida- Sapindaceae",
+            "name": "Acer floridanum-Maple, Florida- Sapindaceae"
+          },
+          {
+            "code": "Acer negundo-Boxelder- Sapindaceae",
+            "name": "Acer negundo-Boxelder- Sapindaceae"
+          },
+          {
+            "code": "Acer rubrum-Maple, Red- Sapindaceae",
+            "name": "Acer rubrum-Maple, Red- Sapindaceae"
+          },
+          {
+            "code": "Acer saccharinum-Maple, Silver- Sapindaceae",
+            "name": "Acer saccharinum-Maple, Silver- Sapindaceae"
+          },
+          {
+            "code": "Aesculus pavia-Buckeye, Red- Hippocastanaceae",
+            "name": "Aesculus pavia-Buckeye, Red- Hippocastanaceae"
+          },
+          {
+            "code": "Betula nigra-Birch, River- Betulaceae",
+            "name": "Betula nigra-Birch, River- Betulaceae"
+          },
+          {
+            "code": "Carpinus caroliniana-Hornbeam, American- Betulaceae",
+            "name": "Carpinus caroliniana-Hornbeam, American- Betulaceae"
+          },
+          {
+            "code": "Carya aquatica-Hickory, Water- Juglandaceae",
+            "name": "Carya aquatica-Hickory, Water- Juglandaceae"
+          },
+          {
+            "code": "Carya glabra-Hickory, Pignut- Juglandaceae",
+            "name": "Carya glabra-Hickory, Pignut- Juglandaceae"
+          },
+          {
+            "code": "Carya illinoinensis-Pecan- Juglandaceae",
+            "name": "Carya illinoinensis-Pecan- Juglandaceae"
+          },
+          {
+            "code": "Celtis laevigata-Sugarberry- Ulmaceae",
+            "name": "Celtis laevigata-Sugarberry- Ulmaceae"
+          },
+          {
+            "code": "Cercis canadensis-Redbud, Eastern- Fabaceae",
+            "name": "Cercis canadensis-Redbud, Eastern- Fabaceae"
+          },
+          {
+            "code": "Chionanthus virginicus-Fringe Tree- Oleaceae",
+            "name": "Chionanthus virginicus-Fringe Tree- Oleaceae"
+          },
+          {
+            "code": "Cornus florida-Dogwood, Flowering- Cornaceae",
+            "name": "Cornus florida-Dogwood, Flowering- Cornaceae"
+          },
+          {
+            "code": "Cornus foemina-Dogwood, Swamp- Cornaceae",
+            "name": "Cornus foemina-Dogwood, Swamp- Cornaceae"
+          },
+          {
+            "code": "Diospyros virginiana-Persimmon, Common- Ebenaceae",
+            "name": "Diospyros virginiana-Persimmon, Common- Ebenaceae"
+          },
+          {
+            "code": "Fagus grandifolia-Beech, American- Fagaceae",
+            "name": "Fagus grandifolia-Beech, American- Fagaceae"
+          },
+          {
+            "code": "Forestiera segregata-Privet, Florida- Oleaceae",
+            "name": "Forestiera segregata-Privet, Florida- Oleaceae"
+          },
+          {
+            "code": "Fraxinus pennsylvanica-Ash, Green- Oleaceae",
+            "name": "Fraxinus pennsylvanica-Ash, Green- Oleaceae"
+          },
+          {
+            "code": "Fraxinus profunda-Ash, Pumkin- Oleaceae",
+            "name": "Fraxinus profunda-Ash, Pumkin- Oleaceae"
+          },
+          {
+            "code": "Gordonia lasianthus-Bay, Loblolly- Theaceae",
+            "name": "Gordonia lasianthus-Bay, Loblolly- Theaceae"
+          },
+          {
+            "code": "Ilex attenuata-Holly, East Palatka- Aquifoliaceae",
+            "name": "Ilex attenuata-Holly, East Palatka- Aquifoliaceae"
+          },
+          {
+            "code": "Ilex cassine-Dahoon- Aquifoliaceae",
+            "name": "Ilex cassine-Dahoon- Aquifoliaceae"
+          },
+          {
+            "code": "Ilex cornuta-Holly, Chinese- Aquifoliaceae",
+            "name": "Ilex cornuta-Holly, Chinese- Aquifoliaceae"
+          },
+          {
+            "code": "Ilex opaca-Holly, American- Aquifoliaceae",
+            "name": "Ilex opaca-Holly, American- Aquifoliaceae"
+          },
+          {
+            "code": "Ilex vomitoria-Yaupon- Aquifoliaceae",
+            "name": "Ilex vomitoria-Yaupon- Aquifoliaceae"
+          },
+          {
+            "code": "Juniperus chinensis-Juniper, Chinese- Cupressaceae",
+            "name": "Juniperus chinensis-Juniper, Chinese- Cupressaceae"
+          },
+          {
+            "code": "Juniperus silicicola-Cedar, Southern Red- Cupressaceae",
+            "name": "Juniperus silicicola-Cedar, Southern Red- Cupressaceae"
+          },
+          {
+            "code": "Juniperus virginiana-Cedar, Eastern red- Cupressaceae",
+            "name": "Juniperus virginiana-Cedar, Eastern red- Cupressaceae"
+          },
+          {
+            "code": "Lagerstroemia indica-Crapemyrtle- Lythraceae",
+            "name": "Lagerstroemia indica-Crapemyrtle- Lythraceae"
+          },
+          {
+            "code": "Liquidambar styraciflua-Sweetgum- Altingiaceae",
+            "name": "Liquidambar styraciflua-Sweetgum- Altingiaceae"
+          },
+          {
+            "code": "Liriodendron tulipifera-Tulip Tree- Magnoliaceae",
+            "name": "Liriodendron tulipifera-Tulip Tree- Magnoliaceae"
+          },
+          {
+            "code": "Magnolia grandiflora-Magnolia, Southern- Magnoliaceae",
+            "name": "Magnolia grandiflora-Magnolia, Southern- Magnoliaceae"
+          },
+          {
+            "code": "Magnolia virginiana-Sweetbay- Magnoliaceae",
+            "name": "Magnolia virginiana-Sweetbay- Magnoliaceae"
+          },
+          {
+            "code": "Magnolia x soulangiana-Magnolia, Saucer- Magnoliaceae",
+            "name": "Magnolia x soulangiana-Magnolia, Saucer- Magnoliaceae"
+          },
+          {
+            "code": "Morus rubra-Mulberry, Red- Moraceae",
+            "name": "Morus rubra-Mulberry, Red- Moraceae"
+          },
+          {
+            "code": "Myrica cerifera-Bayberry, Southern- Myricaceae",
+            "name": "Myrica cerifera-Bayberry, Southern- Myricaceae"
+          },
+          {
+            "code": "Nyssa ogeche-Tupelo, Ogeechee- Nyssaceae",
+            "name": "Nyssa ogeche-Tupelo, Ogeechee- Nyssaceae"
+          },
+          {
+            "code": "Nyssa sylvatica-Tupelo, Black- Nyssaceae",
+            "name": "Nyssa sylvatica-Tupelo, Black- Nyssaceae"
+          },
+          {
+            "code": "Ostrya virginiana-Hophornbeam, Eastern- Betulaceae",
+            "name": "Ostrya virginiana-Hophornbeam, Eastern- Betulaceae"
+          },
+          {
+            "code": "Persea borbonia-Redbay- Lauraceae",
+            "name": "Persea borbonia-Redbay- Lauraceae"
+          },
+          {
+            "code": "Phoenix canariensis-Palm, Canary Island Date- Arecaceae",
+            "name": "Phoenix canariensis-Palm, Canary Island Date- Arecaceae"
+          },
+          {
+            "code": "Pinus clausa-Pine, Sand- Pinaceae",
+            "name": "Pinus clausa-Pine, Sand- Pinaceae"
+          },
+          {
+            "code": "Pinus elliottii-Pine, Slash- Pinaceae",
+            "name": "Pinus elliottii-Pine, Slash- Pinaceae"
+          },
+          {
+            "code": "Pinus palustris-Pine, Longleaf- Pinaceae",
+            "name": "Pinus palustris-Pine, Longleaf- Pinaceae"
+          },
+          {
+            "code": "Pinus serotina-Pine, Pond- Pinaceae",
+            "name": "Pinus serotina-Pine, Pond- Pinaceae"
+          },
+          {
+            "code": "Pinus taeda-Pine, Loblolly- Pinaceae",
+            "name": "Pinus taeda-Pine, Loblolly- Pinaceae"
+          },
+          {
+            "code": "Platanus occidentalis-Sycamore, American- Platanaceae",
+            "name": "Platanus occidentalis-Sycamore, American- Platanaceae"
+          },
+          {
+            "code": "Prunus angustifolia-Plum, Chickasaw- Rosaceae",
+            "name": "Prunus angustifolia-Plum, Chickasaw- Rosaceae"
+          },
+          {
+            "code": "Prunus caroliniana-Laurelcherry, Carolina- Rosaceae",
+            "name": "Prunus caroliniana-Laurelcherry, Carolina- Rosaceae"
+          },
+          {
+            "code": "Prunus serotina-Cherry, Black- Rosaceae",
+            "name": "Prunus serotina-Cherry, Black- Rosaceae"
+          },
+          {
+            "code": "Quercus alba-Oak, White- Fagaceae",
+            "name": "Quercus alba-Oak, White- Fagaceae"
+          },
+          {
+            "code": "Quercus austrina-Oak, Bluff- Fagaceae",
+            "name": "Quercus austrina-Oak, Bluff- Fagaceae"
+          },
+          {
+            "code": "Quercus chapmanii-Oak, Champman- Fagaceae",
+            "name": "Quercus chapmanii-Oak, Champman- Fagaceae"
+          },
+          {
+            "code": "Quercus falcata-Oak, Southern red- Fagaceae",
+            "name": "Quercus falcata-Oak, Southern red- Fagaceae"
+          },
+          {
+            "code": "Quercus geminata-Oak, Sand Live- Fagaceae",
+            "name": "Quercus geminata-Oak, Sand Live- Fagaceae"
+          },
+          {
+            "code": "Quercus laurifolia-Oak, Laurel- Fagaceae",
+            "name": "Quercus laurifolia-Oak, Laurel- Fagaceae"
+          },
+          {
+            "code": "Quercus michauxii-Oak, Swamp chestnut- Fagaceae",
+            "name": "Quercus michauxii-Oak, Swamp chestnut- Fagaceae"
+          },
+          {
+            "code": "Quercus myrtifolia-Oak, Myrtle- Fagaceae",
+            "name": "Quercus myrtifolia-Oak, Myrtle- Fagaceae"
+          },
+          {
+            "code": "Quercus nigra-Oak, Water- Fagaceae",
+            "name": "Quercus nigra-Oak, Water- Fagaceae"
+          },
+          {
+            "code": "Quercus nuttalii-Oak, Nuttall- Fagaceae",
+            "name": "Quercus nuttalii-Oak, Nuttall- Fagaceae"
+          },
+          {
+            "code": "Quercus shumardii-Oak, Shumard- Fagaceae",
+            "name": "Quercus shumardii-Oak, Shumard- Fagaceae"
+          },
+          {
+            "code": "Quercus virginiana-Oak, Live- Fagaceae",
+            "name": "Quercus virginiana-Oak, Live- Fagaceae"
+          },
+          {
+            "code": "Sabal palmetto-Palmetto, Cabbage- Arecaceae",
+            "name": "Sabal palmetto-Palmetto, Cabbage- Arecaceae"
+          },
+          {
+            "code": "Salix babylonica-Willow, Weeping- Salicaceae",
+            "name": "Salix babylonica-Willow, Weeping- Salicaceae"
+          },
+          {
+            "code": "Sideroxylon lycioides-Buckthorn Bumelia- Sapotaceae",
+            "name": "Sideroxylon lycioides-Buckthorn Bumelia- Sapotaceae"
+          },
+          {
+            "code": "Taxodium ascendens-Cypress, Pond- Cupressaceae",
+            "name": "Taxodium ascendens-Cypress, Pond- Cupressaceae"
+          },
+          {
+            "code": "Taxodium distichum-Baldcypress- Cupressaceae",
+            "name": "Taxodium distichum-Baldcypress- Cupressaceae"
+          },
+          {
+            "code": "Tilia floridana-Basswood, Florida- Malvaceae",
+            "name": "Tilia floridana-Basswood, Florida- Malvaceae"
+          },
+          {
+            "code": "Ulmus alata-Elm, Winged- Ulmaceae",
+            "name": "Ulmus alata-Elm, Winged- Ulmaceae"
+          },
+          {
+            "code": "Ulmus americana-Elm, American- Ulmaceae",
+            "name": "Ulmus americana-Elm, American- Ulmaceae"
+          },
+          {
+            "code": "Ulmus parvifolia-Elm, Chinese- Ulmaceae",
+            "name": "Ulmus parvifolia-Elm, Chinese- Ulmaceae"
+          },
+          {
+            "code": "Zanthoxylum clava-herculis-Hercules Club- Rutaceae",
+            "name": "Zanthoxylum clava-herculis-Hercules Club- Rutaceae"
+          }
+        ],
+        "mergePolicy": "esriMPTDefaultValue"
+      },
+      "name": "sn_cn_f",
+      "length": 255,
+      "alias": "SN_CN_F",
+      "type": "esriFieldTypeString"
+    },
+    {
+      "modelName": "landowner",
+      "nullable": true,
+      "editable": true,
+      "defaultValue": null,
+      "domain": null,
+      "name": "landowner",
+      "length": 255,
+      "alias": "LandOwnership",
+      "type": "esriFieldTypeString"
+    },
+    {
+      "modelName": "volunteer_dbh",
+      "nullable": true,
+      "editable": true,
+      "defaultValue": null,
+      "domain": null,
+      "name": "volunteer_dbh",
+      "alias": "Volunteer_DBH",
+      "type": "esriFieldTypeSmallInteger"
+    },
+    {
+      "modelName": "volunteer_stem",
+      "nullable": true,
+      "editable": true,
+      "defaultValue": null,
+      "domain": null,
+      "name": "volunteer_stem",
+      "alias": "Volunteer_Stem",
+      "type": "esriFieldTypeSmallInteger"
+    },
+    {
+      "modelName": "treefound",
+      "nullable": true,
+      "editable": true,
+      "defaultValue": null,
+      "domain": null,
+      "name": "treefound",
+      "length": 3,
+      "alias": "TreeFound",
+      "type": "esriFieldTypeString"
+    },
+    {
+      "modelName": "speciesconfirmed",
+      "nullable": true,
+      "editable": true,
+      "defaultValue": null,
+      "domain": null,
+      "name": "speciesconfirmed",
+      "length": 3,
+      "alias": "SpeciesConfirmed",
+      "type": "esriFieldTypeString"
+    },
+    {
+      "modelName": "examby",
+      "nullable": true,
+      "editable": true,
+      "defaultValue": null,
+      "domain": null,
+      "name": "examby",
+      "length": 255,
+      "alias": "ExamBy",
+      "type": "esriFieldTypeString"
+    },
+    {
+      "modelName": "volunteernotes",
+      "nullable": true,
+      "editable": true,
+      "defaultValue": null,
+      "domain": null,
+      "name": "volunteernotes",
+      "length": 255,
+      "alias": "VolunteerNotes",
+      "type": "esriFieldTypeString"
+    },
+    {
+      "modelName": "tree_no",
+      "nullable": true,
+      "editable": true,
+      "defaultValue": null,
+      "domain": null,
+      "name": "tree_no",
+      "alias": "TREE_NO",
+      "type": "esriFieldTypeDouble"
+    },
+    {
+      "modelName": "address",
+      "nullable": true,
+      "editable": true,
+      "defaultValue": null,
+      "domain": null,
+      "name": "address",
+      "alias": "ADDRESS",
+      "type": "esriFieldTypeDouble"
+    },
+    {
+      "modelName": "street",
+      "nullable": true,
+      "editable": true,
+      "defaultValue": null,
+      "domain": null,
+      "name": "street",
+      "length": 254,
+      "alias": "STREET",
+      "type": "esriFieldTypeString"
+    },
+    {
+      "modelName": "site",
+      "nullable": true,
+      "editable": true,
+      "defaultValue": null,
+      "domain": null,
+      "name": "site",
+      "length": 254,
+      "alias": "SITE",
+      "type": "esriFieldTypeString"
+    },
+    {
+      "modelName": "sci_name",
+      "nullable": true,
+      "editable": true,
+      "defaultValue": null,
+      "domain": null,
+      "name": "sci_name",
+      "length": 254,
+      "alias": "SCI_NAME",
+      "type": "esriFieldTypeString"
+    },
+    {
+      "modelName": "family",
+      "nullable": true,
+      "editable": true,
+      "defaultValue": null,
+      "domain": null,
+      "name": "family",
+      "length": 254,
+      "alias": "FAMILY",
+      "type": "esriFieldTypeString"
+    },
+    {
+      "modelName": "dbh",
+      "nullable": true,
+      "editable": true,
+      "defaultValue": null,
+      "domain": null,
+      "name": "dbh",
+      "alias": "DBH",
+      "type": "esriFieldTypeDouble"
+    },
+    {
+      "modelName": "stems",
+      "nullable": true,
+      "editable": true,
+      "defaultValue": null,
+      "domain": null,
+      "name": "stems",
+      "length": 254,
+      "alias": "STEMS",
+      "type": "esriFieldTypeString"
+    },
+    {
+      "modelName": "height",
+      "nullable": true,
+      "editable": true,
+      "defaultValue": null,
+      "domain": null,
+      "name": "height",
+      "length": 254,
+      "alias": "HEIGHT",
+      "type": "esriFieldTypeString"
+    },
+    {
+      "modelName": "spread",
+      "nullable": true,
+      "editable": true,
+      "defaultValue": null,
+      "domain": null,
+      "name": "spread",
+      "length": 254,
+      "alias": "SPREAD",
+      "type": "esriFieldTypeString"
+    },
+    {
+      "modelName": "priority",
+      "nullable": true,
+      "editable": true,
+      "defaultValue": null,
+      "domain": null,
+      "name": "priority",
+      "length": 254,
+      "alias": "PRIORITY",
+      "type": "esriFieldTypeString"
+    },
+    {
+      "modelName": "grow_space",
+      "nullable": true,
+      "editable": true,
+      "defaultValue": null,
+      "domain": null,
+      "name": "grow_space",
+      "length": 254,
+      "alias": "GROW_SPACE",
+      "type": "esriFieldTypeString"
+    },
+    {
+      "modelName": "utilities",
+      "nullable": true,
+      "editable": true,
+      "defaultValue": null,
+      "domain": null,
+      "name": "utilities",
+      "length": 254,
+      "alias": "UTILITIES",
+      "type": "esriFieldTypeString"
+    },
+    {
+      "modelName": "soil",
+      "nullable": true,
+      "editable": true,
+      "defaultValue": null,
+      "domain": null,
+      "name": "soil",
+      "length": 254,
+      "alias": "SOIL",
+      "type": "esriFieldTypeString"
+    },
+    {
+      "modelName": "space_size",
+      "nullable": true,
+      "editable": true,
+      "defaultValue": null,
+      "domain": null,
+      "name": "space_size",
+      "alias": "SPACE_SIZE",
+      "type": "esriFieldTypeDouble"
+    },
+    {
+      "modelName": "exam_by",
+      "nullable": true,
+      "editable": true,
+      "defaultValue": null,
+      "domain": null,
+      "name": "exam_by",
+      "length": 254,
+      "alias": "EXAM_BY",
+      "type": "esriFieldTypeString"
+    },
+    {
+      "modelName": "maint_date",
+      "nullable": true,
+      "editable": true,
+      "defaultValue": null,
+      "domain": null,
+      "precision": 1,
+      "name": "maint_date",
+      "length": 29,
+      "alias": "MAINT_DATE",
+      "type": "esriFieldTypeDate"
+    },
+    {
+      "modelName": "install_da",
+      "nullable": true,
+      "editable": true,
+      "defaultValue": null,
+      "domain": null,
+      "precision": 1,
+      "name": "install_da",
+      "length": 29,
+      "alias": "INSTALL_DA",
+      "type": "esriFieldTypeDate"
+    },
+    {
+      "modelName": "install_ty",
+      "nullable": true,
+      "editable": true,
+      "defaultValue": null,
+      "domain": null,
+      "name": "install_ty",
+      "length": 50,
+      "alias": "INSTALL_TY",
+      "type": "esriFieldTypeString"
+    },
+    {
+      "modelName": "xrefence",
+      "nullable": true,
+      "editable": true,
+      "defaultValue": null,
+      "domain": null,
+      "name": "xrefence",
+      "length": 50,
+      "alias": "XREFENCE",
+      "type": "esriFieldTypeString"
+    },
+    {
+      "modelName": "id",
+      "nullable": true,
+      "editable": true,
+      "defaultValue": null,
+      "domain": null,
+      "name": "id",
+      "alias": "ID",
+      "type": "esriFieldTypeDouble"
+    },
+    {
+      "modelName": "property",
+      "nullable": true,
+      "editable": true,
+      "defaultValue": null,
+      "domain": null,
+      "name": "property",
+      "length": 50,
+      "alias": "PROPERTY",
+      "type": "esriFieldTypeString"
+    },
+    {
+      "modelName": "side",
+      "nullable": true,
+      "editable": true,
+      "defaultValue": null,
+      "domain": null,
+      "name": "side",
+      "length": 24,
+      "alias": "SIDE",
+      "type": "esriFieldTypeString"
+    },
+    {
+      "modelName": "common",
+      "nullable": true,
+      "editable": true,
+      "defaultValue": null,
+      "domain": null,
+      "name": "common",
+      "length": 64,
+      "alias": "COMMON",
+      "type": "esriFieldTypeString"
+    },
+    {
+      "modelName": "exact_heig",
+      "nullable": true,
+      "editable": true,
+      "defaultValue": null,
+      "domain": null,
+      "name": "exact_heig",
+      "alias": "EXACT_HEIG",
+      "type": "esriFieldTypeDouble"
+    },
+    {
+      "modelName": "gpsdate",
+      "nullable": true,
+      "editable": true,
+      "defaultValue": null,
+      "domain": null,
+      "name": "gpsdate",
+      "length": 10,
+      "alias": "GPSDATE",
+      "type": "esriFieldTypeString"
+    },
+    {
+      "modelName": "notes",
+      "nullable": true,
+      "editable": true,
+      "defaultValue": null,
+      "domain": null,
+      "name": "notes",
+      "length": 254,
+      "alias": "NOTES",
+      "type": "esriFieldTypeString"
+    },
+    {
+      "modelName": "parkway_ty",
+      "nullable": true,
+      "editable": true,
+      "defaultValue": null,
+      "domain": null,
+      "name": "parkway_ty",
+      "length": 20,
+      "alias": "PARKWAY_TY",
+      "type": "esriFieldTypeString"
+    },
+    {
+      "modelName": "parkway_si",
+      "nullable": true,
+      "editable": true,
+      "defaultValue": null,
+      "domain": null,
+      "name": "parkway_si",
+      "alias": "PARKWAY_SI",
+      "type": "esriFieldTypeDouble"
+    },
+    {
+      "modelName": "ageclass",
+      "nullable": true,
+      "editable": true,
+      "defaultValue": null,
+      "domain": null,
+      "name": "ageclass",
+      "length": 254,
+      "alias": "AGECLASS",
+      "type": "esriFieldTypeString"
+    },
+    {
+      "modelName": "hardscape",
+      "nullable": true,
+      "editable": true,
+      "defaultValue": null,
+      "domain": null,
+      "name": "hardscape",
+      "length": 50,
+      "alias": "HARDSCAPE",
+      "type": "esriFieldTypeString"
+    },
+    {
+      "modelName": "dbh_range",
+      "nullable": true,
+      "editable": true,
+      "defaultValue": null,
+      "domain": null,
+      "name": "dbh_range",
+      "length": 8,
+      "alias": "DBH_RANGE",
+      "type": "esriFieldTypeString"
+    },
+    {
+      "modelName": "location",
+      "nullable": true,
+      "editable": true,
+      "defaultValue": null,
+      "domain": null,
+      "name": "location",
+      "length": 50,
+      "alias": "Location",
+      "type": "esriFieldTypeString"
+    },
+    {
+      "modelName": "treediam",
+      "nullable": true,
+      "editable": true,
+      "defaultValue": null,
+      "domain": null,
+      "name": "treediam",
+      "length": 254,
+      "alias": "Treediam",
+      "type": "esriFieldTypeString"
+    },
+    {
+      "modelName": "treenotes",
+      "nullable": true,
+      "editable": true,
+      "defaultValue": null,
+      "domain": null,
+      "name": "treenotes",
+      "length": 250,
+      "alias": "TreeNotes",
+      "type": "esriFieldTypeString"
+    },
+    {
+      "modelName": "treecondit",
+      "nullable": true,
+      "editable": true,
+      "defaultValue": null,
+      "domain": null,
+      "name": "treecondit",
+      "length": 50,
+      "alias": "TreeCondit",
+      "type": "esriFieldTypeString"
+    },
+    {
+      "nullable": false,
+      "editable": false,
+      "defaultValue": null,
+      "length": 38,
+      "type": "esriFieldTypeGlobalID",
+      "modelName": "globalid",
+      "domain": null,
+      "name": "globalid",
+      "alias": "globalid"
+    },
+    {
+      "nullable": true,
+      "editable": false,
+      "defaultValue": null,
+      "domain": null,
+      "name": "created_user",
+      "length": 255,
+      "alias": "created_user",
+      "type": "esriFieldTypeString"
+    },
+    {
+      "nullable": true,
+      "editable": false,
+      "defaultValue": null,
+      "domain": null,
+      "precision": 1,
+      "name": "created_date",
+      "length": 29,
+      "alias": "created_date",
+      "type": "esriFieldTypeDate"
+    },
+    {
+      "nullable": true,
+      "editable": false,
+      "defaultValue": null,
+      "domain": null,
+      "name": "last_edited_user",
+      "length": 255,
+      "alias": "last_edited_user",
+      "type": "esriFieldTypeString"
+    },
+    {
+      "nullable": true,
+      "editable": false,
+      "defaultValue": null,
+      "domain": null,
+      "precision": 1,
+      "name": "last_edited_date",
+      "length": 29,
+      "alias": "last_edited_date",
+      "type": "esriFieldTypeDate"
+    }
+  ],
+  "maxRecordCountFactor": 1,
+  "dateFieldsTimeReference": {
+    "timeZoneIANA": "Etc/UTC",
+    "respectsDaylightSaving": false,
+    "timeZone": "UTC"
+  },
+  "supportsFieldDescriptionProperty": true,
+  "hasM": false,
+  "allowGeometryUpdates": true,
+  "useStandardizedQueries": true,
+  "globalIdField": "globalid",
+  "sourceSpatialReference": {
+    "wkt": "PROJCS[\"WGS_1984_Web_Mercator_Auxiliary_Sphere\",GEOGCS[\"GCS_WGS_1984\",DATUM[\"D_WGS_1984\",SPHEROID[\"WGS_1984\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Mercator_Auxiliary_Sphere\"],PARAMETER[\"False_Easting\",0.0],PARAMETER[\"False_Northing\",0.0],PARAMETER[\"Central_Meridian\",0.0],PARAMETER[\"Standard_Parallel_1\",0.0],PARAMETER[\"Auxiliary_Sphere_Type\",0.0],UNIT[\"Meter\",1.0]]",
+    "falseM": -100000,
+    "mUnits": 10000,
+    "zUnits": 10000,
+    "zTolerance": 0.001,
+    "wkid": 3857,
+    "xyUnits": 10000,
+    "mTolerance": 0.001,
+    "falseX": -20037700,
+    "falseY": -30241100,
+    "falseZ": -100000
+  },
+  "description": "",
+  "syncCanReturnChanges": true,
+  "supportsAsyncDelete": true,
+  "supportedSpatialRelationships": [
+    "esriSpatialRelIntersects",
+    "esriSpatialRelContains",
+    "esriSpatialRelCrosses",
+    "esriSpatialRelEnvelopeIntersects",
+    "esriSpatialRelOverlaps",
+    "esriSpatialRelTouches",
+    "esriSpatialRelWithin"
+  ],
+  "supportsRollbackOnFailureParameter": true,
+  "isDataReplicaTracked": true,
+  "standardMaxRecordCountNoGeometry": 16000,
+  "supportsTruncate": false,
+  "indexes": [
+    {
+      "name": "r1334_sde_rowid_uk",
+      "isUnique": true,
+      "description": "",
+      "fields": "objectid",
+      "isAscending": true
+    },
+    {
+      "name": "uuid_1334",
+      "isUnique": true,
+      "description": "",
+      "fields": "globalid",
+      "isAscending": true
+    },
+    {
+      "name": "a991_ix1",
+      "isUnique": true,
+      "description": "",
+      "fields": "shape",
+      "isAscending": true
+    }
+  ],
+  "supportedAppendSourceFilterFormats": "featureService",
+  "editFieldsInfo": {
+    "editDateField": "last_edited_date",
+    "editorField": "last_edited_user",
+    "creationDateField": "created_date",
+    "creatorField": "created_user"
+  },
+  "htmlPopupType": "esriServerHTMLPopupTypeAsHTMLText",
+  "GUIDFormat": "O",
+  "minScale": 0,
+  "hasAttachments": true,
+  "queryBinsCapabilities": {
+    "supportsFirstDayOfWeek": false,
+    "supportedNormalizationTypes": [
+      "boxCox",
+      "field",
+      "inverse",
+      "log",
+      "naturalLog",
+      "percentOfTotal",
+      "squareRoot"
+    ],
+    "supportedStatisticTypes": [
+      "count",
+      "sum",
+      "min",
+      "max",
+      "avg",
+      "stddev",
+      "var",
+      "percentile_cont",
+      "percentile_disc"
+    ],
+    "supportsNormalization": true,
+    "supportsSnapToData": true,
+    "supportsFixedIntervalBin": true,
+    "supportsStackBy": true,
+    "supportsAutoIntervalBin": true,
+    "supportsFixedBoundariesBin": true,
+    "supportsDateBin": true,
+    "supportsSplitBy": true,
+    "supportsReturnFullIntervalBin": true
+  },
+  "advancedQueryCapabilities": {
+    "supportsSqlExpression": true,
+    "supportsQueryWithResultType": true,
+    "supportsQueryRelatedPagination": true,
+    "supportsQueryWithCacheHint": false,
+    "supportsQueryWithDatumTransformation": true,
+    "supportsCurrentUserQueries": true,
+    "supportsQueryAttachmentsWithReturnUrl": true,
+    "fullTextSearchCapabilities": {
+      "supportsOperator": true,
+      "supportsSearchOperator": true
+    },
+    "supportsDefaultSR": true,
+    "supportsQueryDateBins": false,
+    "supportsQueryWithLodSR": true,
+    "supportsPaginationOnAggregatedQueries": true,
+    "supportsPagination": true,
+    "supportsMaxRecordCountFactor": true,
+    "fullTextSearchableFields": [],
+    "supportsStatistics": true,
+    "supportsOrderBy": true,
+    "supportsFullTextSearch": true,
+    "supportsQueryWithDistance": true,
+    "supportsLod": true,
+    "supportsSpatialAggregationStatistics": false,
+    "supportsCountDistinct": true,
+    "supportsAdvancedQueryRelated": true,
+    "supportsQueryAttachments": true,
+    "supportsReturningQueryExtent": true,
+    "supportsQueryAttachmentsCountOnly": true,
+    "supportsOrderByOnlyOnLayerFields": false,
+    "supportsOutFieldSqlExpression": true,
+    "supportsTopFeaturesQuery": true,
+    "supportsReturningGeometryEnvelope": false,
+    "supportsDistinct": true,
+    "supportsReturningGeometryCentroid": false,
+    "supportsQueryAnalytic": true,
+    "supportsPercentileStatistics": true,
+    "supportsHavingClause": true
+  },
+  "supportsValidateSQL": true,
+  "enableZDefaults": true,
+  "serviceItemId": "fee58c873d4b47ada5f4ab5cfae530f7",
+  "allowUpdateWithoutMValues": true,
+  "supportsCoordinatesQuantization": true,
+  "types": [
+    {
+      "templates": [
+        {
+          "name": "Dead",
+          "description": "",
+          "drawingTool": "esriFeatureEditToolPoint",
+          "prototype": {
+            "attributes": {
+              "stems": null,
+              "install_ty": null,
+              "notes": null,
+              "maint_date": null,
+              "treecondit": null,
+              "familyname": null,
+              "grow_space": null,
+              "space_size": null,
+              "soil": null,
+              "install_da": null,
+              "utilities": null,
+              "parkway_ty": null,
+              "commonname": null,
+              "exam_by": null,
+              "examby": null,
+              "common": null,
+              "street": null,
+              "property": null,
+              "treenotes": null,
+              "tree_no": null,
+              "id": null,
+              "gpsdate": null,
+              "exact_heig": null,
+              "height": null,
+              "xrefence": null,
+              "parkway_si": null,
+              "side": null,
+              "address": null,
+              "volunteer_stem": null,
+              "treediam": null,
+              "scientificname": null,
+              "dbh": null,
+              "ageclass": null,
+              "treefound": null,
+              "priority": null,
+              "spread": null,
+              "dbh_range": null,
+              "site": null,
+              "condition2": "Dead",
+              "hardscape": null,
+              "sci_name": null,
+              "location": null,
+              "speciesconfirmed": null,
+              "volunteer_dbh": null,
+              "family": null,
+              "sn_cn_f": null,
+              "landowner": null,
+              "volunteernotes": null
+            }
+          }
+        }
+      ],
+      "name": "Dead",
+      "domains": {
+        "commonname": {
+          "type": "inherited"
+        },
+        "familyname": {
+          "type": "inherited"
+        },
+        "scientificname": {
+          "type": "inherited"
+        },
+        "sn_cn_f": {
+          "type": "inherited"
+        }
+      },
+      "id": "Dead"
+    },
+    {
+      "templates": [
+        {
+          "name": "Excellent",
+          "description": "",
+          "drawingTool": "esriFeatureEditToolPoint",
+          "prototype": {
+            "attributes": {
+              "stems": null,
+              "install_ty": null,
+              "notes": null,
+              "maint_date": null,
+              "treecondit": null,
+              "familyname": null,
+              "grow_space": null,
+              "space_size": null,
+              "soil": null,
+              "install_da": null,
+              "utilities": null,
+              "parkway_ty": null,
+              "commonname": null,
+              "exam_by": null,
+              "examby": null,
+              "common": null,
+              "street": null,
+              "property": null,
+              "treenotes": null,
+              "tree_no": null,
+              "id": null,
+              "gpsdate": null,
+              "exact_heig": null,
+              "height": null,
+              "xrefence": null,
+              "parkway_si": null,
+              "side": null,
+              "address": null,
+              "volunteer_stem": null,
+              "treediam": null,
+              "scientificname": null,
+              "dbh": null,
+              "ageclass": null,
+              "treefound": null,
+              "priority": null,
+              "spread": null,
+              "dbh_range": null,
+              "site": null,
+              "condition2": "Excellent",
+              "hardscape": null,
+              "sci_name": null,
+              "location": null,
+              "speciesconfirmed": null,
+              "volunteer_dbh": null,
+              "family": null,
+              "sn_cn_f": null,
+              "landowner": null,
+              "volunteernotes": null
+            }
+          }
+        }
+      ],
+      "name": "Excellent",
+      "domains": {
+        "commonname": {
+          "type": "inherited"
+        },
+        "familyname": {
+          "type": "inherited"
+        },
+        "scientificname": {
+          "type": "inherited"
+        },
+        "sn_cn_f": {
+          "type": "inherited"
+        }
+      },
+      "id": "Excellent"
+    },
+    {
+      "templates": [
+        {
+          "name": "Fair",
+          "description": "",
+          "drawingTool": "esriFeatureEditToolPoint",
+          "prototype": {
+            "attributes": {
+              "stems": null,
+              "install_ty": null,
+              "notes": null,
+              "maint_date": null,
+              "treecondit": null,
+              "familyname": null,
+              "grow_space": null,
+              "space_size": null,
+              "soil": null,
+              "install_da": null,
+              "utilities": null,
+              "parkway_ty": null,
+              "commonname": null,
+              "exam_by": null,
+              "examby": null,
+              "common": null,
+              "street": null,
+              "property": null,
+              "treenotes": null,
+              "tree_no": null,
+              "id": null,
+              "gpsdate": null,
+              "exact_heig": null,
+              "height": null,
+              "xrefence": null,
+              "parkway_si": null,
+              "side": null,
+              "address": null,
+              "volunteer_stem": null,
+              "treediam": null,
+              "scientificname": null,
+              "dbh": null,
+              "ageclass": null,
+              "treefound": null,
+              "priority": null,
+              "spread": null,
+              "dbh_range": null,
+              "site": null,
+              "condition2": "Fair",
+              "hardscape": null,
+              "sci_name": null,
+              "location": null,
+              "speciesconfirmed": null,
+              "volunteer_dbh": null,
+              "family": null,
+              "sn_cn_f": null,
+              "landowner": null,
+              "volunteernotes": null
+            }
+          }
+        }
+      ],
+      "name": "Fair",
+      "domains": {
+        "commonname": {
+          "type": "inherited"
+        },
+        "familyname": {
+          "type": "inherited"
+        },
+        "scientificname": {
+          "type": "inherited"
+        },
+        "sn_cn_f": {
+          "type": "inherited"
+        }
+      },
+      "id": "Fair"
+    },
+    {
+      "templates": [
+        {
+          "name": "Good",
+          "description": "",
+          "drawingTool": "esriFeatureEditToolPoint",
+          "prototype": {
+            "attributes": {
+              "stems": null,
+              "install_ty": null,
+              "notes": null,
+              "maint_date": null,
+              "treecondit": null,
+              "familyname": null,
+              "grow_space": null,
+              "space_size": null,
+              "soil": null,
+              "install_da": null,
+              "utilities": null,
+              "parkway_ty": null,
+              "commonname": null,
+              "exam_by": null,
+              "examby": null,
+              "common": null,
+              "street": null,
+              "property": null,
+              "treenotes": null,
+              "tree_no": null,
+              "id": null,
+              "gpsdate": null,
+              "exact_heig": null,
+              "height": null,
+              "xrefence": null,
+              "parkway_si": null,
+              "side": null,
+              "address": null,
+              "volunteer_stem": null,
+              "treediam": null,
+              "scientificname": null,
+              "dbh": null,
+              "ageclass": null,
+              "treefound": null,
+              "priority": null,
+              "spread": null,
+              "dbh_range": null,
+              "site": null,
+              "condition2": "Good",
+              "hardscape": null,
+              "sci_name": null,
+              "location": null,
+              "speciesconfirmed": null,
+              "volunteer_dbh": null,
+              "family": null,
+              "sn_cn_f": null,
+              "landowner": null,
+              "volunteernotes": null
+            }
+          }
+        }
+      ],
+      "name": "Good",
+      "domains": {
+        "commonname": {
+          "type": "inherited"
+        },
+        "familyname": {
+          "type": "inherited"
+        },
+        "scientificname": {
+          "type": "inherited"
+        },
+        "sn_cn_f": {
+          "type": "inherited"
+        }
+      },
+      "id": "Good"
+    },
+    {
+      "templates": [
+        {
+          "name": "Heritage",
+          "description": "",
+          "drawingTool": "esriFeatureEditToolPoint",
+          "prototype": {
+            "attributes": {
+              "stems": null,
+              "install_ty": null,
+              "notes": null,
+              "maint_date": null,
+              "treecondit": null,
+              "familyname": null,
+              "grow_space": null,
+              "space_size": null,
+              "soil": null,
+              "install_da": null,
+              "utilities": null,
+              "parkway_ty": null,
+              "commonname": null,
+              "exam_by": null,
+              "examby": null,
+              "common": null,
+              "street": null,
+              "property": null,
+              "treenotes": null,
+              "tree_no": null,
+              "id": null,
+              "gpsdate": null,
+              "exact_heig": null,
+              "height": null,
+              "xrefence": null,
+              "parkway_si": null,
+              "side": null,
+              "address": null,
+              "volunteer_stem": null,
+              "treediam": null,
+              "scientificname": null,
+              "dbh": null,
+              "ageclass": null,
+              "treefound": null,
+              "priority": null,
+              "spread": null,
+              "dbh_range": null,
+              "site": null,
+              "condition2": "Heritage",
+              "hardscape": null,
+              "sci_name": null,
+              "location": null,
+              "speciesconfirmed": null,
+              "volunteer_dbh": null,
+              "family": null,
+              "sn_cn_f": null,
+              "landowner": null,
+              "volunteernotes": null
+            }
+          }
+        }
+      ],
+      "name": "Heritage",
+      "domains": {
+        "commonname": {
+          "type": "inherited"
+        },
+        "familyname": {
+          "type": "inherited"
+        },
+        "scientificname": {
+          "type": "inherited"
+        },
+        "sn_cn_f": {
+          "type": "inherited"
+        }
+      },
+      "id": "Heritage"
+    },
+    {
+      "templates": [
+        {
+          "name": "New",
+          "description": "",
+          "drawingTool": "esriFeatureEditToolPoint",
+          "prototype": {
+            "attributes": {
+              "stems": null,
+              "install_ty": null,
+              "notes": null,
+              "maint_date": null,
+              "treecondit": null,
+              "familyname": null,
+              "grow_space": null,
+              "space_size": null,
+              "soil": null,
+              "install_da": null,
+              "utilities": null,
+              "parkway_ty": null,
+              "commonname": null,
+              "exam_by": null,
+              "examby": null,
+              "common": null,
+              "street": null,
+              "property": null,
+              "treenotes": null,
+              "tree_no": null,
+              "id": null,
+              "gpsdate": null,
+              "exact_heig": null,
+              "height": null,
+              "xrefence": null,
+              "parkway_si": null,
+              "side": null,
+              "address": null,
+              "volunteer_stem": null,
+              "treediam": null,
+              "scientificname": null,
+              "dbh": null,
+              "ageclass": null,
+              "treefound": null,
+              "priority": null,
+              "spread": null,
+              "dbh_range": null,
+              "site": null,
+              "condition2": "New",
+              "hardscape": null,
+              "sci_name": null,
+              "location": null,
+              "speciesconfirmed": null,
+              "volunteer_dbh": null,
+              "family": null,
+              "sn_cn_f": null,
+              "landowner": null,
+              "volunteernotes": null
+            }
+          }
+        }
+      ],
+      "name": "New",
+      "domains": {
+        "commonname": {
+          "type": "inherited"
+        },
+        "familyname": {
+          "type": "inherited"
+        },
+        "scientificname": {
+          "type": "inherited"
+        },
+        "sn_cn_f": {
+          "type": "inherited"
+        }
+      },
+      "id": "New"
+    },
+    {
+      "templates": [
+        {
+          "name": "Poor",
+          "description": "",
+          "drawingTool": "esriFeatureEditToolPoint",
+          "prototype": {
+            "attributes": {
+              "stems": null,
+              "install_ty": null,
+              "notes": null,
+              "maint_date": null,
+              "treecondit": null,
+              "familyname": null,
+              "grow_space": null,
+              "space_size": null,
+              "soil": null,
+              "install_da": null,
+              "utilities": null,
+              "parkway_ty": null,
+              "commonname": null,
+              "exam_by": null,
+              "examby": null,
+              "common": null,
+              "street": null,
+              "property": null,
+              "treenotes": null,
+              "tree_no": null,
+              "id": null,
+              "gpsdate": null,
+              "exact_heig": null,
+              "height": null,
+              "xrefence": null,
+              "parkway_si": null,
+              "side": null,
+              "address": null,
+              "volunteer_stem": null,
+              "treediam": null,
+              "scientificname": null,
+              "dbh": null,
+              "ageclass": null,
+              "treefound": null,
+              "priority": null,
+              "spread": null,
+              "dbh_range": null,
+              "site": null,
+              "condition2": "Poor",
+              "hardscape": null,
+              "sci_name": null,
+              "location": null,
+              "speciesconfirmed": null,
+              "volunteer_dbh": null,
+              "family": null,
+              "sn_cn_f": null,
+              "landowner": null,
+              "volunteernotes": null
+            }
+          }
+        }
+      ],
+      "name": "Poor",
+      "domains": {
+        "commonname": {
+          "type": "inherited"
+        },
+        "familyname": {
+          "type": "inherited"
+        },
+        "scientificname": {
+          "type": "inherited"
+        },
+        "sn_cn_f": {
+          "type": "inherited"
+        }
+      },
+      "id": "Poor"
+    }
+  ],
+  "capabilities": "Create,Editing,Uploads,Query,Update,Sync,Extract",
+  "maxScale": 0,
+  "supportsAppend": true,
+  "supportsExceedsLimitStatistics": true,
+  "defaultVisibility": true,
+  "advancedQueryAnalyticCapabilities": {
+    "supportsAsync": true,
+    "supportsLinearRegression": true,
+    "supportsPercentileAnalytic": false
+  },
+  "hasMetadata": true,
+  "supportedAppendFormats": "csv,excel,featureCollection,featureService,geojson,imageCollection,jsonl,pbf,shapefile",
+  "tileMaxRecordCount": 4000,
+  "typeIdField": "condition2",
+  "supportsASyncCalculate": true,
+  "supportedQueryFormats": "JSON, geoJSON, PBF",
+  "sqlParserVersion": "PG_11.4.0",
+  "drawingInfo": {
+    "renderer": {
+      "field1": "condition2",
+      "authoringInfo": {
+        "colorRamp": {
+          "colorRamps": [
+            {
+              "toColor": [
+                234,
+                184,
+                252,
+                255
+              ],
+              "fromColor": [
+                234,
+                184,
+                252,
+                255
+              ],
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm"
+            },
+            {
+              "toColor": [
+                179,
+                252,
+                180,
+                255
+              ],
+              "fromColor": [
+                179,
+                252,
+                180,
+                255
+              ],
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm"
+            },
+            {
+              "toColor": [
+                252,
+                204,
+                182,
+                255
+              ],
+              "fromColor": [
+                252,
+                204,
+                182,
+                255
+              ],
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm"
+            },
+            {
+              "toColor": [
+                182,
+                242,
+                252,
+                255
+              ],
+              "fromColor": [
+                182,
+                242,
+                252,
+                255
+              ],
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm"
+            },
+            {
+              "toColor": [
+                252,
+                252,
+                184,
+                255
+              ],
+              "fromColor": [
+                252,
+                252,
+                184,
+                255
+              ],
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm"
+            },
+            {
+              "toColor": [
+                192,
+                209,
+                252,
+                255
+              ],
+              "fromColor": [
+                192,
+                209,
+                252,
+                255
+              ],
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm"
+            },
+            {
+              "toColor": [
+                252,
+                202,
+                224,
+                255
+              ],
+              "fromColor": [
+                252,
+                202,
+                224,
+                255
+              ],
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm"
+            },
+            {
+              "toColor": [
+                194,
+                252,
+                221,
+                255
+              ],
+              "fromColor": [
+                194,
+                252,
+                221,
+                255
+              ],
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm"
+            },
+            {
+              "toColor": [
+                252,
+                240,
+                207,
+                255
+              ],
+              "fromColor": [
+                252,
+                240,
+                207,
+                255
+              ],
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm"
+            },
+            {
+              "toColor": [
+                191,
+                182,
+                252,
+                255
+              ],
+              "fromColor": [
+                191,
+                182,
+                252,
+                255
+              ],
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm"
+            },
+            {
+              "toColor": [
+                240,
+                207,
+                252,
+                255
+              ],
+              "fromColor": [
+                240,
+                207,
+                252,
+                255
+              ],
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm"
+            },
+            {
+              "toColor": [
+                252,
+                218,
+                215,
+                255
+              ],
+              "fromColor": [
+                252,
+                218,
+                215,
+                255
+              ],
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm"
+            },
+            {
+              "toColor": [
+                220,
+                252,
+                204,
+                255
+              ],
+              "fromColor": [
+                220,
+                252,
+                204,
+                255
+              ],
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm"
+            }
+          ],
+          "type": "multipart"
+        }
+      },
+      "uniqueValueInfos": [
+        {
+          "symbol": {
+            "outline": {
+              "color": [
+                0,
+                0,
+                0,
+                255
+              ],
+              "width": 0.6
+            },
+            "color": [
+              230,
+              0,
+              0,
+              255
+            ],
+            "size": 10,
+            "yoffset": 0,
+            "xoffset": 0,
+            "angle": 0,
+            "style": "esriSMSCircle",
+            "type": "esriSMS"
+          },
+          "label": "Dead",
+          "value": "Dead"
+        },
+        {
+          "symbol": {
+            "imageData": "iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAACXBIWXMAAA7EAAAOxAGVKw4bAAACd0lEQVQ4jbXUv2vbQBQH8K+ik62z5R+yJIsSnNbEpGvGQKaAIaOH7AVTKOQvyqgp2QVZDDZkydhmKKRLwNTKDxzZsmtbPyzp5A6JQ4qTdknf9rjjw7v37o7gjYL8V8gwDLFcqWyoOblKqZgHAN8PJtPpqGtZVq/ZbAb/hDqdznpRUfakbHY/LaR2eZ5/BwD5gnSnavK5LKunptk+azTq/VehTqezXijInxW59KWsaeuUinBjFwCQJdlqGIZVkWZ2FhyOTLN9/Bx7ggzDEIuKsrdESJrHrXeLH78uwRKGbWUbZVGHrqm1hLHDKGY3hmGYy2M+QeVKZUPKZveXlXixB8vt4dvwK+IkgiKqUNIqeJ6HUirVZjP3QNcr3wFc/gGpObmaFlK7lIoAAI7jELAAfuwBAGbRFGESgvIUlIoQCKkXi7mTFYhSMb9sLABMoykst4dxOAbPEfTcn9gqfASlFAAgCESmlGZendoy2IIhTuKnPE5isGc5EYQgRVPRCuT7wSRfkO4AVMMkxL3fxygcPaIxBoGNftBHmZaRWksDi0V37s2dFWg6HXVVTT4Pw7Ca8AyEI9jKb0Gn+uP4JXAAQhYh9GOMJ5OL/nh4vQJZltWTZfVUpJkdTS3VNvObeC99gD23AQBaWnsYAuNwPxheOQOnZUfRKtRsNgPTbJ8tOBwljB0qpVJNohLI2sMWkRcxc13cD4ZX9sA+chyv9amx777Y7Eaj3jfN9nEUs5vZzD0QCKkLApGJIARYLLrjyeTCGTgtx/Faf30iS8wwDFPXK9+LxdwJpTSToqlo7s2d/nh4bUfR9fNKXoWWx8TDRbt8af2leLP/6Dd5MhgJqMSjNgAAAABJRU5ErkJggg==",
+            "yoffset": 0,
+            "width": 13,
+            "xoffset": 0,
+            "angle": 0,
+            "type": "esriPMS",
+            "contentType": "image/png",
+            "url": "457dcec61ec7c1d15b1a4d902aa3909f",
+            "height": 13
+          },
+          "label": "Excellent",
+          "value": "Excellent"
+        },
+        {
+          "symbol": {
+            "outline": {
+              "color": [
+                0,
+                0,
+                0,
+                255
+              ],
+              "width": 0
+            },
+            "color": [
+              0,
+              169,
+              230,
+              255
+            ],
+            "size": 10,
+            "yoffset": 0,
+            "xoffset": 0,
+            "angle": 0,
+            "style": "esriSMSCircle",
+            "type": "esriSMS"
+          },
+          "label": "Fair",
+          "value": "Fair"
+        },
+        {
+          "symbol": {
+            "outline": {
+              "color": [
+                0,
+                0,
+                0,
+                255
+              ],
+              "width": 0.6
+            },
+            "color": [
+              56,
+              168,
+              0,
+              255
+            ],
+            "size": 10,
+            "yoffset": 0,
+            "xoffset": 0,
+            "angle": 0,
+            "style": "esriSMSCircle",
+            "type": "esriSMS"
+          },
+          "label": "Good",
+          "value": "Good"
+        },
+        {
+          "symbol": {
+            "imageData": "iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAYAAAByDd+UAAAACXBIWXMAAA7EAAAOxAGVKw4bAAABQElEQVRIie2WzW2DQBCFv5XcREgD3jMpI04Z3jICZZgyjMsI56UCtzE5sHbWBNgfJBRLmeOy6OO9eTNix8a1+wf+CaBYjkrTbAYEDmIhB5oMlJ4C4R14gQ2ADgZQJr+bBYTDnZ3RyySgZ+etjiTamqbwEQYZtj4AnYIvhkDEfYNFFh53gFGabhKo9lyBQiwnBrvWVKM0Znw4aanSGLF0wCkTZubCNNtDpWkctCXe4g6olaadu7AYGqXppOcN4Uw4IBcUxrVltoIpVXuuYqmBc+BqFYJFAV3FxL+EnzSuBY7nb6qilkAQKJaS3wqNO/NHp5SeYnUP8XYnoxSK5YLf22ETLaqMAd7sbFDUvgKlaaXn1dtOQVsXgZ6ds4PsbacK+AzZGqPwY2mQ72BNJZYWoYRMoFu6wain3H+Ov7anAn4Dn1Zn7FlzIIkAAAAASUVORK5CYII=",
+            "yoffset": 0,
+            "width": 21,
+            "xoffset": 0,
+            "angle": 0,
+            "type": "esriPMS",
+            "contentType": "image/png",
+            "url": "b8eee0912c54279326342e2d8a090aa8",
+            "height": 21
+          },
+          "label": "Heritage",
+          "value": "Heritage"
+        },
+        {
+          "symbol": {
+            "outline": {
+              "color": [
+                0,
+                0,
+                0,
+                255
+              ],
+              "width": 0.6
+            },
+            "color": [
+              85,
+              255,
+              0,
+              255
+            ],
+            "size": 10,
+            "yoffset": 0,
+            "xoffset": 0,
+            "angle": 0,
+            "style": "esriSMSCircle",
+            "type": "esriSMS"
+          },
+          "label": "New",
+          "value": "New"
+        },
+        {
+          "symbol": {
+            "outline": {
+              "color": [
+                0,
+                0,
+                0,
+                255
+              ],
+              "width": 0.6
+            },
+            "color": [
+              230,
+              152,
+              0,
+              255
+            ],
+            "size": 10,
+            "yoffset": 0,
+            "xoffset": 0,
+            "angle": 0,
+            "style": "esriSMSCircle",
+            "type": "esriSMS"
+          },
+          "label": "Poor",
+          "value": "Poor"
+        }
+      ],
+      "type": "uniqueValue",
+      "fieldDelimiter": ","
+    },
+    "scaleSymbols": true,
+    "transparency": 0,
+    "labelingInfo": null
+  },
+  "geometryField": {
+    "sqlType": "sqlTypeDistinct",
+    "nullable": true,
+    "editable": true,
+    "name": "shape",
+    "typeName": "st_point",
+    "length": 2147483647,
+    "type": "esriFieldTypeGeometry"
+  },
+  "copyrightText": "",
+  "zDefault": 0,
+  "geometryType": "esriGeometryPoint",
+  "supportsLayerOverrides": true
+}

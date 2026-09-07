@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#193c32">
+  <title>Amelia Island · Tree Atlas</title>
+  <meta name="description" content="Explore Fernandina Beach's recorded trees, one neighborhood at a time.">
+  <link rel="stylesheet" href="vendor/leaflet.css">
+  <link rel="stylesheet" href="vendor/MarkerCluster.css">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="vendor/leaflet.js"></script>
+  <script defer src="vendor/leaflet.markercluster.js"></script>
+  <script defer src="map.js?v=2"></script>
+</head>
+<body>
+  <aside>
+    <header><span class="eyebrow">AMELIA ISLAND, FLORIDA</span><h1>Tree Atlas<span>.</span></h1><p>A closer look at the trees<br>that make this place.</p></header>
+    <div class="summary"><strong id="total">—</strong><span>inventory records shown</span><small id="visible">Loading the inventory…</small></div>
+    <form id="filters">
+      <label for="search">Find a tree or street</label><input id="search" type="search" placeholder="Live oak, Atlantic, tree number…">
+      <label for="species">Species</label><select id="species" disabled><option value="">All species</option></select>
+      <label for="condition">Recorded condition</label><select id="condition" disabled><option value="">All conditions</option></select>
+      <label class="check"><input id="historical" type="checkbox" checked> Include dead / not-found records</label>
+      <button id="reset" type="reset" disabled>Reset filters</button>
+    </form>
+    <div class="guide"><span class="cluster-example">42</span><p><b>A neighborhood of trees.</b><br>Click a cluster to zoom in. Click an individual tree for its details.</p></div>
+    <details><summary>About this inventory</summary><p>14,034 Fernandina Beach records from the public GIS inventory. Layer metadata was last edited in March 2023; downloaded September 2026. This is a historical inventory, not a complete or current census of Amelia Island.</p><p>Dead and not-found records are included unless you hide them. The separate county dataset is not included here.</p><a href="https://maps.ncpafl.com/ncflpa_arcgis/rest/services/Hosted/COFBTreeInventy2023Updates/FeatureServer/0" target="_blank" rel="noopener">View the source ↗</a></details>
+    <footer>Rooted in place. Open to exploration.</footer>
+  </aside>
+  <main aria-label="Tree inventory map">
+    <div id="map" aria-label="Zoomable map of Fernandina Beach trees"></div>
+    <div class="map-heading"><span class="live-dot"></span> FERNANDINA BEACH <span class="separator">/</span> TREE INVENTORY</div>
+    <button id="extent" class="extent" disabled>↗ Show all results</button>
+    <div class="map-legend"><span class="key"></span> Individual tree <span class="key dead"></span> Dead / not found</div>
+    <div id="status" role="status" aria-live="polite">Loading tree records…</div>
+    <noscript>This map requires JavaScript.</noscript>
+  </main>
+</body>
+</html>

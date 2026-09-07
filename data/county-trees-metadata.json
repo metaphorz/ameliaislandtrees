@@ -1,0 +1,1294 @@
+{
+  "isCoGoEnabled": false,
+  "extent": {
+    "ymin": 2287670.7937925607,
+    "xmin": 486830.1174614243,
+    "ymax": 2288112.084918633,
+    "xmax": 487350.3186544925,
+    "spatialReference": {
+      "falseM": -100000,
+      "xyTolerance": 0.00328083333333333,
+      "mUnits": 10000,
+      "zUnits": 10000,
+      "latestWkid": 2236,
+      "zTolerance": 0.001,
+      "wkid": 102658,
+      "xyUnits": 3048.001467763792,
+      "mTolerance": 0.001,
+      "falseX": -17791300,
+      "falseY": -46132600,
+      "falseZ": -100000
+    }
+  },
+  "isDataBranchVersioned": false,
+  "supportsApplyEditsWithGlobalIds": false,
+  "maxRecordCount": 2000,
+  "infoInEstimates": [
+    "extent",
+    "count"
+  ],
+  "datesInUnknownTimezone": false,
+  "type": "Feature Layer",
+  "onlyAllowTrueCurveUpdatesByTrueCurveClients": true,
+  "supportsAttachmentsByUploadId": true,
+  "editingInfo": {
+    "lastEditDate": 1644333449918
+  },
+  "relationships": [],
+  "supportsAttachmentsResizing": true,
+  "cimVersion": "2.9.0",
+  "isDataArchived": false,
+  "id": 1,
+  "spatialReference": {
+    "falseM": -100000,
+    "xyTolerance": 0.00328083333333333,
+    "mUnits": 10000,
+    "zUnits": 10000,
+    "latestWkid": 2236,
+    "zTolerance": 0.001,
+    "wkid": 102658,
+    "xyUnits": 3048.001467763792,
+    "mTolerance": 0.001,
+    "falseX": -17791300,
+    "falseY": -46132600,
+    "falseZ": -100000
+  },
+  "supportsStatistics": true,
+  "supportedExportFormats": "sqlite,filegdb,shapefile,csv,geojson",
+  "standardMaxRecordCount": 16000,
+  "isDataVersioned": false,
+  "templates": [],
+  "hasGeometryProperties": true,
+  "supportsAdvancedQueries": true,
+  "parentLayer": null,
+  "currentVersion": 11.5,
+  "canScaleSymbols": false,
+  "hasZ": true,
+  "advancedEditingCapabilities": {
+    "supportsAsyncApplyEdits": true,
+    "supportsApplyEditsbyUploadID": true,
+    "supportsReturnEditResults": true,
+    "supportedSqlFormatsInCalculate": [
+      "standard"
+    ],
+    "supportedApplyEditsUploadIDFormats": "JSON,PBF"
+  },
+  "objectIdField": "objectid",
+  "supportsQuantizationEditMode": true,
+  "hasContingentValuesDefinition": false,
+  "name": "nassauEditing.NASSAUADMIN.CountyTreeInventory",
+  "allowTrueCurvesUpdates": false,
+  "displayField": "commonname",
+  "supportsCalculate": true,
+  "fields": [
+    {
+      "nullable": false,
+      "defaultValue": null,
+      "editable": false,
+      "length": 4,
+      "type": "esriFieldTypeOID",
+      "modelName": "objectid",
+      "domain": null,
+      "name": "objectid",
+      "alias": "OBJECTID"
+    },
+    {
+      "modelName": "treeid",
+      "nullable": true,
+      "editable": true,
+      "defaultValue": null,
+      "domain": null,
+      "name": "treeid",
+      "alias": "TreeID",
+      "type": "esriFieldTypeSmallInteger"
+    },
+    {
+      "modelName": "commonname",
+      "nullable": true,
+      "editable": true,
+      "defaultValue": null,
+      "domain": {
+        "splitPolicy": "esriSPTDuplicate",
+        "name": "TreeCommonType_2",
+        "description": "The type of tree (common name) as adapted from US Forest Service",
+        "type": "codedValue",
+        "codedValues": [
+          {
+            "code": "American Beech",
+            "name": "American Beech"
+          },
+          {
+            "code": "American Elm",
+            "name": "American Elm"
+          },
+          {
+            "code": "American Holly",
+            "name": "American Holly"
+          },
+          {
+            "code": "American Hornbeam",
+            "name": "American Hornbeam"
+          },
+          {
+            "code": "Bald Cypress",
+            "name": "Bald Cypress"
+          },
+          {
+            "code": "Black Cherry",
+            "name": "Black Cherry"
+          },
+          {
+            "code": "Black Tupelo/Black Gum",
+            "name": "Black Tupelo/Black Gum"
+          },
+          {
+            "code": "Bluff Oak",
+            "name": "Bluff Oak"
+          },
+          {
+            "code": "Boxelder",
+            "name": "Boxelder"
+          },
+          {
+            "code": "Buckthorn Bumelia",
+            "name": "Buckthorn Bumelia"
+          },
+          {
+            "code": "Cabbage Palm",
+            "name": "Cabbage Palm"
+          },
+          {
+            "code": "Canary Island Date Palm",
+            "name": "Canary Island Date Palm"
+          },
+          {
+            "code": "Carolina Laurel Cherry",
+            "name": "Carolina Laurel Cherry"
+          },
+          {
+            "code": "Chapman Oak",
+            "name": "Chapman Oak"
+          },
+          {
+            "code": "Chickasaw Plum",
+            "name": "Chickasaw Plum"
+          },
+          {
+            "code": "Chinese Elm",
+            "name": "Chinese Elm"
+          },
+          {
+            "code": "Chinese Holly",
+            "name": "Chinese Holly"
+          },
+          {
+            "code": "Chinese Juniper",
+            "name": "Chinese Juniper"
+          },
+          {
+            "code": "Crape Myrtle",
+            "name": "Crape Myrtle"
+          },
+          {
+            "code": "Dahoon Holly",
+            "name": "Dahoon Holly"
+          },
+          {
+            "code": "East Palatka Holly",
+            "name": "East Palatka Holly"
+          },
+          {
+            "code": "Eastern Hophorn Beam",
+            "name": "Eastern Hophorn Beam"
+          },
+          {
+            "code": "Eastern Red Cedar",
+            "name": "Eastern Red Cedar"
+          },
+          {
+            "code": "Florida Basswood",
+            "name": "Florida Basswood"
+          },
+          {
+            "code": "Florida Maple",
+            "name": "Florida Maple"
+          },
+          {
+            "code": "Florida Privet",
+            "name": "Florida Privet"
+          },
+          {
+            "code": "Flowering Dogwood",
+            "name": "Flowering Dogwood"
+          },
+          {
+            "code": "Green Ash",
+            "name": "Green Ash"
+          },
+          {
+            "code": "Hercules' Club",
+            "name": "Hercules' Club"
+          },
+          {
+            "code": "Laurel Oak",
+            "name": "Laurel Oak"
+          },
+          {
+            "code": "Live Oak",
+            "name": "Live Oak"
+          },
+          {
+            "code": "Loblolly Bay",
+            "name": "Loblolly Bay"
+          },
+          {
+            "code": "Loblolly Pine",
+            "name": "Loblolly Pine"
+          },
+          {
+            "code": "Longleaf Pine",
+            "name": "Longleaf Pine"
+          },
+          {
+            "code": "Myrtle Oak",
+            "name": "Myrtle Oak"
+          },
+          {
+            "code": "Nuttall Oak",
+            "name": "Nuttall Oak"
+          },
+          {
+            "code": "Ogeechee Tupelo",
+            "name": "Ogeechee Tupelo"
+          },
+          {
+            "code": "Other",
+            "name": "Other"
+          },
+          {
+            "code": "Pecan",
+            "name": "Pecan"
+          },
+          {
+            "code": "Persimmon",
+            "name": "Persimmon"
+          },
+          {
+            "code": "Pignut Hickory",
+            "name": "Pignut Hickory"
+          },
+          {
+            "code": "Pond Cypress",
+            "name": "Pond Cypress"
+          },
+          {
+            "code": "Pond Pine",
+            "name": "Pond Pine"
+          },
+          {
+            "code": "Pumpkin Ash",
+            "name": "Pumpkin Ash"
+          },
+          {
+            "code": "Red Bay",
+            "name": "Red Bay"
+          },
+          {
+            "code": "Red Buckeye",
+            "name": "Red Buckeye"
+          },
+          {
+            "code": "Red Maple",
+            "name": "Red Maple"
+          },
+          {
+            "code": "Red Mulberry",
+            "name": "Red Mulberry"
+          },
+          {
+            "code": "Redbud",
+            "name": "Redbud"
+          },
+          {
+            "code": "River Birch",
+            "name": "River Birch"
+          },
+          {
+            "code": "Sand Live Oak",
+            "name": "Sand Live Oak"
+          },
+          {
+            "code": "Sand Pine",
+            "name": "Sand Pine"
+          },
+          {
+            "code": "Saucer Magnolia",
+            "name": "Saucer Magnolia"
+          },
+          {
+            "code": "Shumard Oak",
+            "name": "Shumard Oak"
+          },
+          {
+            "code": "Silver Maple",
+            "name": "Silver Maple"
+          },
+          {
+            "code": "Slash Pine",
+            "name": "Slash Pine"
+          },
+          {
+            "code": "Southern Magnolia",
+            "name": "Southern Magnolia"
+          },
+          {
+            "code": "Southern Red Cedar",
+            "name": "Southern Red Cedar"
+          },
+          {
+            "code": "Southern Red Oak",
+            "name": "Southern Red Oak"
+          },
+          {
+            "code": "Sugarberry",
+            "name": "Sugarberry"
+          },
+          {
+            "code": "Swamp Chestnut Oak",
+            "name": "Swamp Chestnut Oak"
+          },
+          {
+            "code": "Swamp Dogwood",
+            "name": "Swamp Dogwood"
+          },
+          {
+            "code": "Sweetbay Magnolia",
+            "name": "Sweetbay Magnolia"
+          },
+          {
+            "code": "Sweetgum",
+            "name": "Sweetgum"
+          },
+          {
+            "code": "Sycamore",
+            "name": "Sycamore"
+          },
+          {
+            "code": "Tulip Tree/Yellow Poplar",
+            "name": "Tulip Tree/Yellow Poplar"
+          },
+          {
+            "code": "Unknown",
+            "name": "Unknown"
+          },
+          {
+            "code": "Water Hickory",
+            "name": "Water Hickory"
+          },
+          {
+            "code": "Water Oak",
+            "name": "Water Oak"
+          },
+          {
+            "code": "Wax Myrtle",
+            "name": "Wax Myrtle"
+          },
+          {
+            "code": "Weeping Willow",
+            "name": "Weeping Willow"
+          },
+          {
+            "code": "White Fringetree",
+            "name": "White Fringetree"
+          },
+          {
+            "code": "White Oak",
+            "name": "White Oak"
+          },
+          {
+            "code": "Winged Elm",
+            "name": "Winged Elm"
+          },
+          {
+            "code": "Yaupon Holly",
+            "name": "Yaupon Holly"
+          }
+        ],
+        "mergePolicy": "esriMPTDefaultValue"
+      },
+      "name": "commonname",
+      "length": 255,
+      "alias": "CommonName",
+      "type": "esriFieldTypeString"
+    },
+    {
+      "modelName": "dbh",
+      "nullable": true,
+      "editable": true,
+      "defaultValue": null,
+      "domain": null,
+      "name": "dbh",
+      "alias": "DBH",
+      "type": "esriFieldTypeSmallInteger"
+    },
+    {
+      "modelName": "height",
+      "nullable": true,
+      "editable": true,
+      "defaultValue": null,
+      "domain": null,
+      "name": "height",
+      "alias": "Height",
+      "type": "esriFieldTypeSmallInteger"
+    },
+    {
+      "modelName": "crownwidth",
+      "nullable": true,
+      "editable": true,
+      "defaultValue": null,
+      "domain": null,
+      "name": "crownwidth",
+      "alias": "CrownWidth",
+      "type": "esriFieldTypeSmallInteger"
+    },
+    {
+      "modelName": "condition",
+      "nullable": true,
+      "editable": true,
+      "defaultValue": null,
+      "domain": {
+        "splitPolicy": "esriSPTDefaultValue",
+        "name": "TreeCondition",
+        "description": "CountyTreeInventoryCondition",
+        "type": "codedValue",
+        "codedValues": [
+          {
+            "code": "Good",
+            "name": "Good"
+          },
+          {
+            "code": "Fair",
+            "name": "Fair"
+          },
+          {
+            "code": "Poor",
+            "name": "Poor"
+          },
+          {
+            "code": "Dead",
+            "name": "Dead"
+          },
+          {
+            "code": "Stump",
+            "name": "Stump"
+          }
+        ],
+        "mergePolicy": "esriMPTDefaultValue"
+      },
+      "name": "condition",
+      "length": 255,
+      "alias": "Condition",
+      "type": "esriFieldTypeString"
+    },
+    {
+      "modelName": "rootspace",
+      "nullable": true,
+      "editable": true,
+      "defaultValue": null,
+      "domain": null,
+      "name": "rootspace",
+      "length": 255,
+      "alias": "RootSpace",
+      "type": "esriFieldTypeString"
+    },
+    {
+      "modelName": "location",
+      "nullable": true,
+      "editable": true,
+      "defaultValue": null,
+      "domain": null,
+      "name": "location",
+      "length": 255,
+      "alias": "Location",
+      "type": "esriFieldTypeString"
+    },
+    {
+      "modelName": "conflictwithutilities",
+      "nullable": true,
+      "editable": true,
+      "defaultValue": null,
+      "domain": {
+        "splitPolicy": "esriSPTDefaultValue",
+        "name": "TreeConflictwithUtility",
+        "description": "CountyTreeInventoryUlitlity",
+        "type": "codedValue",
+        "codedValues": [
+          {
+            "code": "Yes",
+            "name": "Yes"
+          },
+          {
+            "code": "No",
+            "name": "No"
+          },
+          {
+            "code": "None",
+            "name": "None"
+          }
+        ],
+        "mergePolicy": "esriMPTDefaultValue"
+      },
+      "name": "conflictwithutilities",
+      "length": 255,
+      "alias": "ConflictWithUtilities",
+      "type": "esriFieldTypeString"
+    },
+    {
+      "modelName": "conditionnotes",
+      "nullable": true,
+      "editable": true,
+      "defaultValue": null,
+      "domain": null,
+      "name": "conditionnotes",
+      "length": 255,
+      "alias": "ConditionNotes",
+      "type": "esriFieldTypeString"
+    },
+    {
+      "modelName": "nameofrecorder",
+      "nullable": true,
+      "editable": true,
+      "defaultValue": null,
+      "domain": null,
+      "name": "nameofrecorder",
+      "length": 255,
+      "alias": "NameOfRecorder",
+      "type": "esriFieldTypeString"
+    },
+    {
+      "modelName": "dateofrecording",
+      "nullable": true,
+      "editable": true,
+      "defaultValue": null,
+      "domain": null,
+      "precision": 1,
+      "name": "dateofrecording",
+      "length": 29,
+      "alias": "DateOfRecording",
+      "type": "esriFieldTypeDate"
+    },
+    {
+      "modelName": "maintenancenotes",
+      "nullable": true,
+      "editable": true,
+      "defaultValue": null,
+      "domain": null,
+      "name": "maintenancenotes",
+      "length": 255,
+      "alias": "MaintenanceNotes",
+      "type": "esriFieldTypeString"
+    },
+    {
+      "modelName": "dateofmaintenance",
+      "nullable": true,
+      "editable": true,
+      "defaultValue": null,
+      "domain": null,
+      "precision": 1,
+      "name": "dateofmaintenance",
+      "length": 29,
+      "alias": "DateOfMaintenance",
+      "type": "esriFieldTypeDate"
+    },
+    {
+      "modelName": "comments",
+      "nullable": true,
+      "editable": true,
+      "defaultValue": null,
+      "domain": null,
+      "name": "comments",
+      "length": 255,
+      "alias": "Comments",
+      "type": "esriFieldTypeString"
+    },
+    {
+      "modelName": "numberstems",
+      "nullable": true,
+      "editable": true,
+      "defaultValue": null,
+      "domain": null,
+      "name": "numberstems",
+      "alias": "NumberStems",
+      "type": "esriFieldTypeSmallInteger"
+    }
+  ],
+  "maxRecordCountFactor": 1,
+  "dateFieldsTimeReference": {
+    "timeZoneIANA": "Etc/UTC",
+    "respectsDaylightSaving": false,
+    "timeZone": "UTC"
+  },
+  "supportsFieldDescriptionProperty": true,
+  "hasM": false,
+  "allowGeometryUpdates": true,
+  "useStandardizedQueries": true,
+  "globalIdField": null,
+  "sourceSpatialReference": {
+    "wkt": "PROJCS[\"NAD_1983_StatePlane_Florida_East_FIPS_0901_Feet\",GEOGCS[\"GCS_North_American_1983\",DATUM[\"D_North_American_1983\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",656166.6666666665],PARAMETER[\"False_Northing\",0.0],PARAMETER[\"Central_Meridian\",-81.0],PARAMETER[\"Scale_Factor\",0.9999411764705882],PARAMETER[\"Latitude_Of_Origin\",24.33333333333333],UNIT[\"Foot_US\",0.3048006096012192]]",
+    "falseM": 0,
+    "mUnits": 1,
+    "zUnits": 1,
+    "zTolerance": 0.001,
+    "wkid": 2236,
+    "xyUnits": 3048.0014677637923,
+    "mTolerance": 0.001,
+    "falseX": -17791300,
+    "falseY": -46132600,
+    "falseZ": 0
+  },
+  "description": "",
+  "syncCanReturnChanges": true,
+  "supportsAsyncDelete": true,
+  "supportedSpatialRelationships": [
+    "esriSpatialRelIntersects",
+    "esriSpatialRelContains",
+    "esriSpatialRelCrosses",
+    "esriSpatialRelEnvelopeIntersects",
+    "esriSpatialRelOverlaps",
+    "esriSpatialRelTouches",
+    "esriSpatialRelWithin"
+  ],
+  "supportsRollbackOnFailureParameter": true,
+  "isDataReplicaTracked": false,
+  "standardMaxRecordCountNoGeometry": 16000,
+  "supportsTruncate": true,
+  "indexes": [
+    {
+      "name": "r458_sde_rowid_uk",
+      "isUnique": true,
+      "description": "",
+      "fields": "objectid",
+      "isAscending": true
+    },
+    {
+      "name": "a406_ix1",
+      "isUnique": true,
+      "description": "",
+      "fields": "shape",
+      "isAscending": true
+    }
+  ],
+  "supportedAppendSourceFilterFormats": "featureService",
+  "editFieldsInfo": null,
+  "htmlPopupType": "esriServerHTMLPopupTypeAsHTMLText",
+  "GUIDFormat": "O",
+  "minScale": 0,
+  "hasAttachments": false,
+  "queryBinsCapabilities": {
+    "supportsFirstDayOfWeek": false,
+    "supportedNormalizationTypes": [
+      "boxCox",
+      "field",
+      "inverse",
+      "log",
+      "naturalLog",
+      "percentOfTotal",
+      "squareRoot"
+    ],
+    "supportedStatisticTypes": [
+      "count",
+      "sum",
+      "min",
+      "max",
+      "avg",
+      "stddev",
+      "var",
+      "percentile_cont",
+      "percentile_disc"
+    ],
+    "supportsNormalization": true,
+    "supportsSnapToData": true,
+    "supportsFixedIntervalBin": true,
+    "supportsStackBy": true,
+    "supportsAutoIntervalBin": true,
+    "supportsFixedBoundariesBin": true,
+    "supportsDateBin": true,
+    "supportsSplitBy": true,
+    "supportsReturnFullIntervalBin": true
+  },
+  "advancedQueryCapabilities": {
+    "supportsSqlExpression": true,
+    "supportsQueryWithResultType": true,
+    "supportsQueryRelatedPagination": true,
+    "supportsQueryWithCacheHint": false,
+    "supportsQueryWithDatumTransformation": true,
+    "supportsCurrentUserQueries": true,
+    "supportsQueryAttachmentsWithReturnUrl": true,
+    "fullTextSearchCapabilities": {
+      "supportsOperator": true,
+      "supportsSearchOperator": true
+    },
+    "supportsDefaultSR": true,
+    "supportsQueryDateBins": false,
+    "supportsQueryWithLodSR": true,
+    "supportsPaginationOnAggregatedQueries": true,
+    "supportsPagination": true,
+    "supportsMaxRecordCountFactor": true,
+    "fullTextSearchableFields": [],
+    "supportsStatistics": true,
+    "supportsOrderBy": true,
+    "supportsFullTextSearch": true,
+    "supportsQueryWithDistance": true,
+    "supportsLod": true,
+    "supportsSpatialAggregationStatistics": false,
+    "supportsCountDistinct": true,
+    "supportsAdvancedQueryRelated": true,
+    "supportsQueryAttachments": true,
+    "supportsReturningQueryExtent": true,
+    "supportsQueryAttachmentsCountOnly": true,
+    "supportsOrderByOnlyOnLayerFields": false,
+    "supportsOutFieldSqlExpression": true,
+    "supportsTopFeaturesQuery": true,
+    "supportsReturningGeometryEnvelope": false,
+    "supportsDistinct": true,
+    "supportsReturningGeometryCentroid": false,
+    "supportsQueryAnalytic": true,
+    "supportsPercentileStatistics": true,
+    "supportsHavingClause": true
+  },
+  "supportsValidateSQL": true,
+  "enableZDefaults": true,
+  "serviceItemId": "9faaf2e1dbee45fc9a7ffd7207e2f7a4",
+  "allowUpdateWithoutMValues": true,
+  "supportsCoordinatesQuantization": true,
+  "types": [
+    {
+      "templates": [
+        {
+          "name": "Dead",
+          "description": "",
+          "drawingTool": "esriFeatureEditToolPoint",
+          "prototype": {
+            "attributes": {
+              "condition": "Dead"
+            }
+          }
+        }
+      ],
+      "name": "Dead",
+      "domains": {
+        "conflictwithutilities": {
+          "type": "inherited"
+        },
+        "condition": {
+          "type": "inherited"
+        },
+        "commonname": {
+          "type": "inherited"
+        }
+      },
+      "id": "Dead"
+    },
+    {
+      "templates": [
+        {
+          "name": "Fair",
+          "description": "",
+          "drawingTool": "esriFeatureEditToolPoint",
+          "prototype": {
+            "attributes": {
+              "condition": "Fair"
+            }
+          }
+        }
+      ],
+      "name": "Fair",
+      "domains": {
+        "conflictwithutilities": {
+          "type": "inherited"
+        },
+        "condition": {
+          "type": "inherited"
+        },
+        "commonname": {
+          "type": "inherited"
+        }
+      },
+      "id": "Fair"
+    },
+    {
+      "templates": [
+        {
+          "name": "Good",
+          "description": "",
+          "drawingTool": "esriFeatureEditToolPoint",
+          "prototype": {
+            "attributes": {
+              "condition": "Good"
+            }
+          }
+        }
+      ],
+      "name": "Good",
+      "domains": {
+        "conflictwithutilities": {
+          "type": "inherited"
+        },
+        "condition": {
+          "type": "inherited"
+        },
+        "commonname": {
+          "type": "inherited"
+        }
+      },
+      "id": "Good"
+    },
+    {
+      "templates": [
+        {
+          "name": "Poor",
+          "description": "",
+          "drawingTool": "esriFeatureEditToolPoint",
+          "prototype": {
+            "attributes": {
+              "condition": "Poor"
+            }
+          }
+        }
+      ],
+      "name": "Poor",
+      "domains": {
+        "conflictwithutilities": {
+          "type": "inherited"
+        },
+        "condition": {
+          "type": "inherited"
+        },
+        "commonname": {
+          "type": "inherited"
+        }
+      },
+      "id": "Poor"
+    },
+    {
+      "templates": [
+        {
+          "name": "Stump",
+          "description": "",
+          "drawingTool": "esriFeatureEditToolPoint",
+          "prototype": {
+            "attributes": {
+              "condition": "Stump"
+            }
+          }
+        }
+      ],
+      "name": "Stump",
+      "domains": {
+        "conflictwithutilities": {
+          "type": "inherited"
+        },
+        "condition": {
+          "type": "inherited"
+        },
+        "commonname": {
+          "type": "inherited"
+        }
+      },
+      "id": "Stump"
+    }
+  ],
+  "capabilities": "Create,Editing,Uploads,Query,Update,Delete,Extract",
+  "maxScale": 0,
+  "supportsAppend": true,
+  "supportsExceedsLimitStatistics": true,
+  "defaultVisibility": true,
+  "advancedQueryAnalyticCapabilities": {
+    "supportsAsync": true,
+    "supportsLinearRegression": true,
+    "supportsPercentileAnalytic": false
+  },
+  "hasMetadata": true,
+  "supportedAppendFormats": "csv,excel,featureCollection,featureService,geojson,imageCollection,jsonl,pbf,shapefile",
+  "tileMaxRecordCount": 4000,
+  "typeIdField": "condition",
+  "supportsASyncCalculate": true,
+  "supportsVCSProjection": true,
+  "supportedQueryFormats": "JSON, geoJSON, PBF",
+  "sqlParserVersion": "PG_11.4.0",
+  "drawingInfo": {
+    "renderer": {
+      "field1": "condition",
+      "authoringInfo": {
+        "colorRamp": {
+          "colorRamps": [
+            {
+              "toColor": [
+                252,
+                179,
+                205,
+                255
+              ],
+              "fromColor": [
+                252,
+                179,
+                205,
+                255
+              ],
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm"
+            },
+            {
+              "toColor": [
+                188,
+                252,
+                179,
+                255
+              ],
+              "fromColor": [
+                188,
+                252,
+                179,
+                255
+              ],
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm"
+            },
+            {
+              "toColor": [
+                194,
+                249,
+                252,
+                255
+              ],
+              "fromColor": [
+                194,
+                249,
+                252,
+                255
+              ],
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm"
+            },
+            {
+              "toColor": [
+                252,
+                230,
+                197,
+                255
+              ],
+              "fromColor": [
+                252,
+                230,
+                197,
+                255
+              ],
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm"
+            },
+            {
+              "toColor": [
+                188,
+                182,
+                252,
+                255
+              ],
+              "fromColor": [
+                188,
+                182,
+                252,
+                255
+              ],
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm"
+            },
+            {
+              "toColor": [
+                246,
+                252,
+                179,
+                255
+              ],
+              "fromColor": [
+                246,
+                252,
+                179,
+                255
+              ],
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm"
+            },
+            {
+              "toColor": [
+                245,
+                199,
+                252,
+                255
+              ],
+              "fromColor": [
+                245,
+                199,
+                252,
+                255
+              ],
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm"
+            },
+            {
+              "toColor": [
+                210,
+                252,
+                224,
+                255
+              ],
+              "fromColor": [
+                210,
+                252,
+                224,
+                255
+              ],
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm"
+            },
+            {
+              "toColor": [
+                210,
+                215,
+                252,
+                255
+              ],
+              "fromColor": [
+                210,
+                215,
+                252,
+                255
+              ],
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm"
+            },
+            {
+              "toColor": [
+                252,
+                207,
+                199,
+                255
+              ],
+              "fromColor": [
+                252,
+                207,
+                199,
+                255
+              ],
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm"
+            },
+            {
+              "toColor": [
+                232,
+                252,
+                204,
+                255
+              ],
+              "fromColor": [
+                232,
+                252,
+                204,
+                255
+              ],
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm"
+            },
+            {
+              "toColor": [
+                228,
+                179,
+                252,
+                255
+              ],
+              "fromColor": [
+                228,
+                179,
+                252,
+                255
+              ],
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm"
+            },
+            {
+              "toColor": [
+                179,
+                252,
+                239,
+                255
+              ],
+              "fromColor": [
+                179,
+                252,
+                239,
+                255
+              ],
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm"
+            }
+          ],
+          "type": "multipart"
+        }
+      },
+      "uniqueValueInfos": [
+        {
+          "symbol": {
+            "outline": {
+              "color": [
+                0,
+                0,
+                0,
+                255
+              ],
+              "width": 0.6
+            },
+            "color": [
+              215,
+              25,
+              28,
+              255
+            ],
+            "size": 10,
+            "yoffset": 0,
+            "xoffset": 0,
+            "angle": 0,
+            "style": "esriSMSCircle",
+            "type": "esriSMS"
+          },
+          "label": "Dead",
+          "value": "Dead"
+        },
+        {
+          "symbol": {
+            "outline": {
+              "color": [
+                0,
+                0,
+                0,
+                255
+              ],
+              "width": 0.6
+            },
+            "color": [
+              255,
+              255,
+              191,
+              255
+            ],
+            "size": 10,
+            "yoffset": 0,
+            "xoffset": 0,
+            "angle": 0,
+            "style": "esriSMSCircle",
+            "type": "esriSMS"
+          },
+          "label": "Fair",
+          "value": "Fair"
+        },
+        {
+          "symbol": {
+            "outline": {
+              "color": [
+                0,
+                0,
+                0,
+                255
+              ],
+              "width": 0.6
+            },
+            "color": [
+              171,
+              221,
+              164,
+              255
+            ],
+            "size": 10,
+            "yoffset": 0,
+            "xoffset": 0,
+            "angle": 0,
+            "style": "esriSMSCircle",
+            "type": "esriSMS"
+          },
+          "label": "Good",
+          "value": "Good"
+        },
+        {
+          "symbol": {
+            "outline": {
+              "color": [
+                0,
+                0,
+                0,
+                255
+              ],
+              "width": 0.6
+            },
+            "color": [
+              253,
+              174,
+              97,
+              255
+            ],
+            "size": 10,
+            "yoffset": 0,
+            "xoffset": 0,
+            "angle": 0,
+            "style": "esriSMSCircle",
+            "type": "esriSMS"
+          },
+          "label": "Poor",
+          "value": "Poor"
+        },
+        {
+          "symbol": {
+            "outline": {
+              "color": [
+                0,
+                0,
+                0,
+                255
+              ],
+              "width": 0.6
+            },
+            "color": [
+              43,
+              131,
+              186,
+              255
+            ],
+            "size": 10,
+            "yoffset": 0,
+            "xoffset": 0,
+            "angle": 0,
+            "style": "esriSMSCircle",
+            "type": "esriSMS"
+          },
+          "label": "Stump",
+          "value": "Stump"
+        }
+      ],
+      "type": "uniqueValue",
+      "fieldDelimiter": ","
+    },
+    "scaleSymbols": true,
+    "transparency": 0,
+    "labelingInfo": null
+  },
+  "geometryField": {
+    "sqlType": "sqlTypeDistinct",
+    "nullable": true,
+    "editable": true,
+    "name": "shape",
+    "typeName": "st_point",
+    "length": 2147483647,
+    "type": "esriFieldTypeGeometry"
+  },
+  "copyrightText": "",
+  "zDefault": 0,
+  "geometryType": "esriGeometryPoint",
+  "supportsLayerOverrides": true
+}
