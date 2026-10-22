@@ -24,7 +24,7 @@ test('source groups do not mix incompatible inventories and exclusions reconcile
   const all=sources.flatMap(s=>JSON.parse(fs.readFileSync(s.path)).features.map(f=>adapt(f,s.id)).filter(Boolean));
   const selected=all.filter(r=>sources.find(s=>s.id===r.source).checked);
   const d=Stats.summarize(selected);
-  assert.equal(d.count,15013);
+  assert.equal(d.count,15386);
   assert.equal(d.species.reduce((n,s)=>n+s.count,0),d.count);
   assert.equal(d.conditions.reduce((n,s)=>n+s.count,0),d.count);
   assert.equal(d.sources.find(s=>s.source==='city').diameter,null);

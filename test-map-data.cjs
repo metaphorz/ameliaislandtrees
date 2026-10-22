@@ -46,7 +46,7 @@ test('unknown planting codes never imply planting and source filters remain inde
   assert(unknown.rows.some(([k,v])=>k==='Planting status'&&v==='Planting status unknown'));
   assert.equal(records.filter(r=>matches(r,{...filters,sources:new Set(['omni']),condition:'Good'})).length,0);
   assert.equal(records.filter(r=>matches(r,{...filters,sources:new Set(['omni']),photos:true})).length,97);
-  assert.equal(records.filter(r=>matches(r,{...filters,sources:new Set(sources.filter(s=>s.checked).map(s=>s.id))})).length,15013);
+  assert.equal(records.filter(r=>matches(r,{...filters,sources:new Set(sources.filter(s=>s.checked).map(s=>s.id))})).length,15386);
 });
 
 test('overlap candidates reference existing records without conflating namespaces',()=>{
@@ -60,4 +60,13 @@ test('overlap candidates reference existing records without conflating namespace
     }
   }
   assert.match(audit.method,/no identity match/);
+});
+
+test('unincorporated iNaturalist trees stay outside city limits and keep photo credits',()=>{
+  const trees=records.filter(r=>r.source==='unincorporated');
+  assert.equal(trees.length,373);
+  assert(trees.every(r=>r.photos.length&&r.photos.every(p=>p.attribution)));
+  assert(trees.every(r=>/outside Fernandina Beach city limits/.test(r.note)));
+  const omni=new Set(datasets.omni.map(f=>f.properties.id));
+  assert(trees.every(r=>!omni.has(r.id)&&!r.p.obscured));
 });

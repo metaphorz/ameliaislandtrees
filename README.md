@@ -9,8 +9,8 @@ species/condition/search filters, an images-only filter, attached-image gallerie
 street and satellite basemaps, a Plantation boundary, and a south-end shortcut.
 Dead and not-found inventory records can be hidden. Counts are records, not unique trees.
 
-The default view shows 15,013 records: 14,034 city inventory entries, 97 Omni
-observations, 55 AIPCA planting locations, 84 designated heritage records, and 743
+The default view shows 15,386 records: 14,034 city inventory entries, 97 Omni
+observations, 373 iNaturalist tree records on the unincorporated island, 55 AIPCA planting locations, 84 designated heritage records, and 743
 city planting records. Optional layers add 21 county records (some on the mainland)
 and 24 historical heritage-nomination assessments. The public AIPCA invasive-plant layer is empty and
 is shown with a zero count. Five RCOAST report graphics are linked in the sidebar;
@@ -36,6 +36,9 @@ original sources and displays their supplied attribution. Observation and photo
 licenses are preserved separately. No blanket license is granted for source media.
 
 Crafted by Paul Fishwick & OpenAI Codex 2026
+
+The project's code is released under the [MIT License](LICENSE). Bundled libraries
+and downloaded source data and media keep their own licenses and terms.
 
 The site uses plain HTML, CSS, and JavaScript with locally bundled Leaflet and
 MarkerCluster libraries. GitHub Pages serves the root of the `main` branch; no
@@ -137,6 +140,30 @@ then retrieves batches of 1,000, checks completeness, and preserves source attri
 A first visualization can use the city GeoJSON for individual markers and filters,
 with optional canopy overlays. Further work is needed to establish a complete,
 current inventory for the unincorporated portion of Amelia Island.
+
+### Unincorporated Amelia Island
+
+The city inventory covers only Fernandina Beach. The October 22, 2026 research found
+no public tree inventory for the unincorporated island. The county `CountyTreeInventory`
+still has 21 records, and its Tree Inventory Map page is still a maintenance notice.
+Two other city layers (`COFBPotentialHeritageTrees`, 917; `Find_Locations_in_AllCOFBTreesConditions1`, 916)
+match city-inventory points one-for-one, so they add no trees. The county's
+`COFBHeritageTrees` (55) is an older copy of the heritage layer.
+
+The **iNaturalist trees · unincorporated island** layer adds 373 records from 47
+tree-forming genera (oaks, pines, palms, magnolias, hollies, red cedar, etc.), built
+from 399 observations: same-species sightings within 5 m are merged into one marker
+that keeps the best-supported, most recent sighting and links the other 26. The island outline is the union of
+Nassau census tracts 501.xx/502.xx; points inside the Fernandina Beach municipal
+boundary and observations already in the Omni project are excluded. Observations with obscured locations (37 in the search area) are excluded because their true position is randomized. No new point lies within 5 m of an Omni, AIPCA, or county record. Photos load from
+iNaturalist with their stated licenses and are not downloaded. Refresh with
+`python3 download_unincorporated.py`; see `data/unincorporated/sources.json`.
+
+Not added: about 3,600 GBIF plant records on the island (mostly the same iNaturalist
+and Pl@ntNet observations, plus a few dozen herbarium specimens); county canopy and
+NDVI rasters (already listed below); a 2018 Manzie & Drake "Oaks of Amelia Island"
+story map, which is no longer publicly accessible. OpenStreetMap tree nodes were not
+checked because the Overpass servers were overloaded.
 
 ### Fort Clinch maritime forest
 

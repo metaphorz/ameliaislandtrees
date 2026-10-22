@@ -19,3 +19,4 @@ aside{width:360px;padding:25px 27px 20px}header p{margin-bottom:18px}.summary{pa
 .species-chart{margin:12px 0}.species-bar{margin:9px 0;font-size:10px}.bar-track{height:6px;background:#e4e9df;border-radius:3px;margin-top:4px;overflow:hidden}.bar-track span{display:block;height:100%;background:#478b78}
 .diameter-stats{margin:12px 0}.statistics details summary{overflow-wrap:anywhere}
 #fort-clinch{width:100%;margin:10px 0}
+header .credit{font-family:Georgia,serif;font-style:italic;font-size:12px;color:#899182;margin:-6px 0 14px}@media(max-width:760px){header .credit{display:block;font-size:10px;margin:-3px 0 4px}}

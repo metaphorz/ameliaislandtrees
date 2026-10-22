@@ -7,6 +7,7 @@
     {id:'city-plantings',label:'City-planted trees',color:'#478b78',path:'data/city-supplements/city-plantings.geojson',checked:true},
     {id:'nominations',label:'Heritage nomination assessments',color:'#936079',path:'data/city-supplements/nominations.geojson',checked:false},
     {id:'omni',label:'Omni woody-plant observations',color:'#3c77a0',path:'data/south-island/omni-inaturalist/observations.geojson',checked:true},
+    {id:'unincorporated',label:'iNaturalist trees · unincorporated island',color:'#5b8a2e',path:'data/unincorporated/inaturalist-trees.geojson',checked:true},
     {id:'planting',label:'AIPCA planting locations',color:'#9b7131',path:'data/south-island/aipca-planting-locations/features.geojson',checked:true},
     {id:'county',label:'County inventory · includes mainland',color:'#7d5798',path:'data/county-trees.geojson',checked:false},
     {id:'invasive',label:'AIPCA invasive-plant reports',color:'#ac4f68',path:'data/south-island/aipca-invasive-plant-reports/features.geojson',checked:true}
@@ -69,11 +70,13 @@
       r.species=clean(p.common_name)||'Unknown species';r.scientific=p.scientific_name;r.location=p.address;r.condition=clean(p.condition)||'Not recorded';r.historical=normalize(p.status)==='dead'||normalize(p.condition)==='dead';
       r.rows=[['Assessment tree ID',p.tree_id],['Nomination recommendation',p.heritage_tree_nomination],['Recorded status',p.status],['Recorded condition',r.condition],['Significance / recommendation notes',p.heritage_tree_significance_note],['Observation comments',p.observation_comments],['DBH (as recorded)',p.dbh],['Height (as recorded)',p.tree_height__estimated_],['Crown spread (as recorded)',p.crown_spread]];
       r.note='Historical nomination assessment, not a confirmed heritage designation or current safety assessment. Inspection date numbers are retained as recorded; their encoding is unverified.';
-    }else if(source==='omni'){
-      r.species=p.common_name||p.scientific_name||'Unknown woody plant';r.scientific=p.scientific_name;r.photos=p.photos||[];r.url=p.uri;
+    }else if(source==='omni'||source==='unincorporated'){
+      r.species=p.common_name||p.scientific_name||(source==='omni'?'Unknown woody plant':'Unknown tree');r.scientific=p.scientific_name;r.photos=p.photos||[];r.url=p.uri;
       r.rows=[['Observed',date(p.observed_on)],['Quality grade',p.quality_grade],['Observer',p.observer],['Observation license',p.license_code||'Not specified'],['Location accuracy',p.positional_accuracy==null?'Not recorded':p.positional_accuracy+' m']];
-      r.note='A tree or woody-plant observation, not a unique-tree inventory. Multiple observations may represent the same plant.';
+      r.note=source==='omni'?'A tree or woody-plant observation, not a unique-tree inventory. Multiple observations may represent the same plant.':'A community iNaturalist observation of a tree genus outside Fernandina Beach city limits, not an inventory. Identifications may be unconfirmed. Same-species sightings within 5 m are merged into one marker; more distant repeat sightings may remain.';
       if(p.obscured||p.geoprivacy==='obscured')r.note+=' Location is obscured; this point is approximate.';
+      for(const s of p.repeat_sightings||[])r.links.push({label:'Repeat sighting · '+date(s.observed_on)+' ↗',url:s.uri});
+      if(p.repeat_sightings?.length)r.rows.push(['Repeat sightings merged',p.repeat_sightings.length]);
     }else if(source==='planting'){
       r.species=clean(p.what_kind_of_tree==='other'?p.wt_kind_of_tree_other:p.what_kind_of_tree)||clean(p.species)||'Unspecified planting';r.location=p.location;
       const planted=p.planted==='Yes'?'Reported planted':p.planted==='No'?'Reported not planted':'Planting status unknown';
