@@ -186,21 +186,34 @@ geometry in WGS84. Retrieval date is not a survey date. The source describes
 mapping by park and regional biologists with field verification; no individual
 polygon survey dates are supplied.
 
-### Photo gallery
+### Tree gallery
 
-The sidebar's **Photo gallery**, above Statistics, steps through photos of the records
-that the current layers and filters show, using **<** and **>** (or the arrow keys).
-Each photo shows its species, source layer, location, credit, and license. iNaturalist
-photos without a license code are labeled all rights reserved and shown with credit.
-City and AIPCA attachments carry a source credit, because no reuse license is specified.
-Links show the tree on the map or open the full-size photo, the source record, and a
-Wikipedia search for the species.
+`gallery.html` is a searchable grid of the tree species recorded on the island. It
+has 105 species and 225 photos, sorted by number of records, common name, or
+scientific name. Each card shows the common and scientific names, the first sentence
+of the species' Wikipedia article, its record count by layer, and its photos (use
+**<** and **>** to see more). Every photo shows its photographer, license, and source.
+"Show on map" asks an open map window to search for the species; Wikipedia and
+iNaturalist links open in a separate window. The sidebar previews the gallery and opens
+it in its own window. In the map, every tree popup whose species is in the gallery
+(about 95% of records) has a closed **Species photo & info** section with the photo,
+summary, and links.
 
-Only photos that were checked and loaded are used. `data/gallery-photos.json` lists them:
-879 accessible and 1 failed (HTTP 403) on October 23, 2026. Refresh it with
-`node check-gallery-photos.cjs` after any data download. A photo that fails later is
-skipped at runtime. External links open in one reusable popup window, named
-`tree-atlas-info`, which can be moved and resized; modifier-clicks still open tabs.
+`node build-gallery.cjs` rebuilds `data/gallery.json`:
+
+1. Recorded scientific names are matched to accepted species with GBIF. Typos are
+   fixed by GBIF or by the nearest accepted name in the same genus.
+2. Shrubs, vines, ferns, and cycads are excluded.
+3. Photos come from each species' English Wikipedia article (Wikimedia Commons files
+   with a license, at least 1000 px). Commons categories and captions are used to
+   drop close-ups of leaves, flowers, fruit, and bark, plus animals, maps, and drawings,
+   and to rank whole-tree photos first.
+4. If an article has no usable photo, a Commons search for whole-tree photos is used.
+
+The photos were then reviewed by hand. `data/gallery-overrides.json` records those
+choices: hand-picked Commons files or credited iNaturalist photos for 34 species,
+`null` for species with no good whole-tree photo, and an `_exclude` list of 23 close-ups.
+The records' own street-level photos are still shown in each map popup.
 
 ### Statistics panel
 

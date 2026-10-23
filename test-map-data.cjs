@@ -71,14 +71,24 @@ test('unincorporated iNaturalist trees stay outside city limits and keep photo c
   assert(trees.every(r=>!omni.has(r.id)&&!r.p.obscured));
 });
 
-test('gallery uses only accessible photos and always supplies a credit and license',()=>{
-  const checked=JSON.parse(fs.readFileSync('data/gallery-photos.json'));
-  const accessible=new Set(checked.accessible);
-  const items=require('./map-data.js').galleryItems(records,accessible);
-  assert(items.length>500);
-  assert(items.every(i=>accessible.has(i.url)&&i.credit&&i.license));
-  assert(!items.some(i=>checked.failed.some(f=>f.url===i.url)));
-  const city={source:'city',photos:[{url:'https://example.test/a.jpg'}]};
-  assert.match(require('./map-data.js').galleryItems([city],null)[0].credit,/City of Fernandina Beach/);
-  assert.equal(require('./map-data.js').galleryItems([city],new Set()).length,0);
+test('tree gallery lists credited, licensed photos of recorded tree species',()=>{
+  const {items}=JSON.parse(fs.readFileSync('data/gallery.json'));
+  assert(items.length>80);
+  for(const t of items){
+    assert(t.scientific&&t.records>0&&t.photos.length>0);
+    for(const p of t.photos)assert(/^https:\/\//.test(p.url)&&/^https:\/\//.test(p.thumbnail)&&p.credit&&p.license&&p.page);
+  }
+  const oak=items.find(t=>t.scientific==='Quercus virginiana');
+  assert(oak.records>4000&&oak.wikipedia);
+  const overrides=JSON.parse(fs.readFileSync('data/gallery-overrides.json'));
+  for(const [name,value] of Object.entries(overrides))if(value===null)assert(!items.some(t=>t.scientific===name));
+});
+
+test('most tree records link to a gallery species for the popup photo and summary',()=>{
+  const {normalize}=require('./map-data.js');
+  const index=new Map();
+  for(const t of JSON.parse(fs.readFileSync('data/gallery.json')).items)for(const n of [t.scientific,...t.recorded_as])index.set(normalize(n).trim(),t);
+  const linked=records.filter(r=>index.has(normalize(r.scientific).trim()));
+  assert(linked.length/records.length>0.9);
+  assert.equal(index.get('quercus virginiana').common,'Virginia Live Oak');
 });

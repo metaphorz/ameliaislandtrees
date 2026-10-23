@@ -87,19 +87,6 @@
     }
     return finish(r);
   }
-  const photoCredits={city:'City of Fernandina Beach tree inventory · GIS photo attachment',planting:'AIPCA planting program · Survey123 photo attachment','city-plantings':'City of Fernandina Beach · planting record photo'};
-  const licenses={'cc0':'CC0','cc-by':'CC BY','cc-by-nc':'CC BY-NC','cc-by-sa':'CC BY-SA','cc-by-nd':'CC BY-ND','cc-by-nc-sa':'CC BY-NC-SA','cc-by-nc-nd':'CC BY-NC-ND'};
-  // One gallery entry per accessible, credited photo of a filtered record.
-  function galleryItems(records,accessible){
-    const items=[];
-    for(const r of records)for(const p of r.photos){
-      if(!p.url||(accessible&&!accessible.has(p.url)))continue;
-      const credit=p.attribution||p.credit||photoCredits[r.source];if(!credit)continue;
-      const license=p.license_code?licenses[p.license_code]||p.license_code.toUpperCase():p.attribution?'All rights reserved; shown with credit':'No reuse license specified';
-      items.push({record:r,url:p.url,credit,license});
-    }
-    return items;
-  }
   function matches(r,f){return f.sources.has(r.source)&&(!f.species||r.species===f.species)&&(!f.condition||r.condition===f.condition)&&(f.historical||!r.historical)&&(!f.photos||r.photos.length>0)&&(!f.query||r.search.includes(normalize(f.query)));}
-  const api={sources,adapt,matches,recordedName,normalize,galleryItems};if(typeof module!=='undefined'&&module.exports)module.exports=api;else root.TreeData=api;
+  const api={sources,adapt,matches,recordedName,normalize};if(typeof module!=='undefined'&&module.exports)module.exports=api;else root.TreeData=api;
 })(typeof window==='undefined'?globalThis:window);

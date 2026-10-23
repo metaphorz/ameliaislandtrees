@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#193c32">
+  <title>Amelia Island · Tree Gallery</title>
+  <meta name="description" content="Tree species recorded on Amelia Island, with credited photos from Wikipedia, Wikimedia Commons, and iNaturalist.">
+  <link rel="stylesheet" href="gallery.css?v=1">
+  <script defer src="gallery.js?v=1"></script>
+</head>
+<body>
+  <header class="top">
+    <div>
+      <span class="eyebrow">AMELIA ISLAND, FLORIDA</span>
+      <h1>Tree Gallery<span>.</span></h1>
+      <p>Tree species recorded in the island’s inventories and observations. Photos come from each species’ Wikipedia article, Wikimedia Commons, or iNaturalist, and every photo is credited.</p>
+    </div>
+    <div class="controls">
+      <label for="search">Search trees</label>
+      <input id="search" type="search" placeholder="Live oak, Quercus, palm, pine…" autocomplete="off">
+      <label for="sort">Sort by</label>
+      <select id="sort"><option value="records">Most records on the island</option><option value="common">Common name A–Z</option><option value="scientific">Scientific name A–Z</option></select>
+      <p id="count" role="status" aria-live="polite">Loading trees…</p>
+    </div>
+  </header>
+  <main id="grid" class="grid" aria-label="Tree species"></main>
+  <footer>
+    <p>Species come from scientific names in the map’s source records, matched to accepted names with GBIF. Recorded counts include overlapping records and repeat observations, so they are not counts of unique trees. Descriptions are excerpts from Wikipedia (CC BY-SA). Photo licenses are shown on each card; the photographer keeps copyright. Shrubs, vines, and ferns are not included.</p>
+    <a href="index.html">← Back to the Tree Atlas map</a>
+  </footer>
+</body>
+</html>
