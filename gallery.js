@@ -36,13 +36,13 @@
     return sentence||tree.description||'';
   }
   function card(tree){
-    const article=el('article',null,'card'),figure=el('figure'),frame=el('button',null,'photo'),image=el('img'),credit=el('figcaption');
+    const article=el('article',null,'card'),figure=el('figure'),frame=el('button',null,'photo'),image=el('img'),credit=el('p',null,'credit');
     const title=tree.common||tree.scientific;let index=0;
     frame.type='button';image.loading='lazy';image.decoding='async';frame.append(image);figure.append(frame);
     const nav=el('div',null,'photo-nav'),prev=el('button','<'),next=el('button','>'),count=el('span');
     prev.type=next.type='button';prev.setAttribute('aria-label',`Previous photo of ${title}`);next.setAttribute('aria-label',`Next photo of ${title}`);
     if(tree.photos.length>1){nav.append(prev,count,next);figure.append(nav);}
-    figure.append(credit);
+
     function show(){
       const p=tree.photos[index];
       image.src=p.thumbnail;image.alt=`${title} (${tree.scientific}), photo ${index+1} of ${tree.photos.length}${p.caption?': '+p.caption:''}`;
@@ -58,7 +58,7 @@
     show();
 
     const body=el('div',null,'card-body');
-    body.append(el('h2',title),el('p',tree.scientific,'scientific'),el('p',summary(tree),'description'));
+    body.append(el('h2',title),el('p',tree.scientific,'scientific'),el('p',summary(tree),'description'),credit);
     const sources=Object.entries(tree.sources).sort((a,b)=>b[1]-a[1]).map(([k,v])=>`${sourceNames[k]||k} ${number(v)}`).join(' · ');
     const stat=el('p',null,'records');stat.append(el('strong',`${number(tree.records)} record${tree.records===1?'':'s'}`),el('span',` on the map · ${sources}`));body.append(stat);
     const actions=el('div',null,'actions'),map=el('button','Show on map');map.type='button';map.onclick=()=>showOnMap(tree);actions.append(map);
@@ -79,7 +79,7 @@
   }
 
   fetch('data/gallery.json').then(r=>{if(!r.ok)throw new Error(r.status);return r.json();}).then(data=>{
-    trees=data.items.filter(t=>t.photos?.length).map(t=>({...t,search:normalize([t.common,t.scientific,...t.recorded_as,t.description,t.extract].join(' '))}));
+    trees=data.items.filter(t=>t.photos?.length).map(t=>({...t,search:normalize([t.common,t.scientific,...t.recorded_as,...(t.other_names||[]),t.description,t.extract].join(' '))}));
     for(const t of trees)t.card=card(t);
     const q=new URLSearchParams(location.search).get('q');if(q)$('search').value=q;
     render();

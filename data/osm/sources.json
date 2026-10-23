@@ -1,0 +1,9 @@
+{
+  "retrieved_at": "2026-10-23T21:06:08.193259+00:00",
+  "api": "https://overpass-api.de/api/interpreter",
+  "query": "[out:json][timeout:120];\n(node[\"natural\"=\"tree\"](30.49,-81.50,30.72,-81.41);way[\"natural\"=\"tree_row\"](30.49,-81.50,30.72,-81.41);way[\"natural\"=\"wood\"](30.49,-81.50,30.72,-81.41);way[\"landuse\"=\"forest\"](30.49,-81.50,30.72,-81.41););\nout tags geom;",
+  "license": "Open Database License (ODbL) 1.0; (c) OpenStreetMap contributors",
+  "trees": 50,
+  "woodland_features": 192,
+  "outside_island": 68
+}

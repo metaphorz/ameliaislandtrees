@@ -1,5 +1,5 @@
 {
- "built_at": "2026-10-23T20:54:19.941Z",
+ "built_at": "2026-10-23T21:03:39.799Z",
  "method": "Recorded scientific names matched to accepted species with GBIF. Photos come from each species' English Wikipedia article (Commons-hosted and licensed); a Commons search for whole-tree photos is the fallback.",
  "items": [
   {
@@ -23,7 +23,11 @@
     "Quercus virgniana",
     "Quercus virginana"
    ],
-   "common": "Virginia Live Oak",
+   "common": "Live Oak",
+   "other_names": [
+    "Virginia Live Oak",
+    "Oak, Live"
+   ],
    "description": "Species of oak tree",
    "extract": "Quercus virginiana, also known as the southern live oak, is an semi-evergreen oak tree native to the Southeastern United States Coastal Plain. Though many other species are loosely called live oak, the southern live oak is particularly iconic of the Old South. Many very large and old specimens of live oak can be found today in the Deep South region of the United States. Although it does not grow extremely high, it has a massive canopy: the greatest identified extant oak, in St. Tammany Parish, Louisiana, has only a 68 foot tall trunk, but its arboreal cover spreads over a range of 139 feet.",
    "wikipedia": "https://en.wikipedia.org/wiki/Quercus_virginiana",
@@ -105,7 +109,13 @@
     "sabal palmetto",
     "Sabal pametto"
    ],
-   "common": "Cabbage Palmetto",
+   "common": "Sabal Palm",
+   "other_names": [
+    "Cabbage Palmetto",
+    "Palmetto",
+    "Cabbage Palm",
+    "cabbage palmetto"
+   ],
    "description": "Species of plant",
    "extract": "Sabal palmetto, also known as cabbage palm, cabbage palmetto, sabal palm, palmetto palm, blue palmetto, Carolina palmetto, common palmetto, and swamp cabbage, is one of 15 species of palmetto palm.\nIt is native to the Southeast United States Coastal Plain, the Yucatán Peninsula in Mexico, and the West Indies.",
    "wikipedia": "https://en.wikipedia.org/wiki/Sabal_palmetto",
@@ -184,7 +194,8 @@
    "recorded_as": [
     "Quercus laurifolia"
    ],
-   "common": "Laurel oak",
+   "common": "Laurel Oak",
+   "other_names": [],
    "description": "Species of oak tree",
    "extract": "Quercus laurifolia is a medium-sized semi-evergreen oak in the red oak section Quercus sect. Lobatae. It is native to the southeastern coastal plains and south-central United States.",
    "wikipedia": "https://en.wikipedia.org/wiki/Quercus_laurifolia",
@@ -214,7 +225,10 @@
     "Pinus taeda",
     "pinus taeda"
    ],
-   "common": "Southern Pine",
+   "common": "Loblolly Pine",
+   "other_names": [
+    "Southern Pine"
+   ],
    "description": "Species of conifer",
    "extract": "Pinus taeda, commonly known as loblolly pine, is a species of conifer in the family Pinaceae, a pine native to the Southeastern United States, from East Texas to Florida, up to southern New Jersey. The wood industry classifies the species as a southern yellow pine. U.S. Forest Service surveys found that loblolly pine is the second-most common species of tree in the United States, after red maple. For its timber, the pine species is regarded as the most commercially important tree in the Southeastern U.S. The common name loblolly is given because the pine species is found mostly in lowlands and swampy areas.",
    "wikipedia": "https://en.wikipedia.org/wiki/Pinus_taeda",
@@ -256,6 +270,7 @@
     "Pinus elliottii"
    ],
    "common": "Slash Pine",
+   "other_names": [],
    "description": "Species of conifer tree",
    "extract": "Pinus elliottii, commonly known as slash pine, is a species of conifer in the family Pinaceae, a pine native to the coastal plain of the Southeastern United States. Slash pine is named after the \"slashes\" – swampy ground overgrown with trees and bushes – that constitute its habitat. Other common names include swamp pine, yellow slash pine, and southern Florida pine. Slash pine has two different varieties: P. e. var. elliottii and P. e. var. densa. Historically, slash pine has been an important economic timber for naval stores, turpentine, and resin. The wood of slash pine is known for its unusually high strength, especially for a pine. It exceeds many hardwoods and is even comparable to very dense woods such as black ironwood.",
    "wikipedia": "https://en.wikipedia.org/wiki/Pinus_elliottii",
@@ -329,7 +344,11 @@
     "Juniperus virgiiana \"Brodie\"",
     "Juniperus virginiana silicicola"
    ],
-   "common": "Eastern Redcedar",
+   "common": "Red Cedar",
+   "other_names": [
+    "Eastern Redcedar",
+    "eastern redcedar"
+   ],
    "description": "Species of conifer tree",
    "extract": "Juniperus virginiana, also known as eastern red cedar, red cedar, Virginian juniper, eastern juniper, red juniper, and other local names, is a species of juniper native to eastern North America from southeastern Canada to the Gulf of Mexico and east of the Great Plains. Farther west it is replaced by the related Juniperus scopulorum and to the southwest by Juniperus ashei. It is not to be confused with Thuja occidentalis.",
    "wikipedia": "https://en.wikipedia.org/wiki/Juniperus_virginiana",
@@ -381,7 +400,15 @@
     "Lagerstroemia indica 'Muskogee'",
     "Lagestromia indica"
    ],
-   "common": "Crapemyrtle",
+   "common": "Crepe Myrtle",
+   "other_names": [
+    "crapemyrtle",
+    "Crape Myrtle",
+    "Crape Myrtle Muskogee",
+    "Crape-myrtle",
+    "\"Tonto\" Crape Myrtle",
+    "Crape Myrtle Twilight"
+   ],
    "description": "Species of tree",
    "extract": "Lagerstroemia indica, known as the crape myrtle, is a species of flowering plant in the genus Lagerstroemia of the family Lythraceae. It is native to East Asia, South Asia and Southeast Asia. It is an often multi-stemmed, deciduous tree with a wide spreading, flat topped, rounded, or even spike shaped open habit. The tree is a popular nesting shrub for songbirds and wrens.",
    "wikipedia": "https://en.wikipedia.org/wiki/Lagerstroemia_indica",
@@ -445,6 +472,10 @@
     "Mgnolia grandiflora"
    ],
    "common": "Southern Magnolia",
+   "other_names": [
+    "Little Gem Magnolia",
+    "Brackens Brown Magnolia"
+   ],
    "description": "Species of tree",
    "extract": "Magnolia grandiflora, commonly known as the southern magnolia or bull bay, is a flowering tree in the family Magnoliaceae native to the Southeastern United States coastal plain, from Virginia to central Florida, and west to East Texas. Reaching 27.5 m (90 ft) in height, it is a large, striking evergreen tree, with large, dark-green leaves up to 20 cm long and 12 cm wide, and large, white, fragrant flowers up to 30 cm (12 in) in diameter.",
    "wikipedia": "https://en.wikipedia.org/wiki/Magnolia_grandiflora",
@@ -522,6 +553,7 @@
     "Quercus nigra"
    ],
    "common": "Water Oak",
+   "other_names": [],
    "description": "Species of oak tree",
    "extract": "Quercus nigra, the water oak, is an oak in the red oak group, native to the eastern and south-central United States, found in all the coastal states from New Jersey to Texas, and inland as far as Oklahoma, Kentucky, and southern Missouri. It occurs in lowlands and up to 450 meters in elevation.",
    "wikipedia": "https://en.wikipedia.org/wiki/Quercus_nigra",
@@ -551,7 +583,10 @@
    "recorded_as": [
     "Prunus serotina"
    ],
-   "common": "Rum cherry, black cherry",
+   "common": "Black Cherry",
+   "other_names": [
+    "rum cherry, black cherry"
+   ],
    "description": "Species of tree",
    "extract": "Prunus serotina, commonly called black cherry, wild black cherry, rum cherry, or mountain black cherry, is a New World deciduous tree or shrub in the rose family, Rosaceae. Despite its common names, it is not very closely related to commonly cultivated cherries.",
    "wikipedia": "https://en.wikipedia.org/wiki/Prunus_serotina",
@@ -605,7 +640,11 @@
    "recorded_as": [
     "Celtis laevigata"
    ],
-   "common": "Sugarberry",
+   "common": "Hackberry",
+   "other_names": [
+    "Sugarberry",
+    "sugar hackberry"
+   ],
    "description": "Species of tree",
    "extract": "Celtis laevigata is a medium-sized tree native to North America. Common names include sugarberry, southern hackberry, or in the southern U.S. sugar hackberry or just hackberry.",
    "wikipedia": "https://en.wikipedia.org/wiki/Celtis_laevigata",
@@ -645,7 +684,11 @@
    "recorded_as": [
     "Washingtonia robusta"
    ],
-   "common": "Washington fan palm",
+   "common": "Washingtonian Palm",
+   "other_names": [
+    "Washington fan palm",
+    "Mexican Fan Palm"
+   ],
    "description": "Species of palm",
    "extract": "Washingtonia filifera var. robusta, commonly known as the Mexican fan palm, Mexican washingtonia, or skyduster, is a flowering plant in the family Arecaceae native to the Sonoran desert along the Baja California peninsula. Despite its limited native distribution, W. filifera var. robusta is one of the most widely cultivated subtropical palms in the world. It is naturalized across the southern United States, Mediterranean, and Middle East.",
    "wikipedia": "https://en.wikipedia.org/wiki/Washingtonia_filifera_var._robusta",
@@ -722,7 +765,11 @@
    "recorded_as": [
     "Carya glabra"
    ],
-   "common": "Pignut hickory",
+   "common": "Hickory",
+   "other_names": [
+    "pignut hickory",
+    "Pignut Hickory"
+   ],
    "description": "Species of tree",
    "extract": "Carya glabra, the pignut hickory, is a common, but not abundant species of hickory in the oak-hickory forest association in the Eastern United States and Canada. Other common names are pignut, sweet pignut, coast pignut hickory, smoothbark hickory, swamp hickory, and broom hickory. The pear-shaped nut ripens in September and October, has a sweet maple like smell, and is an important part of the diet of many wild animals. The wood is used for a variety of products, including fuel for home heating. It has pinnately compound leaves that turn a golden yellow in the fall.",
    "wikipedia": "https://en.wikipedia.org/wiki/Carya_glabra",
@@ -753,7 +800,10 @@
     "Butia capitsta",
     "Buti capitata"
    ],
-   "common": "South American jelly palm",
+   "common": "Pindo Palm",
+   "other_names": [
+    "South American jelly palm"
+   ],
    "description": "Species of palm",
    "extract": "Butia capitata, is known as Cocus Capitata and also known as jelly palm, is a Butia palm native to the states of Minas Gerais and Goiás in Brazil.",
    "wikipedia": "https://en.wikipedia.org/wiki/Butia_capitata",
@@ -782,7 +832,10 @@
    "recorded_as": [
     "Prunus caroliniana"
    ],
-   "common": "Carolina laurelcherry",
+   "common": "Laurel Cherry",
+   "other_names": [
+    "Carolina laurelcherry"
+   ],
    "description": "Species of tree",
    "extract": "Prunus caroliniana, known as the Carolina laurelcherry, Carolina cherry laurel, Carolina cherry, or cherry laurel, is a North American species of Prunus that forms a small evergreen tree.",
    "wikipedia": "https://en.wikipedia.org/wiki/Prunus_caroliniana",
@@ -816,7 +869,12 @@
     "Ulmus parvilfolia 'Bosque'",
     "Ulmus parvifolio"
    ],
-   "common": "Chinese elm",
+   "common": "Chinese Elm",
+   "other_names": [
+    "Drake Elm",
+    "Elm",
+    "Bosque Elm"
+   ],
    "description": "Species of tree",
    "extract": "Ulmus parvifolia, commonly known as the Chinese elm or lacebark elm, is a species native to eastern Asia, including China, India, Japan, Korea, Vietnam, Siberia, and Kazakhstan. It has been described as \"one of the most splendid elms, having the poise of a graceful Nothofagus\".",
    "wikipedia": "https://en.wikipedia.org/wiki/Ulmus_parvifolia",
@@ -894,7 +952,10 @@
     "phoenix canariensis",
     "Phoenix canariensis"
    ],
-   "common": "Canary Island date palm",
+   "common": "Canary Palm",
+   "other_names": [
+    "Canary Island date palm"
+   ],
    "description": "Species of flowering plant",
    "extract": "Phoenix canariensis, the Canary Island date palm, is a species of flowering plant in the palm family Arecaceae, native to the Canary Islands off the coast of Northwestern Africa. It is a relative of Phoenix dactylifera, the true date palm. It is the natural symbol of the Canary Islands, together with the canary Serinus canaria.",
    "wikipedia": "https://en.wikipedia.org/wiki/Phoenix_canariensis",
@@ -965,7 +1026,10 @@
     "Acer Rubrum",
     "acre rubrum"
    ],
-   "common": "Swamp Maple",
+   "common": "Red Maple",
+   "other_names": [
+    "Swamp Maple"
+   ],
    "description": "Maple tree native in North America",
    "extract": "Acer rubrum, the red maple, also known as swamp maple, water maple, or soft maple, is a North American tree species. Many of its features, especially its deciduous leaves, are quite variable in form. At maturity, it often attains a height around 30 metres (100 ft). Its flowers, petioles, twigs, and seeds are all red to varying degrees.",
    "wikipedia": "https://en.wikipedia.org/wiki/Acer_rubrum",
@@ -1010,6 +1074,10 @@
     "Liquidambar styraciflua 'slender silhouette'"
    ],
    "common": "Sweetgum",
+   "other_names": [
+    "'Slender Silhouette' Sweetgum",
+    "Slender Silhouette Sweetgum"
+   ],
    "description": "Species of tree in North America",
    "extract": "Liquidambar styraciflua, commonly known as the American sweetgum among other names, is a deciduous tree in the genus Liquidambar native to warm temperate areas of eastern North America and tropical montane regions of Mexico and Central America. Sweetgum is one of the main valuable forest trees in the southeastern United States, and is a popular ornamental tree in temperate climates. It is recognizable by the combination of its five-pointed star-shaped leaves and its hard, spiked fruits. It is currently classified in the plant family Altingiaceae, but was formerly considered a member of the Hamamelidaceae.",
    "wikipedia": "https://en.wikipedia.org/wiki/Liquidambar_styraciflua",
@@ -1088,6 +1156,7 @@
     "Ilex opaca"
    ],
    "common": "American Holly",
+   "other_names": [],
    "description": "Species of holly",
    "extract": "Ilex opaca, the American holly, is a species of holly, native to the eastern and south-central United States, from coastal Massachusetts south to central Florida, and west to southeastern Missouri and eastern Texas.",
    "wikipedia": "https://en.wikipedia.org/wiki/Ilex_opaca",
@@ -1119,6 +1188,7 @@
     "Ilex vomitoria"
    ],
    "common": "Yaupon Holly",
+   "other_names": [],
    "description": "Species of holly",
    "extract": "Ilex vomitoria, commonly known as yaupon or yaupon holly, is a species of holly that is native to southeastern North America. The word yaupon was derived from the Catawban yą́pą, from yą- tree + pą leaf. Another common name, cassina, was borrowed from Timucua. The Latin name was given by early European observers who misunderstood Indigenous purification ceremonies—where vomiting was part of the ritual—and incorrectly assumed that the plant itself was emetic.",
    "wikipedia": "https://en.wikipedia.org/wiki/Ilex_vomitoria",
@@ -1149,7 +1219,8 @@
     "Ilex X Attenuata",
     "Ilex x attenuata 'East Palatka'"
    ],
-   "common": null,
+   "common": "East Palatka Holly",
+   "other_names": [],
    "wikipedia": null,
    "photos": [
     {
@@ -1176,7 +1247,10 @@
    "recorded_as": [
     "Cinnamomum camphora"
    ],
-   "common": "Camphorwood",
+   "common": "Camphor",
+   "other_names": [
+    "Camphorwood"
+   ],
    "description": "Species of tree",
    "extract": "Camphora officinarum is a species of evergreen tree indigenous to warm temperate to subtropical regions of East Asia, including countries such as China, Taiwan, Vietnam, Korea, Japan and India. It is known by various names, most notably the camphor tree, camphorwood or camphor laurel.",
    "wikipedia": "https://en.wikipedia.org/wiki/Camphora_officinarum",
@@ -1230,7 +1304,10 @@
    "recorded_as": [
     "Carya illinoinensis"
    ],
-   "common": "Sweet pecan",
+   "common": "Pecan",
+   "other_names": [
+    "sweet pecan"
+   ],
    "description": "Species of nut tree",
    "extract": "The pecan is a species of hickory native to the Southern United States and northern Mexico in the region of the Mississippi River.",
    "wikipedia": "https://en.wikipedia.org/wiki/Pecan",
@@ -1295,7 +1372,12 @@
     "Pyrus calleryana",
     "Pyrus calleryana 'Bradford'"
    ],
-   "common": "Callery 'Bradford' Pear",
+   "common": "Bradford Pear",
+   "other_names": [
+    "Callery 'Bradford' Pear",
+    "Cleveland Select Pear",
+    "Ornamental Pear"
+   ],
    "description": "Species of pear tree",
    "extract": "Pyrus calleryana, also known as the Callery pear, is a species of pear tree native to East Asia in the family Rosaceae. Its cultivar Bradford pear, known for its offensive odor that some have described as akin to \"rotting fish\", is widely planted throughout the United States and increasingly regarded as an invasive species.",
    "wikipedia": "https://en.wikipedia.org/wiki/Pyrus_calleryana",
@@ -1325,7 +1407,8 @@
     "Acer buergeranum",
     "Acer buergerianum"
    ],
-   "common": "Trident maple",
+   "common": "Trident Maple",
+   "other_names": [],
    "description": "Species of plant",
    "extract": "Acer buergerianum is a species of maple native to eastern China, Taiwan and Japan. The specific epithet is a patronym honoring Dutch plant hunter J. Buerger (1804-1858).",
    "wikipedia": "https://en.wikipedia.org/wiki/Acer_buergerianum",
@@ -1356,7 +1439,13 @@
     "Cercis canadensis",
     "Ceris canadensis"
    ],
-   "common": "Eastern redbud",
+   "common": "Redbud",
+   "other_names": [
+    "eastern redbud",
+    "Forest Pansy Redbud",
+    "Eastern Red Bud",
+    "Red Bud"
+   ],
    "description": "Species of tree",
    "extract": "Cercis canadensis, the eastern redbud, is a large deciduous shrub or small tree, native to eastern North America from southern Michigan south to central Mexico, west to New Mexico, but able to thrive as far west as California and as far north as southern Ontario. It is the state tree of Oklahoma and the official city tree of Huntington Beach. The prevalence of the so-called \"Columbus strain\" has seen the residents of Columbus, Wisconsin, embrace the plant in their city's identity. Known as the \"Redbud City,\" the town hosts \"Redbud Day\" annually the Saturday before Mother's Day, organizing a variety of themed events to recognize the tree.",
    "wikipedia": "https://en.wikipedia.org/wiki/Cercis_canadensis",
@@ -1386,6 +1475,7 @@
     "Quercus myrtifolia"
    ],
    "common": "Myrtle Oak",
+   "other_names": [],
    "description": "Species of oak tree",
    "extract": "Quercus myrtifolia, the myrtle oak, is a North American species of oak. It is native to the southeastern United States. It is often found in coastal areas on sandy soils.",
    "wikipedia": "https://en.wikipedia.org/wiki/Quercus_myrtifolia",
@@ -1413,7 +1503,10 @@
    "recorded_as": [
     "Persea borbonia"
    ],
-   "common": "Redbay",
+   "common": "Red Bay",
+   "other_names": [
+    "redbay"
+   ],
    "description": "Species of tree",
    "extract": "Tamala borbonia or redbay is a small, evergreen tree in the laurel family (Lauraceae), native to the southeastern United States and the Bahamas. It belongs to the genus Tamala, which contains three species of evergreen trees native to the region. Tamala borbonia has several common names including tisswood, scrubbay, shorebay, and swampbay.",
    "wikipedia": "https://en.wikipedia.org/wiki/Tamala_borbonia",
@@ -1453,7 +1546,10 @@
    "recorded_as": [
     "Platanus occidentalis"
    ],
-   "common": "American sycamore",
+   "common": "Sycamore",
+   "other_names": [
+    "American sycamore"
+   ],
    "description": "Tree native to eastern North America",
    "extract": "Platanus occidentalis, also known as American sycamore or American planetree, is a species of Platanus native to the eastern and central United States, the mountains of northeastern Mexico, extreme southern Ontario, and extreme southern Quebec. It is usually called sycamore in North America, a name which can refer to other types of trees in other parts of the world; in the United Kingdom, for example, the name sycamore typically refers to Acer pseudoplatanus. The American sycamore is a long-lived species, typically surviving at least 200 years and likely as long as 500–600 years. It is capable of becoming a massive tree, with a wide girth and heights reaching up to 24 m (80 ft) or more.",
    "wikipedia": "https://en.wikipedia.org/wiki/Platanus_occidentalis",
@@ -1506,7 +1602,8 @@
    "recorded_as": [
     "Gordonia lasianthus"
    ],
-   "common": "Loblolly bay",
+   "common": "Loblolly Bay",
+   "other_names": [],
    "description": "Species of tree",
    "extract": "Gordonia lasianthus is a small to medium-sized evergreen tree or shrub found in acidic, swampy soils of pinelands and bays on the Atlantic and Gulf Coastal Plains of the southeastern United States. It is a member of the tea or family Theaceae. It is slow growing with soft, light-colored, fine-grained wood of little commercial value, although loblolly-bay could be managed as a source of pulpwood. When older specimens are cut, the wood exudes a strong scent. It is similar to a mixture of fresh oranges and pine sap. The bark of the adult tree varies from medium grey to a red brown coloration. Dead adult specimens of loblolly bay exhibit a lustrous shine when exposed to sunlight for several years. The white showy flowers and shiny foliage make it a desirable ornamental, but it is not easy to cultivate. Deer browse stump sprouts heavily.",
    "wikipedia": "https://en.wikipedia.org/wiki/Gordonia_lasianthus",
@@ -1536,6 +1633,7 @@
     "Triadica sebifera"
    ],
    "common": "Chinese Tallow",
+   "other_names": [],
    "description": "Species of tree",
    "extract": "Triadica sebifera is a tree native to eastern Asia. It is commonly called Chinese tallow, Chinese tallowtree, Florida aspen, chicken tree, gray popcorn tree, or candleberry tree.",
    "wikipedia": "https://en.wikipedia.org/wiki/Triadica_sebifera",
@@ -1565,7 +1663,10 @@
     "Cornus florida",
     "Cornus Florida"
    ],
-   "common": "Flowering dogwood",
+   "common": "Dogwood",
+   "other_names": [
+    "flowering dogwood"
+   ],
    "description": "Species of flowering plant in the dogwood family",
    "extract": "Cornus florida, the flowering dogwood or American dogwood, is a species of flowering tree in the family Cornaceae native to eastern North America and northern Mexico. An endemic population once spanned from southernmost coastal Maine south to northern Florida and west to the Mississippi River. The tree is commonly planted as an ornamental in residential and public areas because of its showy bracts and interesting bark structure.",
    "wikipedia": "https://en.wikipedia.org/wiki/Cornus_florida",
@@ -1593,7 +1694,10 @@
    "recorded_as": [
     "Koelreuteria paniculata"
    ],
-   "common": "Panicled Goldenrain Tree",
+   "common": "Golden Raintree",
+   "other_names": [
+    "Golden-rain tree"
+   ],
    "description": "Species of flowering plant",
    "extract": "Koelreuteria paniculata is a species of flowering plant in the family Sapindaceae, native to China, Korea, and Manchuria. Naturalized in Japan since at least the 1200s, it was introduced to Europe in 1747 and North America in 1763, and has become a popular landscape tree worldwide. Common names include goldenrain tree, pride of India, China tree, and the varnish tree.",
    "wikipedia": "https://en.wikipedia.org/wiki/Koelreuteria_paniculata",
@@ -1635,7 +1739,8 @@
     "Magnolia x soulangeana",
     "Magnolia × soulangeana"
    ],
-   "common": null,
+   "common": "Saucer Magnolia",
+   "other_names": [],
    "wikipedia": null,
    "photos": [
     {
@@ -1662,7 +1767,8 @@
    "recorded_as": [
     "Myrica cerifera"
    ],
-   "common": null,
+   "common": "Wax Myrtle",
+   "other_names": [],
    "wikipedia": null,
    "photos": [
     {
@@ -1689,7 +1795,8 @@
    "recorded_as": [
     "Morella cerifera"
    ],
-   "common": "Wax myrtle",
+   "common": "Wax Myrtle",
+   "other_names": [],
    "description": "Species of flowering evergreen shrub",
    "extract": "Myrica cerifera is an evergreen tree or large shrub native to North and Central America and the Caribbean. Its common names include southern wax myrtle, southern bayberry, candleberry, bayberry tree, and tallow shrub. It has uses in the garden and for candlemaking, as well as a medicinal plant.",
    "wikipedia": "https://en.wikipedia.org/wiki/Myrica_cerifera",
@@ -1718,7 +1825,8 @@
     "Syagrus romanzoffiana",
     "Syagrus romanzoffianum"
    ],
-   "common": "Queen palm",
+   "common": "Queen Palm",
+   "other_names": [],
    "description": "Species of palm",
    "extract": "Syagrus romanzoffiana, the queen palm, cocos palm or Jerivá, is a palm native to South America, introduced throughout the world as a popular ornamental garden tree. S. romanzoffiana is a medium-sized palm, quickly reaching maturity at a height of up to 15 m (49 ft) tall, with pinnate leaves having as many as 494 pinnae (leaflets), although more typically around 300, each pinna being around 50 centimetres (18 in) in length and 3–5 centimetres (1–2 in) in width.",
    "wikipedia": "https://en.wikipedia.org/wiki/Syagrus_romanzoffiana",
@@ -1783,7 +1891,10 @@
    "recorded_as": [
     "Betula nigra"
    ],
-   "common": "Water Birch",
+   "common": "River Birch",
+   "other_names": [
+    "Water Birch"
+   ],
    "description": "Species of birch",
    "extract": "Betula nigra, the black birch, river birch or water birch, is a species of birch native to the Eastern United States from New Hampshire west to southern Minnesota, and south to northern Florida and west to Texas. It is one of the few heat-tolerant birches in a family of mostly cold-weather trees which do not thrive in USDA Zone 6 and up. B. nigra commonly occurs in floodplains and swamps.",
    "wikipedia": "https://en.wikipedia.org/wiki/Betula_nigra",
@@ -1850,7 +1961,14 @@
     "Taxodium distichum",
     "Taxodium ascendens"
    ],
-   "common": "Baldcypress",
+   "common": "Bald Cyprus",
+   "other_names": [
+    "Baldcypress",
+    "Cypress",
+    "Bald Cypress",
+    "baldcypress",
+    "Pond Cyprus"
+   ],
    "description": "Species of cypress tree",
    "extract": "Taxodium distichum, the bald cypress, bald-cypress, baldcypress, or swamp cypress; French: cyprès chauve;\ncipre in Louisiana) is a deciduous conifer in the cypress family, Cupressaceae. It is native to the Southeastern United States. Hardy and tough, this tree adapts to a wide range of soil types, whether wet, salty, dry, or swampy. It is noted for the russet-red fall color of its lacy needles. It is both extremely flood tolerant and rather drought hardy.",
    "wikipedia": "https://en.wikipedia.org/wiki/Taxodium_distichum",
@@ -1903,7 +2021,10 @@
    "recorded_as": [
     "Diospyros virginiana"
    ],
-   "common": "Possumwood",
+   "common": "Persimmon",
+   "other_names": [
+    "possumwood"
+   ],
    "description": "Species of tree",
    "extract": "Diospyros virginiana is a persimmon species commonly called the American persimmon, common persimmon, eastern persimmon, simmon, possumwood, possum apples, or sugar plum. The tree is typically dioecious, so one must have both male and female plants to obtain fruit.",
    "wikipedia": "https://en.wikipedia.org/wiki/Diospyros_virginiana",
@@ -1933,7 +2054,10 @@
     "Callistemon viminalis",
     "Melaleuca viminalis"
    ],
-   "common": "Weeping bottlebrush",
+   "common": "Weeping Bottlebrush",
+   "other_names": [
+    "Weeping Bottle Brush"
+   ],
    "wikipedia": null,
    "photos": [
     {
@@ -1961,6 +2085,7 @@
     "Pinus serotina"
    ],
    "common": "Pond Pine",
+   "other_names": [],
    "description": "Species of conifer",
    "extract": "Pinus serotina, the pond pine, black bark pine, bay pine, marsh pine, or pocosin pine, is a species of pine found in the southeastern United States.",
    "wikipedia": "https://en.wikipedia.org/wiki/Pinus_serotina",
@@ -1991,6 +2116,10 @@
     "Ficus carica"
    ],
    "common": "Fig",
+   "other_names": [
+    "Edible Fig",
+    "common fig"
+   ],
    "description": "Species of flowering plant, or its fruit",
    "extract": "The fig is the edible fruit of Ficus carica, a species of tree or shrub in the flowering plant family Moraceae, native to the Mediterranean region, and to western and southern Asia. It has been cultivated since ancient times and is now widely grown throughout the world. Ficus carica is the type species of the genus Ficus, which comprises over 800 tropical and subtropical plant species.",
    "wikipedia": "https://en.wikipedia.org/wiki/Fig",
@@ -2024,7 +2153,10 @@
     "Citrus X sinensis",
     "Citrus × aurantium"
    ],
-   "common": null,
+   "common": "Orange",
+   "other_names": [
+    "Grapefruit"
+   ],
    "wikipedia": null,
    "photos": [
     {
@@ -2052,7 +2184,8 @@
     "Ulmus alata",
     "ulmus alata"
    ],
-   "common": "Winged elm",
+   "common": "Winged Elm",
+   "other_names": [],
    "description": "Species of tree",
    "extract": "Ulmus alata, the winged elm or wahoo, is a small- to medium-sized deciduous tree endemic to the woodlands of the southeastern and south-central United States. The species is tolerant of a wide range of soils, and of ponding, but is the least shade-tolerant of the North American elms. Its growth rate is often very slow, the trunk increasing in diameter by less than 5 mm per year. The tree is occasionally considered a nuisance as it readily invades old fields, forest clearings, and rangelands, proving particularly difficult to eradicate with herbicides.",
    "wikipedia": "https://en.wikipedia.org/wiki/Ulmus_alata",
@@ -2081,7 +2214,11 @@
     "Juniperus bermudiana",
     "Juniperu bermudiana"
    ],
-   "common": "Bermuda Juniper",
+   "common": "Southern Red Cedar",
+   "other_names": [
+    "Bermuda Juniper",
+    "Souther Red Cedar"
+   ],
    "description": "Species of conifer",
    "extract": "Juniperus bermudiana is a species of juniper endemic to Bermuda. This species is most commonly known as Bermuda cedar, but is also referred to as Bermuda juniper. Historically, this tree formed woodland that covered much of Bermuda. Settlers cleared part of the forest and the tree was used for many purposes including building construction and was especially prized for shipbuilding. Scale insects introduced during the Second World War construction of United States airbases in Bermuda devastated the forests, killing over 99% of the species. Since then, the salt tolerant Casuarina equisetifolia has been planted as a replacement species, and a small number of Bermuda cedars have been found to be resistant to the scale insects. Populations of certain endemic birds which had co-evolved with the tree have plummeted as a result of its demise, while endemic cigalas and solitary bees were driven to extinction.",
    "wikipedia": "https://en.wikipedia.org/wiki/Juniperus_bermudiana",
@@ -2158,7 +2295,11 @@
    "recorded_as": [
     "Albizia julibrissin"
    ],
-   "common": "Silktree",
+   "common": "Mimosa",
+   "other_names": [
+    "silktree",
+    "Persian silk tree"
+   ],
    "description": "Species of plant",
    "extract": "Albizia julibrissin, the Persian silk tree, pink silk tree, or mimosa tree, is a species of tree in the Fabaceae family, native to southwestern and eastern Asia.",
    "wikipedia": "https://en.wikipedia.org/wiki/Albizia_julibrissin",
@@ -2186,7 +2327,8 @@
    "recorded_as": [
     "Broussonetia papyrifera"
    ],
-   "common": "Paper mulberry",
+   "common": "Paper Mulberry",
+   "other_names": [],
    "description": "Species of plant",
    "extract": "The paper mulberry is a species of flowering tree in the family Moraceae. It is native to East and Southeast Asia, including mainland China, Hong Kong, India, Japan, Korea, Myanmar and Taiwan. It is widely cultivated elsewhere as an introduced species in New Zealand, parts of Europe, the United States, and Africa. The tree is valued for its versatile uses. Its inner bark is traditionally processed into barkcloth and is also an important raw material in papermaking.",
    "wikipedia": "https://en.wikipedia.org/wiki/Paper_mulberry",
@@ -2228,7 +2370,10 @@
     "Callistemon Citrinus",
     "Callistemon citrinus"
    ],
-   "common": "Crimson bottlebrush",
+   "common": "Bottlebrush",
+   "other_names": [
+    "crimson bottlebrush"
+   ],
    "description": "Species of flowering plant",
    "extract": "Melaleuca citrina, the common red bottlebrush, crimson bottlebrush, or lemon bottlebrush, is a plant in the myrtle family Myrtaceae, and is endemic to eastern Australia. Some Australian state herbaria continue to use the name Callistemon citrinus. It is a hardy and adaptable species, common in its natural habitat. It is widely cultivated, not only in Australia. It was one of the first Australian plants to be grown outside the country, having been taken to England in 1770 by Joseph Banks. Its showy red flower spikes, present over most of the year in an ideal situation, account for its popularity.",
    "wikipedia": "https://en.wikipedia.org/wiki/Callistemon_citrinus",
@@ -2255,7 +2400,8 @@
    "recorded_as": [
     "Salix babylonica"
    ],
-   "common": "Weeping willow",
+   "common": "Weeping Willow",
+   "other_names": [],
    "description": "Species of tree",
    "extract": "Salix babylonica is a species of willow native to dry areas of northern China, Korea, Mongolia, Japan, and Siberia but cultivated for millennia elsewhere in Asia, being traded along the Silk Road to southwest Asia and Europe.",
    "wikipedia": "https://en.wikipedia.org/wiki/Salix_babylonica",
@@ -2320,7 +2466,10 @@
    "recorded_as": [
     "Phoenix roebelenii"
    ],
-   "common": "Dwarf Date Palm",
+   "common": "Pigmy Date Palm",
+   "other_names": [
+    "Dwarf Date Palm"
+   ],
    "description": "Species of palm",
    "extract": "Phoenix roebelenii, with common names of dwarf date palm, pygmy date palm, miniature date palm or robellini palm, is a species of date palm native to southeastern Asia, from southwestern China, northern Laos and northern Vietnam.",
    "wikipedia": "https://en.wikipedia.org/wiki/Phoenix_roebelenii",
@@ -2375,6 +2524,7 @@
     "Morus rubra"
    ],
    "common": "Red Mulberry",
+   "other_names": [],
    "description": "Species of tree",
    "extract": "Morus rubra, commonly known as the red mulberry, is a species of mulberry native to eastern and central North America. It is found from Ontario, Minnesota, and Vermont south to southern Florida, and west as far as southeastern South Dakota, Nebraska, Kansas, and central Texas. There have been reports of isolated populations in New Mexico, Idaho, and British Columbia.",
    "wikipedia": "https://en.wikipedia.org/wiki/Morus_rubra",
@@ -2415,7 +2565,10 @@
     "Vitex agnus-cactus",
     "Vitex agnus-castus"
    ],
-   "common": "Chaste-tree",
+   "common": "Chaste Tree",
+   "other_names": [
+    "Chaste-tree"
+   ],
    "description": "Species of flowering plant in the mint family",
    "extract": "Vitex agnus-castus is a plant native of the Mediterranean region. It is one of the few temperate-zone species of Vitex, which is on the whole a genus of tropical and subtropical flowering plants. Vitex is a cross-pollinating plant, but its self-pollination has been recorded.",
    "wikipedia": "https://en.wikipedia.org/wiki/Vitex_agnus-castus",
@@ -2444,6 +2597,9 @@
     "Ligustrum japonicum"
    ],
    "common": "Japanese privet",
+   "other_names": [
+    "Ligustrum Japonicum"
+   ],
    "description": "Species of flowering plant",
    "extract": "Ligustrum japonicum, known as wax-leaf privet or Japanese privet is a species of Ligustrum (privet) native to central and southern Japan and Korea. It is widely cultivated in other regions, and is naturalized in California and in the southeastern United States from Texas to Virginia.",
    "wikipedia": "https://en.wikipedia.org/wiki/Ligustrum_japonicum",
@@ -2474,7 +2630,10 @@
     "Quercus shumardii",
     "Quesrcus shumardii"
    ],
-   "common": "Swamp red oak",
+   "common": "Shumard Oak",
+   "other_names": [
+    "swamp red oak"
+   ],
    "description": "Species of oak tree",
    "extract": "Quercus shumardii, the Shumard oak, spotted oak, Schneck oak, Shumard red oak, or swamp red oak, is one of the largest of the oak species in the red oak group. It is closely related to Quercus buckleyi, Quercus texana, and Quercus gravesii.",
    "wikipedia": "https://en.wikipedia.org/wiki/Quercus_shumardii",
@@ -2503,7 +2662,8 @@
    "recorded_as": [
     "Carya tomentosa"
    ],
-   "common": "Mockernut hickory",
+   "common": "Mockernut Hickory",
+   "other_names": [],
    "wikipedia": null,
    "photos": [
     {
@@ -2530,6 +2690,7 @@
     "Quercus hemisphaerica"
    ],
    "common": "Darlington Oak",
+   "other_names": [],
    "description": "Species of oak tree",
    "extract": "Quercus hemisphaerica is a species of oak native to the southeastern and south-central United States. It is in the red oak section of Quercus sect. Lobatae. It is often confused with and closely related to Quercus laurifolia, from which it differs in several key characteristics.",
    "wikipedia": "https://en.wikipedia.org/wiki/Quercus_hemisphaerica",
@@ -2555,7 +2716,8 @@
    "recorded_as": [
     "Salix nigra"
    ],
-   "common": "Black willow",
+   "common": "Black Willow",
+   "other_names": [],
    "description": "Species of tree",
    "extract": "Salix nigra, or the black willow, is a species of willow native to a large portion of North America, from New Brunswick and southern Ontario west to Arizona and California, and south to northern Florida and Texas.",
    "wikipedia": "https://en.wikipedia.org/wiki/Salix_nigra",
@@ -2607,7 +2769,11 @@
    "recorded_as": [
     "Livistona chinensis"
    ],
-   "common": "Fountain palm",
+   "common": "Chinese Fan Palm",
+   "other_names": [
+    "fountain palm",
+    "Chinese Fountain Palm"
+   ],
    "description": "Species of palm",
    "extract": "Livistona chinensis, the Chinese fan palm or  fountain palm, is a species of subtropical palm tree of east Asia. It is native to southern Japan, Taiwan, the Ryukyu Islands, southeastern China and Hainan. In Japan, two notable populations occupy islands near the coast of Miyazaki Prefecture, Aoshima and Tsuki Shima. It is also reportedly naturalized in South Africa, Mauritius, Réunion, the Andaman Islands, Java, New Caledonia, Micronesia, Hawaii, Florida, Bermuda, Puerto Rico and the Dominican Republic.",
    "wikipedia": "https://en.wikipedia.org/wiki/Livistona_chinensis",
@@ -2639,7 +2805,8 @@
     "Citrus Limon",
     "Citrus × limon"
    ],
-   "common": null,
+   "common": "Lemon",
+   "other_names": [],
    "wikipedia": null,
    "photos": [
     {
@@ -2678,7 +2845,10 @@
     "Quercus robur 'Fastigiata'",
     "Quercu robur 'Fastigiata'"
    ],
-   "common": "Pedunculate Oak",
+   "common": "Columnar English Oak",
+   "other_names": [
+    "Pedunculate Oak"
+   ],
    "description": "Species of flowering plant",
    "extract": "Quercus robur, pedunculate oak, European oak, or English oak, is a species of flowering plant in the beech and oak family, Fagaceae. It is a large tree, native to Europe and western Asia, and is widely cultivated in other temperate regions. It grows on soils of near neutral acidity in the lowlands and is notable for its value to natural ecosystems, supporting a diversity of herbivorous insects, acorn eating mammals and birds, and fungi.",
    "wikipedia": "https://en.wikipedia.org/wiki/Quercus_robur",
@@ -2720,7 +2890,10 @@
    "recorded_as": [
     "Magnolia virginiana"
    ],
-   "common": "Swamp Laurel",
+   "common": "Sweetbay Magnolia",
+   "other_names": [
+    "Swamp Laurel"
+   ],
    "description": "Species of tree in the magnolia family",
    "extract": "Magnolia virginiana, most commonly known as sweetbay magnolia, or merely sweetbay, is a member of the magnolia family, Magnoliaceae. It was the first magnolia to be scientifically described under modern rules of botanical nomenclature, and is the type species of the genus Magnolia; as Magnolia is also the type genus of all flowering plants (magnoliophytes), this species in a sense typifies all flowering plants. Magnolia virginiana is very flood tolerant, it is also drought tolerant. The species is found in wetlands.",
    "wikipedia": "https://en.wikipedia.org/wiki/Magnolia_virginiana",
@@ -2761,6 +2934,7 @@
     "Pinus palustris"
    ],
    "common": "Longleaf Pine",
+   "other_names": [],
    "description": "Species of plant (tree)",
    "extract": "The longleaf pine is a species of conifer in the family Pinaceae, a pine native to the Southeastern United States, found along the coastal plain from East Texas to southern Virginia, extending into northern and central Florida. In this area it is also known as \"yellow pine\" or \"long leaf yellow pine\", although it is properly just one out of a number of species termed yellow pine. It reaches a height of 30–35 m (98–115 ft) and a diameter of 0.7 m (28 in). In the past, before extensive logging, they reportedly grew to 47 m (154 ft) with a diameter of 1.2 m (47 in). The tree is a cultural symbol of the Southern United States, being the official state tree of Alabama. This particular species is one of the eight pine tree species that falls under the \"Pine\" designation as the state tree of North Carolina.",
    "wikipedia": "https://en.wikipedia.org/wiki/Longleaf_pine",
@@ -2825,6 +2999,7 @@
     "Pinus glabra"
    ],
    "common": "Spruce Pine",
+   "other_names": [],
    "description": "Species of conifer",
    "extract": "Pinus glabra, the spruce pine, is a species of conifer in the family Pinaceae, a pine tree native to the coastal plains of the southern United States, from southern South Carolina south to northern Florida and west to southern Louisiana.",
    "wikipedia": "https://en.wikipedia.org/wiki/Pinus_glabra",
@@ -2865,7 +3040,8 @@
     "Ulmus americana",
     "Ulmus americana var. floridana"
    ],
-   "common": "American elm",
+   "common": "American Elm",
+   "other_names": [],
    "description": "Species of tree",
    "extract": "Ulmus americana, generally known as the American elm or, less commonly, as the white elm or water elm, is a species of elm native to eastern North America. The trees can live for several hundred years. It is a very hardy species that can withstand low winter temperatures. The American elm was once exceptionally common as a street tree, its tolerance of urban conditions making it a popular choice to line American streets in the 19th and early 20th centuries. The coming of beetles bearing Dutch elm disease devastated the American elm population, starting in the 1920s. The species still holds out in some locations, but is also no longer nearly as common as during its height.",
    "wikipedia": "https://en.wikipedia.org/wiki/Ulmus_americana",
@@ -2941,7 +3117,8 @@
    "recorded_as": [
     "Parkinsonia aculeata"
    ],
-   "common": "Jerusalem thorn",
+   "common": "Jerusalem Thorn",
+   "other_names": [],
    "description": "Species of legume",
    "extract": "Parkinsonia aculeata is a species of perennial flowering tree in the pea family, Fabaceae. Common names include palo verde, Mexican palo verde, Parkinsonia, Jerusalem thorn, jelly bean tree, palo de rayo, and retama.",
    "wikipedia": "https://en.wikipedia.org/wiki/Parkinsonia_aculeata",
@@ -2994,7 +3171,8 @@
    "recorded_as": [
     "Quercus phellos"
    ],
-   "common": "Willow oak",
+   "common": "Willow Oak",
+   "other_names": [],
    "description": "Species of oak tree",
    "extract": "Quercus phellos, the willow oak, also peach oak, water oak, and swamp chestnut oak, is a North American species of deciduous tree in the red oak group of oaks. It is native to the south-central and eastern United States.",
    "wikipedia": "https://en.wikipedia.org/wiki/Quercus_phellos",
@@ -3022,7 +3200,8 @@
    "recorded_as": [
     "Acer saccharinum"
    ],
-   "common": "Silver maple",
+   "common": "Silver Maple",
+   "other_names": [],
    "description": "Species of maple tree",
    "extract": "Acer saccharinum, commonly known as silver maple, creek maple, silverleaf maple, soft maple, large maple, water maple, swamp maple, or white maple, is a species of maple native to the eastern and central United States and southeastern Canada. It is one of the most common trees in the United States.",
    "wikipedia": "https://en.wikipedia.org/wiki/Acer_saccharinum",
@@ -3051,7 +3230,10 @@
    "recorded_as": [
     "Nyssa sylvatica"
    ],
-   "common": "Sour gum",
+   "common": "Black Gum",
+   "other_names": [
+    "Sour gum"
+   ],
    "description": "Species of tree",
    "extract": "Nyssa sylvatica, commonly known as tupelo, black tupelo, black gum or sour gum, is a medium-sized deciduous tree native to eastern North America from the coastal Northeastern United States and southern Ontario south to central Florida and eastern Texas, as well as Mexico.",
    "wikipedia": "https://en.wikipedia.org/wiki/Nyssa_sylvatica",
@@ -3080,7 +3262,10 @@
    "recorded_as": [
     "Podocarpus macrophyllus"
    ],
-   "common": "Buddhist Pine",
+   "common": "Kusamaki",
+   "other_names": [
+    "Buddhist Pine"
+   ],
    "description": "Species of coniferous tree",
    "extract": "Podocarpus macrophyllus, the yew plum pine, Buddhist pine, fern pine or Japanese yew, is a conifer in the family Podocarpaceae. It is the northernmost species of the family, native to southern Japan and southern and eastern China. Kusamaki (クサマキ) and inumaki (犬槇) are Japanese names for this tree. In China, it is known as luóhàn sōng (羅漢松), which literally means \"arhat pine\".",
    "wikipedia": "https://en.wikipedia.org/wiki/Podocarpus_macrophyllus",
@@ -3132,7 +3317,10 @@
    "recorded_as": [
     "Platycladus orientalis"
    ],
-   "common": "Oriental Arbor-vitae",
+   "common": "Oriental Arborvitae",
+   "other_names": [
+    "Oriental Arbor-vitae"
+   ],
    "description": "Genus of conifers",
    "extract": "Platycladus is a monotypic genus of coniferous trees in the cypress family Cupressaceae, containing only one species, Platycladus orientalis, the Chinese thuja, Oriental arborvitae, Chinese arborvitae, biota or Oriental thuja. It is native to northeastern parts of East Asia and North Asia, but is also now naturalised as an introduced species in other regions of the Asian continent.",
    "wikipedia": "https://en.wikipedia.org/wiki/Platycladus_orientalis",
@@ -3210,6 +3398,7 @@
     "Morus alba"
    ],
    "common": "White Mulberry",
+   "other_names": [],
    "description": "Plant species in the fig family",
    "extract": "Morus alba, known as white mulberry, common mulberry and silkworm mulberry, is a fast-growing, small to medium-sized mulberry tree which grows to 10–20 m (33–66 ft) tall. It is native to China and is widely cultivated and naturalized elsewhere. The species is widely cultivated to feed the silkworms employed in the commercial production of silk. It is also notable for the rapid release of its pollen, which is launched at greater than half the speed of sound.",
    "wikipedia": "https://en.wikipedia.org/wiki/Morus_alba",
@@ -3262,7 +3451,10 @@
    "recorded_as": [
     "Melia azedarach"
    ],
-   "common": "Texas umbrella tree",
+   "common": "Chinaberry",
+   "other_names": [
+    "Texas umbrella tree"
+   ],
    "description": "Species of plant",
    "extract": "Melia azedarach, commonly known as the chinaberry tree, pride of India, bead-tree, Cape lilac, syringa berrytree, Persian lilac, Indian lilac, or white cedar, is a species of deciduous tree in the mahogany family, Meliaceae, that is native to Indomalaya and Australasia.",
    "wikipedia": "https://en.wikipedia.org/wiki/Melia_azedarach",
@@ -3303,7 +3495,8 @@
     "Citrus X aurantiifolia",
     "Citrus aurantiifolia"
    ],
-   "common": null,
+   "common": "Lime",
+   "other_names": [],
    "wikipedia": null,
    "photos": [
     {
@@ -3329,7 +3522,10 @@
    "recorded_as": [
     "Celtis occidentalis"
    ],
-   "common": "Common hackberry",
+   "common": "Hackberry",
+   "other_names": [
+    "common hackberry"
+   ],
    "description": "Species of tree",
    "extract": "Celtis occidentalis, commonly known as the common hackberry, is a large deciduous tree native to North America. It is also known as the nettletree, beaverwood, northern hackberry, and American hackberry. It is a moderately long-lived hardwood, with a light-colored wood that is yellowish gray to light brown with yellow streaks.",
    "wikipedia": "https://en.wikipedia.org/wiki/Celtis_occidentalis",
@@ -3393,7 +3589,10 @@
    "recorded_as": [
     "Citrus reticulata"
    ],
-   "common": "Mandarin orange",
+   "common": "Tangerine",
+   "other_names": [
+    "Mandarin orange"
+   ],
    "description": "Small citrus fruit",
    "extract": "A mandarin orange, often simply called mandarin, is a small, rounded citrus tree fruit. Treated as a distinct species of orange, it is usually eaten plain or in fruit salads. The mandarin is small and oblate, unlike the roughly spherical sweet orange. The taste is sweeter and stronger than the common orange. A ripe mandarin orange is firm to slightly soft, heavy for its size, and pebbly-skinned. The peel is thin and loose, with little white mesocarp, so they are usually easier to peel and to split into segments. Hybrids have these traits to lesser degrees. The mandarin orange is tender and is damaged easily by cold. It can be grown in tropical and subtropical areas.",
    "wikipedia": "https://en.wikipedia.org/wiki/Mandarin_orange",
@@ -3445,7 +3644,8 @@
    "recorded_as": [
     "Prunus angustifolia"
    ],
-   "common": "Chickasaw plum",
+   "common": "Chickasaw Plum",
+   "other_names": [],
    "description": "Species of tree",
    "extract": "Prunus angustifolia, known commonly as Chickasaw plum, Cherokee plum, Florida sand plum, sandhill plum, or sand plum, is a North American species of plum-bearing tree.",
    "wikipedia": "https://en.wikipedia.org/wiki/Prunus_angustifolia",
@@ -3485,7 +3685,10 @@
    "recorded_as": [
     "Prunus domestica"
    ],
-   "common": "European plum",
+   "common": "Plum",
+   "other_names": [
+    "European plum"
+   ],
    "description": "Species of flowering plant",
    "extract": "Prunus domestica is a species of flowering plant in the family Rosaceae. A deciduous tree, it includes many varieties of the fruit trees known as plums in English, though not all plums belong to this species. The greengages and damsons also belong to subspecies of P. domestica.",
    "wikipedia": "https://en.wikipedia.org/wiki/Prunus_domestica",
@@ -3525,7 +3728,8 @@
    "recorded_as": [
     "Lagerstromia x fauriei 'natchez'"
    ],
-   "common": null,
+   "common": "Crape Myrtle Natchez",
+   "other_names": [],
    "description": "Species of tree",
    "extract": "Lagerstroemia subcostata, the Taiwan crepe myrtle, is a deciduous tree native to Japan, the Ryukyu Islands, Taiwan, and southern China, and introduced to the Philippines.",
    "wikipedia": "https://en.wikipedia.org/wiki/Lagerstroemia_subcostata",
@@ -3578,6 +3782,9 @@
     "Viburnum odoratissimum"
    ],
    "common": null,
+   "other_names": [
+    "Sweet viburnum"
+   ],
    "description": "Species of shrub",
    "extract": "Viburnum odoratissimum, the sweet viburnum, is a shrub or small tree in the family Viburnaceae. It is native to Asia, and commonly cultivated as a garden ornamental elsewhere.",
    "wikipedia": "https://en.wikipedia.org/wiki/Viburnum_odoratissimum",
@@ -3617,7 +3824,10 @@
    "recorded_as": [
     "Tilia americana"
    ],
-   "common": "American linden",
+   "common": "Basswood",
+   "other_names": [
+    "American linden"
+   ],
    "description": "Species of tree",
    "extract": "Tilia americana is a species of tree in the family Malvaceae. It is native to eastern North America, from southeast Manitoba east to New Brunswick, southwest to northeast Oklahoma, southeast to South Carolina, and west along the Niobrara River to Cherry County, Nebraska. It is the sole representative of its genus in the Western Hemisphere, assuming T. caroliniana is treated as a subspecies or local ecotype of T. americana. Common names include American basswood and American linden.",
    "wikipedia": "https://en.wikipedia.org/wiki/Tilia_americana",
@@ -3682,7 +3892,10 @@
     "Ligustrum lucidium",
     "Ligustrum lucidum"
    ],
-   "common": "Glossy privet",
+   "common": "Ligustrum Lucidium",
+   "other_names": [
+    "glossy privet"
+   ],
    "description": "Species of tree",
    "extract": "Ligustrum lucidum, the broad-leaf privet, Chinese privet, glossy privet, tree privet or wax-leaf privet, is a species of flowering plant in the olive family Oleaceae, native to the southern half of China and naturalized in many places. The name \"Chinese privet\" is also used for Ligustrum sinense.",
    "wikipedia": "https://en.wikipedia.org/wiki/Ligustrum_lucidum",
@@ -3734,7 +3947,10 @@
    "recorded_as": [
     "Populus nigra"
    ],
-   "common": "Black poplar",
+   "common": "Tulip Poplar",
+   "other_names": [
+    "black poplar"
+   ],
    "description": "Species of plant",
    "extract": "Populus nigra, the black poplar, is a species of cottonwood poplar, the type species of section Aigeiros of the genus Populus, native to Europe, southwest and central Asia, and northwest Africa.",
    "wikipedia": "https://en.wikipedia.org/wiki/Populus_nigra",
@@ -3774,7 +3990,10 @@
    "recorded_as": [
     "Ceiba speciosa"
    ],
-   "common": "Silk floss tree",
+   "common": "Floss Silk Tree",
+   "other_names": [
+    "Silk floss tree"
+   ],
    "description": "Species of tree",
    "extract": "Ceiba speciosa, the floss silk tree, is a species of deciduous tree that is native to the tropical and subtropical forests of South America. It has several local common names, such as palo borracho, or  árbol del puente, samu'ũ, or paineira. In Bolivia, it is called toborochi, meaning \"tree of refuge\" or \"sheltering tree\". In the USA it often is called the silk floss tree. It belongs to the same subfamily as the baobab; the species Bombax ceiba; and other kapok trees. Another tree of the same genus, Ceiba chodatii, is often referred to by the same common names.",
    "wikipedia": "https://en.wikipedia.org/wiki/Ceiba_speciosa",
@@ -3826,7 +4045,10 @@
    "recorded_as": [
     "Cassia fistula"
    ],
-   "common": "Purging Cassia",
+   "common": "Cassia",
+   "other_names": [
+    "Purging Cassia"
+   ],
    "description": "Species of flowering plant",
    "extract": "Cassia fistula, also known as golden shower, purging cassia, Indian laburnum, kani konna, or pudding-pipe tree, is a flowering plant in the family Fabaceae. The species is native to the Indian subcontinent and adjacent regions of Southeast Asia. It is the national tree and flower of Thailand and the state flower of Kerala state in India. It is also a popular ornamental plant and is also used in herbal medicine.",
    "wikipedia": "https://en.wikipedia.org/wiki/Cassia_fistula",
@@ -3855,7 +4077,10 @@
     "Olea europaea 'Arberquina'",
     "Olea europaea 'Arbequina'"
    ],
-   "common": "Olive tree",
+   "common": "Arbequina Olive",
+   "other_names": [
+    "olive tree"
+   ],
    "description": "Species of flowering plant",
    "extract": "Olea europaea is the tree species that includes the cultivated olive, and five other subspecies. Some of the subspecies are polyploid.",
    "wikipedia": "https://en.wikipedia.org/wiki/Olea_europaea",
@@ -3884,6 +4109,7 @@
     "Juniperus chinensis"
    ],
    "common": "Chinese Juniper",
+   "other_names": [],
    "description": "Species of conifer",
    "extract": "Juniperus chinensis, the Chinese juniper, is a species of plant in the cypress family Cupressaceae, native to China, Myanmar, Japan, Korea and the Russian Far East. Growing 1–20 metres tall, it is a very variable coniferous evergreen tree or shrub.",
    "wikipedia": "https://en.wikipedia.org/wiki/Juniperus_chinensis",
@@ -3947,7 +4173,8 @@
    "recorded_as": [
     "Ficus lyrata"
    ],
-   "common": "Fiddle-leaf Fig",
+   "common": "Fiddle-Leaf Fig",
+   "other_names": [],
    "description": "Species of flowering plant in the fig and mulberry family",
    "extract": "Ficus lyrata, commonly known as the fiddle-leaf fig, banjo fig, fiddle-leaved fig tree, lyre leaf fig tree, or lyre-leaved fig tree, is a species of plant in the mulberry and fig family Moraceae. It is native to western Africa, but is cultivated around the world as an ornamental plant. It has received the Royal Horticultural Society's Award of Garden Merit.",
    "wikipedia": "https://en.wikipedia.org/wiki/Ficus_lyrata",
@@ -3975,7 +4202,8 @@
    "recorded_as": [
     "Zanthoxylum clava-herculis"
    ],
-   "common": "Hercules' club",
+   "common": "Hercules' Club",
+   "other_names": [],
    "description": "Species of tree",
    "extract": "Zanthoxylum clava-herculis, the Hercules' club, Hercules-club, pepperwood, or southern prickly ash, is a spiny tree or shrub native to the southeastern United States.",
    "wikipedia": "https://en.wikipedia.org/wiki/Zanthoxylum_clava-herculis",
@@ -4001,7 +4229,8 @@
    "recorded_as": [
     "Prunus umbellata"
    ],
-   "common": "Hog plum",
+   "common": "Hog Plum",
+   "other_names": [],
    "description": "Species of tree",
    "extract": "Prunus umbellata, called flatwoods plum, hog plum and sloe plum, is a plum species native to the United States from Virginia, south to Florida, and west to Texas.",
    "wikipedia": "https://en.wikipedia.org/wiki/Prunus_umbellata",
@@ -4027,7 +4256,10 @@
    "recorded_as": [
     "Quercus falcata"
    ],
-   "common": "Spanish Oak",
+   "common": "Southern Red Oak",
+   "other_names": [
+    "Spanish Oak"
+   ],
    "description": "Species of oak tree",
    "extract": "Quercus falcata, also called southern red oak, spanish oak, bottomland red oak or three-lobed red oak is an oak. Native to the Southern United States, it gets its name the \"Spanish oak\" as these are the areas of early Spanish colonies, while \"southern red oak\" comes from both its range and leaf color during late summer and fall. The southern red oak is a deciduous angiosperm, so has leaves that die after each growing period and come back in the next period of growth.",
    "wikipedia": "https://en.wikipedia.org/wiki/Quercus_falcata",
@@ -4056,6 +4288,7 @@
     "Quercus michauxii"
    ],
    "common": "Swamp Chestnut Oak",
+   "other_names": [],
    "description": "Species of oak tree",
    "extract": "Quercus michauxii, the swamp chestnut oak, is a species of oak in the white oak section Quercus section Quercus in the beech family. It is native to bottomlands and wetlands in the southeastern and midwestern United States, in coastal states from New Jersey to Texas, inland primarily in the Mississippi–Ohio Valley as far as Oklahoma, Missouri, Illinois, and Indiana.",
    "wikipedia": "https://en.wikipedia.org/wiki/Quercus_michauxii",
@@ -4083,7 +4316,8 @@
    "recorded_as": [
     "Quercus laevis"
    ],
-   "common": "Turkey oak",
+   "common": "Turkey Oak",
+   "other_names": [],
    "description": "Species of oak tree",
    "extract": "Quercus laevis, the turkey oak, is a member of the red oak group of oaks. It is native to the southeastern United States. The name turkey oak derives from the resemblance of the leaves to a turkey's foot. A Turkish and southern European species Quercus cerris is also commonly referred to as Turkey oak, so Quercus laevis is sometimes referred to as American turkey oak to distinguish it from the European species.",
    "wikipedia": "https://en.wikipedia.org/wiki/Quercus_laevis",
@@ -4119,7 +4353,10 @@
    "recorded_as": [
     "Liriodendron tulipifera"
    ],
-   "common": "Yellow poplar",
+   "common": "Tulip Poplar",
+   "other_names": [
+    "Yellow poplar"
+   ],
    "description": "Species of tree",
    "extract": "Liriodendron tulipifera—known as the tulip tree, American tulip tree, tulipwood, tuliptree, tulip poplar, whitewood, fiddletree, lynn-tree, hickory-poplar, and yellow-poplar—is the North American representative of the two-species genus Liriodendron. It is native to eastern North America from Southern Ontario and possibly southern Quebec west to Illinois, and east to southwestern Massachusetts, then south to central Florida and Louisiana.",
    "wikipedia": "https://en.wikipedia.org/wiki/Liriodendron_tulipifera",
@@ -4171,7 +4408,10 @@
    "recorded_as": [
     "Phoenix reclinata"
    ],
-   "common": "Senegal date palm",
+   "common": "Senegal Palm",
+   "other_names": [
+    "Senegal date palm"
+   ],
    "description": "Species of palm",
    "extract": "Phoenix reclinata, the wild date palm or Senegal date palm, is a species of flowering plant in the palm family native to tropical Africa, the Arabian Peninsula and Madagascar. It is introduced in Florida, Puerto Rico, Bermuda, Trinidad and Tobago, the Leeward Islands, Tunisia and Vietnam. The plants are found from sea level to 3000 m, in rain forest clearings, monsoonal forests and rocky mountainsides.",
    "wikipedia": "https://en.wikipedia.org/wiki/Phoenix_reclinata",
@@ -4199,7 +4439,10 @@
    "recorded_as": [
     "Ostrya virginiana"
    ],
-   "common": "Hop hornbeam",
+   "common": "Hophornbeam",
+   "other_names": [
+    "Hop hornbeam"
+   ],
    "description": "Species of tree",
    "extract": "Ostrya virginiana, the American hophornbeam, is a species of Ostrya native to eastern North America, from Nova Scotia west to southern Manitoba and eastern Wyoming, southeast to northern Florida and southwest to eastern Texas. Populations from Mexico and Central America are also regarded as the same species, although some authors prefer to separate them as a distinct species, Ostrya guatemalensis. Other names include eastern hophornbeam, hardhack, ironwood, and leverwood.",
    "wikipedia": "https://en.wikipedia.org/wiki/Ostrya_virginiana",
@@ -4227,7 +4470,10 @@
    "recorded_as": [
     "Sassafras albidum"
    ],
-   "common": "Mitten tree",
+   "common": "Sassafras",
+   "other_names": [
+    "Mitten tree"
+   ],
    "description": "Species of plant",
    "extract": "Sassafras albidum is a species of Sassafras native to eastern North America. It has a number of culinary and other uses.",
    "wikipedia": "https://en.wikipedia.org/wiki/Sassafras_albidum",
@@ -4256,6 +4502,7 @@
     "Acer Leucoderme"
    ],
    "common": "Chalk Maple",
+   "other_names": [],
    "description": "Species of maple",
    "extract": "Acer leucoderme, the chalk maple, whitebark maple, or pale-bark maple) is a deciduous tree native to the southeastern United States from North Carolina south to northwest Florida and west to eastern Texas. It lives in the understory in moist, rocky soils on river banks, ravines, woods, and cliffs. Although generally an uncommon tree, it is most often found in the inner coastal plain and Piedmont regions of Georgia.",
    "wikipedia": "https://en.wikipedia.org/wiki/Acer_leucoderme",
@@ -4296,6 +4543,7 @@
     "Fagus grandifolia"
    ],
    "common": "American Beech",
+   "other_names": [],
    "description": "Species of tree",
    "extract": "Fagus grandifolia, the American beech or North American beech, is a species of tree growing to 16–35 meters tall. It is one of two beech species native to North America, the other occurring in Mexico. It flourished over most of the continent prior to the last ice age, but is now limited to the east. The tree is shade tolerant and typically found in forests when the site is at its climax.",
    "wikipedia": "https://en.wikipedia.org/wiki/Fagus_grandifolia",
@@ -4347,7 +4595,8 @@
    "recorded_as": [
     "Salix Sepulacralis"
    ],
-   "common": null,
+   "common": "Weeping Willow",
+   "other_names": [],
    "wikipedia": null,
    "photos": [
     {
@@ -4373,7 +4622,10 @@
    "recorded_as": [
     "Acer negundo"
    ],
-   "common": "Three-leaf maple",
+   "common": "Boxelder",
+   "other_names": [
+    "three-leaf maple"
+   ],
    "description": "Species of maple",
    "extract": "Acer negundo, also known as the box elder, boxelder maple, Manitoba maple or ash-leaved maple, is a species of maple native to North America from Canada to Honduras. It is a fast-growing, short-lived tree with opposite, ash-like compound leaves. It is sometimes considered a weedy or invasive species, and has been naturalized throughout much of the world, including South America, Australia, New Zealand, South Africa, and Eurasia.",
    "wikipedia": "https://en.wikipedia.org/wiki/Acer_negundo",
@@ -4425,7 +4677,10 @@
    "recorded_as": [
     "Schinus terebinthifolius"
    ],
-   "common": "Florida Holly",
+   "common": "Brazilian Pepper",
+   "other_names": [
+    "Florida Holly"
+   ],
    "description": "Species of flowering plant in the cashew family",
    "extract": "Schinus terebinthifolia is a species of flowering plant in the cashew family, Anacardiaceae, that is native to subtropical and tropical South America. Common names include Brazilian peppertree, aroeira, rose pepper, broadleaved pepper tree, wilelaiki, Christmasberry tree and Florida holly. The species name has been very commonly misspelled as 'terebinthifolius'.",
    "wikipedia": "https://en.wikipedia.org/wiki/Schinus_terebinthifolia",
@@ -4465,7 +4720,10 @@
    "recorded_as": [
     "Photinia serratifolia"
    ],
-   "common": "Taiwanese photinia",
+   "common": "Chinese Photinia",
+   "other_names": [
+    "Taiwanese photinia"
+   ],
    "description": "Species of tree",
    "extract": "Photinia serratifolia, commonly called Taiwanese photinia or Chinese photinia is a flowering shrub or tree in the flowering plants family Rosaceae, found in mixed forests of China, Taiwan, Japan, the Philippines, Indonesia, and India.",
    "wikipedia": "https://en.wikipedia.org/wiki/Photinia_serratifolia",
@@ -4493,7 +4751,10 @@
    "recorded_as": [
     "Bismarckia nobilis"
    ],
-   "common": "Bismarckia",
+   "common": "Bismarck Palm",
+   "other_names": [
+    "Bismarckia"
+   ],
    "description": "Genus of palms",
    "extract": "Bismarckia is a monotypic genus of flowering plant in the palm family with Bismarckia nobilis being the only species in the genus and is endemic to western and northern Madagascar, where it grows in open grassland.",
    "wikipedia": "https://en.wikipedia.org/wiki/Bismarckia_nobilis",

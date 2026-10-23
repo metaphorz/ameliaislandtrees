@@ -21,8 +21,8 @@ h1 span{color:#ac782e}
 .photo:hover img{transform:scale(1.03)}
 .photo-nav{position:absolute;top:10px;right:10px;display:flex;align-items:center;gap:6px;background:#fffef9e8;border-radius:16px;padding:3px 4px;font-size:11px;box-shadow:0 1px 5px #0002}
 .photo-nav button{border:0;border-radius:12px;padding:3px 9px;font-size:14px;font-weight:700;background:transparent}
-figcaption{font-size:10px;line-height:1.5;color:#738075;padding:8px 14px 0}
-figcaption em{display:block;color:#56665a}
+p.credit{font-size:10px;line-height:1.5;color:#738075;margin:0 0 10px}
+p.credit em{display:block;color:#56665a}
 .card-body{padding:8px 14px 14px;display:flex;flex-direction:column;flex:1}
 .card h2{font:22px Georgia,serif;margin:4px 0 2px}
 .scientific{font-style:italic;color:#768271;margin:0 0 8px;font-size:13px}

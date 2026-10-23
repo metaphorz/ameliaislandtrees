@@ -165,6 +165,22 @@ NDVI rasters (already listed below); a 2018 Manzie & Drake "Oaks of Amelia Islan
 story map, which is no longer publicly accessible. OpenStreetMap tree nodes were not
 checked because the Overpass servers were overloaded.
 
+### OpenStreetMap trees and woodland
+
+`python3 download_osm.py` downloads OpenStreetMap `natural=tree` points and
+`natural=wood`, `landuse=forest`, and `natural=tree_row` features. It keeps only
+features on the island (census tracts 501.xx/502.xx) and writes them to `data/osm/`.
+The October 23, 2026 snapshot has 50 tree points and 192 woodland areas; 68 features
+outside the island were dropped. Both are optional and off by default:
+
+- **OpenStreetMap mapped trees · no species** is a point layer. These points have no
+  species, size, or condition, and none is within 5 m of a city inventory point.
+- **Mapped woodland · OpenStreetMap** is a shaded overlay. It shows volunteer-traced
+  wood areas, which are approximate rather than measured canopy, and it is excluded
+  from tree counts and filters.
+
+OpenStreetMap data © OpenStreetMap contributors, Open Database License (ODbL).
+
 ### Fort Clinch maritime forest
 
 The default-on habitat overlay uses Florida DEP / Division of Recreation and Parks

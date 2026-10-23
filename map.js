@@ -9,7 +9,7 @@
   const satellite=L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}',{attribution:'Tiles &copy; Esri — Source: Esri, Maxar, Earthstar Geographics, and the GIS User Community',maxNativeZoom:19,maxZoom:20});
   L.control.layers({'Street map':street,'Satellite':satellite},{},{position:'topright'}).addTo(map);
   const sources=TreeData.sources,groups={},failures=[],records=[];
-  let shown=[],boundary,forest,timer,overlap;
+  let shown=[],boundary,forest,woodland,timer,overlap;
   const speciesIndex=new Map();
   const text=v=>v==null||v===''?'Not recorded':String(v);
   const el=(tag,value,className)=>{const n=document.createElement(tag);if(value!=null)n.textContent=value;if(className)n.className=className;return n;};
@@ -138,11 +138,12 @@
   }
   function fit(){if(shown.length)map.fitBounds(L.latLngBounds(shown.map(r=>r.marker.getLatLng())),{padding:[45,65],maxZoom:18});}
   function toggleForest(){if(!forest)return;if($('forest').checked)forest.addTo(map);else map.removeLayer(forest);}
+  function toggleWoodland(){if(!woodland)return;if($('woodland').checked)woodland.addTo(map);else map.removeLayer(woodland);}
   function toggleBoundary(){if(!boundary)return;if($('boundary').checked)boundary.addTo(map);else map.removeLayer(boundary);}
   $('filters').addEventListener('submit',e=>e.preventDefault());$('search').addEventListener('input',()=>{clearTimeout(timer);timer=setTimeout(filter,180);});
-  ['species','condition','historical','photos'].forEach(id=>$(id).addEventListener('change',filter));$('boundary').addEventListener('change',toggleBoundary);$('forest').addEventListener('change',toggleForest);
+  ['species','condition','historical','photos'].forEach(id=>$(id).addEventListener('change',filter));$('boundary').addEventListener('change',toggleBoundary);$('forest').addEventListener('change',toggleForest);$('woodland').addEventListener('change',toggleWoodland);
   $('fort-clinch').onclick=()=>{if(!forest)return;$('forest').checked=true;toggleForest();map.fitBounds(forest.getBounds(),{padding:[35,55]});};
-  $('filters').addEventListener('reset',()=>{clearTimeout(timer);setTimeout(()=>{filter();toggleBoundary();toggleForest();},0);});$('extent').onclick=fit;$('south').onclick=()=>map.fitBounds([[30.53,-81.485],[30.585,-81.425]]);
+  $('filters').addEventListener('reset',()=>{clearTimeout(timer);setTimeout(()=>{filter();toggleBoundary();toggleForest();toggleWoodland();},0);});$('extent').onclick=fit;$('south').onclick=()=>map.fitBounds([[30.53,-81.485],[30.585,-81.425]]);
   map.on('moveend',visibleCount);new ResizeObserver(()=>map.invalidateSize()).observe($('map'));
   async function load(){
     const attachments={city:{},planting:{},'city-plantings':{}};
@@ -180,6 +181,19 @@
     $('forest-note').textContent=`Fort Clinch maritime forest · ${number(Math.round(acres))} acres`;
     $('forest').disabled=false;$('fort-clinch').disabled=false;toggleForest();
   }).catch(()=>{$('forest-note').textContent='Fort Clinch forest unavailable';});
+  json('data/osm/woodland.geojson').then(data=>{
+    if(!data.features?.length)throw new Error('No woodland');
+    map.createPane('woodlandPane');map.getPane('woodlandPane').style.zIndex=340;
+    woodland=L.geoJSON(data,{pane:'woodlandPane',style:{color:'#6d6a1f',weight:1.4,dashArray:'4 3',fillColor:'#b9b23c',fillOpacity:.32},
+      attribution:'Woodland: &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors (ODbL)',
+      onEachFeature:(feature,layer)=>{
+        const p=feature.properties,root=el('div');root.append(el('div','OPENSTREETMAP','source-label'),el('h2',p.name||(p.natural==='tree_row'?'Tree row':'Mapped woodland')));
+        const dl=el('dl');[['Feature',p.natural||p.landuse],['Leaf type',p.leaf_type],['Leaf cycle',p.leaf_cycle],['OSM way',p.osm_id]].filter(([,v])=>v).forEach(([k,v])=>dl.append(el('dt',k),el('dd',text(v))));
+        root.append(dl,el('small','Volunteer-mapped wood area; approximate, not measured canopy or individual trees. © OpenStreetMap contributors, ODbL.'));
+        const a=el('a','View on OpenStreetMap ↗');a.href=`https://www.openstreetmap.org/way/${p.osm_id}`;a.target='_blank';a.rel='noopener';root.append(el('br'),a);layer.bindPopup(root,{maxWidth:310});
+      }});
+    $('woodland-note').textContent=`Mapped woodland · OpenStreetMap · ${number(data.features.length)} areas`;$('woodland').disabled=false;toggleWoodland();
+  }).catch(()=>{$('woodland-note').textContent='Mapped woodland unavailable';});
   json('data/south-island/aipca-boundary/features.geojson').then(data=>{boundary=L.geoJSON(data,{style:{color:'#927342',weight:2,dashArray:'6 5',fillOpacity:.025},onEachFeature:(_,layer)=>layer.bindPopup('Amelia Island Plantation Community Association boundary — public AIPCA GIS layer.')});$('boundary').disabled=false;toggleBoundary();}).catch(()=>{$('boundary-note').textContent='Boundary unavailable';});
   json('data/south-island/rcoast/graphics.json').then(graphics=>{graphics.forEach((g,i)=>{const url=safeURL(g.url);if(!url)return;const a=el('a',`Report graphic ${i+1} ↗`);a.href=url;a.target='_blank';a.rel='noopener';$('report-graphics').append(a);});}).catch(()=>{$('report-graphics').textContent='Report graphics unavailable. Use the report link above.';});
 })();

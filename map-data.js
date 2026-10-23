@@ -10,6 +10,7 @@
     {id:'unincorporated',label:'iNaturalist trees · unincorporated island',color:'#5b8a2e',path:'data/unincorporated/inaturalist-trees.geojson',checked:true},
     {id:'planting',label:'AIPCA planting locations',color:'#9b7131',path:'data/south-island/aipca-planting-locations/features.geojson',checked:true},
     {id:'county',label:'County inventory · includes mainland',color:'#7d5798',path:'data/county-trees.geojson',checked:false},
+    {id:'osm',label:'OpenStreetMap mapped trees · no species',color:'#7a7d3c',path:'data/osm/trees.geojson',checked:false},
     {id:'invasive',label:'AIPCA invasive-plant reports',color:'#ac4f68',path:'data/south-island/aipca-invasive-plant-reports/features.geojson',checked:true}
   ];
   const date=v=>v==null?'Not recorded':typeof v==='number'?new Date(v).toISOString().slice(0,10):v;
@@ -35,7 +36,7 @@
     r.rows.push(['Latitude',r.lat.toFixed(6)],['Longitude',r.lng.toFixed(6)]);
     r.name=recordedName(p.location)||recordedName(p.location_of_tree)||clean(p.tree_name)||null;
     // Keep all meaningful source fields available without exposing editor-tracking internals.
-    const excluded=/^(?:objectid|globalid|oid_|origional_id|id|f_|created_.*|last_edited_.*|creationdate|creator|editdate|editor|lat|long|latitude|longitude|photos|observer|uri|jabigosgmailcom)$/i;
+    const excluded=/^(?:objectid|globalid|oid_|origional_id|id|f_|created_.*|last_edited_.*|creationdate|creator|editdate|editor|lat|long|latitude|longitude|photos|observer|uri|osm_type|jabigosgmailcom)$/i;
     r.details=Object.entries(p).filter(([k,v])=>!excluded.test(k)&&present(v)&&typeof v!=='object'&&!/^https?:\/\//i.test(String(v))).map(([k,v])=>[k.replace(/_/g,' ').replace(/\s+/g,' ').trim(),v]);
     r.search=normalize([r.name,r.species,r.scientific,r.location,r.id,p.tree_no,p.treeid,p.common,...r.details.map(([,v])=>v)].filter(v=>v!=null).join(' '));
     if(services[r.source])r.links.push({label:'Original GIS record ↗',url:base+services[r.source]+'/query?objectIds='+encodeURIComponent(r.id)+'&outFields=*&f=pjson'});
@@ -82,6 +83,11 @@
       const planted=p.planted==='Yes'?'Reported planted':p.planted==='No'?'Reported not planted':'Planting status unknown';
       r.rows=[['Planting status',planted],['Source status value',p.planted],['Submitted',date(p._date)],['When planted',date(p.when_planted)],['Year planted',p.year_planted]];
       r.note='A planting-program location. Only explicit Yes values confirm reported planting. Other values, including Choice 2, do not confirm an existing tree.';
+    }else if(source==='osm'){
+      r.species=clean(p.species?p.species:p.genus)||'Species not recorded';r.scientific=p.species||p.genus;r.id=p.osm_id;
+      r.rows=[['Mapped as','Individual tree'],['Height',p.height],['Leaf type',p.leaf_type],['Denotation',p.denotation]].filter(([,v])=>v!=null);
+      r.links.push({label:'View on OpenStreetMap ↗',url:'https://www.openstreetmap.org/node/'+p.osm_id});
+      r.note='A volunteer-mapped tree position from OpenStreetMap (© OpenStreetMap contributors, ODbL). It has no inventory measurements or condition.';
     }else{
       r.species=p.type_of_issue||'Invasive-plant report';r.rows=[['Reported',date(p.incident_date)],['Severity',p.severity],['Comments',p.comments]];r.note='An environmental report, not a tree inventory.';
     }

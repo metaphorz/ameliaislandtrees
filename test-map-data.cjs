@@ -90,5 +90,15 @@ test('most tree records link to a gallery species for the popup photo and summar
   for(const t of JSON.parse(fs.readFileSync('data/gallery.json')).items)for(const n of [t.scientific,...t.recorded_as])index.set(normalize(n).trim(),t);
   const linked=records.filter(r=>index.has(normalize(r.scientific).trim()));
   assert(linked.length/records.length>0.9);
-  assert.equal(index.get('quercus virginiana').common,'Virginia Live Oak');
+  assert.equal(index.get('quercus virginiana').common,'Live Oak');
+});
+
+test('OpenStreetMap trees are optional, on the island, and do not duplicate city inventory points',()=>{
+  const osm=records.filter(r=>r.source==='osm');
+  assert.equal(osm.length,50);
+  assert.equal(sources.find(s=>s.id==='osm').checked,false);
+  assert(osm.every(r=>r.links.some(l=>l.url.includes('openstreetmap.org/node/'))&&/ODbL/.test(r.note)));
+  const city=records.filter(r=>r.source==='city');
+  const near=(a,b)=>Math.hypot((a.lng-b.lng)*96000,(a.lat-b.lat)*111000)<=5;
+  assert(!osm.some(o=>city.some(c=>near(o,c))));
 });

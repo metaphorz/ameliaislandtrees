@@ -32,8 +32,10 @@ function recordedNames(){
   for(const s of sources)for(const f of JSON.parse(fs.readFileSync(s.path)).features){
     const r=adapt(f,s.id),name=String(r?.scientific||'').trim();
     if(!name)continue;
-    const entry=counts.get(name)||{records:0,sources:{}};
-    entry.records++;entry.sources[s.id]=(entry.sources[s.id]||0)+1;counts.set(name,entry);
+    const entry=counts.get(name)||{records:0,sources:{},labels:{}};
+    entry.records++;entry.sources[s.id]=(entry.sources[s.id]||0)+1;
+    if(r.species&&!/^(unknown|unspecified)/i.test(r.species))entry.labels[r.species]=(entry.labels[r.species]||0)+1;
+    counts.set(name,entry);
   }
   return counts;
 }
@@ -134,8 +136,9 @@ function publicPhoto(p){
   names.forEach((name,i)=>{
     const a=accepted[i]||nearestAccepted(name,known),r=recorded.get(name);
     if(!a){unmatched.push(name);return;}
-    const s=species.get(a)||{scientific:a,records:0,sources:{},recorded_as:[]};
+    const s=species.get(a)||{scientific:a,records:0,sources:{},recorded_as:[],labels:{}};
     s.records+=r.records;s.recorded_as.push(name);
+    for(const [k,v] of Object.entries(r.labels))s.labels[k]=(s.labels[k]||0)+v;
     for(const [k,v] of Object.entries(r.sources))s.sources[k]=(s.sources[k]||0)+v;
     species.set(a,s);
   });
@@ -181,8 +184,12 @@ function publicPhoto(p){
     }
     photos=photos.filter(p=>p&&!excluded.has(p.file)).map(publicPhoto);
     if(!photos.length){skipped.push(s.scientific);return;}
-    const common=wd[s.scientific]?.common||(sum.title&&sum.title!==s.scientific?sum.title:null);
-    items.push({...s,common:common&&common[0].toUpperCase()+common.slice(1),description:sum.description,
+    // The name used most often in the island's own records, e.g. "Live Oak", "Loblolly Pine".
+    const {labels,...fields}=s,title=w=>w.replace(/(^|[\s-])([a-z])/g,(m,a,b)=>a+b.toUpperCase()).replace(/\b(Of|And|The)\b/g,m=>m.toLowerCase());
+    const local=Object.entries(labels).filter(([k])=>k.toLowerCase()!==s.scientific.toLowerCase()&&!/^[A-Z][a-z]+ [a-z]+$/.test(k)).sort((a,b)=>b[1]-a[1])[0]?.[0];
+    const reference=wd[s.scientific]?.common||(sum.title&&sum.title!==s.scientific?sum.title:null);
+    const common=local?title(local.toLowerCase()):reference&&reference[0].toUpperCase()+reference.slice(1);
+    items.push({...fields,common,other_names:[...new Set([reference,...Object.entries(labels).filter(([,n])=>n>=Math.max(2,s.records/100)).map(([k])=>k)].filter(n=>n&&n.toLowerCase()!==common?.toLowerCase()))],description:sum.description,
       extract:sum.extract,wikipedia:wd[s.scientific]?.article||null,photos});
   });
   items.sort((a,b)=>b.records-a.records);
