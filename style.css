@@ -20,3 +20,13 @@ aside{width:360px;padding:25px 27px 20px}header p{margin-bottom:18px}.summary{pa
 .diameter-stats{margin:12px 0}.statistics details summary{overflow-wrap:anywhere}
 #fort-clinch{width:100%;margin:10px 0}
 header .credit{font-family:Georgia,serif;font-style:italic;font-size:12px;color:#899182;margin:-6px 0 14px}@media(max-width:760px){header .credit{display:block;font-size:10px;margin:-3px 0 4px}}
+
+/* Sidebar photo gallery */
+.gallery{border-top:1px solid #d8ded2;padding:15px 0 16px;color:#536457}.gallery:focus{outline:none}.gallery:focus-visible{outline:3px solid #c28b32;outline-offset:2px}
+.gallery h2{font-size:14px;font-weight:700;margin:0 0 3px;color:#36503f}.gallery>small{display:block;font-size:10px;line-height:1.5;color:#738075}
+.gallery-frame{display:block;width:100%;height:230px;margin:11px 0 0;padding:0;border:0;border-radius:5px;background:#e9ece2;overflow:hidden;cursor:zoom-in}.gallery-frame:hover{background:#e9ece2}.gallery-frame:disabled{cursor:default;opacity:1}
+.gallery-frame img{display:block;width:100%;height:100%;object-fit:contain}.gallery-frame img[hidden]{display:none}
+.gallery .photo-nav button{font-size:15px;font-weight:700;padding:3px 13px}.gallery .photo-nav span{font-size:11px}
+.gallery-caption{margin-top:9px;font-size:11px;line-height:1.5}.gallery-caption strong{display:block;font:17px Georgia,serif;color:#243e35}.gallery-caption em{display:block;color:#768271}.gallery-caption small{display:block;font-size:10px;color:#738075;margin-top:5px}
+.gallery-links{display:flex;flex-wrap:wrap;gap:6px 12px;margin-top:9px;font-size:11px}.gallery-links button{padding:5px 9px;font-size:11px}
+@media(max-width:760px){.gallery-frame{height:180px}}

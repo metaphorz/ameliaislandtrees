@@ -9,14 +9,15 @@
   const satellite=L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}',{attribution:'Tiles &copy; Esri — Source: Esri, Maxar, Earthstar Geographics, and the GIS User Community',maxNativeZoom:19,maxZoom:20});
   L.control.layers({'Street map':street,'Satellite':satellite},{},{position:'topright'}).addTo(map);
   const sources=TreeData.sources,groups={},failures=[],records=[];
-  let shown=[],boundary,forest,timer,overlap;
+  let shown=[],boundary,forest,timer,overlap,accessible=null,gallery=[],galleryIndex=0;
+  const broken=new Set();
   const text=v=>v==null||v===''?'Not recorded':String(v);
   const el=(tag,value,className)=>{const n=document.createElement(tag);if(value!=null)n.textContent=value;if(className)n.className=className;return n;};
   const safeURL=url=>{try{const p=new URL(url,location.href);return p.protocol==='https:'||p.origin===location.origin?p.href:null;}catch{return null;}};
   async function json(path){const r=await fetch(path);if(!r.ok)throw new Error(`${path}: HTTP ${r.status}`);return r.json();}
   function photoGallery(photos){
     const gallery=el('section',null,'photo-gallery'),image=el('img'),credit=el('small'),link=el('a','Open source image ↗'),nav=el('div',null,'photo-nav');
-    const prev=el('button','←'),next=el('button','→'),count=el('span');let index=0;
+    const prev=el('button','<'),next=el('button','>'),count=el('span');let index=0;
     prev.type=next.type='button';prev.setAttribute('aria-label','Previous photo');next.setAttribute('aria-label','Next photo');
     link.target='_blank';link.rel='noopener';image.loading='lazy';image.decoding='async';
     nav.append(prev,count,next);gallery.append(image,nav,credit,link);
@@ -44,6 +45,52 @@
     groups[source.id]=L.markerClusterGroup({maxClusterRadius:48,showCoverageOnHover:false,removeOutsideVisibleBounds:true,spiderfyOnMaxZoom:true,
       iconCreateFunction(cluster){const n=cluster.getChildCount(),size=n>=1000?58:n>=100?49:39;const span=el('span',number(n));span.style.background=source.color;return L.divIcon({html:span,className:'tree-cluster',iconSize:[size,size]});}}).addTo(map);
   }
+  // External links open in one reusable window the viewer can move and resize, not a tab.
+  function openWindow(url){
+    const width=Math.min(1000,screen.availWidth-60),height=Math.min(760,screen.availHeight-60);
+    const win=window.open(url,'tree-atlas-info',`popup=yes,resizable=yes,scrollbars=yes,width=${width},height=${height},left=${window.screenX+70},top=${window.screenY+50}`);
+    if(!win)return false;
+    try{win.opener=null;}catch{}
+    win.focus();return true;
+  }
+  document.addEventListener('click',e=>{
+    const a=e.target.closest?.('a[target="_blank"]');
+    if(!a||e.defaultPrevented||e.button||e.ctrlKey||e.metaKey||e.shiftKey||e.altKey)return;
+    if(openWindow(a.href))e.preventDefault();
+  });
+  function windowLink(label,url){const href=safeURL(url);if(!href)return null;const a=el('a',label);a.href=href;a.target='_blank';a.rel='noopener';return a;}
+  function showOnMap(r){
+    const group=groups[r.source];
+    if(!group.hasLayer(r.marker)){map.setView([r.lat,r.lng],19);return;}
+    group.zoomToShowLayer(r.marker,()=>r.marker.openPopup());
+  }
+  function renderGallery(){
+    const image=$('gallery-image'),caption=$('gallery-caption'),links=$('gallery-links'),count=$('gallery-count');
+    caption.replaceChildren();links.replaceChildren();
+    const multiple=gallery.length>1;$('gallery-prev').disabled=$('gallery-next').disabled=!multiple;$('gallery-open').disabled=!gallery.length;
+    if(!gallery.length){image.hidden=true;image.removeAttribute('src');count.textContent=records.length?'No photos for these filters':'Loading photos…';return;}
+    galleryIndex=(galleryIndex+gallery.length)%gallery.length;
+    const item=gallery[galleryIndex],r=item.record,source=sources.find(s=>s.id===r.source),title=r.name||r.species;
+    image.hidden=false;image.alt=`${title}${r.scientific?' ('+r.scientific+')':''}, photo ${galleryIndex+1} of ${gallery.length}. Credit: ${item.credit}`;image.src=item.url;
+    count.textContent=`${number(galleryIndex+1)} / ${number(gallery.length)}`;
+    caption.append(el('strong',title));if(r.name&&r.species)caption.append(el('span',r.species));if(r.scientific)caption.append(el('em',r.scientific));
+    caption.append(el('small',`${source.label}${r.location?' · '+r.location:''}`),el('small',`Photo: ${item.credit} · ${item.license}`));
+    const show=el('button','Show on map');show.type='button';show.onclick=()=>showOnMap(r);links.append(show);
+    const record=r.url||r.links.find(l=>/Original GIS record/.test(l.label))?.url;
+    const name=r.scientific||(r.species&&!/^Unknown|^Unspecified/.test(r.species)?r.species:null);
+    for(const link of [windowLink('Full-size photo ↗',item.url),windowLink(r.url?'iNaturalist observation ↗':'Source record ↗',record),name&&windowLink('About this species ↗','https://en.wikipedia.org/wiki/Special:Search?search='+encodeURIComponent(name))])if(link)links.append(link);
+    // Warm the cache for the next photo so stepping through feels immediate.
+    if(multiple){const next=new Image();next.src=gallery[(galleryIndex+1)%gallery.length].url;}
+  }
+  function updateGallery(){
+    const current=gallery[galleryIndex]?.url;
+    gallery=TreeData.galleryItems(shown,accessible).filter(item=>!broken.has(item.url));
+    const kept=gallery.findIndex(item=>item.url===current);galleryIndex=kept>=0?kept:0;renderGallery();
+  }
+  $('gallery-image').addEventListener('error',()=>{const item=gallery[galleryIndex];if(!item)return;broken.add(item.url);gallery.splice(galleryIndex,1);renderGallery();});
+  $('gallery-prev').onclick=()=>{galleryIndex--;renderGallery();};$('gallery-next').onclick=()=>{galleryIndex++;renderGallery();};
+  $('gallery-open').onclick=()=>{const item=gallery[galleryIndex];if(item)openWindow(item.url);};
+  $('gallery').addEventListener('keydown',e=>{if(e.target.matches('input,select'))return;if(e.key==='ArrowLeft'){galleryIndex--;renderGallery();e.preventDefault();}else if(e.key==='ArrowRight'){galleryIndex++;renderGallery();e.preventDefault();}});
   function renderStatistics(){
     if(!$('statistics').open)return;
     const inView=$('statistics-scope').value==='view',bounds=map.getBounds();
@@ -89,7 +136,7 @@
     shown=records.filter(r=>TreeData.matches(r,f));map.closePopup();
     for(const source of sources){groups[source.id].clearLayers();groups[source.id].addLayers(shown.filter(r=>r.source===source.id).map(r=>r.marker));}
     $('total').textContent=number(shown.length);$('extent').disabled=!shown.length;
-    status.textContent=failures.length?`Unavailable: ${failures.join(', ')}. Other layers remain usable.`:shown.length?'':'No records match these filters. Select a layer or reset filters.';visibleCount();
+    updateGallery();status.textContent=failures.length?`Unavailable: ${failures.join(', ')}. Other layers remain usable.`:shown.length?'':'No records match these filters. Select a layer or reset filters.';visibleCount();
   }
   function fit(){if(shown.length)map.fitBounds(L.latLngBounds(shown.map(r=>r.marker.getLatLng())),{padding:[45,65],maxZoom:18});}
   function toggleForest(){if(!forest)return;if($('forest').checked)forest.addTo(map);else map.removeLayer(forest);}
@@ -101,12 +148,14 @@
   map.on('moveend',visibleCount);new ResizeObserver(()=>map.invalidateSize()).observe($('map'));
   async function load(){
     const attachments={city:{},planting:{},'city-plantings':{}};
-    const photoResults=await Promise.allSettled([json('data/fernandina-attachments.json'),json('data/south-island/aipca-planting-locations/attachments.json'),json('data/city-supplements/city-plantings.attachments.json'),json('data/city-supplements/overlap-audit.json')]);
+    const photoResults=await Promise.allSettled([json('data/fernandina-attachments.json'),json('data/south-island/aipca-planting-locations/attachments.json'),json('data/city-supplements/city-plantings.attachments.json'),json('data/city-supplements/overlap-audit.json'),json('data/gallery-photos.json')]);
     if(photoResults[0].status==='fulfilled')for(const g of photoResults[0].value.attachmentGroups||[])attachments.city[g.parentObjectId]=(g.attachmentInfos||[]).filter(a=>(a.contentType||'').startsWith('image/'));
     if(photoResults[1].status==='fulfilled')for(const a of photoResults[1].value)if((a.contentType||'').startsWith('image/'))(attachments.planting[a.parent_object_id]??=[]).push(a);
     if(photoResults[2].status==='fulfilled')for(const a of photoResults[2].value)if((a.contentType||'').startsWith('image/'))(attachments['city-plantings'][a.parent_object_id]??=[]).push(a);
     if(photoResults[3].status==='fulfilled')overlap=photoResults[3].value;
-    photoResults.forEach((r,i)=>{if(r.status==='rejected')failures.push(['city photo index','AIPCA photo index','city planting photo index','overlap index'][i]);});
+    // Without the accessibility list, the gallery still drops photos that fail to load.
+    if(photoResults[4].status==='fulfilled')accessible=new Set(photoResults[4].value.accessible);
+    photoResults.forEach((r,i)=>{if(r.status==='rejected')failures.push(['city photo index','AIPCA photo index','city planting photo index','overlap index','gallery photo index'][i]);});
     const results=await Promise.allSettled(sources.map(s=>json(s.path)));
     results.forEach((result,i)=>{
       const source=sources[i],count=$(`count-${source.id}`);if(result.status==='rejected'||!Array.isArray(result.value?.features)){failures.push(source.label);count.textContent='Unavailable';return;}

@@ -70,3 +70,15 @@ test('unincorporated iNaturalist trees stay outside city limits and keep photo c
   const omni=new Set(datasets.omni.map(f=>f.properties.id));
   assert(trees.every(r=>!omni.has(r.id)&&!r.p.obscured));
 });
+
+test('gallery uses only accessible photos and always supplies a credit and license',()=>{
+  const checked=JSON.parse(fs.readFileSync('data/gallery-photos.json'));
+  const accessible=new Set(checked.accessible);
+  const items=require('./map-data.js').galleryItems(records,accessible);
+  assert(items.length>500);
+  assert(items.every(i=>accessible.has(i.url)&&i.credit&&i.license));
+  assert(!items.some(i=>checked.failed.some(f=>f.url===i.url)));
+  const city={source:'city',photos:[{url:'https://example.test/a.jpg'}]};
+  assert.match(require('./map-data.js').galleryItems([city],null)[0].credit,/City of Fernandina Beach/);
+  assert.equal(require('./map-data.js').galleryItems([city],new Set()).length,0);
+});

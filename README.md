@@ -186,6 +186,22 @@ geometry in WGS84. Retrieval date is not a survey date. The source describes
 mapping by park and regional biologists with field verification; no individual
 polygon survey dates are supplied.
 
+### Photo gallery
+
+The sidebar's **Photo gallery**, above Statistics, steps through photos of the records
+that the current layers and filters show, using **<** and **>** (or the arrow keys).
+Each photo shows its species, source layer, location, credit, and license. iNaturalist
+photos without a license code are labeled all rights reserved and shown with credit.
+City and AIPCA attachments carry a source credit, because no reuse license is specified.
+Links show the tree on the map or open the full-size photo, the source record, and a
+Wikipedia search for the species.
+
+Only photos that were checked and loaded are used. `data/gallery-photos.json` lists them:
+879 accessible and 1 failed (HTTP 403) on October 23, 2026. Refresh it with
+`node check-gallery-photos.cjs` after any data download. A photo that fails later is
+skipped at runtime. External links open in one reusable popup window, named
+`tree-atlas-info`, which can be moved and resized; modifier-clicks still open tabs.
+
 ### Statistics panel
 
 Open **Statistics** above the layer controls. Choose current map view (default) or
