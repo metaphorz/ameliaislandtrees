@@ -3,6 +3,8 @@
   'use strict';
   const $=id=>document.getElementById(id), number=n=>n.toLocaleString('en-US'), status=$('status');
   if(!window.L||!L.markerClusterGroup||!window.TreeData||!window.TreeStats){status.textContent='The map library could not load. Please reload.';return;}
+  // Popups pan clear of the heading above the map and the legend below it.
+  L.Popup.mergeOptions({autoPanPaddingTopLeft:L.point(20,95),autoPanPaddingBottomRight:L.point(20,80)});
   const map=L.map('map',{zoomControl:false,maxZoom:20}).setView([30.61,-81.45],12);
   L.control.zoom({position:'bottomright'}).addTo(map);
   const street=L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',maxNativeZoom:19,maxZoom:20}).addTo(map);
