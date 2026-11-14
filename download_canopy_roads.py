@@ -5,12 +5,17 @@ Road centerlines come from the county's public road network (Nassau County Prope
 Appraiser GIS). Each road is cut to the stretch its designating ordinance names and to
 land outside Fernandina Beach city limits, since the designations cover unincorporated
 county roads only. Ordinance links open the Clerk's PDF directly.
+
+Fort Clinch Road and its side roads come from OpenStreetMap (c) OpenStreetMap
+contributors, ODbL. They are state park roads, not a county designation, and stop
+where they reach mapped beach or sand.
 """
 import datetime
 import json
 import math
 from pathlib import Path
 import subprocess
+import time
 import urllib.parse
 
 HERE = Path(__file__).resolve().parent
@@ -18,6 +23,11 @@ ROOT = HERE / 'data' / 'canopy-roads'
 CITY = HERE / 'data' / 'unincorporated' / 'fernandina-city-limits.geojson'
 ROADS = 'https://maps.ncpafl.com/ncflpa_arcgis/rest/services/NASSAUADMIN_RoadNetwork/FeatureServer/15'
 CLERK = 'https://files.nassauclerk.com/download.cfm?file='
+OVERPASS = ['https://overpass-api.de/api/interpreter', 'https://overpass.kumi.systems/api/interpreter']
+FORT_CLINCH_PARK_WAY = 1029161728  # OpenStreetMap outline of Fort Clinch State Park
+FORT_CLINCH_ROAD_WAY = 458316274   # the main drive from Atlantic Avenue to the fort
+# Park roads that are not canopy drives: a neighborhood street at the park's edge.
+FORT_CLINCH_SKIP_NAMES = {'Lisa Avenue'}
 
 # Junction of Amelia Island Parkway and S Fletcher Avenue (A1A), north of the Ritz-Carlton.
 PARKWAY_A1A_LAT = 30.59811
@@ -148,6 +158,52 @@ def first_meters(lines, length):
     return [out]
 
 
+def overpass(query):
+    for attempt in range(4):
+        for url in OVERPASS:
+            done = subprocess.run(['curl', '--silent', '--max-time', '150', '-A', 'AmeliaIslandTreeAtlas/1.0',
+                                   url, '--data-urlencode', 'data=' + query], capture_output=True)
+            try:
+                return json.loads(done.stdout)['elements']
+            except (ValueError, KeyError):
+                pass
+        time.sleep(15 * (attempt + 1))
+    raise SystemExit('Overpass is unavailable; try again later')
+
+
+def outer_rings(element):
+    if element['type'] == 'way':
+        return [[(p['lon'], p['lat']) for p in element['geometry']]]
+    return [[(p['lon'], p['lat']) for p in m['geometry']] for m in element.get('members', [])
+            if m.get('role') == 'outer' and m.get('geometry')]
+
+
+def fort_clinch():
+    """Fort Clinch Road and the park roads joined to it, up to mapped beach or sand."""
+    elements = overpass(f'''[out:json][timeout:90];way({FORT_CLINCH_PARK_WAY});map_to_area->.park;
+(way["highway"~"^(unclassified|service|residential|tertiary|track)$"](area.park);
+ way["natural"~"^(beach|sand)$"](30.66,-81.48,30.715,-81.42);
+ relation["natural"~"^(beach|sand)$"](30.66,-81.48,30.715,-81.42););out tags geom;''')
+    sand = [r for e in elements if e['tags'].get('natural') in ('beach', 'sand') for r in outer_rings(e)]
+    roads = {e['id']: [(p['lon'], p['lat']) for p in e['geometry']] for e in elements
+             if 'highway' in e['tags'] and e['tags'].get('service') not in ('parking_aisle', 'driveway')
+             and e['tags'].get('access') not in ('no', 'private') and e['tags'].get('surface') != 'sand'
+             and e['tags'].get('name') not in FORT_CLINCH_SKIP_NAMES}
+    if FORT_CLINCH_ROAD_WAY not in roads:
+        raise SystemExit('Fort Clinch Road is missing from OpenStreetMap')
+    touches = lambda a, b: any(meters(p, q) < 2 for p in (a[0], a[-1]) for q in b) or \
+        any(meters(p, q) < 2 for p in a for q in (b[0], b[-1]))
+    joined, grew = {FORT_CLINCH_ROAD_WAY}, True
+    while grew:
+        grew = False
+        for i, line in roads.items():
+            if i not in joined and any(touches(line, roads[j]) for j in joined):
+                joined.add(i)
+                grew = True
+    on_sand = lambda p: any(inside_ring(p[0], p[1], r) for r in sand)
+    return keep([roads[i] for i in sorted(joined)], lambda p: not on_sand(p)), sorted(joined)
+
+
 def length_miles(lines):
     return sum(meters(a, b) for l in lines for a, b in zip(l, l[1:])) / 1609.344
 
@@ -175,11 +231,20 @@ def main():
                 'name': d['name'], 'ordinance': d['ordinance'], 'color': d['color'], 'extent': d['extent'],
                 'zone': d.get('zone'), 'url': CLERK + urllib.parse.quote_plus(d['file']),
                 'miles': round(length_miles(lines), 2)}})
+    park_lines, park_ways = fort_clinch()
+    features.append({'type': 'Feature', 'geometry': {
+        'type': 'MultiLineString', 'coordinates': [[[round(x, 6), round(y, 6)] for x, y in l] for l in park_lines]},
+        'properties': {
+            'name': 'Fort Clinch Road', 'designation': 'state park', 'color': '#166534',
+            'extent': 'The park drive from Atlantic Avenue to the fort, with the side roads off it as far as the beach and sand.',
+            'url': 'https://www.floridastateparks.org/fortclinch', 'miles': round(length_miles(park_lines), 2)}})
     ROOT.mkdir(parents=True, exist_ok=True)
     (ROOT / 'canopy-roads.geojson').write_text(json.dumps({'type': 'FeatureCollection', 'features': features}))
     (ROOT / 'sources.json').write_text(json.dumps({
         'retrieved_at': datetime.datetime.now(datetime.timezone.utc).isoformat(), 'road_network': ROADS,
-        'city_limits': str(CITY.relative_to(HERE)), 'segments_per_road': counts}, indent=2))
+        'city_limits': str(CITY.relative_to(HERE)), 'segments_per_road': counts,
+        'fort_clinch': {'source': 'OpenStreetMap (c) OpenStreetMap contributors, ODbL', 'park_way': FORT_CLINCH_PARK_WAY,
+                        'road_ways': park_ways}}, indent=2))
     for f in features:
         print(f"{f['properties']['name']}: {f['properties']['miles']} mi")
 

@@ -213,6 +213,12 @@ limits, and writes `data/canopy-roads/`. Line ends are approximate. Each popup l
 straight to the ordinance PDF. The Clerk's `Repository/...` addresses only open a
 search page, so the links use `files.nassauclerk.com/download.cfm?file=...` instead.
 
+The layer also shows **Fort Clinch Road**, dashed: the state park drive from Atlantic
+Avenue to the fort, with the park roads joined to it up to mapped beach or sand
+(5.57 mi). It is state park land managed by Florida State Parks, not a county
+designation. Its lines come from OpenStreetMap (© OpenStreetMap contributors, ODbL);
+`data/canopy-roads/sources.json` lists the OpenStreetMap ways used.
+
 ### Fort Clinch maritime forest
 
 The default-on habitat overlay uses Florida DEP / Division of Recreation and Parks

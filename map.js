@@ -196,7 +196,14 @@
     $('woodland-note').textContent=`Mapped woodland · OpenStreetMap · ${number(data.features.length)} areas`;$('woodland').disabled=false;toggleWoodland();
   }).catch(()=>{$('woodland-note').textContent='Mapped woodland unavailable';});
   // County canopy/scenic roads: one colored line per designated road, each linked to its ordinance.
+  function parkPopup(p){
+    const root=el('div');root.append(el('div','FORT CLINCH STATE PARK','source-label'),el('h2',p.name),el('p',p.extent));
+    const dl=el('dl');[['Managed by','Florida State Parks (DEP)'],['Length as mapped',`${p.miles} mi`],['Protection','State park land']].forEach(([k,v])=>dl.append(el('dt',k),el('dd',v)));
+    root.append(dl,el('p','Not a county canopy-road designation. The live oak canopy is protected because it grows in a state park, where cutting or damaging plants is forbidden.'),el('small','Roads from OpenStreetMap (© OpenStreetMap contributors, ODbL), cut where they reach mapped beach or sand; approximate.'));
+    const a=el('a','Fort Clinch State Park ↗');a.href=p.url;a.target='_blank';a.rel='noopener';root.append(el('br'),a);return root;
+  }
   function canopyPopup(p){
+    if(p.designation==='state park')return parkPopup(p);
     const root=el('div');root.append(el('div','NASSAU COUNTY CANOPY ROAD','source-label'),el('h2',p.name),el('p',p.extent));
     const dl=el('dl');[['Ordinance',p.ordinance],['Length as mapped',`${p.miles} mi`],['Protected zone',p.zone||'Described in the ordinance']].forEach(([k,v])=>dl.append(el('dt',k),el('dd',v)));
     root.append(dl,el('p','No tree 8 inches or more across at chest height may be removed from the canopy road zone without county approval, except the worst invasive species. The county may not widen the road or add lanes, and most advertising signs are banned.'),el('small','Line drawn from the county road network and cut to the ordinance’s description; ends are approximate.'));
@@ -209,13 +216,13 @@
     for(const feature of data.features){
       const p=feature.properties;
       L.geoJSON(feature,{pane:'canopyPane',interactive:false,style:{color:'#fff',weight:9,opacity:.85,lineCap:'round'}}).addTo(canopy);
-      const line=L.geoJSON(feature,{pane:'canopyPane',style:{color:p.color,weight:5,opacity:.95,lineCap:'round'}}).bindPopup(()=>canopyPopup(p),{maxWidth:310}).addTo(canopy);
-      const button=el('button',null,'canopy-road');button.type='button';const swatch=el('span',null,'canopy-swatch');swatch.style.background=p.color;
-      button.append(swatch,el('span',p.name),el('small',`${p.miles} mi`));
+      const park=p.designation==='state park',line=L.geoJSON(feature,{pane:'canopyPane',style:{color:p.color,weight:5,opacity:.95,lineCap:'round',dashArray:park?'9 7':null}}).bindPopup(()=>canopyPopup(p),{maxWidth:310}).addTo(canopy);
+      const button=el('button',null,'canopy-road');button.type='button';const swatch=el('span',null,'canopy-swatch');swatch.style.background=p.color;if(park)swatch.classList.add('park');
+      button.append(swatch,el('span',park?`${p.name} · state park`:p.name),el('small',`${p.miles} mi`));
       button.onclick=()=>{$('canopy').checked=true;toggleCanopy();map.fitBounds(line.getBounds(),{padding:[60,60],maxZoom:17});line.openPopup(line.getBounds().getCenter());};
       const item=el('li');item.append(button);$('canopy-key').append(item);
     }
-    $('canopy-note').textContent=`County canopy roads · ${data.features.length} designated`;$('canopy').disabled=false;toggleCanopy();
+    const county=data.features.filter(f=>f.properties.designation!=='state park').length;$('canopy-note').textContent=`Canopy roads · ${county} county-designated, plus Fort Clinch`;$('canopy').disabled=false;toggleCanopy();
   }).catch(()=>{$('canopy-note').textContent='Canopy roads unavailable';});
   json('data/south-island/aipca-boundary/features.geojson').then(data=>{boundary=L.geoJSON(data,{style:{color:'#927342',weight:2,dashArray:'6 5',fillOpacity:.025},onEachFeature:(_,layer)=>layer.bindPopup('Amelia Island Plantation Community Association boundary — public AIPCA GIS layer.')});$('boundary').disabled=false;toggleBoundary();}).catch(()=>{$('boundary-note').textContent='Boundary unavailable';});
   json('data/south-island/rcoast/graphics.json').then(graphics=>{graphics.forEach((g,i)=>{const url=safeURL(g.url);if(!url)return;const a=el('a',`Report graphic ${i+1} ↗`);a.href=url;a.target='_blank';a.rel='noopener';$('report-graphics').append(a);});}).catch(()=>{$('report-graphics').textContent='Report graphics unavailable. Use the report link above.';});
