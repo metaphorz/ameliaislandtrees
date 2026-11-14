@@ -9,7 +9,7 @@
   const satellite=L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}',{attribution:'Tiles &copy; Esri — Source: Esri, Maxar, Earthstar Geographics, and the GIS User Community',maxNativeZoom:19,maxZoom:20});
   L.control.layers({'Street map':street,'Satellite':satellite},{},{position:'topright'}).addTo(map);
   const sources=TreeData.sources,groups={},failures=[],records=[];
-  let shown=[],boundary,forest,woodland,timer,overlap;
+  let shown=[],boundary,forest,woodland,canopy,timer,overlap;
   const speciesIndex=new Map();
   const text=v=>v==null||v===''?'Not recorded':String(v);
   const el=(tag,value,className)=>{const n=document.createElement(tag);if(value!=null)n.textContent=value;if(className)n.className=className;return n;};
@@ -139,11 +139,12 @@
   function fit(){if(shown.length)map.fitBounds(L.latLngBounds(shown.map(r=>r.marker.getLatLng())),{padding:[45,65],maxZoom:18});}
   function toggleForest(){if(!forest)return;if($('forest').checked)forest.addTo(map);else map.removeLayer(forest);}
   function toggleWoodland(){if(!woodland)return;if($('woodland').checked)woodland.addTo(map);else map.removeLayer(woodland);}
+  function toggleCanopy(){if(!canopy)return;if($('canopy').checked)canopy.addTo(map);else map.removeLayer(canopy);}
   function toggleBoundary(){if(!boundary)return;if($('boundary').checked)boundary.addTo(map);else map.removeLayer(boundary);}
   $('filters').addEventListener('submit',e=>e.preventDefault());$('search').addEventListener('input',()=>{clearTimeout(timer);timer=setTimeout(filter,180);});
-  ['species','condition','historical','photos'].forEach(id=>$(id).addEventListener('change',filter));$('boundary').addEventListener('change',toggleBoundary);$('forest').addEventListener('change',toggleForest);$('woodland').addEventListener('change',toggleWoodland);
+  ['species','condition','historical','photos'].forEach(id=>$(id).addEventListener('change',filter));$('boundary').addEventListener('change',toggleBoundary);$('forest').addEventListener('change',toggleForest);$('woodland').addEventListener('change',toggleWoodland);$('canopy').addEventListener('change',toggleCanopy);
   $('fort-clinch').onclick=()=>{if(!forest)return;$('forest').checked=true;toggleForest();map.fitBounds(forest.getBounds(),{padding:[35,55]});};
-  $('filters').addEventListener('reset',()=>{clearTimeout(timer);setTimeout(()=>{filter();toggleBoundary();toggleForest();toggleWoodland();},0);});$('extent').onclick=fit;$('south').onclick=()=>map.fitBounds([[30.53,-81.485],[30.585,-81.425]]);
+  $('filters').addEventListener('reset',()=>{clearTimeout(timer);setTimeout(()=>{filter();toggleBoundary();toggleForest();toggleWoodland();toggleCanopy();},0);});$('extent').onclick=fit;$('south').onclick=()=>map.fitBounds([[30.53,-81.485],[30.585,-81.425]]);
   map.on('moveend',visibleCount);new ResizeObserver(()=>map.invalidateSize()).observe($('map'));
   async function load(){
     const attachments={city:{},planting:{},'city-plantings':{}};
@@ -194,6 +195,28 @@
       }});
     $('woodland-note').textContent=`Mapped woodland · OpenStreetMap · ${number(data.features.length)} areas`;$('woodland').disabled=false;toggleWoodland();
   }).catch(()=>{$('woodland-note').textContent='Mapped woodland unavailable';});
+  // County canopy/scenic roads: one colored line per designated road, each linked to its ordinance.
+  function canopyPopup(p){
+    const root=el('div');root.append(el('div','NASSAU COUNTY CANOPY ROAD','source-label'),el('h2',p.name),el('p',p.extent));
+    const dl=el('dl');[['Ordinance',p.ordinance],['Length as mapped',`${p.miles} mi`],['Protected zone',p.zone||'Described in the ordinance']].forEach(([k,v])=>dl.append(el('dt',k),el('dd',v)));
+    root.append(dl,el('p','No tree 8 inches or more across at chest height may be removed from the canopy road zone without county approval, except the worst invasive species. The county may not widen the road or add lanes, and most advertising signs are banned.'),el('small','Line drawn from the county road network and cut to the ordinance’s description; ends are approximate.'));
+    const a=el('a',`Read Ordinance ${p.ordinance} (PDF) ↗`);a.href=p.url;a.target='_blank';a.rel='noopener';root.append(el('br'),a);return root;
+  }
+  json('data/canopy-roads/canopy-roads.geojson').then(data=>{
+    if(!data.features?.length)throw new Error('No canopy roads');
+    map.createPane('canopyPane');map.getPane('canopyPane').style.zIndex=420;
+    canopy=L.featureGroup();
+    for(const feature of data.features){
+      const p=feature.properties;
+      L.geoJSON(feature,{pane:'canopyPane',interactive:false,style:{color:'#fff',weight:9,opacity:.85,lineCap:'round'}}).addTo(canopy);
+      const line=L.geoJSON(feature,{pane:'canopyPane',style:{color:p.color,weight:5,opacity:.95,lineCap:'round'}}).bindPopup(()=>canopyPopup(p),{maxWidth:310}).addTo(canopy);
+      const button=el('button',null,'canopy-road');button.type='button';const swatch=el('span',null,'canopy-swatch');swatch.style.background=p.color;
+      button.append(swatch,el('span',p.name),el('small',`${p.miles} mi`));
+      button.onclick=()=>{$('canopy').checked=true;toggleCanopy();map.fitBounds(line.getBounds(),{padding:[60,60],maxZoom:17});line.openPopup(line.getBounds().getCenter());};
+      const item=el('li');item.append(button);$('canopy-key').append(item);
+    }
+    $('canopy-note').textContent=`County canopy roads · ${data.features.length} designated`;$('canopy').disabled=false;toggleCanopy();
+  }).catch(()=>{$('canopy-note').textContent='Canopy roads unavailable';});
   json('data/south-island/aipca-boundary/features.geojson').then(data=>{boundary=L.geoJSON(data,{style:{color:'#927342',weight:2,dashArray:'6 5',fillOpacity:.025},onEachFeature:(_,layer)=>layer.bindPopup('Amelia Island Plantation Community Association boundary — public AIPCA GIS layer.')});$('boundary').disabled=false;toggleBoundary();}).catch(()=>{$('boundary-note').textContent='Boundary unavailable';});
   json('data/south-island/rcoast/graphics.json').then(graphics=>{graphics.forEach((g,i)=>{const url=safeURL(g.url);if(!url)return;const a=el('a',`Report graphic ${i+1} ↗`);a.href=url;a.target='_blank';a.rel='noopener';$('report-graphics').append(a);});}).catch(()=>{$('report-graphics').textContent='Report graphics unavailable. Use the report link above.';});
 })();

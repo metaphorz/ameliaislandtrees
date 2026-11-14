@@ -181,6 +181,38 @@ outside the island were dropped. Both are optional and off by default:
 
 OpenStreetMap data © OpenStreetMap contributors, Open Database License (ODbL).
 
+### County canopy roads
+
+The default-on **County canopy roads** overlay draws each of the 11 roads Nassau County
+has designated as canopy/scenic roads under Section 37.08 of its Land Development Code,
+each in its own color, with a sidebar key that zooms to the road. Ordinance 2024-15
+restates every earlier designation, so the list is complete through 2024:
+
+| Road | Ordinance | Designated stretch |
+| --- | --- | --- |
+| Amelia Island Parkway | 2003-01 | A1A light north of the Ritz-Carlton, south to A1A just south of Julia Street |
+| Scott Road | 2003-02 | A1A east to Amelia Island Parkway |
+| Gerbing Road | 2004-08 | A1A to the end of the public right-of-way |
+| Buccaneer Trail (CR 105A) | 2004-29 | Fletcher Avenue/A1A and Gerbing Road north to the city limits |
+| Manucy Road | 2005-59 | First Coast Highway to the end of the public right-of-way |
+| Suarez Bluff Road | 2005-60 | Forrest Drive to Manucy Road |
+| Meadowfield Bluff Road | 2008-13 | A1A to 2,100 ft south (mainland, near Yulee) |
+| Anthony Street | 2019-22 | Whole street |
+| Karen Street | 2019-23 | Whole street |
+| Orange Avenue | 2019-24 | County-maintained street |
+| Shadow Woods Lane | 2024-15 | Whole street |
+
+Within a road's zone, no tree 8 inches or more in diameter at 4.5 ft may be removed
+except as § 37.08 allows (Florida's Category I invasive species excepted). The county
+may not widen the road or add lanes, and most advertising signs are banned.
+
+`python3 download_canopy_roads.py` fetches the centerlines from the county's
+[road network](https://maps.ncpafl.com/ncflpa_arcgis/rest/services/NASSAUADMIN_RoadNetwork/FeatureServer/15),
+cuts each road to its ordinance's stretch, removes any part inside Fernandina Beach city
+limits, and writes `data/canopy-roads/`. Line ends are approximate. Each popup links
+straight to the ordinance PDF. The Clerk's `Repository/...` addresses only open a
+search page, so the links use `files.nassauclerk.com/download.cfm?file=...` instead.
+
 ### Fort Clinch maritime forest
 
 The default-on habitat overlay uses Florida DEP / Division of Recreation and Parks

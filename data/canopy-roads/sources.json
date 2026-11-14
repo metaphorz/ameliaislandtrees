@@ -1,0 +1,18 @@
+{
+  "retrieved_at": "2026-11-14T23:10:28.670587+00:00",
+  "road_network": "https://maps.ncpafl.com/ncflpa_arcgis/rest/services/NASSAUADMIN_RoadNetwork/FeatureServer/15",
+  "city_limits": "data/unincorporated/fernandina-city-limits.geojson",
+  "segments_per_road": {
+    "Amelia Island Parkway": 45,
+    "Scott Road": 11,
+    "Gerbing Road": 6,
+    "Buccaneer Trail (CR 105A)": 12,
+    "Manucy Road": 6,
+    "Suarez Bluff Road": 1,
+    "Meadowfield Bluff Road": 4,
+    "Anthony Street": 1,
+    "Karen Street": 2,
+    "Orange Avenue": 2,
+    "Shadow Woods Lane": 1
+  }
+}
