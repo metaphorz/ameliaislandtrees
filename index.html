@@ -8,12 +8,12 @@
   <meta name="description" content="Explore Amelia Island tree inventories, Omni and iNaturalist tree observations, and Plantation planting locations.">
   <link rel="stylesheet" href="vendor/leaflet.css">
   <link rel="stylesheet" href="vendor/MarkerCluster.css">
-  <link rel="stylesheet" href="style.css?v=13">
+  <link rel="stylesheet" href="style.css?v=14">
   <script defer src="vendor/leaflet.js"></script>
   <script defer src="vendor/leaflet.markercluster.js"></script>
   <script defer src="map-data.js?v=10"></script>
   <script defer src="statistics.js?v=2"></script>
-  <script defer src="map.js?v=15"></script>
+  <script defer src="map.js?v=16"></script>
 </head>
 <body>
   <aside>
@@ -40,7 +40,7 @@
       <label class="check"><input id="forest" type="checkbox" checked disabled><span id="forest-note">Fort Clinch maritime forest · loading…</span></label>
       <label class="check"><input id="woodland" type="checkbox" disabled><span id="woodland-note">Mapped woodland · OpenStreetMap · loading…</span></label>
       <label class="check"><input id="canopy" type="checkbox" checked disabled><span id="canopy-note">Canopy roads · loading…</span></label>
-      <ul id="canopy-key" class="canopy-key" aria-label="Canopy roads"></ul>
+      <details id="canopy-list" class="canopy-list"><summary id="canopy-summary">The roads</summary><ul id="canopy-key" class="canopy-key" aria-label="Canopy roads"></ul></details>
       <small>Shaded habitat areas and road lines · excluded from tree counts and filters</small>
       <button id="fort-clinch" type="button" disabled>Explore Fort Clinch ↗</button>
       <button id="south" type="button">Explore the south end ↘</button>

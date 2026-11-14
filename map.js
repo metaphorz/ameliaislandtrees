@@ -224,7 +224,7 @@
       button.onclick=()=>{$('canopy').checked=true;toggleCanopy();map.fitBounds(line.getBounds(),{padding:[60,60],maxZoom:17});line.openPopup(line.getBounds().getCenter());};
       const item=el('li');item.append(button);$('canopy-key').append(item);
     }
-    const county=data.features.filter(f=>f.properties.designation!=='state park').length;$('canopy-note').textContent=`Canopy roads · ${county} county-designated, plus Fort Clinch`;$('canopy').disabled=false;toggleCanopy();
+    const county=data.features.filter(f=>f.properties.designation!=='state park').length;$('canopy-note').textContent=`Canopy roads · ${county} county-designated, plus Fort Clinch`;$('canopy-summary').textContent=`The ${data.features.length} roads`;$('canopy').disabled=false;toggleCanopy();
   }).catch(()=>{$('canopy-note').textContent='Canopy roads unavailable';});
   json('data/south-island/aipca-boundary/features.geojson').then(data=>{boundary=L.geoJSON(data,{style:{color:'#927342',weight:2,dashArray:'6 5',fillOpacity:.025},onEachFeature:(_,layer)=>layer.bindPopup('Amelia Island Plantation Community Association boundary — public AIPCA GIS layer.')});$('boundary').disabled=false;toggleBoundary();}).catch(()=>{$('boundary-note').textContent='Boundary unavailable';});
   json('data/south-island/rcoast/graphics.json').then(graphics=>{graphics.forEach((g,i)=>{const url=safeURL(g.url);if(!url)return;const a=el('a',`Report graphic ${i+1} ↗`);a.href=url;a.target='_blank';a.rel='noopener';$('report-graphics').append(a);});}).catch(()=>{$('report-graphics').textContent='Report graphics unavailable. Use the report link above.';});
